@@ -211,6 +211,9 @@ bool CAddonInstaller::PromptForInstall(const std::string &addonID, AddonPtr &add
 
 bool CAddonInstaller::Install(const std::string &addonID, bool force, const std::string &referer, bool background)
 {
+  if (!g_passwordManager.CheckMenuLock(WINDOW_ADDON_BROWSER))
+    return false;
+
   AddonPtr addon;
   bool addonInstalled = CAddonMgr::Get().GetAddon(addonID, addon, ADDON_UNKNOWN, false);
   if (addonInstalled && !force)
@@ -300,7 +303,10 @@ bool CAddonInstaller::InstallFromZip(const std::string &path)
   {
     // set the correct path
     addon->Props().path = items[0]->GetPath();
+<<<<<<< HEAD
     addon->Props().icon = URIUtils::AddFileToFolder(items[0]->GetPath(), "icon.png");
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
     // install the addon
     return DoInstall(addon);

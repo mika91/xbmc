@@ -97,6 +97,7 @@ std::string strReplc(const std::string& str, const std::string& from, const std:
 
 TEST(TestHttpHeader, General)
 {
+<<<<<<< HEAD
   /* check freshly created object */
   CHttpHeader testHdr;
   EXPECT_TRUE(testHdr.GetHeader().empty()) << "Newly created object is not empty";
@@ -512,4 +513,51 @@ TEST(TestHttpHeader, GetCharset)
   EXPECT_STREQ("UTF-8", testHdr.GetCharset().c_str()) << "Wrong charset value";
   testHdr.AddParam(CHECK_CNT_TYPE_NAME, " \ttext/xml\t;\tcharset=uTF-16  ");
   EXPECT_STREQ("UTF-16", testHdr.GetCharset().c_str()) << "Wrong charset value";
+=======
+  CHttpHeader a;
+  std::string str = "Host: xbmc.org\r\n"
+                   "Accept: text/*, text/html, text/html;level=1, */*\r\n"
+                   "Accept-Language: en\r\n"
+                   "Accept-Encoding: gzip, deflate\r\n"
+                   "Content-Type: text/html; charset=ISO-8859-4\r\n"
+                   "User-Agent: XBMC/snapshot (compatible; MSIE 5.5; Windows NT"
+                     " 4.0)\r\n"
+                   "Connection: Keep-Alive\r\n"
+                   "\r\n";
+  std::string refstr, varstr;
+
+  a.Parse(str);
+
+  /* Should be in the same order as above */
+  refstr = "\n"
+           "host: xbmc.org\n"
+           "accept: text/*, text/html, text/html;level=1, */*\n"
+           "accept-language: en\n"
+           "accept-encoding: gzip, deflate\n"
+           "content-type: text/html; charset=ISO-8859-4\n"
+           "user-agent: XBMC/snapshot (compatible; MSIE 5.5; Windows NT 4.0)\n"
+           "connection: Keep-Alive\n"
+           "\n";
+  varstr.clear();
+  varstr = a.GetHeader();
+  EXPECT_STREQ(refstr.c_str(), varstr.c_str());
+
+  refstr = "XBMC/snapshot (compatible; MSIE 5.5; Windows NT 4.0)";
+  varstr = a.GetValue("User-Agent");
+  EXPECT_STREQ(refstr.c_str(), varstr.c_str());
+
+  /* No charset should be here */
+  refstr = "text/html";
+  varstr = a.GetMimeType();
+  EXPECT_STREQ(refstr.c_str(), varstr.c_str());
+
+  refstr = "";
+  varstr = a.GetProtoLine();
+  EXPECT_STREQ(refstr.c_str(), varstr.c_str());
+
+  a.Clear();
+  refstr = "";
+  varstr = a.GetMimeType();
+  EXPECT_STREQ(refstr.c_str(), varstr.c_str());
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 }

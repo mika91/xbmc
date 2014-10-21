@@ -201,6 +201,7 @@ CDVDVideoCodec* CDVDFactoryCodec::CreateVideoCodec(CDVDStreamInfo &hint, unsigne
 #if defined(HAS_LIBAMCODEC)
   // amcodec can handle dvd playback.
   if (!hint.software && CSettings::Get().GetBool("videoplayer.useamcodec"))
+<<<<<<< HEAD
   {
      if ( (pCodec = OpenCodec(new CDVDVideoCodecAmlogic(), hint, options)) ) return pCodec;
   }
@@ -210,6 +211,10 @@ CDVDVideoCodec* CDVDFactoryCodec::CreateVideoCodec(CDVDStreamInfo &hint, unsigne
   if (!hint.software)
   {
     if ( (pCodec = OpenCodec(new CDVDVideoCodecIMX(), hint, options)) ) return pCodec;
+=======
+  {
+     if ( (pCodec = OpenCodec(new CDVDVideoCodecAmlogic(), hint, options)) ) return pCodec;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   }
 #endif
 
@@ -242,6 +247,33 @@ CDVDVideoCodec* CDVDFactoryCodec::CreateVideoCodec(CDVDStreamInfo &hint, unsigne
   }
 #endif
 
+<<<<<<< HEAD
+=======
+#if defined(HAVE_LIBCRYSTALHD)
+  if (!hint.software && CSettings::Get().GetBool("videoplayer.usechd"))
+  {
+    if (CCrystalHD::GetInstance()->DevicePresent())
+    {
+      switch(hint.codec)
+      {
+        case AV_CODEC_ID_VC1:
+        case AV_CODEC_ID_WMV3:
+        case AV_CODEC_ID_H264:
+        case AV_CODEC_ID_MPEG2VIDEO:
+          if (hint.codec == AV_CODEC_ID_H264 && hint.ptsinvalid)
+            break;
+          if (hint.codec == AV_CODEC_ID_MPEG2VIDEO && hint.width <= 720)
+            break;
+          if ( (pCodec = OpenCodec(new CDVDVideoCodecCrystalHD(), hint, options)) ) return pCodec;
+        break;
+        default:
+        break;
+      }
+    }
+  }
+#endif
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 #if defined(TARGET_ANDROID)
   if (!hint.software && CSettings::Get().GetBool("videoplayer.usemediacodec"))
   {

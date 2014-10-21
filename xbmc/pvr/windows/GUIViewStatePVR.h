@@ -77,6 +77,12 @@ namespace PVR
     CGUIViewStateWindowPVRSearch(const int windowId, const CFileItemList& items);
 
   protected:
+<<<<<<< HEAD
     virtual void SaveViewState();
+=======
+    bool AutoPlayNextItem(void) { return false; };
+    bool HideParentDirItems(void);
+    void SaveViewState(void);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   };
 }

@@ -20,7 +20,11 @@
 
 #pragma once
 
+<<<<<<< HEAD
 #if defined(HAS_GLX) || defined(HAS_EGL) || defined(TARGET_DARWIN)
+=======
+#if defined(HAS_GLX) || defined(TARGET_DARWIN)
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 class IDispResource
 {
 public:

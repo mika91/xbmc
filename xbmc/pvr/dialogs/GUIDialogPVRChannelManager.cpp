@@ -759,9 +759,15 @@ bool CGUIDialogPVRChannelManager::PersistChannel(CFileItemPtr pItem, CPVRChannel
   bool bEPGEnabled          = pItem->GetProperty("UseEPG").asBoolean();
   bool bParentalLocked      = pItem->GetProperty("ParentalLocked").asBoolean();
   int iEPGSource            = (int)pItem->GetProperty("EPGSource").asInteger();
+<<<<<<< HEAD
   std::string strChannelName= pItem->GetProperty("Name").asString();
   std::string strIconPath   = pItem->GetProperty("Icon").asString();
   std::string strStreamURL  = pItem->GetProperty("StreamURL").asString();
+=======
+  CStdString strChannelName = pItem->GetProperty("Name").asString();
+  CStdString strIconPath    = pItem->GetProperty("Icon").asString();
+  CStdString strStreamURL   = pItem->GetProperty("StreamURL").asString();
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   bool bUserSetIcon         = pItem->GetProperty("UserSetIcon").asBoolean();
 
   return group->UpdateChannel(*pItem, bHidden, bVirtual, bEPGEnabled, bParentalLocked, iEPGSource, ++(*iChannelNumber), strChannelName, strIconPath, strStreamURL, bUserSetIcon);

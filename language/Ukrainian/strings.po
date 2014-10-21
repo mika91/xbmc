@@ -4965,10 +4965,32 @@ msgctxt "#13439"
 msgid "Allow hardware acceleration (MediaCodec)"
 msgstr "Дозволити апаратне прискорення (MediaCodec)"
 
+<<<<<<< HEAD
+=======
+msgctxt "#13441"
+msgid "Use Mpeg-2 VDPAU"
+msgstr "Використовувати Mpeg-2 VDPAU"
+
+msgctxt "#13443"
+msgid "Use Mpeg-4 VDPAU"
+msgstr "Використовувати Mpeg-4 VDPAU"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
 msgstr "Використовувати VC-1 VDPAU"
 
+<<<<<<< HEAD
+=======
+msgctxt "#13447"
+msgid "Use Mpeg-2 VAAPI"
+msgstr "Використовувати Mpeg-2 VAAPI"
+
+msgctxt "#13449"
+msgid "Use Mpeg-4 VAAPI"
+msgstr "Використовувати Mpeg-4 VAAPI"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
 msgstr "Використовувати VC-1 VAAPI"
@@ -6153,6 +6175,10 @@ msgctxt "#19066"
 msgid "Channel icons"
 msgstr "Значки каналів"
 
+msgctxt "#19066"
+msgid "Channel icons"
+msgstr "Значки каналів"
+
 msgctxt "#19067"
 msgid "This event is already being recorded."
 msgstr "Ця подія вже записується"
@@ -6598,8 +6624,13 @@ msgid "Continue last channel on startup"
 msgstr "Продовжити з останнього каналу при запуску"
 
 msgctxt "#19190"
+<<<<<<< HEAD
 msgid "Background"
 msgstr "Тло"
+=======
+msgid "Minimised"
+msgstr "Мінімізовано"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -10725,6 +10756,13 @@ msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "Вимкнути джойстик, коли підключено цей пристрій."
 
+<<<<<<< HEAD
+=======
+msgctxt "#35103"
+msgid "Enable system keys in fullscreen"
+msgstr "Системні сполучення клавіш в повноекранному режимі"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#35500"
 msgid "Location"
 msgstr "Розташування"
@@ -10918,8 +10956,13 @@ msgid "Change the colours of your selected skin."
 msgstr "Зміна кольорів вибраної шкірки."
 
 msgctxt "#36109"
+<<<<<<< HEAD
 msgid "Select the media window that Kodi displays on startup."
 msgstr "Вибір вікна, яке відкривається при запуску Kodi."
+=======
+msgid "Select the media window that XBMC displays on startup."
+msgstr "Вибір вікна, яке відкривається при запуску XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36111"
 msgid "Turn this off to remove the scrolling RSS news ticker."
@@ -10966,8 +11009,13 @@ msgid "Set the amount of idle time required before displaying the screensaver."
 msgstr "Проміжок часу перед увімкненням заставки."
 
 msgctxt "#36130"
+<<<<<<< HEAD
 msgid "Select the screensaver. Kodi will force the 'Dim' screensaver when fullscreen video playback is paused or a dialogue box is active."
 msgstr "Виберіть заставку. Kodi змусить \"Потьмяніти\" заставку, коли відтворення повноекранного відео призупинено або відкрито діалогове вікно."
+=======
+msgid "Select the screensaver. XBMC will force the 'Dim' screensaver when fullscreen video playback is paused or a dialogue box is active."
+msgstr "Виберіть заставку. XBMC змусить \"Потьмяніти\" заставку, коли відтворення повноекранного відео призупинено або відкрито діалогове вікно."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36131"
 msgid "Change specific screensaver settings. The available options are dependent on the screensaver used."
@@ -10978,8 +11026,13 @@ msgid "Preview the selected screensaver."
 msgstr "Попередній перегляд вибраної заставки."
 
 msgctxt "#36133"
+<<<<<<< HEAD
 msgid "If music is being played, Kodi will start the selected visualisation instead of displaying the screensaver."
 msgstr "Якщо грає музика, Kodi запустить вибрану візуалізацію замість відображення заставки."
+=======
+msgid "If music is being played, XBMC will start the selected visualisation instead of displaying the screensaver."
+msgstr "Якщо грає музика, XBMC запустить вибрану візуалізацію замість відображення заставки."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36134"
 msgid "Dim the display when media is paused. Not valid for the 'Dim' screensaver mode."
@@ -11014,8 +11067,13 @@ msgid "Group movies into 'Movie sets' when browsing the movie library."
 msgstr "Об'єднувати фільми у кіноцикли при перегляді фільмотеки."
 
 msgctxt "#36146"
+<<<<<<< HEAD
 msgid "Check for new media files on Kodi startup."
 msgstr "Шукати нові медіафайли при запуску Kodi."
+=======
+msgid "Check for new media files on XBMC startup."
+msgstr "Шукати нові медіафайли при запуску XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36147"
 msgid "Hide the library scanning progress bar during scans."
@@ -11062,8 +11120,13 @@ msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Вибір налаштування пропорцій показу відео 4:3 на широкоформатних дисплеях."
 
 msgctxt "#36172"
+<<<<<<< HEAD
 msgid "VDPAU studio level conversion provides a way for advanced applications like Kodi to influence the colour space conversion."
 msgstr "Перетворення рівня VDPAU студії, забезпечує шлях для додаткових застосунків, таких як Kodi, щоб впливати на перетворення колірного простору."
+=======
+msgid "VDPAU studio level conversion provides a way for advanced applications like XBMC to influence the colour space conversion."
+msgstr "Перетворення рівня VDPAU студії, забезпечує шлях для додаткових застосунків, таких як XBMC, щоб впливати на перетворення колірного простору."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36174"
 msgid "Enable Teletext when watching a live TV stream."
@@ -11138,16 +11201,26 @@ msgid "Default scraper used for adding music videos to your library."
 msgstr "Інфоресурс за промовчанням для музичних відео."
 
 msgctxt "#36203"
+<<<<<<< HEAD
 msgid "Enable the Personal Video Recorder (PVR) features in Kodi. This requires that at least one PVR Add-on is installed."
 msgstr "Увімкнути функції перегляду та запису ТБ в Kodi (PVR). Для цього потрібна щонайменше одна надбудова PVR."
+=======
+msgid "Enable the Personal Video Recorder (PVR) features in XBMC. This requires that at least one PVR Add-on is installed."
+msgstr "Увімкнути функції перегляду та запису ТБ в XBMC (PVR). Для цього потрібна щонайменше одна надбудова PVR."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "Імпорт груп каналів із ТБ-серверу (якщо підтримується). Користувацькі групи, що відсутні на ТБ-сервері, будуть видалені."
 
 msgctxt "#36206"
+<<<<<<< HEAD
 msgid "Use numbering from the backend, instead of configuring them manually over Kodi."
 msgstr "Використовувати номери із ТБ-серверу замість ручного налаштування в Kodi."
+=======
+msgid "Use numbering from the backend, instead of configuring them manually over XBMC."
+msgstr "Використовувати номери із ТБ-серверу замість ручного налаштування в XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -11166,8 +11239,13 @@ msgid "Do not import EPG data while playing TV to minimise CPU usage."
 msgstr "Не імпортувати дані EPG при перегляді ТБ, щоб знизити навантаження на процесор."
 
 msgctxt "#36223"
+<<<<<<< HEAD
 msgid "By default, EPG data is stored in a local database to speed up importing when Kodi is restarted."
 msgstr "За промовчанням дані EPG зберігаються в локальній базі даних, щоб прискорити імпорт при перезапуску Kodi."
+=======
+msgid "By default, EPG data is stored in a local database to speed up importing when XBMC is restarted."
+msgstr "За промовчанням дані EPG зберігаються в локальній базі даних, щоб прискорити імпорт при перезапуску XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36224"
 msgid "Hide \"no information available\" labels when no EPG data can be retrieved for a channel."
@@ -11190,8 +11268,13 @@ msgid "Display a notification when timers are added, finished or removed by the 
 msgstr "Показувати повідомлення при додаванні, завершенні або видаленні таймерів на ТБ-сервері."
 
 msgctxt "#36241"
+<<<<<<< HEAD
 msgid "Execute the \"wakeup command\" below when Kodi exits or is going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
 msgstr "Виконати вказану команду пробудження при виході з Kodi або вході в режим гібернації. Мітка часу наступного запланованого запису передається як параметр."
+=======
+msgid "Execute the \"wakeup command\" below when XBMC exits or is going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
+msgstr "Виконати вказану команду пробудження при виході з XBMC або вході в режим гібернації. Мітка часу наступного запланованого запису передається як параметр."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36245"
 msgid "Execute the wakeup command every day at the given time."
@@ -11222,8 +11305,13 @@ msgid "Select the default artist information source. See the Add-ons Manager for
 msgstr "Вибір основного джерела відомостей про виконавців. Доступні варіанти див. у менеджері надбудов."
 
 msgctxt "#36259"
+<<<<<<< HEAD
 msgid "Check for new and removed media files on Kodi startup."
 msgstr "Шукати нові або видалені медіафайли після запуску Kodi."
+=======
+msgid "Check for new and removed media files on XBMC startup."
+msgstr "Шукати нові або видалені медіафайли після запуску XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36260"
 msgid "No info available yet."
@@ -11238,12 +11326,21 @@ msgid "Import a XML file into the Music Library database."
 msgstr "Імпорт файлу XML до музичної медіатеки."
 
 msgctxt "#36265"
+<<<<<<< HEAD
 msgid "Kodi automatically plays the next item in the current folder. For example, in Files View: After a track has been played, Kodi would automatically play the next track in the same folder."
 msgstr "Автоматично відтворювати наступний файл у поточній папці. Наприклад, у представленні файлів після відтворення доріжки Kodi автоматично відкриє наступну доріжку в цій же папці."
 
 msgctxt "#36267"
 msgid "Kodi will read the ReplayGain information encoded in your audio files by a program such as MP3Gain and normalise the sound levels accordingly."
 msgstr "Kodi читатиме відомості ReplayGain, закодовані в аудіофайлах, наприклад програмою MP3Gain, і відповідно нормалізуватиме рівні звуку."
+=======
+msgid "XBMC automatically plays the next item in the current folder. For example, in Files View: After a track has been played, XBMC would automatically play the next track in the same folder."
+msgstr "Автоматично відтворювати наступний файл у поточній папці. Наприклад, у представленні файлів після відтворення доріжки XBMC автоматично відкриє наступну доріжку в цій же папці."
+
+msgctxt "#36267"
+msgid "XBMC will read the ReplayGain information encoded in your audio files by a program such as MP3Gain and normalise the sound levels accordingly."
+msgstr "XBMC читатиме відомості ReplayGain, закодовані в аудіофайлах, наприклад програмою MP3Gain, і відповідно нормалізуватиме рівні звуку."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36268"
 msgid "Default is 89dB per standard. Change with caution."
@@ -11266,7 +11363,11 @@ msgid "Read the tag information from song files. For large directories this can 
 msgstr "Зчитувати інформаційні теги з музичних файлів. Може сповільнити сканування папок з великою кількістю файлів, особливо по мережі."
 
 msgctxt "#36281"
+<<<<<<< HEAD
 msgid "Kodi will search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
+=======
+msgid "XBMC will search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgstr "Шукати ескізи у мережних папках та на оптичних дисках. Це може сповільнити показ мережних папок."
 
 msgctxt "#36283"
@@ -11298,8 +11399,13 @@ msgid "Auto eject disc after rip is complete."
 msgstr "Відкривати лоток CD після закінчення оцифровування."
 
 msgctxt "#36293"
+<<<<<<< HEAD
 msgid "When playing any music file, Kodi will look for a matching .cdg file and display its graphics."
 msgstr "При відтворенні музичних файлів Kodi шукатиме відповідний файл .cdg і показуватиме з нього графічні зображення."
+=======
+msgid "When playing any music file, XBMC will look for a matching .cdg file and display its graphics."
+msgstr "При відтворенні музичних файлів XBMC шукатиме відповідний файл .cdg і показуватиме з нього графічні зображення."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36301"
 msgid "No info available yet."
@@ -11350,40 +11456,71 @@ msgid "Specify the default weather information source. See the Add-ons Manager f
 msgstr "Вибір основного джерела відомостей про погоду. Доступні варіанти див. у менеджері надбудов."
 
 msgctxt "#36321"
+<<<<<<< HEAD
 msgid "Display name of the Kodi installation when using various network services."
 msgstr "Показувати ім'я системи, де встановлено Kodi, при використанні різномантних мережних служб."
+=======
+msgid "Display name of the XBMC installation when using various network services."
+msgstr "Показувати ім'я системи, де встановлено XBMC, при використанні різномантних мережних служб."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36324"
 msgid "When a manual or automatical library update occurs, notify UPnP clients."
 msgstr "Повідомляти клієнти UPnP при ручному або автоматичному оновленні медіатеки."
 
 msgctxt "#36328"
+<<<<<<< HEAD
 msgid "Enable remote users to control Kodi through the built-in webserver."
 msgstr "Надайте можливість видаленим користувачам управляти Kodi через вбудований веб-сервер."
+=======
+msgid "Enable remote users to control XBMC through the built-in webserver."
+msgstr "Надайте можливість видаленим користувачам управляти XBMC через вбудований веб-сервер."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36329"
 msgid "Define the webserver port."
 msgstr "Визначте порт веб-серверу."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36330"
+msgid "Define the webserver username."
+msgstr "Визначте ім'я користувача веб-серверу."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the Add-on Manager."
 msgstr "Вибір доступних веб-інтерфейсів, встановлених за допомогою менеджера надбудов."
 
 msgctxt "#36334"
+<<<<<<< HEAD
 msgid "Allow programs on this computer to control Kodi via the Web Interface or the JSON-RPC interface protocol."
 msgstr "Дозвольте програмам цьому комп'ютеру управляти Kodi через Мережевий Інтерфейс або інтерфейсний протокол JSON-RPC."
 
 msgctxt "#36338"
 msgid "Allow programs on the network to control Kodi."
 msgstr "Дозвольте програмам мережі управляти Kodi."
+=======
+msgid "Allow programs on this computer to control XBMC via the Web Interface or the JSON-RPC interface protocol."
+msgstr "Дозвольте програмам цьому комп'ютеру управляти XBMC через Мережевий Інтерфейс або інтерфейсний протокол JSON-RPC."
+
+msgctxt "#36338"
+msgid "Allow programs on the network to control XBMC."
+msgstr "Дозвольте програмам мережі управляти XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36350"
 msgid "Automatically send 'Wake-On-Lan' to server(s) right before trying to access shared files or services."
 msgstr "Автоматично надсилати 'Wake-On-Lan' на сервер(и) безпосередньо перед тим, як отримати доступ до спільних файлів або послуг."
 
 msgctxt "#36355"
+<<<<<<< HEAD
 msgid "In a multi-screen configuration, the screens where Kodi is not displayed are blacked out."
 msgstr "У багато-екранній конфігурації, екрани, де Kodi не відображений,  затемнені."
+=======
+msgid "In a multi-screen configuration, the screens where XBMC is not displayed are blacked out."
+msgstr "У багато-екранній конфігурації, екрани, де XBMC не відображений,  затемнені."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36356"
 msgid "Eliminate vertical tearing."
@@ -11434,12 +11571,21 @@ msgid "When activated, your keyboard arrows will move the selection on the virtu
 msgstr "При включенні, стрілки вашої клавіатури переміщають вибір на віртуальній клавіатурі. Якщо вимкнуто, вони переміщають курсор за вашим текстом."
 
 msgctxt "#36377"
+<<<<<<< HEAD
 msgid "Use a mouse or touch screen device to control Kodi. Note: disabling will cause you to lose control over Kodi when no keyboard or remote is present."
 msgstr "Використовувайте мишу або сенсорний екран пристрою керування Kodi. Примітка: відключення призведе до втратити контроль над Kodi, коли немає клавіатури або дистанційного пульта."
 
 msgctxt "#36378"
 msgid "Use a joystick to control Kodi."
 msgstr "Використовуйте джойстик для керування Kodi."
+=======
+msgid "Use a mouse or touch screen device to control XBMC. Note: disabling will cause you to lose control over XBMC when no keyboard or remote is present."
+msgstr "Використовувайте мишу або сенсорний екран пристрою керування XBMC. Примітка: відключення призведе до втратити контроль над XBMC, коли немає клавіатури або дистанційного пульта."
+
+msgctxt "#36378"
+msgid "Use a joystick to control XBMC."
+msgstr "Використовуйте джойстик для керування XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36380"
 msgid "If your internet connection uses a proxy, configure it here."
@@ -11466,6 +11612,7 @@ msgid "Configure the proxy server password."
 msgstr "Налаштуйте пароль проксі-сервера."
 
 msgctxt "#36386"
+<<<<<<< HEAD
 msgid "If you have limited bandwidth available, Kodi will try to keep within these limits."
 msgstr "Якщо у вас обмежена доступна смуга пропускання, Kodi намагатиметься зберегти її в цих межах."
 
@@ -11480,14 +11627,39 @@ msgstr "Визначте , які дії Kodi має робити, якщо ві
 msgctxt "#36393"
 msgid "Folder used to save screenshots taken within Kodi."
 msgstr "Тека для збереження знімків екрану, узятих в межах Kodi."
+=======
+msgid "If you have limited bandwidth available, XBMC will try to keep within these limits."
+msgstr "Якщо у вас обмежена доступна смуга пропускання, XBMC намагатиметься зберегти її в цих межах."
+
+msgctxt "#36389"
+msgid "Define how long XBMC should idle before shutting down."
+msgstr "Визначте, як довго XBMC повинен байдикувати перед припиненням роботи."
+
+msgctxt "#36390"
+msgid "Define what action XBMC should do when it has been idle for a long period of time."
+msgstr "Визначте , які дії XBMC має робити, якщо він не використовується протягом тривалого часу."
+
+msgctxt "#36393"
+msgid "Folder used to save screenshots taken within XBMC."
+msgstr "Тека для збереження знімків екрану, узятих в межах XBMC."
+
+msgctxt "#36394"
+msgid "Specify additional libraries to be included in the debug log."
+msgstr "Вкажіть додаткові бібліотеки, які будуть включені в журнал налагодження."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36396"
 msgid "Define the PIN code used for the master lock."
 msgstr "Визначте PIN-код, що використовується для головного замку ."
 
 msgctxt "#36398"
+<<<<<<< HEAD
 msgid "Define the maximum number of retries before Kodi is closed down."
 msgstr "Визначте максимальну кількість спроб до закриття Kodi."
+=======
+msgid "Define the maximum number of retries before XBMC is closed down."
+msgstr "Визначте максимальну кількість спроб до закриття XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36410"
 msgid "No info available yet."
@@ -11529,9 +11701,23 @@ msgctxt "#36428"
 msgid "Record"
 msgstr "Запис"
 
+<<<<<<< HEAD
 msgctxt "#36502"
 msgid "Disabled"
 msgstr "Вимкн."
+=======
+msgctxt "#36500"
+msgid "Stereoscopic mode (current)"
+msgstr "Стереоскопічний режим (поточний)"
+
+msgctxt "#36501"
+msgid "Stereoscopic mode"
+msgstr "Стереоскопічний режим"
+
+msgctxt "#36502"
+msgid "None"
+msgstr "Нічого"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36503"
 msgid "Over/Under"
@@ -11557,10 +11743,24 @@ msgctxt "#36508"
 msgid "Hardware Based"
 msgstr "На підставі устаткування"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36509"
+msgid "Monoscopic - 2D"
+msgstr "Моноскопічна - 2D"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36521"
 msgid "Ask me"
 msgstr "Запитайте у мене"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36522"
+msgid "Use preferred mode"
+msgstr "Кращий спосіб використання"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36524"
 msgid "Preferred mode"
 msgstr "Кращий спосіб"
@@ -11569,6 +11769,29 @@ msgctxt "#36525"
 msgid "Same as movie (autodetect)"
 msgstr "Так само, як фільм (автовизначення)"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36526"
+msgid "Disable stereoscopic mode when playback is stopped"
+msgstr "Вимкнути стереоскопічний режим, коли відтворення зупинено"
+
+msgctxt "#36527"
+msgid "This video is stereoscopic. Select playback mode"
+msgstr "Це відео стереоскопічне. Виберіть режим відтворення"
+
+msgctxt "#36528"
+msgid "Select stereoscopic mode"
+msgstr "Виберіть стереоскопічний режим"
+
+msgctxt "#36529"
+msgid "Mono (2D)"
+msgstr "Моно (2D)"
+
+msgctxt "#36530"
+msgid "Preferred mode"
+msgstr "Кращий спосіб"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36531"
 msgid "Select alternate mode..."
 msgstr "Вибір альтернативного режиму..."
@@ -11577,6 +11800,17 @@ msgctxt "#36532"
 msgid "Same as movie"
 msgstr "Так само, як фільм"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36535"
+msgid "Stereoscopic mode of video"
+msgstr "Стереоскопічний режим відео"
+
+msgctxt "#36536"
+msgid "Stereoscopic mode inverted"
+msgstr "Стереоскопічний перевернутий режим"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
 msgstr "Дозволяє регулятор гучності від AirPlay клієнтів."
@@ -11593,6 +11827,7 @@ msgctxt "#36544"
 msgid "Enable hardware decoding of video files."
 msgstr "Увімкнути апаратне декодування відеофайлів."
 
+<<<<<<< HEAD
 msgctxt "#36902"
 msgid "TV show"
 msgstr "Серіал"
@@ -11609,6 +11844,8 @@ msgctxt "#36907"
 msgid "episodes"
 msgstr "серій"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#37000"
 msgid "(Visually Impaired)"
 msgstr "(Слабозорих)"
@@ -11660,7 +11897,10 @@ msgstr "Програвач UPnP"
 msgctxt "#37023"
 msgid "Do you wish to stop playback on the remote device?"
 msgstr "Ви хочете зупинити відтворення на віддаленому пристрої?"
+<<<<<<< HEAD
 
 msgctxt "#37026"
 msgid "Auto"
 msgstr "Авто"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64

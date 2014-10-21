@@ -3117,6 +3117,7 @@ msgctxt "#1214"
 msgid "Files"
 msgstr "Files"
 
+<<<<<<< HEAD
 msgctxt "#1215"
 msgid "Music & video "
 msgstr "Music & video "
@@ -3149,10 +3150,13 @@ msgctxt "#1222"
 msgid "Music & video & pictures & files"
 msgstr "Music & video & pictures & files"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#1223"
 msgid "Disabled"
 msgstr "Disabled"
 
+<<<<<<< HEAD
 msgctxt "#1226"
 msgid "Files & music & video"
 msgstr "Files & music & video"
@@ -3201,6 +3205,8 @@ msgctxt "#1260"
 msgid "Announce these services to other systems via Zeroconf"
 msgstr "Announce these services to other systems via Zeroconf"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#1269"
 msgid "Allow volume control"
 msgstr "Allow volume control"
@@ -3829,6 +3835,7 @@ msgctxt "#12021"
 msgid "Start from beginning"
 msgstr "Start from beginning"
 
+<<<<<<< HEAD
 msgctxt "#12022"
 msgid "Resume from %s"
 msgstr "Resume from %s"
@@ -3836,14 +3843,41 @@ msgstr "Resume from %s"
 msgctxt "#12310"
 msgid "0"
 msgstr "0"
+=======
+msgctxt "#13106"
+msgid "Disabled"
+msgstr "Disabled"
+
+msgctxt "#13111"
+msgid "Would you like to keep this change?"
+msgstr "Would you like to keep this change?"
+
+msgctxt "#13113"
+msgid "Disabled"
+msgstr "Disabled"
+
+msgctxt "#13122"
+msgid "VDPAU Studio level colour conversion"
+msgstr "VDPAU Studio level colour conversion"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#12311"
 msgid "1"
 msgstr "1"
 
+<<<<<<< HEAD
 msgctxt "#12312"
 msgid "2"
 msgstr "2"
+=======
+msgctxt "#13131"
+msgid "Disabled"
+msgstr "Disabled"
+
+msgctxt "#13162"
+msgid "Initialise failed"
+msgstr "Initialise failed"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#12313"
 msgid "3"
@@ -10149,9 +10183,19 @@ msgctxt "#24024"
 msgid "Add-on disabled"
 msgstr "Add-on disabled"
 
+<<<<<<< HEAD
 msgctxt "#24027"
 msgid "Weather"
 msgstr "Weather"
+=======
+msgctxt "#13610"
+msgid "Disabled"
+msgstr "Disabled"
+
+msgctxt "#13611"
+msgid "Standard"
+msgstr "Standard"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#24028"
 msgid "Weather.com (standard)"
@@ -10233,9 +10277,19 @@ msgctxt "#24047"
 msgid "This Add-on cannot be uninstalled"
 msgstr "This Add-on cannot be uninstalled"
 
+<<<<<<< HEAD
 msgctxt "#24048"
 msgid "Rollback"
 msgstr "Rollback"
+=======
+msgctxt "#19136"
+msgid "Channel unavailable"
+msgstr "Channel unavailable"
+
+msgctxt "#19171"
+msgid "Start playback minimised"
+msgstr "Start playback minimised"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#24049"
 msgid "Incompatible"
@@ -10733,9 +10787,19 @@ msgctxt "#33053"
 msgid "Configure the"
 msgstr "Configure the"
 
+<<<<<<< HEAD
 msgctxt "#33054"
 msgid "Seasons"
 msgstr "Seasons"
+=======
+msgctxt "#24023"
+msgid "Disabled"
+msgstr "Disabled"
+
+msgctxt "#24027"
+msgid "Weather"
+msgstr "Weather"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#33055"
 msgid "Use your"
@@ -11673,6 +11737,7 @@ msgctxt "#36200"
 msgid "Default scraper used for adding music videos to your library."
 msgstr "Default scraper used for adding music videos to your library."
 
+<<<<<<< HEAD
 msgctxt "#36201"
 msgid "Settings for PVR/Live TV features."
 msgstr "Settings for PVR/Live TV features."
@@ -11685,6 +11750,8 @@ msgctxt "#36203"
 msgid "Enable the Personal Video Recorder (PVR) features in Kodi. This requires that at least one PVR Add-on is installed."
 msgstr "Enable the Personal Video Recorder (PVR) features in Kodi. This requires that at least one PVR Add-on is installed."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
@@ -11709,6 +11776,7 @@ msgctxt "#36209"
 msgid "Delete channel/EPG database and reimport the data from the backend afterwards."
 msgstr "Delete channel/EPG database and reimport the data from the backend afterwards."
 
+<<<<<<< HEAD
 msgctxt "#36210"
 msgid "Prevent the 'connection lost' notification window from displaying when Kodi is unable to talk to the PVR backend server."
 msgstr "Prevent the 'connection lost' notification window from displaying when Kodi is unable to talk to the PVR backend server."
@@ -11737,6 +11805,8 @@ msgctxt "#36218"
 msgid "Category for electronic programming guide settings."
 msgstr "Category for electronic programming guide settings."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36220"
 msgid "Number of days of EPG data to import from backends."
 msgstr "Number of days of EPG data to import from backends."
@@ -11757,6 +11827,7 @@ msgctxt "#36224"
 msgid "Hide \"no information available\" labels when no EPG data can be retrieved for a channel."
 msgstr "Hide \"no information available\" labels when no EPG data can be retrieved for a channel."
 
+<<<<<<< HEAD
 msgctxt "#36225"
 msgid "Delete the EPG database in Kodi and reimport the data afterwards from the backend."
 msgstr "Delete the EPG database in Kodi and reimport the data afterwards from the backend."
@@ -11765,6 +11836,8 @@ msgctxt "#36226"
 msgid "Category for PVR playback and channel switching settings."
 msgstr "Category for PVR playback and channel switching settings."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36227"
 msgid "Display stream of selected channel in a small box instead of fullscreen."
 msgstr "Display stream of selected channel in a small box instead of fullscreen."
@@ -11773,6 +11846,7 @@ msgctxt "#36228"
 msgid "Continue with the last viewed channel on startup."
 msgstr "Continue with the last viewed channel on startup."
 
+<<<<<<< HEAD
 msgctxt "#36229"
 msgid "Display signal quality information in the codec information window (if supported by the Add-on and backend)."
 msgstr "Display signal quality information in the codec information window (if supported by the Add-on and backend)."
@@ -11781,10 +11855,13 @@ msgctxt "#36230"
 msgid "How long Kodi will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "How long Kodi will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36231"
 msgid "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
 msgstr "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
 
+<<<<<<< HEAD
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
 msgstr "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
@@ -11793,6 +11870,8 @@ msgctxt "#36233"
 msgid "Category for default recording duration settings."
 msgstr "Category for default recording duration settings."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36234"
 msgid "Duration of instant recordings when pressing the record button."
 msgstr "Duration of instant recordings when pressing the record button."
@@ -11817,10 +11896,13 @@ msgctxt "#36239"
 msgid "Display a notification when timers are added, finished or removed by the backend."
 msgstr "Display a notification when timers are added, finished or removed by the backend."
 
+<<<<<<< HEAD
 msgctxt "#36240"
 msgid "Category for PVR power management settings, such as when to wake the PVR backend server."
 msgstr "Category for PVR power management settings, such as when to wake the PVR backend server."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36241"
 msgid "Execute the \"wakeup command\" below when Kodi exits or is going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
 msgstr "Execute the \"wakeup command\" below when Kodi exits or is going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
@@ -11845,10 +11927,13 @@ msgctxt "#36246"
 msgid "When to execute the daily wakeup command."
 msgstr "When to execute the daily wakeup command."
 
+<<<<<<< HEAD
 msgctxt "#36247"
 msgid "Category for parental control settings if the PVR backend server supports parental controls."
 msgstr "Category for parental control settings if the PVR backend server supports parental controls."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36248"
 msgid "Asks for a pin code to access parental locked channels. Channels can be marked as locked in the channels editor on the general tab. Parental locked channels can not be played or recorded without entering a pin code, and the EPG information is hidden for those channels."
 msgstr "Asks for a pin code to access parental locked channels. Channels can be marked as locked in the channels editor on the general tab. Parental locked channels can not be played or recorded without entering a pin code, and the EPG information is hidden for those channels."
@@ -11861,6 +11946,7 @@ msgctxt "#36250"
 msgid "Ask for the pin code again when trying to access a parental locked channel and the code hasn't been asked for this duration."
 msgstr "Ask for the pin code again when trying to access a parental locked channel and the code hasn't been asked for this duration."
 
+<<<<<<< HEAD
 msgctxt "#36251"
 msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
@@ -11869,6 +11955,8 @@ msgctxt "#36252"
 msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
 msgstr "Section that contains settings related to music files and how they are handled."

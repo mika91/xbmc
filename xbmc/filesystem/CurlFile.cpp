@@ -774,7 +774,11 @@ void CCurlFile::ParseAndCorrectUrl(CURL &url2)
           SetAcceptCharset(value);
         else if (name == "httpproxy")
           SetStreamProxy(value, PROXY_HTTP);
+<<<<<<< HEAD
         else if (name == "sslcipherlist")
+=======
+        else if (name.Equals("SSLCipherList"))
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
           m_cipherlist = value;
         else
           SetRequestHeader(it->first, value);
@@ -876,8 +880,13 @@ bool CCurlFile::Download(const std::string& strURL, const std::string& strFileNa
 // Detect whether we are "online" or not! Very simple and dirty!
 bool CCurlFile::IsInternet()
 {
+<<<<<<< HEAD
   CURL url("http://www.google.com");
   bool found = Exists(url);
+=======
+  CStdString strURL = "http://www.google.com";
+  bool found = Exists(strURL);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   Close();
 
   return found;
@@ -1185,8 +1194,13 @@ int64_t CCurlFile::Seek(int64_t iFilePosition, int iWhence)
       m_oldState          = m_state;
       m_state             = new CReadState();
       m_state->m_fileSize = m_oldState->m_fileSize;
+<<<<<<< HEAD
       g_curlInterface.easy_aquire(url.GetProtocol().c_str(),
                                   url.GetHostName().c_str(),
+=======
+      g_curlInterface.easy_aquire(url.GetProtocol(),
+                                  url.GetHostName(),
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
                                   &m_state->m_easyHandle,
                                   &m_state->m_multiHandle );
     }

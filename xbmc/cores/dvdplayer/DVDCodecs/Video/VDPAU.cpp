@@ -1041,9 +1041,20 @@ int CDecoder::Render(struct AVCodecContext *s, struct AVFrame *src,
   uint16_t decoded, processed, rend;
   vdp->m_bufferStats.Get(decoded, processed, rend);
   vdp_st = vdp->m_vdpauConfig.context->GetProcs().vdp_decoder_render(vdp->m_vdpauConfig.vdpDecoder,
+<<<<<<< HEAD
                                                                      surf, info, buffers_used, buffers);
   if (vdp->CheckStatus(vdp_st, __LINE__))
     return -1;
+=======
+                                   surf,
+                                   (VdpPictureInfo const *)&(vdp->m_hwContext.info),
+                                   vdp->m_hwContext.bitstream_buffers_used,
+                                   vdp->m_hwContext.bitstream_buffers);
+  if (vdp->CheckStatus(vdp_st, __LINE__))
+    vdp->m_DecoderError = true;
+  else
+    vdp->m_DecoderError = false;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   uint64_t diff = CurrentHostCounter() - startTime;
   if (diff*1000/CurrentHostFrequency() > 30)
@@ -1060,6 +1071,9 @@ int CDecoder::Decode(AVCodecContext *avctx, AVFrame *pFrame)
     return result;
 
   CSingleLock lock(m_DecoderSection);
+
+  if (m_DecoderError && pFrame)
+    return VC_ERROR;
 
   if (!m_vdpauConfigured)
     return VC_ERROR;

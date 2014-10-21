@@ -4433,6 +4433,7 @@ msgctxt "#19180"
 msgid "TV"
 msgstr "ቲቪ "
 
+<<<<<<< HEAD
 msgctxt "#19183"
 msgid "Radio"
 msgstr "ሬዲዮ "
@@ -4440,6 +4441,11 @@ msgstr "ሬዲዮ "
 msgctxt "#19190"
 msgid "Background"
 msgstr "መደብ"
+=======
+msgctxt "#19190"
+msgid "Minimised"
+msgstr "አንሷል"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19194"
 msgid "Continue?"
@@ -4597,10 +4603,13 @@ msgctxt "#19635"
 msgid "Languages"
 msgstr "ቋንቋ "
 
+<<<<<<< HEAD
 msgctxt "#19647"
 msgid "Motoring"
 msgstr "በራሱ "
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19651"
 msgid "Gardening"
 msgstr "የ ጓሮ አትክልት"
@@ -5621,10 +5630,13 @@ msgctxt "#24053"
 msgid "License:"
 msgstr "ፍቃድ:"
 
+<<<<<<< HEAD
 msgctxt "#24055"
 msgid "Check for updates"
 msgstr "ማሻሻያ መፈለጊያ "
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#24061"
 msgid "Add-on update available!"
 msgstr "የ ተጨማ-ሪዎች ማሻሻያ አለ!"
@@ -6042,8 +6054,13 @@ msgid "Record"
 msgstr "መቅረጫ "
 
 msgctxt "#36502"
+<<<<<<< HEAD
 msgid "Disabled"
 msgstr "ተሰናክሏል "
+=======
+msgid "None"
+msgstr "ምንም "
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36504"
 msgid "Side by side"
@@ -6052,6 +6069,7 @@ msgstr "ተንሸራታች በ ተንሸራታች"
 msgctxt "#36521"
 msgid "Ask me"
 msgstr "ጠይቀኝ"
+<<<<<<< HEAD
 
 msgctxt "#36902"
 msgid "TV show"
@@ -6064,3 +6082,5 @@ msgstr "የቲቪ ትርኢት "
 msgctxt "#37026"
 msgid "Auto"
 msgstr "በራሱ "
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64

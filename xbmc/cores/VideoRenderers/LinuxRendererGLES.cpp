@@ -955,6 +955,7 @@ void CLinuxRendererGLES::ReleaseBuffer(int idx)
       buf.mediacodec->UpdateTexImage();
       SAFE_RELEASE(buf.mediacodec);
     }
+<<<<<<< HEAD
   }
 #endif
 #ifdef HAS_IMXVPU
@@ -965,6 +966,8 @@ void CLinuxRendererGLES::ReleaseBuffer(int idx)
       SAFE_RELEASE(buf.IMXBuffer);
       buf.IMXBuffer = NULL;
     }
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   }
 #endif
 }

@@ -708,7 +708,11 @@ bool CEpgContainer::CheckPlayingEvents(void)
     CDateTime::GetCurrentDateTime().GetAsUTCDateTime().GetAsTime(iNow);
     if (iNow >= m_iNextEpgActiveTagCheck)
     {
+<<<<<<< HEAD
       for (EPGMAP_ITR it = m_epgs.begin(); it != m_epgs.end(); it++)
+=======
+      for (map<unsigned int, CEpg *>::iterator it = m_epgs.begin(); it != m_epgs.end(); it++)
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
         bFoundChanges = it->second->CheckPlayingEvent() || bFoundChanges;
       CDateTime::GetCurrentDateTime().GetAsUTCDateTime().GetAsTime(m_iNextEpgActiveTagCheck);
       m_iNextEpgActiveTagCheck += g_advancedSettings.m_iEpgActiveTagCheckInterval;

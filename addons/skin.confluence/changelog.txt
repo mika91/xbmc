@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [B]2.5.3[/B]
 
 - Updated language files from Transifex
@@ -12,6 +13,31 @@
 [B]2.4.0[/B]
 - Set minimum GUI version to 5.2.0
 - Rewrite of the PVR section 
+=======
+[B]2.2.20[/B]
+
+- Updated language files from Transifex
+
+[B]2.2.19[/B]
+
+- Updated language files from Transifex
+
+[B]2.2.18[/B]
+
+- Updated language files from Transifex
+
+[B]2.2.17[/B]
+
+- Updated language files from Transifex
+
+[B]2.2.16[/B]
+
+- Updated language files from Transifex
+
+[B]2.2.15[/B]
+
+- Updated language files from Transifex
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 [B]2.2.14[/B]
 

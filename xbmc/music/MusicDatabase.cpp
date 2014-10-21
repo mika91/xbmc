@@ -1713,6 +1713,10 @@ bool CMusicDatabase::GetSongByFileName(const CStdString& strFileNameAndPath, CSo
   CStdString strPath, strFileName;
   URIUtils::Split(strFileNameAndPath, strPath, strFileName);
   URIUtils::AddSlashAtEnd(strPath);
+<<<<<<< HEAD
+=======
+  DWORD crc = ComputeCRC(strFileName);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   CStdString strSQL = PrepareSQL("select idSong from songview "
                                  "where strFileName='%s' and strPath='%s'",
@@ -4473,6 +4477,10 @@ int CMusicDatabase::GetSongIDFromPath(const CStdString &filePath)
     CStdString strPath, strFileName;
     URIUtils::Split(filePath, strPath, strFileName);
     URIUtils::AddSlashAtEnd(strPath);
+<<<<<<< HEAD
+=======
+    DWORD crc = ComputeCRC(strFileName);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
     CStdString sql = PrepareSQL("select idSong from song join path on song.idPath = path.idPath where song.strFileName='%s' and path.strPath='%s'", strFileName.c_str(), strPath.c_str());
     if (!m_pDS->query(sql.c_str())) return -1;

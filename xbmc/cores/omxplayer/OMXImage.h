@@ -72,7 +72,11 @@ public:
   static bool CreateThumbnailFromSurface(unsigned char* buffer, unsigned int width, unsigned int height,
       unsigned int format, unsigned int pitch, const std::string& destFile);
   static bool ClampLimits(unsigned int &width, unsigned int &height, unsigned int m_width, unsigned int m_height, bool transposed = false);
+<<<<<<< HEAD
   static bool CreateThumb(const std::string& srcFile, unsigned int width, unsigned int height, std::string &additional_info, const std::string& destFile);
+=======
+  static bool CreateThumb(const CStdString& srcFile, unsigned int width, unsigned int height, std::string &additional_info, const CStdString& destFile);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   bool SendMessage(bool (*callback)(EGLDisplay egl_display, EGLContext egl_context, void *cookie), void *cookie);
   bool DecodeJpegToTexture(COMXImageFile *file, unsigned int width, unsigned int height, void **userdata);
   void DestroyTexture(void *userdata);

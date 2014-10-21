@@ -606,6 +606,10 @@ protected:
   CCriticalSection m_DecoderSection;
   CEvent         m_DisplayEvent;
   int m_ErrorCount;
+<<<<<<< HEAD
+=======
+  bool m_DecoderError;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   ThreadIdentifier m_decoderThread;
   bool          m_vdpauConfigured;

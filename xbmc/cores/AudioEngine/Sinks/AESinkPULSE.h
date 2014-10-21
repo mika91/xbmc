@@ -66,10 +66,16 @@ private:
   unsigned int m_BytesPerSecond;
   unsigned int m_BufferSize;
   unsigned int m_Channels;
+<<<<<<< HEAD
 
   pa_stream *m_Stream; 
   pa_cvolume m_Volume;
   bool m_volume_needs_update;
+=======
+  
+  pa_stream *m_Stream;
+  pa_cvolume m_Volume;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   pa_context *m_Context;
   pa_threaded_mainloop *m_MainLoop;

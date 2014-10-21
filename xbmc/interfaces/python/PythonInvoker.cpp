@@ -184,7 +184,11 @@ bool CPythonInvoker::execute(const std::string &script, const std::vector<std::s
 
   // get path from script file name and add python path's
   // this is used for python so it will search modules from script path first
+<<<<<<< HEAD
   std::string scriptDir = URIUtils::GetDirectory(realFilename);
+=======
+  CStdString scriptDir = URIUtils::GetDirectory(realFilename);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   URIUtils::RemoveSlashAtEnd(scriptDir);
   addPath(scriptDir);
 
@@ -347,7 +351,11 @@ bool CPythonInvoker::execute(const std::string &script, const std::vector<std::s
     }
     if (old != s)
     {
+<<<<<<< HEAD
       CLog::Log(LOGINFO, "CPythonInvoker(%d, %s): waiting on thread %" PRIu64, GetId(), m_sourceFile.c_str(), (uint64_t)s->thread_id);
+=======
+      CLog::Log(LOGINFO, "CPythonInvoker(%d, %s): waiting on thread %"PRIu64, GetId(), m_sourceFile.c_str(), (uint64_t)s->thread_id);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
       old = s;
     }
 
@@ -546,7 +554,11 @@ void CPythonInvoker::onPythonModuleInitialization(void* moduleDict)
   PyDict_SetItemString(moduleDictionary, "__xbmcapiversion__", pyxbmcapiversion);
 
   CLog::Log(LOGDEBUG, "CPythonInvoker(%d, %s): instantiating addon using automatically obtained id of \"%s\" dependent on version %s of the xbmc.python api",
+<<<<<<< HEAD
             GetId(), m_sourceFile.c_str(), m_addon->ID().c_str(), version.asString().c_str());
+=======
+            GetId(), m_sourceFile.c_str(), m_addon->ID().c_str(), version.c_str());
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 }
 
 void CPythonInvoker::onDeinitialization()
@@ -568,9 +580,15 @@ void CPythonInvoker::onError()
       script = m_addon->Name();
     else
     {
+<<<<<<< HEAD
       std::string path;
       URIUtils::Split(m_sourceFile.c_str(), path, script);
       if (script == "default.py")
+=======
+      CStdString path;
+      URIUtils::Split(m_sourceFile.c_str(), path, script);
+      if (script.Equals("default.py"))
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
       {
         std::string path2;
         URIUtils::RemoveSlashAtEnd(path);

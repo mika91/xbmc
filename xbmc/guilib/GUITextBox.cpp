@@ -387,7 +387,11 @@ CStdString CGUITextBox::GetLabel(int info) const
   return label;
 }
 
+<<<<<<< HEAD
 std::string CGUITextBox::GetDescription() const
+=======
+CStdString CGUITextBox::GetDescription() const
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 {
   return GetText();
 }

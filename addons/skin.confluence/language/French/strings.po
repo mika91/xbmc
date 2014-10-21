@@ -607,7 +607,10 @@ msgstr "LIRE LE DISQUE"
 msgctxt "#31959"
 msgid "SYSTEM"
 msgstr "SYSTÈME"
+<<<<<<< HEAD
 
 msgctxt "#31960"
 msgid "RADIO"
 msgstr "RADIO"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64

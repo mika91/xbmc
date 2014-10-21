@@ -353,8 +353,13 @@ msgid "Login"
 msgstr "መግቢያ"
 
 msgctxt "#31421"
+<<<<<<< HEAD
 msgid "Select your Kodi user Profile[CR]to login and continue"
 msgstr "ይምረጡ የ እርስዎን  Kodi ተጠቃሚ ገጽታ[CR]ለ መግባት እና ለመቀጠል"
+=======
+msgid "Select your XBMC user Profile[CR]to login and continue"
+msgstr "ይምረጡ የ እርስዎን  XBMC ተጠቃሚ ገጽታ[CR]ለ መግባት እና ለመቀጠል"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
@@ -433,8 +438,13 @@ msgid "PICTURES"
 msgstr "ስእሎች"
 
 msgctxt "#31952"
+<<<<<<< HEAD
 msgid "TV"
 msgstr "ቲቪ "
+=======
+msgid "LIVE TV"
+msgstr "በቀጥታ የሚሰራጭ ቲቪ"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31953"
 msgid "VIDEOS"
@@ -463,7 +473,10 @@ msgstr "ዲስክ ማጫወቻ"
 msgctxt "#31959"
 msgid "SYSTEM"
 msgstr "ስርአቱ"
+<<<<<<< HEAD
 
 msgctxt "#31960"
 msgid "RADIO"
 msgstr "ራዲዮ"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64

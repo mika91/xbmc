@@ -55,7 +55,16 @@ static bool CanSurfaceRenderBlackList(const std::string &name)
   // All devices 'should' be capiable of surface rendering
   // but that seems to be hit or miss as most odd name devices
   // cannot surface render.
+<<<<<<< HEAD
   static const char *cannotsurfacerender_decoders[] = {
+=======
+  static const char *cansurfacerender_decoders[] = {
+    "OMX.Nvidia",
+    "OMX.rk",
+    "OMX.qcom",
+    "OMX.Intel",
+    "OMX.Exynos",
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     NULL
   };
   for (const char **ptr = cannotsurfacerender_decoders; *ptr; ptr++)

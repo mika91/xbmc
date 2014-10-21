@@ -200,6 +200,7 @@ bool CAESinkAUDIOTRACK::Initialize(AEAudioFormat &format, std::string &device)
     aml_set_audio_passthrough(m_passthrough);
 #endif
 
+<<<<<<< HEAD
   int atChannelMask = AEChannelMapToAUDIOTRACKChannelMask(m_format.m_channelLayout);
 
   m_format.m_sampleRate     = CJNIAudioTrack::getNativeOutputSampleRate(CJNIAudioManager::STREAM_MUSIC);
@@ -243,6 +244,26 @@ bool CAESinkAUDIOTRACK::Initialize(AEAudioFormat &format, std::string &device)
     }
   }
 
+=======
+  m_format.m_sampleRate     = CJNIAudioTrack::getNativeOutputSampleRate(CJNIAudioManager::STREAM_MUSIC);
+  m_format.m_dataFormat     = AE_FMT_S16LE;
+  m_format.m_channelLayout  = m_info.m_channels;
+  m_format.m_frameSize      = m_format.m_channelLayout.Count() *
+                              (CAEUtil::DataFormatToBits(m_format.m_dataFormat) / 8);
+  int min_buffer_size       = CJNIAudioTrack::getMinBufferSize( m_format.m_sampleRate,
+                                                                CJNIAudioFormat::CHANNEL_OUT_STEREO,
+                                                                CJNIAudioFormat::ENCODING_PCM_16BIT);
+  m_sink_frameSize          = m_format.m_channelLayout.Count() *
+                              (CAEUtil::DataFormatToBits(AE_FMT_S16LE) / 8);
+  m_min_frames              = min_buffer_size / m_sink_frameSize;
+  m_audiotrackbuffer_sec    = (double)m_min_frames / (double)m_format.m_sampleRate;
+  m_at_jni                  = new CJNIAudioTrack( CJNIAudioManager::STREAM_MUSIC,
+                                                  m_format.m_sampleRate,
+                                                  CJNIAudioFormat::CHANNEL_OUT_STEREO,
+                                                  CJNIAudioFormat::ENCODING_PCM_16BIT,
+                                                  min_buffer_size,
+                                                  CJNIAudioTrack::MODE_STREAM);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   m_format.m_frames         = m_min_frames / 2;
 
   m_format.m_frameSamples   = m_format.m_frames * m_format.m_channelLayout.Count();
@@ -370,11 +391,16 @@ void CAESinkAUDIOTRACK::EnumerateDevicesEx(AEDeviceInfoList &list, bool force)
   m_info.m_deviceName = "AudioTrack";
   m_info.m_displayName = "android";
   m_info.m_displayNameExtra = "audiotrack";
+<<<<<<< HEAD
 #ifdef LIMIT_TO_STEREO_AND_5POINT1
   m_info.m_channels = AE_CH_LAYOUT_5_1;
 #else
   m_info.m_channels = KnownChannels;
 #endif
+=======
+  m_info.m_channels += AE_CH_FL;
+  m_info.m_channels += AE_CH_FR;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   m_info.m_sampleRates.push_back(CJNIAudioTrack::getNativeOutputSampleRate(CJNIAudioManager::STREAM_MUSIC));
   m_info.m_dataFormats.push_back(AE_FMT_S16LE);
   m_info.m_dataFormats.push_back(AE_FMT_AC3);

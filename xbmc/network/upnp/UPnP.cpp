@@ -23,7 +23,10 @@
  */
 
 #include <set>
+<<<<<<< HEAD
 #include <Platinum/Source/Platinum/Platinum.h>
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 #include "threads/SystemClock.h"
 #include "UPnP.h"

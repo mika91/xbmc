@@ -23,6 +23,10 @@
 
 #include "CoreAudioHelpers.h"
 #include "utils/log.h"
+<<<<<<< HEAD
+=======
+#include "utils/StdString.h"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 CCoreAudioStream::CCoreAudioStream() :
   m_StreamId  (0    )
@@ -140,6 +144,7 @@ bool CCoreAudioStream::IsDigitalOuptut(AudioStreamID id)
           type == kIOAudioDeviceTransportTypeFireWire ||
           type == kIOAudioDeviceTransportTypeThunderbolt ||
           type == kIOAudioDeviceTransportTypeUSB);
+<<<<<<< HEAD
 }
 
 bool CCoreAudioStream::GetStartingChannelInDevice(AudioStreamID id, UInt32 &startingChannel)
@@ -166,6 +171,8 @@ bool CCoreAudioStream::GetStartingChannelInDevice(AudioStreamID id, UInt32 &star
   }
   
   return ret;
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 }
 
 UInt32 CCoreAudioStream::GetTerminalType(AudioStreamID id)

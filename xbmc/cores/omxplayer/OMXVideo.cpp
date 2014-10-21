@@ -868,6 +868,7 @@ void COMXVideo::SetVideoRect(const CRect& SrcRect, const CRect& DestRect, RENDER
 
   OMX_INIT_STRUCTURE(configDisplay);
   configDisplay.nPortIndex = m_omx_render.GetInputPort();
+<<<<<<< HEAD
   configDisplay.set                 = (OMX_DISPLAYSETTYPE)(OMX_DISPLAY_SET_DEST_RECT|OMX_DISPLAY_SET_SRC_RECT|OMX_DISPLAY_SET_FULLSCREEN|OMX_DISPLAY_SET_NOASPECT|OMX_DISPLAY_SET_MODE);
   configDisplay.dest_rect.x_offset  = lrintf(DestRect.x1);
   configDisplay.dest_rect.y_offset  = lrintf(DestRect.y1);
@@ -892,6 +893,23 @@ void COMXVideo::SetVideoRect(const CRect& SrcRect, const CRect& DestRect, RENDER
     configDisplay.mode = OMX_DISPLAY_MODE_STEREO_LEFT_TO_LEFT;
   else
     configDisplay.mode = OMX_DISPLAY_MODE_LETTERBOX;
+=======
+  configDisplay.set                 = (OMX_DISPLAYSETTYPE)(OMX_DISPLAY_SET_DEST_RECT|OMX_DISPLAY_SET_SRC_RECT|OMX_DISPLAY_SET_FULLSCREEN|OMX_DISPLAY_SET_NOASPECT);
+  configDisplay.dest_rect.x_offset  = (int)(DestRect.x1+0.5f);
+  configDisplay.dest_rect.y_offset  = (int)(DestRect.y1+0.5f);
+  configDisplay.dest_rect.width     = (int)(DestRect.Width()+0.5f);
+  configDisplay.dest_rect.height    = (int)(DestRect.Height()+0.5f);
+
+  configDisplay.src_rect.x_offset   = (int)(SrcRect.x1+0.5f);
+  configDisplay.src_rect.y_offset   = (int)(SrcRect.y1+0.5f);
+  configDisplay.src_rect.width      = (int)(SrcRect.Width()+0.5f);
+  configDisplay.src_rect.height     = (int)(SrcRect.Height()+0.5f);
+
+  if (configDisplay.dest_rect.width == 0 || configDisplay.dest_rect.height == 0)
+    configDisplay.fullscreen = OMX_TRUE;
+  else
+    configDisplay.noaspect = OMX_TRUE;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   m_omx_render.SetConfig(OMX_IndexConfigDisplayRegion, &configDisplay);
 

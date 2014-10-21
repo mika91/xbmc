@@ -65,8 +65,12 @@ void CGUIDialogPVRGuideSearch::UpdateChannelSpin(void)
 {
   int iChannelGroup = GetSpinValue(CONTROL_SPIN_GROUPS);
 
+<<<<<<< HEAD
   std::vector< std::pair<std::string, int> > labels;
   labels.push_back(std::make_pair(g_localizeStrings.Get(19217), EPG_SEARCH_UNSET));
+=======
+  int iChannelGroup = pSpinGroups->GetValue();
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   CPVRChannelGroupPtr group;
   if (iChannelGroup == EPG_SEARCH_UNSET)
@@ -87,7 +91,11 @@ void CGUIDialogPVRGuideSearch::UpdateChannelSpin(void)
     labels.push_back(std::make_pair(channel->GetPVRChannelInfoTag()->ChannelName(), iChannelNumber));
   }
 
+<<<<<<< HEAD
   SET_CONTROL_LABELS(CONTROL_SPIN_CHANNELS, m_searchFilter->m_iChannelNumber, &labels);
+=======
+  pSpin->SetValue(m_searchFilter->m_iChannelNumber);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 }
 
 void CGUIDialogPVRGuideSearch::UpdateGroupsSpin(void)
@@ -99,7 +107,23 @@ void CGUIDialogPVRGuideSearch::UpdateGroupsSpin(void)
   for (std::vector<CPVRChannelGroupPtr>::const_iterator it = groups.begin(); it != groups.end(); ++it)
     labels.push_back(std::make_pair((*it)->GroupName(), (*it)->GroupID()));
 
+<<<<<<< HEAD
   SET_CONTROL_LABELS(CONTROL_SPIN_GROUPS, m_searchFilter->m_iChannelGroup, &labels);
+=======
+  pSpin->Clear();
+
+  /* tv groups */
+  group = g_PVRChannelGroups->GetTV()->GetMembers();
+  for (it = group.begin(); it != group.end(); ++it)
+    pSpin->AddLabel((*it)->GroupName(), (*it)->GroupID());
+
+  /* radio groups */
+  group = g_PVRChannelGroups->GetRadio()->GetMembers();
+  for (it = group.begin(); it != group.end(); ++it)
+    pSpin->AddLabel((*it)->GroupName(), (*it)->GroupID());
+
+  pSpin->SetValue(m_searchFilter->m_iChannelGroup);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 }
 
 void CGUIDialogPVRGuideSearch::UpdateGenreSpin(void)
@@ -280,13 +304,23 @@ void CGUIDialogPVRGuideSearch::Update()
   /* Set time fields */
   SET_CONTROL_LABEL2(CONTROL_EDIT_START_TIME, m_searchFilter->m_startDateTime.GetAsLocalizedTime("", false));
   {
+<<<<<<< HEAD
     CGUIMessage msg(GUI_MSG_SET_TYPE, GetID(), CONTROL_EDIT_START_TIME, CGUIEditControl::INPUT_TYPE_TIME, 14066);
     OnMessage(msg);
+=======
+    pEdit->SetLabel2(m_searchFilter->m_startDateTime.GetAsLocalizedTime("", false));
+    pEdit->SetInputType(CGUIEditControl::INPUT_TYPE_TIME, 14066);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   }
   SET_CONTROL_LABEL2(CONTROL_EDIT_STOP_TIME, m_searchFilter->m_endDateTime.GetAsLocalizedTime("", false));
   {
+<<<<<<< HEAD
     CGUIMessage msg(GUI_MSG_SET_TYPE, GetID(), CONTROL_EDIT_STOP_TIME, CGUIEditControl::INPUT_TYPE_TIME, 14066);
     OnMessage(msg);
+=======
+    pEdit->SetLabel2(m_searchFilter->m_endDateTime.GetAsLocalizedTime("", false));
+    pEdit->SetInputType(CGUIEditControl::INPUT_TYPE_TIME, 14066);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   }
   SET_CONTROL_LABEL2(CONTROL_EDIT_START_DATE, m_searchFilter->m_startDateTime.GetAsDBDate());
   {

@@ -1237,18 +1237,24 @@ msgctxt "#345"
 msgid "Year"
 msgstr "Blwyddyn"
 
+<<<<<<< HEAD
 msgctxt "#346"
 msgid "Normalize levels on downmix"
 msgstr "Normaleiddio lefelau'r isgymysgu"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#347"
 msgid "DTS-HD capable receiver"
 msgstr "Derbynnydd DTS-HD galluog"
 
+<<<<<<< HEAD
 msgctxt "#348"
 msgid "Enable passthrough"
 msgstr "Galluogi pasio drwodd"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#349"
 msgid "TrueHD capable receiver"
 msgstr "Derbynnydd TrueHD galluog"
@@ -3601,6 +3607,7 @@ msgctxt "#10039"
 msgid "Expert"
 msgstr "Arbenigwr"
 
+<<<<<<< HEAD
 msgctxt "#10040"
 msgid "Add-on browser"
 msgstr "Porwr ychwanegyn"
@@ -3609,6 +3616,8 @@ msgctxt "#10041"
 msgid "Reset above settings to default"
 msgstr "Ailosod y gosodiadau uchod i'r rhagosidiad"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#10042"
 msgid "Are you sure you want to reset the settings in this category?"
 msgstr "Ydych chi'n siŵr eich bod am ailosod y gosodiadau yn y categori hwn?"
@@ -5045,6 +5054,7 @@ msgctxt "#13436"
 msgid "Allow hardware acceleration (libstagefright)"
 msgstr "Caniatáu cyflymu caledwedd (libstagefright)"
 
+<<<<<<< HEAD
 msgctxt "#13437"
 msgid "Prefer VDPAU Video Mixer"
 msgstr "Dewis Cymysgydd Fideo VDPAU"
@@ -5113,6 +5123,8 @@ msgctxt "#13454"
 msgid "Decoding method"
 msgstr "Dull dadgodio"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13455"
 msgid "Software"
 msgstr "Meddalwedd"
@@ -5249,10 +5261,13 @@ msgctxt "#13620"
 msgid "Apple Remote Error"
 msgstr "Rheolwr Pell Apple"
 
+<<<<<<< HEAD
 msgctxt "#13621"
 msgid "Apple Remote support could not be enabled."
 msgstr "Nid oedd mod galluogi cefnogaeth Apple Remote"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#14000"
 msgid "Stack"
 msgstr "Stac"
@@ -5929,10 +5944,13 @@ msgctxt "#16105"
 msgid "Edit title"
 msgstr "Golygu teitl"
 
+<<<<<<< HEAD
 msgctxt "#16106"
 msgid "Manage..."
 msgstr "Rheoli..."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#16107"
 msgid "Edit sort title"
 msgstr "Golygu'r teitl trefnu"
@@ -6561,10 +6579,13 @@ msgctxt "#19118"
 msgid "Cannot use PVR functions while searching."
 msgstr "Methu defnyddio swyddogaethau Recordydd tra'n chwilio."
 
+<<<<<<< HEAD
 msgctxt "#19119"
 msgid "On which server do you want to search?"
 msgstr "Ar ba weinydd hoffech chi chwilio?"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19120"
 msgid "Client number"
 msgstr "Rhif cleient"
@@ -9469,10 +9490,13 @@ msgctxt "#21459"
 msgid "mixed"
 msgstr "cymysgwyd"
 
+<<<<<<< HEAD
 msgctxt "#21460"
 msgid "Subtitle position on screen"
 msgstr "Lleoliad isdeitlau ar y sgrin"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#21461"
 msgid "Fixed"
 msgstr "Sefydlog"
@@ -10501,10 +10525,13 @@ msgctxt "#25002"
 msgid "Select from all titles ..."
 msgstr "Dewis o'r holl deitlau ..."
 
+<<<<<<< HEAD
 msgctxt "#25003"
 msgid "Show Blu-ray menus"
 msgstr "Dangos dewislenni Blu-ray"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#25004"
 msgid "Play main title: %d"
 msgstr "Chwarae'r prif deitl: %d"
@@ -11257,6 +11284,7 @@ msgctxt "#36041"
 msgid "* Item folder"
 msgstr "* Ffolder eitem"
 
+<<<<<<< HEAD
 msgctxt "#36042"
 msgid "Use limited colour range (16-235)"
 msgstr "Defnyddiwch yr ystod lliw cyfyng (16-235)"
@@ -11273,6 +11301,8 @@ msgctxt "#36103"
 msgid "Select the skin for the user interface. This will define the look and feel of Kodi."
 msgstr "Dewiswch y croen ar gyfer y rhyngwyneb defnyddiwr. Bydd hwn y diffinio golwg a theimlad Kodi."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36104"
 msgid "Change specific skin settings. The available options are dependent on the skin used."
 msgstr "Newid gosodiadau penodol croen. Mae'r dewisiadau'n ddibynnol ar y croen sy'n cael ei ddefnyddio."
@@ -11285,6 +11315,7 @@ msgctxt "#36106"
 msgid "Change the colours of your selected skin."
 msgstr "Newid lliw'r croen rydych wedi ei dewis"
 
+<<<<<<< HEAD
 msgctxt "#36107"
 msgid "Choose the fonts displayed in the user interface. The font sets are configured by your skin."
 msgstr "Dewiswch y ffontiau i'w defnyddio yn y rhyngwyneb defnyddiwr. Mae'r setiau ffont yn cael eu ffurfweddu gan eich croen."
@@ -11300,6 +11331,11 @@ msgstr "Dewis y ffenestr cyfrwng mae Kodi yn ei ddangos wrth gychwyn."
 msgctxt "#36110"
 msgid "Select or disable the sound scheme used in the user interface."
 msgstr "Dewis neu anablu cynllun sain y rhyngwyneb defnyddiwr"
+=======
+msgctxt "#36109"
+msgid "Select the media window that XBMC displays on startup."
+msgstr "Dewis y ffenestr cyfrwng mae XBMC yn ei ddangos wrth gychwyn."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36111"
 msgid "Turn this off to remove the scrolling RSS news ticker."
@@ -11309,6 +11345,7 @@ msgctxt "#36112"
 msgid "Edit the RSS feeds."
 msgstr "Golygu'r ffrydiau RSS."
 
+<<<<<<< HEAD
 msgctxt "#36113"
 msgid "Category containing all locale/regional settings."
 msgstr "Categori'n cynnwys holl osodiadau'r locale/ardal."
@@ -11317,14 +11354,19 @@ msgctxt "#36114"
 msgid "Chooses the language of the user interface."
 msgstr "Dewis iaith y rhyngwyneb defnyddiwr."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36115"
 msgid "Select the formats for temperature, time and date. The available options depend on the selected language."
 msgstr "Dewis y fformatau ar gyfer tymheredd, amser a dyddiad. Mae'r dewisiadau'n dibynnu ar yr iaith sydd wedi'i dewis."
 
+<<<<<<< HEAD
 msgctxt "#36116"
 msgid "Choose which character set is used for displaying text in the user interface."
 msgstr "Dewis pa set nodau i'w defnyddio ar gyfer dangos testun yn y rhyngwyneb defnyddiwr."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36117"
 msgid "Select country location."
 msgstr "Dewis lleoliad gwlad."
@@ -11341,10 +11383,13 @@ msgctxt "#36120"
 msgid "Select the default subtitles when different languages are available."
 msgstr "Dewis yr isdeitlau arferol pan fydd ieithoedd gwahanol ar gael."
 
+<<<<<<< HEAD
 msgctxt "#36121"
 msgid "Category containing settings related to how file lists are displayed."
 msgstr "Categori'n cynnwys golwg gosodiadau'r rhestrau ffeiliau."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36122"
 msgid "Display the (..) item in lists for visiting the parent folder."
 msgstr "Dangos y (..) eitem mewn rhestrau ar gyfer ymweld â'r ffolder rhiant."
@@ -11353,14 +11398,18 @@ msgctxt "#36123"
 msgid "Show file extensions on media files. For example, 'You Enjoy Myself.mp3' would be simply be shown as 'You Enjoy Myself'."
 msgstr "Dangos estyniadau ffeiliau ar ffeiliau cyfrwng. Er enghraifft, bydd 'Cân Go Lew.mp3' yn cael ei ddangos fel 'Cân Go Lew.mp3'."
 
+<<<<<<< HEAD
 msgctxt "#36124"
 msgid "Ignore certain tokens during sort operations. For example, 'The Simpsons' would be sorted as 'Simpsons'."
 msgstr "Anwybyddu rhai tocynau yn ystod gweithredoedd didoli. Er enghraifft, byddai 'The Simpsons' yn cael eu didoli fel 'Simpsons'."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36125"
 msgid "Allow files to be deleted and renamed through the user interface, via the contextual menu (press C on a keyboard, for example, to bring up this menu)."
 msgstr "Caniatáu i ffeiliau gael eu dileu a'u hailenwi drwy'r rhyngwyneb defnyddiwr, drwy'r ddewislen cyd-destun (pwyso C ar y bysellfwrdd i agor y ddewislen hon)"
 
+<<<<<<< HEAD
 msgctxt "#36126"
 msgid "Show the add source button in root sections of the user interface."
 msgstr "Dangos botwm ychwanegu ffynhonnell yn adrannau gwraidd y rhyngwyneb defnyddiwr."
@@ -11373,14 +11422,19 @@ msgctxt "#36128"
 msgid "Category containing all screensaver settings."
 msgstr "Categori sy'n cynnwys holl osodiadau'r arbedwr sgrin."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36129"
 msgid "Set the amount of idle time required before displaying the screensaver."
 msgstr "Gosod y cyfnod oedi cyn dangos yr arbedwr sgrin."
 
+<<<<<<< HEAD
 msgctxt "#36130"
 msgid "Select the screensaver. Kodi will force the 'Dim' screensaver when fullscreen video playback is paused or a dialogue box is active."
 msgstr "Dewis yr arbedwr sgrin. Bydd Kodi'n gorfodi'r arbedwr sgrin 'Pwl' pan fydd chwarae fideo sgrin lawn yn cael ei oedi neu fod blwch deialog yn fyw."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36131"
 msgid "Change specific screensaver settings. The available options are dependent on the screensaver used."
 msgstr "Newid gosodiadau penodol yr arbedwr sgrin. Mae'r gosodiadau yn dibynnol ar ba arbedwr sgrin sy'n cael ei ddefnyddio."
@@ -11389,10 +11443,13 @@ msgctxt "#36132"
 msgid "Preview the selected screensaver."
 msgstr "Rhagolwg o'r arbedwr sgrin"
 
+<<<<<<< HEAD
 msgctxt "#36133"
 msgid "If music is being played, Kodi will start the selected visualisation instead of displaying the screensaver."
 msgstr "Os oes cerddoriaeth y cael ei chwarae, bydd Kodi'n cychwyn y delweddu penodol yn dangos arbedwr sgrin."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36134"
 msgid "Dim the display when media is paused. Not valid for the 'Dim' screensaver mode."
 msgstr "Pylu'r dangosydd pan mae cyfrwng yn cael ei oedi. Nid yw'n gweithio yn y modd arbedwr sgrin 'Pylu'"
@@ -11409,6 +11466,7 @@ msgctxt "#36137"
 msgid "No info available yet."
 msgstr "Dim gwybodaeth ar gael ar hyn o bryd."
 
+<<<<<<< HEAD
 msgctxt "#36138"
 msgid "Section that contains settings related to videos and how they are handled."
 msgstr "Adran sy'n cynnwys gosodiadau sy'n perthyn i fideos a sut maen nhw'n cael eu trin."
@@ -11421,6 +11479,8 @@ msgctxt "#36140"
 msgid "Enable the video library."
 msgstr "Galluogi llyfrgell fideo."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36141"
 msgid "Show plot information for unwatched media in the Video Library."
 msgstr "Dangos gwybodaeth am y stori ar gyfer cyfrwng heb ei wylio yn y Llyfrgell Fideo."
@@ -11438,8 +11498,13 @@ msgid "Group movies into 'Movie sets' when browsing the movie library."
 msgstr "Casglu ffilmiau i 'Setiau ffilm' wrth bori'r llyfrgell ffilm."
 
 msgctxt "#36146"
+<<<<<<< HEAD
 msgid "Check for new media files on Kodi startup."
 msgstr "Edrych am ffeiliau cyfrwng newydd wrth gychwyn Kodi."
+=======
+msgid "Check for new media files on XBMC startup."
+msgstr "Edrych am ffeiliau cyfrwng newydd wrth gychwyn XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36147"
 msgid "Hide the library scanning progress bar during scans."
@@ -11457,6 +11522,7 @@ msgctxt "#36150"
 msgid "Import a XML file into the Video Library database."
 msgstr "Mewnforio ffeil XML i gronfa ddata'r Llyfrgell Fideo."
 
+<<<<<<< HEAD
 msgctxt "#36151"
 msgid "Category containing settings for how video playback is handled."
 msgstr "Categori sy'n cynnwys gosodiadau ar sut mae chwarae fideo'n cael i drin."
@@ -11465,10 +11531,13 @@ msgctxt "#36152"
 msgid "Enable automatic playback of the next file in the list."
 msgstr "Galluogi chwarae'r ffeil nesaf ar y rhestr, yn awtomatig."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36153"
 msgid "Adjust the method used to process and display video."
 msgstr "Addasu'r dull o brosesu a dangos fideo."
 
+<<<<<<< HEAD
 msgctxt "#36154"
 msgid "Use high quality scalers when upscaling a video by at least this percentage."
 msgstr "Defnyddio graddwyr ansawdd uchel wrth uwchraddio fideo o o leiaf y canran hwn."
@@ -11517,14 +11586,19 @@ msgctxt "#36166"
 msgid "Synchronise the video to the refresh rate of the monitor."
 msgstr "Cydweddu'r fideo i raddfa adnewyddu'r dangosydd."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36167"
 msgid "Audio has to stay in sync, this can either be done by resampling, skipping/duplicating packets, or adjusting the clock if it gets out of sync too far."
 msgstr "Rhaid i sain gydweddu, mae modd gwneud hyn drwy ailsamplo, hepgor/dyblygu pacedi neu newid y cloc os yw'n allan y ormodol."
 
+<<<<<<< HEAD
 msgctxt "#36168"
 msgid "Maximum video speed adjust to match actual screen refresh rate."
 msgstr "Newid cyflymder uchaf y fideo i raddfa adnewyddu'r sgrin."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36170"
 msgid "Allow video player to ignoring aspect ratio by a certain amount to fill a larger amount of the screen with video."
 msgstr "Caniatáu i'r chwaraewr fideo anwybyddu cyfradd agwedd o rhyw hyn a hyn er mwyn llanw mwy o'r sgrin gyda fideo."
@@ -11533,10 +11607,13 @@ msgctxt "#36171"
 msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Dewis lefel chwyddo fel bod fideos 4:3 yn gallu cael eu dangos ar sgrin lydan."
 
+<<<<<<< HEAD
 msgctxt "#36173"
 msgid "Enable upscaling using VDPAU."
 msgstr "Galluogi uwchraddio gan ddefnyddio VDPAU"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36174"
 msgid "Enable Teletext when watching a live TV stream."
 msgstr "Galluogi Teletestun wrth wylio llif teledu byw."
@@ -11545,18 +11622,24 @@ msgctxt "#36175"
 msgid "Scale Teletext to 4:3 ratio."
 msgstr "Graddio Teletestun i 4:3."
 
+<<<<<<< HEAD
 msgctxt "#36176"
 msgid "Category containing settings for how video file lists are handled."
 msgstr "Categori sy'n cynnwys gosodiadau ar sut i drin rhestrau ffeiliau video."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36177"
 msgid "Toggle between Choose, Play (default), Resume and Show Information. Choose will select an item, e.g. open a directory in files mode. Resume will automatically resume videos from the last position that you were viewing them, even after restarting the system."
 msgstr "Toglo rhwng Dewis, Chwarae (rhagosodedig), Ailgychwyn a Dangos Gwybodaeth. Bydd dewis yn dewis eitem, e.e. agor cyfeiriadur ym modd ffeiliau. Bydd Ailgychwyn yn ailgychwyn fideos yn awtomatig o'r fan diwethaf, hyd yn oed ar ôl ailgychwyn y system."
 
+<<<<<<< HEAD
 msgctxt "#36178"
 msgid "Extract thumbnails and metadata information such as codec and aspect ratio from videos."
 msgstr "Tynnu gwybodaeth am luniau bach a metadata megis codec a chydraniad agwedd o fideos."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36179"
 msgid "When a file is scanned into the library it will display the metadata title instead of the file name."
 msgstr "Pa fydd ffeil wedi ei sganio i'r llyfrgell bydd yn dangos teitl metadata yn lle enw'r ffeil."
@@ -11569,6 +11652,7 @@ msgctxt "#36181"
 msgid "No info available yet."
 msgstr "Dim gwybodaeth ar gael ar hyn o bryd."
 
+<<<<<<< HEAD
 msgctxt "#36182"
 msgid "Combines multi-part video files, DVD folders, and movie folders down to a single item in non-library views."
 msgstr "Cyfuno ffeiliau fideo rhannau lluosog, ffolderi DVD a ffolderi ffilmiau i un eitem mewn golwg nad yw'n llyfrgell."
@@ -11605,6 +11689,8 @@ msgctxt "#36190"
 msgid "Override ASS/SSA subtitles fonts."
 msgstr "Disodli ffontiau isdeitlau ASS/SSA."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36191"
 msgid "Set a custom directory for your subtitles. This can be a file share."
 msgstr "Gosod cyfeiriadur cyfaddas ar gyfer eich isdeitlau. Gall hyn fod yn rhaniad ffeiliau."
@@ -11613,10 +11699,13 @@ msgctxt "#36192"
 msgid "Location of subtitles on the screen."
 msgstr "Lleoliad isdeitlau ar y sgrin."
 
+<<<<<<< HEAD
 msgctxt "#36193"
 msgid "Category containing settings for how DVDs are handled."
 msgstr "Categori'n cynnwys gosodiadau ar sut mae DVDs yn cael eu trin."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36194"
 msgid "Autorun DVD video when inserted in drive."
 msgstr "Awto-rhedeg fideo DVD wrth ei fewnosod i'r gyrrwr"
@@ -11636,6 +11725,7 @@ msgstr "Dim gwybodaeth ar gael ar hyn o bryd."
 msgctxt "#36198"
 msgid "Select the default movie information source. See the Add-ons Manager for options."
 msgstr "Dewis ffynhonnell arferol gwybodaeth ffilmiau. Gw Rheolwr Ychwanegion am ddewisiadau."
+<<<<<<< HEAD
 
 msgctxt "#36199"
 msgid "Select the default TV show information source. See the Add-ons Manager for options."
@@ -11753,10 +11843,58 @@ msgctxt "#36230"
 msgid "How long Kodi will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "Pa mor hir fydd Kodi'n aros i newid y sianel os nad yw'r sianel yn cael ei dderbyn. Defnyddiol am sianeli dros yr awyr sy'n colli eu cryfder o bryd i'w gilydd."
 
+=======
+
+msgctxt "#36199"
+msgid "Select the default TV show information source. See the Add-ons Manager for options."
+msgstr "Dewis ffynhonnell gwybodaeth rhaglenni teledu arferol. Gw. Rheolwr Ychwanegion am y dewisiadau."
+
+msgctxt "#36200"
+msgid "Default scraper used for adding music videos to your library."
+msgstr "Y crafwr arferol ar gyfer ychwanegu fideos cerddoriaeth i'ch llyfrgell."
+
+msgctxt "#36204"
+msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
+msgstr "Mewnforio grwpiau sianeli o gefn y Recordydd (os yw'n cael ei gynnal). Bydd yn dileu grwpiau crëwyd gan y defnyddiwr os nad ydynt i'w cael yn y cefn."
+
+msgctxt "#36206"
+msgid "Use numbering from the backend, instead of configuring them manually over XBMC."
+msgstr "Defnyddio rhifo o'r cefn, yn lle ffurfweddu â llaw dros XBMC."
+
+msgctxt "#36207"
+msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
+msgstr "Agor y rheolwr sianeli, sy'n caniatáu newid trefn sianeli, enw sianel, eicon ac ati."
+
+msgctxt "#36208"
+msgid "Instruct the backend to search for channels (if supported)."
+msgstr "Dweud wrth y cefn i chwilio am sianeli (os yw'n cael ei gynnal)"
+
+msgctxt "#36209"
+msgid "Delete channel/EPG database and reimport the data from the backend afterwards."
+msgstr "Dileu sianel/cronfa ddata'r Amserlenydd ac ail fewnforio'r data o'r cefn wedyn."
+
+msgctxt "#36222"
+msgid "Do not import EPG data while playing TV to minimise CPU usage."
+msgstr "Peidio mewnforio data'r Amserlenydd tra bod y teledu ymlaen er mwyn lleihau'r defnydd o'r CPU."
+
+msgctxt "#36223"
+msgid "By default, EPG data is stored in a local database to speed up importing when XBMC is restarted."
+msgstr "Fel arfer mae data'r Amserlenydd yn cael ei gadw mewn cronfa ddata er mwyn cyflymu mewnforio wrth ailgychwyn XBMC."
+
+msgctxt "#36224"
+msgid "Hide \"no information available\" labels when no EPG data can be retrieved for a channel."
+msgstr "Cuddio labeli \"dim gwybodaeth ar gael\" pan nad oes modd estyn data sianel yr Amserlenydd '"
+
+msgctxt "#36227"
+msgid "Display stream of selected channel in a small box instead of fullscreen."
+msgstr "Dangos llif o sianel benodol i ffenestr fach yn lle'r sgrin lawn."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36231"
 msgid "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
 msgstr "Bydd pwyso botwm rhif yn y modd sgrin llawn yn newid yn awtomatig i'r rhif sianel hwnnw o fewn 1 eiliad."
 
+<<<<<<< HEAD
 msgctxt "#36232"
 msgid "When pressing channel up or down, the actual channel switch is delayed, allowing the user to flip to a channel number without waiting for each channel switch."
 msgstr "Wrth bwyso sianel i fyny neu lawr, mae'r newid sianel y cael ei arafu gan ganiatáu i'r defnyddiwr newid sianel heb orfod aros i bob sianel newid."
@@ -11840,6 +11978,31 @@ msgstr "Categori ar gyfer unrhyw osodiad penodol cefn eich recordydd, os yw'r ce
 msgctxt "#36254"
 msgid "Enable the music library."
 msgstr "Galluogi llyfrgell gerddoriaeth."
+=======
+msgctxt "#36239"
+msgid "Display a notification when timers are added, finished or removed by the backend."
+msgstr "Dangos rhybudd pan fydd amseryddion yn cael eu hychwanegu, gorffen neu dynnu gan y cefn."
+
+msgctxt "#36241"
+msgid "Execute the \"wakeup command\" below when XBMC exits or is going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
+msgstr "Gweithredu'r \"gorchymyn deffro\" isod pan mae XBMC yn gadael neu'n mynd i'r modd cysgu. Bydd stamp amser y recordiad nesaf yn cael ei anfon fel paramedr."
+
+msgctxt "#36245"
+msgid "Execute the wakeup command every day at the given time."
+msgstr "Gweithredu'r gorchymyn deffro bod dydd ar amser penodol."
+
+msgctxt "#36246"
+msgid "When to execute the daily wakeup command."
+msgstr "Pryd i weithredu'r gorchymyn deffro dyddiol."
+
+msgctxt "#36248"
+msgid "Asks for a pin code to access parental locked channels. Channels can be marked as locked in the channels editor on the general tab. Parental locked channels can not be played or recorded without entering a pin code, and the EPG information is hidden for those channels."
+msgstr "Bydd y gofyn am rif PIN i gael mynediad at glo sianeli'r rhiant./ Mae modd marcio sianeli wedi eu cloi yng ngolygydd y sianeli yn y tab cyffredinol. Nid oes modd chwarae neu recordio sianeli sydd â chlo'r rhieni heb gyflwyno'r rhif PIN ac mae gwybodaeth am y sianeli hynny wedi ei guddio yn yr Amserlenydd ."
+
+msgctxt "#36249"
+msgid "Enter a new pin code to unlock parental locked channels."
+msgstr "Rhowch PIN newydd i ddatgloi sianeli sydd â chlo'r rhiant."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36255"
 msgid "Determine if artists that appear only on compilations are shown in the library artist view."
@@ -11849,17 +12012,25 @@ msgctxt "#36256"
 msgid "Automatically fetch album and artist information via scrapers during scan."
 msgstr "Estyn yn awtomatig gwybodaeth am yr albwm a'r artist drwy grafwyr wrth sganio."
 
+<<<<<<< HEAD
 msgctxt "#36257"
 msgid "Select the default album information source."
 msgstr "Dewis ffynhonnell arferol gwybodaeth albwm."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36258"
 msgid "Select the default artist information source. See the Add-ons Manager for options."
 msgstr "Dewis ffynhonnell arferol gwybodaeth am artist. Gw Rheolwr Ychwanegion am ddewisiadau."
 
 msgctxt "#36259"
+<<<<<<< HEAD
 msgid "Check for new and removed media files on Kodi startup."
 msgstr "Edrych am ffeiliau cyfrwng newydd a rhai wedi eu tynnu wrth gychwyn Kodi."
+=======
+msgid "Check for new and removed media files on XBMC startup."
+msgstr "Edrych am ffeiliau cyfrwng newydd a rhai wedi eu tynnu wrth gychwyn XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36260"
 msgid "No info available yet."
@@ -11874,8 +12045,13 @@ msgid "Import a XML file into the Music Library database."
 msgstr "Mewnforio ffeil XML i gronfa ddata'r Llyfrgell Cerddoriaeth."
 
 msgctxt "#36265"
+<<<<<<< HEAD
 msgid "Kodi automatically plays the next item in the current folder. For example, in Files View: After a track has been played, Kodi would automatically play the next track in the same folder."
 msgstr "Bydd Kodi yn chwarae'r eitem nesaf yn awtomatig yn y ffolder cyfredol. Er enghraifft, yn y Golwg Ffeiliau: Wedi i drac gael i chwarae, bydd Kodi yn chwarae'r trac nesaf  yn yr un ffolder yn awtomatig."
+=======
+msgid "XBMC automatically plays the next item in the current folder. For example, in Files View: After a track has been played, XBMC would automatically play the next track in the same folder."
+msgstr "Bydd XBMC yn chwarae'r eitem nesaf yn awtomatig yn y ffolder cyfredol. Er enghraifft, yn y Golwg Ffeiliau: Wedi i drac gael i chwarae, bydd XBMC yn chwarae'r trac nesaf  yn yr un ffolder yn awtomatig."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36268"
 msgid "Default is 89dB per standard. Change with caution."
@@ -11885,10 +12061,13 @@ msgctxt "#36269"
 msgid "Default is 89dB per standard. Change with caution."
 msgstr "Yr arferol yw 89dB yn ôl y safon. Newidiwch gyda gofal."
 
+<<<<<<< HEAD
 msgctxt "#36270"
 msgid "Reduce the volume of the file if clipping will occur."
 msgstr "Gostwng sain os yn clipio."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36271"
 msgid "Smoothly fade from one audio track to the next. You can set the amount of overlap from 1-15 seconds."
 msgstr "Tawelu'n llyfn o un trac sain i'r llall. Mae modd gosod maint y trosglwyddo o 1-15 eiliad."
@@ -11898,8 +12077,13 @@ msgid "Read the tag information from song files. For large directories this can 
 msgstr "Darllen gwybodaeth tag o ffeiliau caneuon. Mewn cyfeiriaduron mawr mae modd i hyn arafu'r broses ddarllen, yn arbennig dros rwydwaith."
 
 msgctxt "#36281"
+<<<<<<< HEAD
 msgid "Kodi will search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
 msgstr "Bydd Kodi yn chwilio am luniau bach ar raniadau pell a chyfrwng optegol. Mae hyn yn gallu arafu rhestru ffolderi rhwydwaith."
+=======
+msgid "XBMC will search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
+msgstr "Bydd XBMC yn chwilio am luniau bach ar raniadau pell a chyfrwng optegol. Mae hyn yn gallu arafu rhestru ffolderi rhwydwaith."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36283"
 msgid "Autorun CDs when inserted in drive."
@@ -11930,6 +12114,7 @@ msgid "Auto eject disc after rip is complete."
 msgstr "Bwrw allan y ddisg yn awtomatig wedi cwblhau’r rhwygo."
 
 msgctxt "#36293"
+<<<<<<< HEAD
 msgid "When playing any music file, Kodi will look for a matching .cdg file and display its graphics."
 msgstr "Pan yn chwarae ffeil cerddoriaeth bydd Kodi yn chwilio am ffeil .cdg sy'n cyfateb ac yn dangos ei graffigau."
 
@@ -11948,6 +12133,10 @@ msgstr "Gosod lliw'r ffont i'w ddefnyddio yn ystod karaoke."
 msgctxt "#36298"
 msgid "Select the character set used during karaoke."
 msgstr "Gosod set nod y ffont i'w ddefnyddio yn ystod karaoke."
+=======
+msgid "When playing any music file, XBMC will look for a matching .cdg file and display its graphics."
+msgstr "Pan yn chwarae ffeil cerddoriaeth bydd XBMC yn chwilio am ffeil .cdg sy'n cyfateb ac yn dangos ei graffigau."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36301"
 msgid "No info available yet."
@@ -11973,10 +12162,13 @@ msgctxt "#36308"
 msgid "Pictures will automatically rotate according to information in the EXIF tag, if found."
 msgstr "Bydd lluniau'n tro'n awtomatig yn ôl y wybodaeth yn y tag EXIF, os yw ar gael."
 
+<<<<<<< HEAD
 msgctxt "#36309"
 msgid "Show videos in picture file lists."
 msgstr "Dangos fideos yn rhestrau ffeil lluniau."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36310"
 msgid "No info available yet."
 msgstr "Dim gwybodaeth ar gael ar hyn o bryd."
@@ -12002,26 +12194,44 @@ msgid "Specify the default weather information source. See the Add-ons Manager f
 msgstr "Pennu ffynhonnell arferol y tywydd. Gw Rheolwr Ychwanegion am ddewisiadau."
 
 msgctxt "#36321"
+<<<<<<< HEAD
 msgid "Display name of the Kodi installation when using various network services."
 msgstr "Dangos enw'r gosodiad Kodi wrth ddefnyddio gwasanaethau rhwydwaith amrywiol."
+=======
+msgid "Display name of the XBMC installation when using various network services."
+msgstr "Dangos enw'r gosodiad XBMC wrth ddefnyddio gwasanaethau rhwydwaith amrywiol."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36324"
 msgid "When a manual or automatical library update occurs, notify UPnP clients."
 msgstr "Pan fydd diweddariad llyfrgell yn digwydd yn awtomatig neu â llaw, dweud wrth y cleientiaid UPnP."
 
 msgctxt "#36328"
+<<<<<<< HEAD
 msgid "Enable remote users to control Kodi through the built-in webserver."
 msgstr "Galluogi defnyddwyr pell i reoli Kodi drwy'r gweinydd gwe mewnol."
+=======
+msgid "Enable remote users to control XBMC through the built-in webserver."
+msgstr "Galluogi defnyddwyr pell i reoli XBMC drwy'r gweinydd gwe mewnol."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36329"
 msgid "Define the webserver port."
 msgstr "Diffinio porth y gweinydd gw"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36330"
+msgid "Define the webserver username."
+msgstr "Diffinio enw defnyddiwr y gweinydd gwe."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the Add-on Manager."
 msgstr "Dewis rhwng rhyngwynebau gwe sydd wedi eu gosod drwy'r Rheolwr Ychwanegion."
 
 msgctxt "#36334"
+<<<<<<< HEAD
 msgid "Allow programs on this computer to control Kodi via the Web Interface or the JSON-RPC interface protocol."
 msgstr "Caniatáu i raglenni ar y cyfrifiadur hwn i reoli Kodi drwy'r rhyngwyneb gwe neu drwy brotocol rhyngwyneb JSON-RPC. "
 
@@ -12032,6 +12242,18 @@ msgstr "Caniatáu i raglenni ar y rhwydwaith i reoli Kodi."
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens where Kodi is not displayed are blacked out."
 msgstr "Mewn ffurfweddiad sgrin lluosog bydd y sgriniau lle nad yw Kodi."
+=======
+msgid "Allow programs on this computer to control XBMC via the Web Interface or the JSON-RPC interface protocol."
+msgstr "Caniatáu i raglenni ar y cyfrifiadur hwn i reoli XBMC drwy'r rhyngwyneb gwe neu drwy brotocol rhyngwyneb JSON-RPC. "
+
+msgctxt "#36338"
+msgid "Allow programs on the network to control XBMC."
+msgstr "Caniatáu i raglenni ar y rhwydwaith i reoli XBMC."
+
+msgctxt "#36355"
+msgid "In a multi-screen configuration, the screens where XBMC is not displayed are blacked out."
+msgstr "Mewn ffurfweddiad sgrin lluosog bydd y sgriniau lle nad yw XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36356"
 msgid "Eliminate vertical tearing."
@@ -12070,12 +12292,21 @@ msgid "When activated, your keyboard arrows will move the selection on the virtu
 msgstr "Ar ôl ei weithredu, bydd saethau eich bysellfwrdd yn symud eich dewis ar y rhith fysellfwrdd. Pan nad yw wedi ei weithredu, byddant yn symud eich cyrchwr o'ch testun."
 
 msgctxt "#36377"
+<<<<<<< HEAD
 msgid "Use a mouse or touch screen device to control Kodi. Note: disabling will cause you to lose control over Kodi when no keyboard or remote is present."
 msgstr "Defnyddiwch lygoden neu ddyfais sgrin cyffwrdd i reoli Kodi. Nodyn: bydd analluogi un achosi i chi golli rheolaeth ar Kodi pan nad oes bysellfwrdd neu reolwr pell ar gael."
 
 msgctxt "#36378"
 msgid "Use a joystick to control Kodi."
 msgstr "Defnyddio ffon hud i reoli Kodi."
+=======
+msgid "Use a mouse or touch screen device to control XBMC. Note: disabling will cause you to lose control over XBMC when no keyboard or remote is present."
+msgstr "Defnyddiwch lygoden neu ddyfais sgrin cyffwrdd i reoli XBMC. Nodyn: bydd analluogi un achosi i chi golli rheolaeth ar XBMC pan nad oes bysellfwrdd neu reolwr pell ar gael."
+
+msgctxt "#36378"
+msgid "Use a joystick to control XBMC."
+msgstr "Defnyddio ffon hud i reoli XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36380"
 msgid "If your internet connection uses a proxy, configure it here."
@@ -12102,6 +12333,7 @@ msgid "Configure the proxy server password."
 msgstr "Ffurfweddu cyfrinair y gweinydd dirprwyo"
 
 msgctxt "#36386"
+<<<<<<< HEAD
 msgid "If you have limited bandwidth available, Kodi will try to keep within these limits."
 msgstr "Os oes gennych ddarpariaeth band llydan cyfyng, bydd Kodi yn ceisio cadw o fewn y cyfyngiadau hyn."
 
@@ -12116,14 +12348,39 @@ msgstr "Diffinio pa weithredoedd ddylai Kodi eu cyflawni pan mae wedi oedi am am
 msgctxt "#36393"
 msgid "Folder used to save screenshots taken within Kodi."
 msgstr "Y ffolder i'w ddefnyddio i gadw lluniau sgrin wedi eu cymryd o fewn Kodi."
+=======
+msgid "If you have limited bandwidth available, XBMC will try to keep within these limits."
+msgstr "Os oes gennych ddarpariaeth band llydan cyfyng, bydd XBMC yn ceisio cadw o fewn y cyfyngiadau hyn."
+
+msgctxt "#36389"
+msgid "Define how long XBMC should idle before shutting down."
+msgstr "Diffinio pa mor hir ddylai XBMC oedi cyn cau."
+
+msgctxt "#36390"
+msgid "Define what action XBMC should do when it has been idle for a long period of time."
+msgstr "Diffinio pa weithredoedd ddylai XBMC eu cyflawni pan mae wedi oedi am amser maith."
+
+msgctxt "#36393"
+msgid "Folder used to save screenshots taken within XBMC."
+msgstr "Y ffolder i'w ddefnyddio i gadw lluniau sgrin wedi eu cymryd o fewn XBMC."
+
+msgctxt "#36394"
+msgid "Specify additional libraries to be included in the debug log."
+msgstr "Pennu llyfrgelloedd ychwanegol i'w cynnwys yn y cofnod dadfygio."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36396"
 msgid "Define the PIN code used for the master lock."
 msgstr "Diffinio cod PIN y prif glo."
 
 msgctxt "#36398"
+<<<<<<< HEAD
 msgid "Define the maximum number of retries before Kodi is closed down."
 msgstr "Diffinio'r nifer mwyaf o geisiadau cyn y bydd Kodi yn cau."
+=======
+msgid "Define the maximum number of retries before XBMC is closed down."
+msgstr "Diffinio'r nifer mwyaf o geisiadau cyn y bydd XBMC yn cau."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36410"
 msgid "No info available yet."
@@ -12173,6 +12430,7 @@ msgctxt "#36507"
 msgid "Interlaced"
 msgstr "Rhyngweol"
 
+<<<<<<< HEAD
 msgctxt "#36900"
 msgid "movie"
 msgstr "ffilm"
@@ -12261,6 +12519,8 @@ msgctxt "#36921"
 msgid "songs"
 msgstr "cân"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#37000"
 msgid "(Visually Impaired)"
 msgstr "(Diffyg ar y golwg)"

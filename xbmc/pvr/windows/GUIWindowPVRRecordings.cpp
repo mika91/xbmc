@@ -342,8 +342,17 @@ bool CGUIWindowPVRRecordings::OnContextButtonMarkWatched(const CFileItemPtr &ite
 
 void CGUIWindowPVRRecordings::OnPrepareFileItems(CFileItemList& items)
 {
+<<<<<<< HEAD
   if (items.IsEmpty())
     return;
+=======
+  // set items path to current directory
+  m_parent->m_vecItems->SetPath(strDirectory);
+
+  if (m_thumbLoader.IsLoading())
+    m_thumbLoader.StopThread();
+}
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   CFileItemList files;
   VECFILEITEMS vecItems = items.GetList();

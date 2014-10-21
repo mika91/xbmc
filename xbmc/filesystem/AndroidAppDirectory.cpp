@@ -62,7 +62,11 @@ bool CAndroidAppDirectory::GetDirectory(const CURL& url, CFileItemList &items)
     }
     for(std::vector<androidPackage>::iterator i = applications.begin(); i != applications.end(); ++i)
     {
+<<<<<<< HEAD
       if ((*i).packageName == className.c_str())
+=======
+      if ((*i).packageName == "org.xbmc.xbmc")
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
         continue;
       CFileItemPtr pItem(new CFileItem((*i).packageName));
       pItem->m_bIsFolder = false;

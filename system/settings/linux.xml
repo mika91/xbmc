@@ -11,6 +11,18 @@
         <setting id="videoscreen.vsync">
           <default>3</default> <!-- VSYNC_DRIVER -->
         </setting>
+<<<<<<< HEAD
+=======
+      </group>
+    </category>
+    <category id="input">
+      <group id="2">
+        <setting id="input.enablejoystick">
+          <requirement>HAS_SDL_JOYSTICK</requirement>
+          <level>0</level>
+          <default>false</default>
+        </setting>      
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
       </group>
     </category>
   </section>

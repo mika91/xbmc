@@ -469,8 +469,13 @@ msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG
 msgstr "[B]KONFIGURASIKAN SETELAN TV[/B][CR][CR]Rubah info layar penuh · Kelola setelan data EPG"
 
 msgctxt "#31410"
+<<<<<<< HEAD
 msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
 msgstr "[B]KONFIGURASIKAN SETELAN LAYANAN[/B][CR][CR]Setel kontrol Kodi melalui UPnP dan HTTP · Konfigurasikan layanan berbagi berkas[CR]Aktifkan Zeroconf · Konfigurasikan AirPlay"
+=======
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]KONFIGURASIKAN SETELAN LAYANAN[/B][CR][CR]Setel kontrol XBMC melalui UPnP dan HTTP · Konfigurasikan layanan berbagi berkas[CR]Aktifkan Zeroconf · Konfigurasikan AirPlay"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31411"
 msgid "First run help...."
@@ -489,8 +494,13 @@ msgid "Login"
 msgstr "Login"
 
 msgctxt "#31421"
+<<<<<<< HEAD
 msgid "Select your Kodi user Profile[CR]to login and continue"
 msgstr "Pilih profil pengguna Kodi Anda [CR]untuk login dan meneruskan"
+=======
+msgid "Select your XBMC user Profile[CR]to login and continue"
+msgstr "Pilih profil pengguna XBMC Anda [CR]untuk login dan meneruskan"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
@@ -577,8 +587,13 @@ msgid "PICTURES"
 msgstr "GAMBAR"
 
 msgctxt "#31952"
+<<<<<<< HEAD
 msgid "TV"
 msgstr "TV"
+=======
+msgid "LIVE TV"
+msgstr "SIARAN TV LANGSUNG"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31953"
 msgid "VIDEOS"

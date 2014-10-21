@@ -2610,6 +2610,7 @@ int CVideoDatabase::SetDetailsForEpisode(const CStdString& strFilenameAndPath, c
     { // query DB for any episodes matching idShow, Season and Episode
       CStdString strSQL = PrepareSQL("select files.playCount, files.lastPlayed from episode, files where files.idFile=episode.idFile and episode.c%02d=%i and episode.c%02d=%i AND episode.idShow=%i and episode.idEpisode!=%i and files.playCount > 0",VIDEODB_ID_EPISODE_SEASON, details.m_iSeason, VIDEODB_ID_EPISODE_EPISODE, details.m_iEpisode, idShow, idEpisode);
       m_pDS->query(strSQL.c_str());
+<<<<<<< HEAD
 
       if (!m_pDS->eof())
       {
@@ -2620,6 +2621,18 @@ int CVideoDatabase::SetDetailsForEpisode(const CStdString& strFilenameAndPath, c
 
         int idFile = GetFileId(strFilenameAndPath);
 
+=======
+
+      if (!m_pDS->eof())
+      {
+        int playCount = m_pDS->fv("files.playCount").get_asInt();
+
+        CDateTime lastPlayed;
+        lastPlayed.SetFromDBDateTime(m_pDS->fv("files.lastPlayed").get_asString());
+
+        int idFile = GetFileId(strFilenameAndPath);
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
         // update with playCount and lastPlayed
         strSQL = PrepareSQL("update files set playCount=%i,lastPlayed='%s' where idFile=%i", playCount, lastPlayed.GetAsDBDateTime().c_str(), idFile);
         m_pDS->exec(strSQL.c_str());
@@ -8341,8 +8354,13 @@ std::vector<int> CVideoDatabase::CleanMediaType(const std::string &mediaType, co
         }
       }
 
+<<<<<<< HEAD
       sourcePathsDeleteDecisions.insert(make_pair(sourcePathID, make_pair(sourcePathNotExists, del)));
       pathsDeleteDecisions.insert(make_pair(sourcePathID, sourcePathNotExists && del));
+=======
+      parentPathsDeleteDecisions.insert(make_pair(parentPathID, make_pair(parentPathNotExists, del)));
+      pathsDeleteDecisions.insert(make_pair(parentPathID, parentPathNotExists && del));
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     }
     // the only reason not to delete the file is if the parent path doesn't
     // exist and the user decided to delete all the items it contained

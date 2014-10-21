@@ -320,7 +320,11 @@ int64_t DVDPlayerCodec::Seek(int64_t iSeekTime)
   }
   m_pPacket = NULL;
 
+<<<<<<< HEAD
   bool ret = m_pDemuxer->SeekTime((int)iSeekTime, seekback);
+=======
+  bool ret = m_pDemuxer->SeekTime((int)iSeekTime, false);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   m_pAudioCodec->Reset();
 
   m_nDecodedLen = 0;
@@ -438,6 +442,7 @@ bool DVDPlayerCodec::CanInit()
 bool DVDPlayerCodec::CanSeek()
 {
   return m_bCanSeek;
+<<<<<<< HEAD
 }
 
 bool DVDPlayerCodec::NeedConvert(AEDataFormat fmt)
@@ -456,4 +461,6 @@ bool DVDPlayerCodec::NeedConvert(AEDataFormat fmt)
     default:
       return true;
   }
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 }

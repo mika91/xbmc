@@ -120,6 +120,36 @@ static const dxva2_mode_t dxva2_modes[] = {
     { "Intel H.264 motion compensation (MoComp), no FGT",             &DXVADDI_Intel_ModeH264_A, 0 },
     { "Intel VC-1 VLD",                                               &DXVADDI_Intel_ModeVC1_E,  0 },
 #endif
+<<<<<<< HEAD
+=======
+
+    { NULL, NULL, 0 }
+};
+
+DEFINE_GUID(DXVA2_VideoProcATIVectorAdaptiveDevice,   0x3C5323C1,0x6fb7,0x44f5,0x90,0x81,0x05,0x6b,0xf2,0xee,0x44,0x9d);
+DEFINE_GUID(DXVA2_VideoProcATIMotionAdaptiveDevice,   0x552C0DAD,0xccbc,0x420b,0x83,0xc8,0x74,0x94,0x3c,0xf9,0xf1,0xa6);
+DEFINE_GUID(DXVA2_VideoProcATIAdaptiveDevice,         0x6E8329FF,0xb642,0x418b,0xbc,0xf0,0xbc,0xb6,0x59,0x1e,0x25,0x5f);
+DEFINE_GUID(DXVA2_VideoProcNVidiaAdaptiveDevice,      0x6CB69578,0x7617,0x4637,0x91,0xE5,0x1C,0x02,0xDB,0x81,0x02,0x85);
+DEFINE_GUID(DXVA2_VideoProcIntelEdgeDevice,           0xBF752EF6,0x8CC4,0x457A,0xBE,0x1B,0x08,0xBD,0x1C,0xAE,0xEE,0x9F);
+DEFINE_GUID(DXVA2_VideoProcNVidiaUnknownDevice,       0xF9F19DA5,0x3B09,0x4B2F,0x9D,0x89,0xC6,0x47,0x53,0xE3,0xEA,0xAB);
+
+typedef struct {
+    const char   *name;
+    const GUID   *guid;
+} dxva2_device_t;
+
+static const dxva2_device_t dxva2_devices[] = {
+  { "Progressive Device",           &DXVA2_VideoProcProgressiveDevice         },
+  { "Bob Device",                   &DXVA2_VideoProcBobDevice                 },
+  { "Vector Adaptative Device",     &DXVA2_VideoProcATIVectorAdaptiveDevice   },
+  { "Motion Adaptative Device",     &DXVA2_VideoProcATIMotionAdaptiveDevice   },
+  { "Adaptative Device",            &DXVA2_VideoProcATIAdaptiveDevice         },
+  { "Spatial-temporal device",      &DXVA2_VideoProcNVidiaAdaptiveDevice      },
+  { "Edge directed device",         &DXVA2_VideoProcIntelEdgeDevice           },
+  { "Unknown device (nVidia)",      &DXVA2_VideoProcNVidiaUnknownDevice       },
+  { NULL, NULL }
+};
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
     { NULL, NULL, 0 }
 };
@@ -941,8 +971,11 @@ bool CDecoder::Open(AVCodecContext *avctx, enum PixelFormat fmt, unsigned int su
   avctx->get_buffer2 = GetBufferS;
   avctx->hwaccel_context = m_context;
 
+<<<<<<< HEAD
   m_avctx = avctx;
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   D3DADAPTER_IDENTIFIER9 AIdentifier = g_Windowing.GetAIdentifier();
   if (AIdentifier.VendorId == PCIV_Intel && m_input == DXVADDI_Intel_ModeH264_E)
   {

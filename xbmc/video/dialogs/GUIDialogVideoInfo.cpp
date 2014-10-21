@@ -1205,7 +1205,19 @@ bool CGUIDialogVideoInfo::DeleteVideoItemFromDatabase(const CFileItemPtr &item, 
   CVideoDatabase database;
   database.Open();
 
+<<<<<<< HEAD
   if (item->GetVideoInfoTag()->m_iDbId < 0)
+=======
+  if (type == VIDEODB_CONTENT_MOVIE_SETS)
+  {
+    database.DeleteSet(item->GetVideoInfoTag()->m_iDbId);
+    return true;
+  }
+
+  CStdString path;
+  database.GetFilePathById(item->GetVideoInfoTag()->m_iDbId, path, type);
+  if (path.empty())
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     return false;
 
   switch (type)

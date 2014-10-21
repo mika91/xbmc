@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Kodi Media Center language file
+=======
+# XBMC Media Center language file
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 # Addon Name: FishBMC
 # Addon id: visualization.fishbmc
 # Addon Provider: 26elf
@@ -8,7 +12,11 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+<<<<<<< HEAD
 "Last-Translator: Kodi Translation Team\n"
+=======
+"Last-Translator: XBMC Translation Team\n"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 "Language-Team: Armenian (http://www.transifex.com/projects/p/xbmc-main/language/hy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

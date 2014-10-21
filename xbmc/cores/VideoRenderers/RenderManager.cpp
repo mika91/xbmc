@@ -263,8 +263,19 @@ bool CXBMCRenderManager::Configure(unsigned int width, unsigned int height, unsi
     lock2.Enter();
     m_format = format;
 
+<<<<<<< HEAD
     int renderbuffers = m_pRenderer->GetOptimalBufferSize();
     m_QueueSize = std::min(buffers, renderbuffers);
+=======
+    int processor = m_pRenderer->GetProcessorSize();
+    if(processor > buffers)                          /* DXVA-HD returns processor size 6 */
+      m_QueueSize = 3;                               /* we need queue size of 3 to get future frames in the processor */
+    else if(processor)
+      m_QueueSize = buffers - processor + 1;         /* respect maximum refs */
+    else
+      m_QueueSize = m_pRenderer->GetMaxBufferSize(); /* no refs to data */
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     m_QueueSize = std::min(m_QueueSize, (int)m_pRenderer->GetMaxBufferSize());
     m_QueueSize = std::min(m_QueueSize, NUM_BUFFERS);
     if(m_QueueSize < 2)

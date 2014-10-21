@@ -484,6 +484,14 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Selectați profilul care va fi folosit la pornire când ecranul de autentificare este dezactivat."
 
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr "Arată sau ascunde ecranul de autentificare la pornire."
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr "Selectați profilul care va fi folosit la pornire când ecranul de autentificare este dezactivat."
+
 msgctxt "#31501"
 msgid "Scheduled Time"
 msgstr "Timpul Programat"

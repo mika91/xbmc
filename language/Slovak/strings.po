@@ -1097,10 +1097,13 @@ msgctxt "#309"
 msgid "User interface language"
 msgstr "Jazyk používateľského prostredia"
 
+<<<<<<< HEAD
 msgctxt "#310"
 msgid "Keyboard layouts"
 msgstr "Rozloženia klávesnice"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#312"
 msgid "(0=auto)"
 msgstr "(0=auto)"
@@ -5069,6 +5072,10 @@ msgctxt "#13442"
 msgid "Enable this option to use hardware acceleration for MPEG-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
 msgstr "Zapnite túto voľbu pre použitie hardvérovej akcelerácie pre kodeky MPEG-(1/2). Ak je vypnutá, namiesto toho sa použije procesor. U starších Radeon kariet môže dôjsť k chybe segmentácie."
 
+msgctxt "#13442"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
+msgstr "Zapnite túto voľbu pre použitie hardvérovej akcelerácie pre kodeky Mpeg-(1/2). Ak je vypnutá, namiesto toho sa použije procesor. U starších Radeon kariet môže dôjsť k chybe segmentácie."
+
 msgctxt "#13443"
 msgid "Use MPEG-4 VDPAU"
 msgstr "Použiť MPEG-4 VDPAU"
@@ -5076,6 +5083,10 @@ msgstr "Použiť MPEG-4 VDPAU"
 msgctxt "#13444"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
 msgstr "Zapnite túto voľbu pre použitie hardvérovej akcelerácie pre kodek MPEG-4. Ak je vypnutá, namiesto toho sa použije procesor. Ak je táto voľba štandardne zapnutá, určitý ION hardvér s tým môže mať problémy."
+
+msgctxt "#13444"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
+msgstr "Zapnite túto voľbu pre použitie hardvérovej akcelerácie pre kodek Mpeg-4. Ak je vypnutá, namiesto toho sa použije procesor. Ak je táto voľba štandardne zapnutá, určitý ION hardvér s tým môže mať problémy."
 
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
@@ -5093,6 +5104,10 @@ msgctxt "#13448"
 msgid "Enable this option to use hardware acceleration for MPEG-(1/2) codecs. If disabled the CPU will be used instead. Some MPEG-2 Videos might have green artifacts."
 msgstr "Zapnite túto voľbu pre použitie hardvérovej akcelerácie pre kodeky MPEG-(1/2). Ak je vypnutá, namiesto toho sa použije procesor. U niektorých Mpeg-2 videí sa môžu vyskytnúť zelené artefakty."
 
+msgctxt "#13448"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Some Mpeg-2 Videos might have green artifacts."
+msgstr "Zapnite túto voľbu pre použitie hardvérovej akcelerácie pre kodeky Mpeg-(1/2). Ak je vypnutá, namiesto toho sa použije procesor. U niektorých Mpeg-2 videí sa môžu vyskytnúť zelené artefakty."
+
 msgctxt "#13449"
 msgid "Use MPEG-4 VAAPI"
 msgstr "Použiť MPEG-4 VAAPI"
@@ -5100,6 +5115,10 @@ msgstr "Použiť MPEG-4 VAAPI"
 msgctxt "#13450"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead."
 msgstr "Zapnite túto voľbu pre použitie hardvérovej akcelerácie pre kodek MPEG-4. Ak je vypnutá, namiesto toho sa použije procesor."
+
+msgctxt "#13450"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead."
+msgstr "Zapnite túto voľbu pre použitie hardvérovej akcelerácie pre Mpeg-4 kodek. Ak je vypnutá, namiesto toho sa použije procesor."
 
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
@@ -5245,10 +5264,13 @@ msgctxt "#13620"
 msgid "Apple Remote Error"
 msgstr "Diaľkové ovládanie Apple Chyba"
 
+<<<<<<< HEAD
 msgctxt "#13621"
 msgid "Apple Remote support could not be enabled."
 msgstr "Nie je možné zapnúť podporu pre diaľkové ovládanie Apple."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#14000"
 msgid "Stack"
 msgstr "Zlučovať"
@@ -6557,10 +6579,13 @@ msgctxt "#19118"
 msgid "Cannot use PVR functions while searching."
 msgstr "Počas vyhľadávania nie je možné použiť PVR funkcie."
 
+<<<<<<< HEAD
 msgctxt "#19119"
 msgid "On which server do you want to search?"
 msgstr "Na ktorom serveri chcete vyhľadávať?"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19120"
 msgid "Client number"
 msgstr "Číslo klienta"
@@ -10477,6 +10502,7 @@ msgctxt "#24125"
 msgid "Custom location"
 msgstr "Používateľom určené umiestnenie"
 
+<<<<<<< HEAD
 msgctxt "#24126"
 msgid "Auto download first subtitle"
 msgstr "Automaticky prevziať prvé nájdené titulky"
@@ -10485,6 +10511,8 @@ msgctxt "#24127"
 msgid "Automatically download first subtitle from the search result list"
 msgstr "Automaticky prevziať prvé titulky zo zoznamu výsledkov vyhľadávania"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#25000"
 msgid "Notifications"
 msgstr "Notifikácie"
@@ -11266,8 +11294,13 @@ msgid "Category containing all Skin related settings."
 msgstr "Kategória obsahujúca všetky nastavenia týkajúce sa vzhľadu."
 
 msgctxt "#36103"
+<<<<<<< HEAD
 msgid "Select the skin for the user interface. This will define the look and feel of Kodi."
 msgstr "Vyberte vzhľad pre používateľské prostredie. Týmto nastavíte vzhľad a správanie pre Kodi."
+=======
+msgid "Select the skin for the user interface. This will define the look and feel of XBMC."
+msgstr "Vyberte vzhľad pre používateľské prostredie. Týmto nastavíte vzhľad a správanie pre XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36104"
 msgid "Change specific skin settings. The available options are dependent on the skin used."
@@ -11292,6 +11325,10 @@ msgstr "Zmeniť veľkosť zobrazenia používateľského rozhrania."
 msgctxt "#36109"
 msgid "Select the media window that Kodi displays on startup."
 msgstr "Vyberte úvodné okno, ktoré sa zobrazí pri spustení Kodi."
+
+msgctxt "#36110"
+msgid "Select or disable the sound scheme used in the user interface."
+msgstr "Vyberte alebo vypnite zvukovú schému použitú v používateľskom rozhraní."
 
 msgctxt "#36110"
 msgid "Select or disable the sound scheme used in the user interface."
@@ -11529,6 +11566,10 @@ msgctxt "#36173"
 msgid "Enable upscaling using VDPAU."
 msgstr "Povoliť prevzorkovanie na vyššie rozlíšenie pomocou VDPAU."
 
+msgctxt "#36173"
+msgid "Enable upscaling using VDPAU."
+msgstr "Povoliť prevzorkovanie na vyššie rozlíšenie pomocou VDPAU."
+
 msgctxt "#36174"
 msgid "Enable Teletext when watching a live TV stream."
 msgstr "Enable Teletext when watching a live TV stream."
@@ -11646,8 +11687,13 @@ msgid "Import channel groups from the PVR backend (if supported). Will delete us
 msgstr "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 
 msgctxt "#36205"
+<<<<<<< HEAD
 msgid "Sort the channels by channel number on the backend, but use Kodi's own numbering for channels."
 msgstr "Usporiadať kanály podľa čísla kanálu v backende, ale v Kodi namiesto toho použiť vlastné číslovanie kanálov."
+=======
+msgid "Sort the channels by channel number on the backend, but use XBMC's own numbering for channels."
+msgstr "Usporiadať kanály podľa čísla kanálu v backende, ale v XBMC namiesto toho použiť vlastné číslovanie kanálov."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36206"
 msgid "Use numbering from the backend, instead of configuring them manually over Kodi."
@@ -11728,6 +11774,14 @@ msgstr "Display a notification when timers are added, finished or removed by the
 msgctxt "#36241"
 msgid "Execute the \"wakeup command\" below when Kodi exits or is going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
 msgstr "Execute the \"wakeup command\" below when Kodi exits or is going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
+
+msgctxt "#36242"
+msgid "The command will not be executed when a recording will be started within this timeout."
+msgstr "Príkaz nebude spustený, ak bude začaté nahrávanie v rámci tejto doby čakania."
+
+msgctxt "#36243"
+msgid "The command to execute."
+msgstr "Príkaz na spustenie."
 
 msgctxt "#36242"
 msgid "The command will not be executed when a recording will be started within this timeout."
@@ -11857,6 +11911,14 @@ msgctxt "#36296"
 msgid "Select the size of the font used during karaoke."
 msgstr "Zvoľte veľkosť písma použitého pri karaoke."
 
+msgctxt "#36295"
+msgid "Select the font type used during karaoke."
+msgstr "Zvoľte typ písma použitého pri karaoke."
+
+msgctxt "#36296"
+msgid "Select the size of the font used during karaoke."
+msgstr "Zvoľte veľkosť písma použitého pri karaoke."
+
 msgctxt "#36301"
 msgid "No info available yet."
 msgstr "Momentálne nie sú k dispozícii žiadne informácie."
@@ -11932,6 +11994,10 @@ msgstr "Allow programs on this computer to control Kodi via the Web Interface or
 msgctxt "#36338"
 msgid "Allow programs on the network to control Kodi."
 msgstr "Allow programs on the network to control Kodi."
+
+msgctxt "#36344"
+msgid "Enable AirPlay password protection."
+msgstr "Povoliť AirPlay ochranu heslom"
 
 msgctxt "#36344"
 msgid "Enable AirPlay password protection."
@@ -12137,6 +12203,17 @@ msgctxt "#36508"
 msgid "Hardware Based"
 msgstr "Hardware Based"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36509"
+msgid "Monoscopic - 2D"
+msgstr "Monoscopic - 2D"
+
+msgctxt "#36520"
+msgid "Playback mode of stereoscopic videos."
+msgstr "Režim prehrávania u priestorových videí"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36521"
 msgid "Ask me"
 msgstr "Ask me"
@@ -12160,6 +12237,17 @@ msgstr "Same as movie"
 msgctxt "#36533"
 msgid "Select how audio is downmixed, for example from 5.1 to 2.0: [Enabled] maintains the dynamic range of the original audio source when downmixed however volume will be lower [Disabled] maintains volume level of the original audio source however the dynamic range is compressed. Note - Dynamic range is the difference between the quietest and loudest sounds in a audio source."
 msgstr "Vyberte. ako sa má zvuk downmixovať, napríklad z 5.1 na 2.0: [Zapnuté] po downmixe je zachovaný dynamický rozsah pôvodného zdroja zvuku, avšak hlasitosť bude nižšia [Vypnuté] je zachovaná úroveň hlasitosti pôvodného zdroja signálu, avšak dynamický rozsah je zmenšený. Poznámka - Dynamický rozsah je rozdiel medzi najtichším a najhlasnejším zvukom v zdroji zvuku."
+<<<<<<< HEAD
+=======
+
+msgctxt "#36535"
+msgid "Stereoscopic mode of video"
+msgstr "Stereoscopic mode of video"
+
+msgctxt "#36536"
+msgid "Stereoscopic mode inverted"
+msgstr "Stereoscopic mode inverted"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
@@ -12269,6 +12357,14 @@ msgctxt "#36921"
 msgid "songs"
 msgstr "skladby"
 
+msgctxt "#36547"
+msgid "Use higher quality textures for covers and fanart (uses more memory)"
+msgstr "Pre obaly a umeleckú grafiku použiť textúry vyššej kvality (potrebuje viac pamäte)"
+
+msgctxt "#36548"
+msgid "Limits resolution of GUI to save memory. Does not affect video playback. Use 1080 for unlimited. Requires restart."
+msgstr "Obmedzí rozlíšenie grafického rozhrania, aby sa ušetrila pamäť. Nemá vplyv na prehrávanie videa. Použite 1080 pre neobmedzené nastavenie. Vyžaduje sa reštart."
+
 msgctxt "#37000"
 msgid "(Visually Impaired)"
 msgstr "(Visually Impaired)"
@@ -12332,6 +12428,7 @@ msgstr "Želáte si zastaviť prehrávanie na ovládanom zariadení?"
 msgctxt "#37024"
 msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1, this allows multichannel audio such as AAC5.1 or FLAC5.1 to be listened to in 5.1 surround sound. Note - Not recommended on Pi as this requires a lot of CPU."
 msgstr "Vyberte túto možnosť v prípade, že výstup zvuku podporuje iba viackanálový zvuk vo formáte Dolby Digital 5.1, toto nastavenie umožní, aby bolo možné si vypočuť viackanálový zvuk ako napr. AAC5.1 alebo FLAC5.1 ako 5.1 priestorový zvuk. Poznámka - Neodporúča sa na Pi, keďže táto operácia veľmi zaťažuje procesor."
+<<<<<<< HEAD
 
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
@@ -12356,3 +12453,5 @@ msgstr "900"
 msgctxt "#37030"
 msgid "Unlimited"
 msgstr "Neobmedzené"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64

@@ -744,6 +744,7 @@ bool CPVRChannel::IsUserSetIcon(void) const
 
 bool CPVRChannel::IsIconExists() const
 {
+<<<<<<< HEAD
   return XFILE::CFile::Exists(IconPath());
 }
 
@@ -754,6 +755,12 @@ bool CPVRChannel::IsUserSetName() const
 }
 
 std::string CPVRChannel::ChannelName(void) const
+=======
+  return  CFile::Exists(IconPath());
+}
+
+CStdString CPVRChannel::ChannelName(void) const
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 {
   CSingleLock lock(m_critSection);
   return m_strChannelName;

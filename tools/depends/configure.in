@@ -130,6 +130,7 @@ case $host in
     cross_compiling="yes"
   ;;
   arm*-*-linux-gnu*|arm*-*-linux-uclibc*)
+<<<<<<< HEAD
     if test "$use_platform" = "auto"; then
       if test "x$use_cpu" = "xauto"; then
         use_cpu=$host_cpu
@@ -139,6 +140,10 @@ case $host in
       platform_ldflags="-Wl,-rpath-link=$prefix/$deps_dir/lib"
       platform_cxxflags="$platform_cflags"
       platform_os="linux"
+=======
+    if test "x$use_cpu" = "xauto"; then
+      use_cpu=$host_cpu
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     fi
   ;;
   *i686*-linux-gnu*|i*86*-*-linux-uclibc*)

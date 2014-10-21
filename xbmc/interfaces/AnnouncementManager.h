@@ -36,6 +36,7 @@ namespace ANNOUNCEMENT
 
     void Deinitialize();
 
+<<<<<<< HEAD
     void AddAnnouncer(IAnnouncer *listener);
     void RemoveAnnouncer(IAnnouncer *listener);
 
@@ -43,6 +44,16 @@ namespace ANNOUNCEMENT
     void Announce(AnnouncementFlag flag, const char *sender, const char *message, CVariant &data);
     void Announce(AnnouncementFlag flag, const char *sender, const char *message, CFileItemPtr item);
     void Announce(AnnouncementFlag flag, const char *sender, const char *message, CFileItemPtr item, CVariant &data);
+=======
+    static void Deinitialize();
+
+    static void AddAnnouncer(IAnnouncer *listener);
+    static void RemoveAnnouncer(IAnnouncer *listener);
+    static void Announce(AnnouncementFlag flag, const char *sender, const char *message);
+    static void Announce(AnnouncementFlag flag, const char *sender, const char *message, CVariant &data);
+    static void Announce(AnnouncementFlag flag, const char *sender, const char *message, CFileItemPtr item);
+    static void Announce(AnnouncementFlag flag, const char *sender, const char *message, CFileItemPtr item, CVariant &data);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   private:
     CAnnouncementManager();
     CAnnouncementManager(const CAnnouncementManager&);

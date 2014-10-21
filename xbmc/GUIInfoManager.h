@@ -505,6 +505,13 @@ namespace INFO
 #define CONTROL_GROUP_HAS_FOCUS     29999
 #define CONTROL_HAS_FOCUS           30000
 
+<<<<<<< HEAD
+=======
+#define VERSION_MAJOR               13
+#define VERSION_MINOR               2
+#define VERSION_TAG                 ""
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 #define LISTITEM_START              35000
 #define LISTITEM_THUMB              (LISTITEM_START)
 #define LISTITEM_LABEL              (LISTITEM_START + 1)

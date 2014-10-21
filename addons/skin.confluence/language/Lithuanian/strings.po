@@ -469,8 +469,13 @@ msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG
 msgstr "[B]KONFIGŪRUOTI TELEVIZIJOS NUSTATYMUS[/B][CR][CR]Pakeisti viso ekrano informaciją · Tvarkyti EPG duomenų nustatymus"
 
 msgctxt "#31410"
+<<<<<<< HEAD
 msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
 msgstr "[B]KONFIGŪRUOTI PASLAUGŲ NUSTATYMUS[/B][CR][CR]Nustatyti Kodi valdymą per UPnP ir HTTP · Konfigūruoti failų bendrinimą[CR]Įjungti Zeroconf · Konfigūruoti AirPlay"
+=======
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]KONFIGŪRUOTI PASLAUGŲ NUSTATYMUS[/B][CR][CR]Nustatyti XBMC valdymą per UPnP ir HTTP · Konfigūruoti failų bendrinimą[CR]Įjungti Zeroconf · Konfigūruoti AirPlay"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31411"
 msgid "First run help...."
@@ -489,8 +494,13 @@ msgid "Login"
 msgstr "Prisijungti"
 
 msgctxt "#31421"
+<<<<<<< HEAD
 msgid "Select your Kodi user Profile[CR]to login and continue"
 msgstr "Pasirinkite Kodi vartotojo profilį[CR]prisijungimui ir tęskite"
+=======
+msgid "Select your XBMC user Profile[CR]to login and continue"
+msgstr "Pasirinkite XBMC vartotojo profilį[CR]prisijungimui ir tęskite"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
@@ -577,8 +587,13 @@ msgid "PICTURES"
 msgstr "NUOTRAUKOS"
 
 msgctxt "#31952"
+<<<<<<< HEAD
 msgid "TV"
 msgstr "TV"
+=======
+msgid "LIVE TV"
+msgstr "TELEVIZIJA"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31953"
 msgid "VIDEOS"

@@ -898,8 +898,13 @@ msgid "Scripts output"
 msgstr "Izlazne skripte"
 
 msgctxt "#263"
+<<<<<<< HEAD
 msgid "Allow control of Kodi via HTTP"
 msgstr "Dozvoli kontrolu Kodi putem HTTP"
+=======
+msgid "Allow control of XBMC via HTTP"
+msgstr "Dozvoli kontrolu XBMC putem HTTP"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#264"
 msgid "Record"
@@ -6253,6 +6258,13 @@ msgctxt "#19178"
 msgid "Show channel information when switching channels"
 msgstr "Pokaži informacije o kanalu kada mjenjam kanale"
 
+<<<<<<< HEAD
+=======
+msgctxt "#19179"
+msgid "Automatically hide channel information"
+msgstr "Automatski sakrij informacije o kanalu"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19180"
 msgid "TV"
 msgstr "TV"
@@ -6265,6 +6277,7 @@ msgctxt "#19182"
 msgid "Days to display in the EPG"
 msgstr "Dani za prikaz u EPG"
 
+<<<<<<< HEAD
 msgctxt "#19183"
 msgid "Radio"
 msgstr "Radio"
@@ -6273,6 +6286,8 @@ msgctxt "#19190"
 msgid "Background"
 msgstr "Pozadina"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19204"
 msgid "New channel"
 msgstr "Novi kanal"

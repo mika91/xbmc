@@ -400,6 +400,143 @@ bool CVideoReferenceClock::SetupGLX()
   return true;
 }
 
+<<<<<<< HEAD
+=======
+bool CVideoReferenceClock::ParseNvSettings(int& RefreshRate)
+{
+  double fRefreshRate;
+  char   Buff[255];
+  int    buffpos;
+  int    ReturnV;
+  struct lconv *Locale = localeconv();
+  FILE*  NvSettings;
+  int    fd;
+  int64_t now;
+
+  const char* VendorPtr = (const char*)glGetString(GL_VENDOR);
+  if (!VendorPtr)
+  {
+    CLog::Log(LOGDEBUG, "CVideoReferenceClock: glGetString(GL_VENDOR) returned NULL, not using nvidia-settings");
+    return false;
+  }
+
+  CStdString Vendor = VendorPtr;
+  StringUtils::ToLower(Vendor);
+  if (Vendor.find("nvidia") == std::string::npos)
+  {
+    CLog::Log(LOGDEBUG, "CVideoReferenceClock: GL_VENDOR:%s, not using nvidia-settings", Vendor.c_str());
+    return false;
+  }
+
+  NvSettings = popen(NVSETTINGSCMD, "r");
+  if (!NvSettings)
+  {
+    CLog::Log(LOGDEBUG, "CVideoReferenceClock: %s: %s", NVSETTINGSCMD, strerror(errno));
+    return false;
+  }
+
+  fd = fileno(NvSettings);
+  if (fd == -1)
+  {
+    CLog::Log(LOGDEBUG, "CVideoReferenceClock: unable to get nvidia-settings file descriptor: %s", strerror(errno));
+    pclose(NvSettings);
+    return false;
+  }
+
+  now = CurrentHostCounter();
+  buffpos = 0;
+  while (CurrentHostCounter() - now < CurrentHostFrequency() * 5)
+  {
+    fd_set set;
+    FD_ZERO(&set);
+    FD_SET(fd, &set);
+    struct timeval timeout = {1, 0};
+    ReturnV = select(fd + 1, &set, NULL, NULL, &timeout);
+    if (ReturnV == -1)
+    {
+      CLog::Log(LOGDEBUG, "CVideoReferenceClock: select failed on %s: %s", NVSETTINGSCMD, strerror(errno));
+      pclose(NvSettings);
+      return false;
+    }
+    else if (FD_ISSET(fd, &set))
+    {
+      ReturnV = read(fd, Buff + buffpos, (int)sizeof(Buff) - buffpos);
+      if (ReturnV == -1)
+      {
+        CLog::Log(LOGDEBUG, "CVideoReferenceClock: read failed on %s: %s", NVSETTINGSCMD, strerror(errno));
+        pclose(NvSettings);
+        return false;
+      }
+      else if (ReturnV > 0)
+      {
+        buffpos += ReturnV;
+        if (buffpos >= (int)sizeof(Buff) - 1)
+          break;
+      }
+      else
+      {
+        break;
+      }
+    }
+  }
+
+  if (buffpos <= 0)
+  {
+    CLog::Log(LOGDEBUG, "CVideoReferenceClock: %s produced no output", NVSETTINGSCMD);
+    //calling pclose() here might hang
+    //what should be done instead is fork, call nvidia-settings
+    //then kill the process if it hangs
+    return false;
+  }
+  else if (buffpos > (int)sizeof(Buff) - 1)
+  {
+    buffpos = sizeof(Buff) - 1;
+  }
+  pclose(NvSettings);
+  Buff[buffpos] = 0;
+
+  CLog::Log(LOGDEBUG, "CVideoReferenceClock: output of %s: %s", NVSETTINGSCMD, Buff);
+
+  if (!strchr(Buff, '\n'))
+  {
+    CLog::Log(LOGDEBUG, "CVideoReferenceClock: %s incomplete output (no newline)", NVSETTINGSCMD);
+    return false;
+  }
+
+  for (int i = 0; i < buffpos; i++)
+  {
+      //workaround for locale mismatch
+    if (Buff[i] == '.' || Buff[i] == ',')
+      Buff[i] = *Locale->decimal_point;
+  }
+
+  ReturnV = sscanf(Buff, "%lf", &fRefreshRate);
+  if (ReturnV != 1 || fRefreshRate <= 0.0)
+  {
+    CLog::Log(LOGDEBUG, "CVideoReferenceClock: can't make sense of that");
+    return false;
+  }
+
+  RefreshRate = MathUtils::round_int(fRefreshRate);
+  CLog::Log(LOGDEBUG, "CVideoReferenceClock: Detected refreshrate by nvidia-settings: %f hertz, rounding to %i hertz",
+            fRefreshRate, RefreshRate);
+
+  return true;
+}
+
+int CVideoReferenceClock::GetRandRRate()
+{
+  int RefreshRate;
+  XRRScreenConfiguration *CurrInfo;
+
+  CurrInfo = XRRGetScreenInfo(m_Dpy, RootWindow(m_Dpy, m_vInfo->screen));
+  RefreshRate = XRRConfigCurrentRate(CurrInfo);
+  XRRFreeScreenConfigInfo(CurrInfo);
+
+  return RefreshRate;
+}
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 void CVideoReferenceClock::CleanupGLX()
 {
   CLog::Log(LOGDEBUG, "CVideoReferenceClock: Cleaning up GLX");

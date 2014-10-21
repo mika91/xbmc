@@ -500,6 +500,14 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Valitse se profiili, jota käytetään käynnistyksessä, kun kirjautumisruutu on poiskytketty."
 
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr "Näytä tai piilota kirjautumisruutu käynnistyksessä."
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr "Valitse se profiili, jota käytetään käynnistyksessä, kun kirjautumisruutu on poiskytketty."
+
 msgctxt "#31501"
 msgid "Scheduled Time"
 msgstr "Kellonaika"

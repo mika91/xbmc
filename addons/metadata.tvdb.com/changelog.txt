@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 v1.5.8
 - Added: retrieve number of votes in GetDetails/GetEpisodeDetails
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 v1.5.7
 - Fixed: append language to CreateSearchUrl cache file
 

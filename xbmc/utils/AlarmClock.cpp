@@ -90,7 +90,13 @@ void CAlarmClock::Stop(const std::string& strName, bool bSilent /* false */)
   if (iter == m_event.end())
     return;
 
+<<<<<<< HEAD
   std::string strAlarmClock;
+=======
+  SAlarmClockEvent& event = iter->second;
+
+  CStdString strAlarmClock;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   if (StringUtils::EqualsNoCase(strName, "shutdowntimer"))
     strAlarmClock = g_localizeStrings.Get(20144);
   else

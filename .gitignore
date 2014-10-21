@@ -537,6 +537,10 @@ lib/cpluff/stamp-h1
 /xbmc/cores/dvdplayer/DVDCodecs/Audio/Makefile
 /xbmc/cores/dvdplayer/DVDCodecs/Makefile
 /xbmc/cores/dvdplayer/DVDCodecs/Overlay/Makefile
+<<<<<<< HEAD
+=======
+/xbmc/cores/dvdplayer/DVDCodecs/Video/CrystalHD/Makefile
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 /xbmc/cores/dvdplayer/DVDCodecs/Video/libstagefrightICS/Makefile
 /xbmc/cores/dvdplayer/DVDCodecs/Video/Makefile
 /xbmc/cores/dvdplayer/DVDDemuxers/Makefile

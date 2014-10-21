@@ -371,6 +371,7 @@ CUPnPRenderer::SetupIcons()
     NPT_String file_root = CSpecialProtocol::TranslatePath("special://xbmc/media/").c_str();
     AddIcon(
         PLT_DeviceIcon("image/png", 256, 256, 8, "/icon256x256.png"),
+<<<<<<< HEAD
         file_root);
     AddIcon(
         PLT_DeviceIcon("image/png", 120, 120, 8, "/icon120x120.png"),
@@ -382,6 +383,19 @@ CUPnPRenderer::SetupIcons()
         PLT_DeviceIcon("image/png", 32, 32, 8, "/icon32x32.png"),
         file_root);
     AddIcon(
+=======
+        file_root);
+    AddIcon(
+        PLT_DeviceIcon("image/png", 120, 120, 8, "/icon120x120.png"),
+        file_root);
+    AddIcon(
+        PLT_DeviceIcon("image/png", 48, 48, 8, "/icon48x48.png"),
+        file_root);
+    AddIcon(
+        PLT_DeviceIcon("image/png", 32, 32, 8, "/icon32x32.png"),
+        file_root);
+    AddIcon(
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
         PLT_DeviceIcon("image/png", 16, 16, 8, "/icon16x16.png"),
         file_root);
     return NPT_SUCCESS;

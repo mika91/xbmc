@@ -126,7 +126,11 @@ std::vector<std::string> CPosixMountProvider::GetDiskUsage()
   return result;
 }
 
+<<<<<<< HEAD
 bool CPosixMountProvider::Eject(const std::string& mountpath)
+=======
+bool CPosixMountProvider::Eject(CStdString mountpath)
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 {
   // just go ahead and try to umount the disk
   // if it does umount, life is good, if not, no loss.

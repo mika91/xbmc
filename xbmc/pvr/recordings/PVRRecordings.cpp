@@ -102,7 +102,48 @@ bool CPVRRecordings::IsDirectoryMember(const std::string &strDirectory, const st
 
 void CPVRRecordings::GetSubDirectories(const std::string &strBase, CFileItemList *results)
 {
+<<<<<<< HEAD
   std::string strUseBase = TrimSlashes(strBase);
+=======
+  for (unsigned int iRecordingPtr = 0; iRecordingPtr < m_recordings.size(); iRecordingPtr++)
+  {
+    CPVRRecording *current = m_recordings.at(iRecordingPtr);
+    bool directMember = !HasAllRecordingsPathExtension(strDirectory);
+    if (!IsDirectoryMember(RemoveAllRecordingsPathExtension(strDirectory), current->m_strDirectory, directMember))
+      continue;
+
+    current->UpdateMetadata();
+    CFileItemPtr pFileItem(new CFileItem(*current));
+    pFileItem->SetLabel2(current->RecordingTimeAsLocalTime().GetAsLocalizedDateTime(true, false));
+    pFileItem->m_dateTime = current->RecordingTimeAsLocalTime();
+    pFileItem->SetPath(current->m_strFileNameAndPath);
+
+    // Set art
+    if (!current->m_strIconPath.empty())
+    {
+      pFileItem->SetIconImage(current->m_strIconPath);
+      pFileItem->SetArt("icon", current->m_strIconPath);
+    }
+
+    if (!current->m_strThumbnailPath.empty())
+      pFileItem->SetArt("thumb", current->m_strThumbnailPath);
+
+    if (!current->m_strFanartPath.empty())
+      pFileItem->SetArt("fanart", current->m_strFanartPath);
+    
+    // Use the channel icon as a fallback when a thumbnail is not available
+    pFileItem->SetArtFallback("thumb", "icon");
+
+    pFileItem->SetOverlayImage(CGUIListItem::ICON_OVERLAY_UNWATCHED, pFileItem->GetPVRRecordingInfoTag()->m_playCount > 0);
+
+    results->Add(pFileItem);
+  }
+}
+
+void CPVRRecordings::GetSubDirectories(const CStdString &strBase, CFileItemList *results)
+{
+  CStdString strUseBase = TrimSlashes(strBase);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   std::set<std::string> unwatchedFolders;
 
@@ -155,6 +196,84 @@ void CPVRRecordings::GetSubDirectories(const std::string &strBase, CFileItemList
       }
     }
   }
+<<<<<<< HEAD
+=======
+
+  int subDirectories = results->Size();
+  CFileItemList files;
+  GetContents(strBase, &files);
+
+  if (results->Size() == 1 && files.Size() == 0)
+  {
+    CStdString strGetPath = StringUtils::Format("%s/%s/", strUseBase.c_str(), results->Get(0)->GetLabel().c_str());
+
+    results->Clear();
+
+    CLog::Log(LOGDEBUG, "CPVRRecordings - %s - '%s' only has 1 subdirectory, selecting that directory ('%s')",
+        __FUNCTION__, strUseBase.c_str(), strGetPath.c_str());
+    GetSubDirectories(strGetPath, results);
+    return;
+  }
+
+  results->Append(files);
+
+  // Add 'All Recordings' item (if we have at least one subdirectory in the list)
+  if (subDirectories > 0)
+  {
+    CStdString strLabel(g_localizeStrings.Get(19270)); // "* All recordings"
+    CFileItemPtr pItem(new CFileItem(strLabel));
+    CStdString strAllPath;
+    if(strUseBase.empty())
+      strAllPath = "pvr://recordings";
+    else
+      strAllPath = StringUtils::Format("pvr://recordings/%s", strUseBase.c_str());
+    pItem->SetPath(AddAllRecordingsPathExtension(strAllPath));
+    pItem->SetSpecialSort(SortSpecialOnTop);
+    pItem->SetLabelPreformated(true);
+    pItem->m_bIsFolder = true;
+    pItem->m_bIsShareOrDrive = false;
+    for(int i=0; i<results->Size(); ++i)
+    {
+      if(pItem->m_dateTime < results->Get(i)->m_dateTime)
+        pItem->m_dateTime = results->Get(i)->m_dateTime;
+    }
+    results->AddFront(pItem, 0);
+  }
+}
+
+bool CPVRRecordings::HasAllRecordingsPathExtension(const CStdString &strDirectory)
+{
+  CStdString strUseDir = TrimSlashes(strDirectory);
+  CStdString strAllRecordingsPathExtension(PVR_ALL_RECORDINGS_PATH_EXTENSION);
+
+  if (strUseDir.size() < strAllRecordingsPathExtension.size())
+    return false;
+
+  if (strUseDir.size() == strAllRecordingsPathExtension.size())
+    return strUseDir.Equals(strAllRecordingsPathExtension);
+
+  return StringUtils::EndsWith(strUseDir, "/" + strAllRecordingsPathExtension);
+}
+
+CStdString CPVRRecordings::AddAllRecordingsPathExtension(const CStdString &strDirectory)
+{
+  if (HasAllRecordingsPathExtension(strDirectory))
+    return strDirectory;
+
+  CStdString strResult = strDirectory;
+  if (!StringUtils::EndsWith(strDirectory, "/"))
+    strResult = strResult + "/";
+
+  return strResult + PVR_ALL_RECORDINGS_PATH_EXTENSION + "/";
+}
+
+CStdString CPVRRecordings::RemoveAllRecordingsPathExtension(const CStdString &strDirectory)
+{
+  if (!HasAllRecordingsPathExtension(strDirectory))
+    return strDirectory;
+
+  return strDirectory.substr(0, strDirectory.size() - strlen(PVR_ALL_RECORDINGS_PATH_EXTENSION) - 1);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 }
 
 int CPVRRecordings::Load(void)

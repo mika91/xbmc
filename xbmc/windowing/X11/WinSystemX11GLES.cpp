@@ -40,8 +40,97 @@ CWinSystemX11GLES::~CWinSystemX11GLES()
 
 bool CWinSystemX11GLES::PresentRenderImpl(const CDirtyRegionList& dirty)
 {
+<<<<<<< HEAD
   if ((m_eglDisplay == EGL_NO_DISPLAY) || (m_eglSurface == EGL_NO_SURFACE))
     return false;
+=======
+  if(!SetFullScreen(fullScreen, res, false))
+	return false;
+
+  CTexture iconTexture;
+  iconTexture.LoadFromFile("special://xbmc/media/icon256x256.png");
+
+  SDL_WM_SetIcon(SDL_CreateRGBSurfaceFrom(iconTexture.GetPixels(), iconTexture.GetWidth(), iconTexture.GetHeight(), BPP, iconTexture.GetPitch(), 0xff0000, 0x00ff00, 0x0000ff, 0xff000000L), NULL);
+  SDL_WM_SetCaption("XBMC Media Center", NULL);
+
+  m_bWindowCreated = true;
+
+  m_eglext  = " ";
+  m_eglext += eglQueryString(m_eglDisplay, EGL_EXTENSIONS);
+  m_eglext += " ";
+
+  CLog::Log(LOGDEBUG, "EGL_EXTENSIONS:%s", m_eglext.c_str());
+
+  return true;
+}
+
+bool CWinSystemX11GLES::DestroyWindow()
+{
+  return true;
+}
+
+bool CWinSystemX11GLES::ResizeWindow(int newWidth, int newHeight, int newLeft, int newTop)
+{
+  if (m_nWidth != newWidth || m_nHeight != newHeight)
+  {
+    m_nWidth  = newWidth;
+    m_nHeight = newHeight;
+
+#if (HAS_GLES == 2)
+    int options = 0;
+#else
+    int options = SDL_OPENGL;
+#endif
+    if (m_bFullScreen)
+      options |= SDL_FULLSCREEN;
+    else
+      options |= SDL_RESIZABLE;
+
+    if ((m_SDLSurface = SDL_SetVideoMode(m_nWidth, m_nHeight, 0, options)))
+    {
+      RefreshEGLContext();
+    }
+  }
+
+  CRenderSystemGLES::ResetRenderSystem(newWidth, newHeight, false, 0);
+
+  return true;
+}
+
+bool CWinSystemX11GLES::SetFullScreen(bool fullScreen, RESOLUTION_INFO& res, bool blankOtherDisplays)
+{
+  m_nWidth      = res.iWidth;
+  m_nHeight     = res.iHeight;
+  m_bFullScreen = fullScreen;
+
+#if defined(HAS_XRANDR)
+
+  if(m_bFullScreen)
+  {
+	XOutput out;
+	XMode mode;
+	out.name = res.strOutput;
+	mode.w   = res.iWidth;
+	mode.h   = res.iHeight;
+	mode.hz  = res.fRefreshRate;
+	mode.id  = res.strId;
+	g_xrandr.SetMode(out, mode);
+  }
+  else
+	g_xrandr.RestoreState();
+
+#endif
+
+#if (HAS_GLES == 2)
+    int options = 0;
+#else
+    int options = SDL_OPENGL;
+#endif
+  if (m_bFullScreen)
+    options |= SDL_FULLSCREEN;
+  else
+    options |= SDL_RESIZABLE;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   eglSwapBuffers(m_eglDisplay, m_eglSurface);
 

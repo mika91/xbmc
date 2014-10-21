@@ -199,7 +199,11 @@ bool CDarwinUtils::IsMavericks(void)
   return isMavericks == 1;
 }
 
+<<<<<<< HEAD
 bool CDarwinUtils::IsSnowLeopard(void)
+=======
+bool DarwinIsSnowLeopard(void)
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 {
   static int isSnowLeopard = -1;
 #if defined(TARGET_DARWIN_OSX)
@@ -212,7 +216,11 @@ bool CDarwinUtils::IsSnowLeopard(void)
   return isSnowLeopard == 1;
 }
 
+<<<<<<< HEAD
 bool CDarwinUtils::DeviceHasRetina(void)
+=======
+bool DarwinHasRetina(void)
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 {
   static enum iosPlatform platform = iDeviceUnknown;
 
@@ -326,7 +334,11 @@ int  CDarwinUtils::GetFrameworkPath(bool forPython, char* path, uint32_t *pathsi
     return 0;
   }
 
+<<<<<<< HEAD
   // d) Kodi application running under OSX
+=======
+  // d) XBMC application running under OSX
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   pathname = [[NSBundle mainBundle] executablePath];
   if (pathname && strstr([pathname UTF8String], "Contents"))
   {

@@ -140,6 +140,7 @@ void CMouseStat::HandleEvent(XBMC_Event& newEvent)
   }
 
   // Now work out what action ID to send to XBMC.
+<<<<<<< HEAD
 
   // ignore any mouse messages by default
   m_Key = KEY_MOUSE_NOOP;
@@ -177,6 +178,39 @@ void CMouseStat::HandleEvent(XBMC_Event& newEvent)
     else if (newEvent.type == XBMC_MOUSEMOTION && (m_mouseState.dx || m_mouseState.dy))
       m_Key = KEY_MOUSE_MOVE;
   }
+=======
+  // The bClick array is set true if CButtonState::Update spots a click
+  // i.e. a button down followed by a button up.
+  if (bClick[MOUSE_LEFT_BUTTON])
+    m_Action = ACTION_MOUSE_LEFT_CLICK;
+  else if (bClick[MOUSE_RIGHT_BUTTON])
+    m_Action = ACTION_MOUSE_RIGHT_CLICK;
+  else if (bClick[MOUSE_MIDDLE_BUTTON])
+    m_Action = ACTION_MOUSE_MIDDLE_CLICK;
+
+  // The bDoubleClick array is set true if CButtonState::Update spots a
+  // button down within double_click_time (500ms) of the last click
+  else if (bDoubleClick[MOUSE_LEFT_BUTTON])
+    m_Action = ACTION_MOUSE_DOUBLE_CLICK;
+
+  // The bHold array is set true if CButtonState::Update spots a mouse drag
+  else if (bHold[MOUSE_LEFT_BUTTON])
+    m_Action = ACTION_MOUSE_DRAG;
+
+  // dz is +1 on wheel up and -1 on wheel down
+  else if (m_mouseState.dz > 0)
+    m_Action = ACTION_MOUSE_WHEEL_UP;
+  else if (m_mouseState.dz < 0)
+    m_Action = ACTION_MOUSE_WHEEL_DOWN;
+
+  // Check for a mouse move that isn't a drag, ignoring messages with no movement at all
+  else if (newEvent.type == XBMC_MOUSEMOTION && (m_mouseState.dx || m_mouseState.dy))
+    m_Action = ACTION_MOUSE_MOVE;
+
+  // ignore any other mouse messages
+  else
+    m_Action = ACTION_NOOP;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   // activate the mouse pointer if we have an action or the mouse has moved far enough
   if ((MovedPastThreshold() && m_Key == KEY_MOUSE_MOVE) ||

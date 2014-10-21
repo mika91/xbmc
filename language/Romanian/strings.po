@@ -1229,10 +1229,13 @@ msgctxt "#345"
 msgid "Year"
 msgstr "An"
 
+<<<<<<< HEAD
 msgctxt "#346"
 msgid "Normalize levels on downmix"
 msgstr "Normalizarea nivelului la mixaj audio"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#347"
 msgid "DTS-HD capable receiver"
 msgstr "Receptor capabil DTS-HD"
@@ -3501,10 +3504,13 @@ msgctxt "#10035"
 msgid "Reset"
 msgstr "Resetare"
 
+<<<<<<< HEAD
 msgctxt "#10036"
 msgid "Basic"
 msgstr "De bază"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#10037"
 msgid "Standard"
 msgstr "Standard"
@@ -3513,6 +3519,7 @@ msgctxt "#10038"
 msgid "Advanced"
 msgstr "Avansat"
 
+<<<<<<< HEAD
 msgctxt "#10039"
 msgid "Expert"
 msgstr "Expert"
@@ -3521,6 +3528,8 @@ msgctxt "#10041"
 msgid "Reset above settings to default"
 msgstr "Resetați setările de mai sus la valorile implicite"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#10042"
 msgid "Are you sure you want to reset the settings in this category?"
 msgstr "Sigur doriți să resetați setările acestei categorii?"
@@ -3533,10 +3542,13 @@ msgctxt "#10044"
 msgid "No help available"
 msgstr "Ajutor indisponibil"
 
+<<<<<<< HEAD
 msgctxt "#10045"
 msgid "Resets all the visible settings to their default values."
 msgstr "Resetează toate setările vizibile la valorile implicite."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#10126"
 msgid "File browser"
 msgstr "Navigator fișiere"
@@ -6169,10 +6181,13 @@ msgctxt "#19118"
 msgid "Cannot use PVR functions while searching."
 msgstr "Nu se pot folosi funcţii PVR în timpul căutarii"
 
+<<<<<<< HEAD
 msgctxt "#19119"
 msgid "On which server do you want to search?"
 msgstr "Pe ce server vrei să căutați?"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19120"
 msgid "Client number"
 msgstr "Număr client"

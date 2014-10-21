@@ -47,7 +47,11 @@ namespace XBMCAddon
      * \n
      * Text is written to the log for the following conditions.\n
      *           XBMC loglevel == -1 (NONE, nothing at all is logged)\n
+<<<<<<< HEAD
      *           XBMC loglevel == 0 (NORMAL, shows LOGNOTICE, LOGERROR, LOGSEVERE and LOGFATAL)\n
+=======
+     *           XBMC loglevel == 0 (NORMAL, shows LOGNOTICE, LOGERROR, LOGSEVERE and LOGFATAL)     
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
      *           XBMC loglevel == 1 (DEBUG, shows all)\n
      *           See pydocs for valid values for level.\n
      *           
@@ -217,7 +221,11 @@ namespace XBMCAddon
     /**
      * playSFX(filename,[useCached]) -- Plays a wav file by filename
      * 
+<<<<<<< HEAD
      * filename       : string - filename of the wav file to play.\n
+=======
+     * filename       : string - filename of the wav file to play.
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
      * useCached      : [opt] bool - False = Dump any previously cached wav associated with filename
      * 
      * example:

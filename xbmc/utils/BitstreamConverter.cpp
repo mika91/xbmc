@@ -414,7 +414,11 @@ bool CBitstreamConverter::Convert(uint8_t *pData, int iSize)
 {
   if (m_convertBuffer)
   {  
+<<<<<<< HEAD
     av_free(m_convertBuffer);
+=======
+    m_dllAvUtil->av_free(m_convertBuffer);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     m_convertBuffer = NULL;
   }
   m_inputSize = 0;

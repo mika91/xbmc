@@ -58,7 +58,13 @@ ICodec* CodecFactory::CreateCodec(const std::string& strFileType)
     return new DVDPlayerCodec();
   else if (fileType == "flac")
     return new DVDPlayerCodec();
+<<<<<<< HEAD
   else if (fileType == "wav")
+=======
+  else if (strFileType.Equals("flac"))
+    return new DVDPlayerCodec();
+  else if (strFileType.Equals("wav"))
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     return new DVDPlayerCodec();
   else if (fileType == "dts" || fileType == "ac3" ||
            fileType == "m4a" || fileType == "aac" ||
@@ -99,6 +105,11 @@ ICodec* CodecFactory::CreateCodec(const std::string& strFileType)
     return new DVDPlayerCodec();
   else if (fileType == "xwav")
     return new DVDPlayerCodec();
+<<<<<<< HEAD
+=======
+  else if (strFileType.Equals("xwav"))
+    return new DVDPlayerCodec();
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   else if (TimidityCodec::IsSupportedFormat(strFileType))
     return new TimidityCodec();
 #ifdef HAS_ASAP_CODEC
@@ -162,6 +173,15 @@ ICodec* CodecFactory::CreateCodecDemux(const std::string& strFile, const std::st
     dvdcodec->SetContentType(content);
     return dvdcodec;
   }
+<<<<<<< HEAD
+=======
+  else if (strContent.Equals("audio/flac") || strContent.Equals("audio/x-flac") || strContent.Equals("application/x-flac"))
+  {
+    DVDPlayerCodec *dvdcodec = new DVDPlayerCodec();
+    dvdcodec->SetContentType(strContent);
+    return dvdcodec;
+  }
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   if (urlFile.IsProtocol("shout"))
   {
@@ -186,7 +206,11 @@ ICodec* CodecFactory::CreateCodecDemux(const std::string& strFile, const std::st
     }
 
     dvdcodec = new DVDPlayerCodec();
+<<<<<<< HEAD
     dvdcodec->SetContentType(content);
+=======
+    dvdcodec->SetContentType(strContent);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     return dvdcodec;
 
   }

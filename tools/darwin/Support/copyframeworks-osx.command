@@ -53,16 +53,24 @@ EXTERNAL_LIBS=$XBMC_DEPENDS
 TARGET_NAME=$PRODUCT_NAME
 TARGET_CONTENTS=$TARGET_BUILD_DIR/$TARGET_NAME/Contents
 
+<<<<<<< HEAD
 TARGET_BINARY=$TARGET_CONTENTS/MacOS/$APP_NAME
 TARGET_FRAMEWORKS=$TARGET_CONTENTS/Libraries
 DYLIB_NAMEPATH=@executable_path/../Libraries
 XBMC_HOME=$TARGET_CONTENTS/Resources/$APP_NAME
+=======
+TARGET_BINARY=$TARGET_CONTENTS/MacOS/XBMC
+TARGET_FRAMEWORKS=$TARGET_CONTENTS/Libraries
+DYLIB_NAMEPATH=@executable_path/../Libraries
+XBMC_HOME=$TARGET_CONTENTS/Resources/XBMC
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 mkdir -p "$TARGET_CONTENTS/MacOS"
 mkdir -p "$TARGET_CONTENTS/Resources"
 # start clean so we don't keep old dylibs
 rm -rf "$TARGET_CONTENTS/Libraries"
 mkdir -p "$TARGET_CONTENTS/Libraries"
+<<<<<<< HEAD
 
 echo "Package $TARGET_BUILD_DIR/$APP_NAME"
 cp -f "$TARGET_BUILD_DIR/$APP_NAME" "$TARGET_BINARY"
@@ -70,6 +78,15 @@ cp -f "$TARGET_BUILD_DIR/$APP_NAME" "$TARGET_BINARY"
 echo "Creating icon"
 iconutil -c icns --output "$TARGET_CONTENTS/Resources/kodi.icns" "$SRCROOT/tools/darwin/packaging/media/osx/icon.iconset"
 
+=======
+
+echo "Package $TARGET_BUILD_DIR/XBMC"
+cp -f "$TARGET_BUILD_DIR/XBMC" "$TARGET_BINARY"
+
+echo "Creating icon"
+iconutil -c icns --output "$TARGET_CONTENTS/Resources/xbmc.icns" "$SRCROOT/tools/darwin/packaging/media/osx/icon.iconset"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 cp -f "$SRCROOT/xbmc/osx/Info.plist" "$TARGET_CONTENTS/"
 
 # Copy all of XBMC's dylib dependencies and rename their locations to inside the Framework

@@ -1089,10 +1089,13 @@ msgctxt "#309"
 msgid "User interface language"
 msgstr "ユーザーインターフェースの言語"
 
+<<<<<<< HEAD
 msgctxt "#310"
 msgid "Keyboard layouts"
 msgstr "キーボードレイアウト"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#312"
 msgid "(0=auto)"
 msgstr "(0=自動)"
@@ -2428,6 +2431,10 @@ msgstr "JSON-RPC リクエストの詳細なログ"
 msgctxt "#676"
 msgid "Verbose logging for AUDIO component"
 msgstr "オーディオコンポーネントの詳細なログ"
+
+msgctxt "#667"
+msgid "Enable Dolby Digital transcoding"
+msgstr "Dolby デジタル変換を有効に"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -4254,8 +4261,13 @@ msgid "Active connections detected!"
 msgstr "アクディブな接続が検出されました!"
 
 msgctxt "#13141"
+<<<<<<< HEAD
 msgid "If you proceed, you might not be able to control Kodi"
 msgstr "このまま続けると、Kodiのコントロールが不可能に"
+=======
+msgid "If you proceed, you might not be able to control XBMC"
+msgstr "このまま続けると、XBMCのコントロールが不可能に"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13142"
 msgid "any longer. Are you sure you want to stop the Event server?"
@@ -4267,10 +4279,17 @@ msgstr "Apple Remote モードを変更しますか?"
 
 msgctxt "#13145"
 msgid "If you are currently using the Apple Remote to control"
+<<<<<<< HEAD
 msgstr "現在 Apple Remote を使って Kodi を"
 
 msgctxt "#13146"
 msgid "Kodi, changing this setting might affect your ability"
+=======
+msgstr "現在 Apple Remote を使って XBMC を"
+
+msgctxt "#13146"
+msgid "XBMC, changing this setting might affect your ability"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgstr "操作中の場合、本設定の変更により操作できなくなる"
 
 msgctxt "#13147"
@@ -4494,8 +4513,13 @@ msgid "Do you wish to reboot your system"
 msgstr "システム全体を再起動しますか?"
 
 msgctxt "#13309"
+<<<<<<< HEAD
 msgid "instead of just Kodi?"
 msgstr "（Kodi の再起動ではありません）"
+=======
+msgid "instead of just XBMC?"
+msgstr "（XBMC の再起動ではありません）"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13310"
 msgid "Zoom effect"
@@ -4945,10 +4969,40 @@ msgctxt "#13440"
 msgid "Allow multi threaded software decoding"
 msgstr "マルチスレッドのソフトウェアデコードを許可"
 
+<<<<<<< HEAD
+=======
+msgctxt "#13441"
+msgid "Use Mpeg-2 VDPAU"
+msgstr "MPEG-2 VDPAU を使用"
+
+msgctxt "#13442"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
+msgstr "MPEG-(1/2) コーデック用ハードウェアアクセラレーションを使用するにはこのオプションを有効にします。無効にした場合は CPU が使われます。古い Radeon カードの場合、これを有効にするとセグフォする傾向にあります。"
+
+msgctxt "#13443"
+msgid "Use Mpeg-4 VDPAU"
+msgstr "MPEG-4 VDPAU を使用"
+
+msgctxt "#13444"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
+msgstr "MPEG-4 コーデック用ハードウェアアクセラレーションを使用するにはこのオプションを有効にします。無効にした場合には CPU が使われます。一部の ION ハードウェアでは、この設定を有効にしていると問題が起こる場合があります。"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
 msgstr "VC-1 VDPAU を使用"
 
+<<<<<<< HEAD
+=======
+msgctxt "#13447"
+msgid "Use Mpeg-2 VAAPI"
+msgstr "MPEG-2 VAAPI を使用"
+
+msgctxt "#13449"
+msgid "Use Mpeg-4 VAAPI"
+msgstr "MPEG-4 VAAPI を使用"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13454"
 msgid "Decoding method"
 msgstr "デコード方法"
@@ -5873,10 +5927,13 @@ msgctxt "#16325"
 msgid "VDPAU - Bob"
 msgstr "VDPAU - Bob"
 
+<<<<<<< HEAD
 msgctxt "#16326"
 msgid "DXVA-HD"
 msgstr "DXVA-HD"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#16400"
 msgid "Post-processing"
 msgstr "後処理"
@@ -6892,6 +6949,10 @@ msgstr "'情報なし'ラベルを表示しない"
 msgctxt "#19269"
 msgid "Do not show 'connection lost' warnings"
 msgstr "'接続が失われました'警告を表示しない"
+
+msgctxt "#19271"
+msgid "No PVR Add-ons could be found"
+msgstr "PVR アドオンが見つかりませんでした"
 
 msgctxt "#19271"
 msgid "No PVR Add-ons could be found"
@@ -10633,6 +10694,13 @@ msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "このデバイスがあるときはジョイスティックを無効にする"
 
+<<<<<<< HEAD
+=======
+msgctxt "#35103"
+msgid "Enable system keys in fullscreen"
+msgstr "フルスクリーンでシステムキーを有効に"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#35500"
 msgid "Location"
 msgstr "Location"
@@ -10814,8 +10882,13 @@ msgid "Category containing all Skin related settings."
 msgstr "スキン関連を設定するカテゴリーです。"
 
 msgctxt "#36103"
+<<<<<<< HEAD
 msgid "Select the skin for the user interface. This will define the look and feel of Kodi."
 msgstr "ユーザーインターフェースのスキンを選択しまう。これが Kodi の見た目と使い勝手を決定します。"
+=======
+msgid "Select the skin for the user interface. This will define the look and feel of XBMC."
+msgstr "ユーザーインターフェースのスキンを選択しまう。これが XBMC の見た目と使い勝手を決定します。"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36104"
 msgid "Change specific skin settings. The available options are dependent on the skin used."
@@ -10834,8 +10907,13 @@ msgid "Choose the fonts displayed in the user interface. The font sets are confi
 msgstr "ユーザーインターフェースで表示されるフォントを選択します。フォントセットはスキンによって設定されます。"
 
 msgctxt "#36109"
+<<<<<<< HEAD
 msgid "Select the media window that Kodi displays on startup."
 msgstr "Kodi 起動時に表示するメディアウィンドウを選択します。"
+=======
+msgid "Select the media window that XBMC displays on startup."
+msgstr "XBMC 起動時に表示するメディアウィンドウを選択します。"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36110"
 msgid "Select or disable the sound scheme used in the user interface."
@@ -10918,8 +10996,13 @@ msgid "Set the amount of idle time required before displaying the screensaver."
 msgstr "スクリーンセーバー表示開始までのアイドル時間を設定します。"
 
 msgctxt "#36130"
+<<<<<<< HEAD
 msgid "Select the screensaver. Kodi will force the 'Dim' screensaver when fullscreen video playback is paused or a dialogue box is active."
 msgstr "スクリーンセーバーを選択します。フルスクリーンビデオ再生が一時停止されている場合やダイアログボックスが表示されている場合は、Kodi は 'Dim' スクリーンセーバーを強制的に使用します。"
+=======
+msgid "Select the screensaver. XBMC will force the 'Dim' screensaver when fullscreen video playback is paused or a dialogue box is active."
+msgstr "スクリーンセーバーを選択します。フルスクリーンビデオ再生が一時停止されている場合やダイアログボックスが表示されている場合は、XBMC は 'Dim' スクリーンセーバーを強制的に使用します。"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36131"
 msgid "Change specific screensaver settings. The available options are dependent on the screensaver used."
@@ -11102,8 +11185,13 @@ msgid "Category for general settings for PVR/Live TV features."
 msgstr "PVR / ライブ TV 機能の一般設定のカテゴリー"
 
 msgctxt "#36203"
+<<<<<<< HEAD
 msgid "Enable the Personal Video Recorder (PVR) features in Kodi. This requires that at least one PVR Add-on is installed."
 msgstr "Kodi のパーソナルビデオレコーダー (PVR) 機能を有効にします。これを有効にするには、少なくとも1つ以上の PVR アドオンがインストールされている必要があります。"
+=======
+msgid "Enable the Personal Video Recorder (PVR) features in XBMC. This requires that at least one PVR Add-on is installed."
+msgstr "XBMC のパーソナルビデオレコーダー (PVR) 機能を有効にします。これを有効にするには、少なくとも1つ以上の PVR アドオンがインストールされている必要があります。"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36216"
 msgid "Folder where channel icons are stored."
@@ -11116,6 +11204,13 @@ msgstr "アイコンがないチャンネルをスキャンします。"
 msgctxt "#36218"
 msgid "Category for electronic programming guide settings."
 msgstr "EPG 設定のカテゴリーです。"
+<<<<<<< HEAD
+=======
+
+msgctxt "#36219"
+msgid "Default electronic programming guide window to show."
+msgstr "デフォルトで表示する EPG ウィンドウ。"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36222"
 msgid "Do not import EPG data while playing TV to minimise CPU usage."
@@ -11138,8 +11233,13 @@ msgid "Category for parental control settings if the PVR backend server supports
 msgstr "PVR バックエンドがペアレンタルコントロールをサポートしている場合の設定のカテゴリーです。"
 
 msgctxt "#36251"
+<<<<<<< HEAD
 msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "PVR バックエンドが Kodi からの設定変更をサポートしている場合の設定のカテゴリーです。"
+=======
+msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "PVR バックエンドが XBMC からの設定変更をサポートしている場合の設定のカテゴリーです。"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36254"
 msgid "Enable the music library."
@@ -11150,8 +11250,13 @@ msgid "Select the default album information source."
 msgstr "デフォルトのアルバム情報ソースを選択します。"
 
 msgctxt "#36259"
+<<<<<<< HEAD
 msgid "Check for new and removed media files on Kodi startup."
 msgstr "Kodi 起動時に、追加・削除されたメディアファイルがないかチェックします。"
+=======
+msgid "Check for new and removed media files on XBMC startup."
+msgstr "XBMC 起動時に、追加・削除されたメディアファイルがないかチェックします。"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36260"
 msgid "No info available yet."
@@ -11166,8 +11271,13 @@ msgid "Category containing settings for how music playback is handled."
 msgstr "ミュージック再生に関する設定のカテゴリーです。"
 
 msgctxt "#36267"
+<<<<<<< HEAD
 msgid "Kodi will read the ReplayGain information encoded in your audio files by a program such as MP3Gain and normalise the sound levels accordingly."
 msgstr "Kodi は、オーディオファイルに記録された ReplayGain 情報を、MP3Gain などのプログラムを使って読み取り、音量を適切に調整します。"
+=======
+msgid "XBMC will read the ReplayGain information encoded in your audio files by a program such as MP3Gain and normalise the sound levels accordingly."
+msgstr "XBMC は、オーディオファイルに記録された ReplayGain 情報を、MP3Gain などのプログラムを使って読み取り、音量を適切に調整します。"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36268"
 msgid "Default is 89dB per standard. Change with caution."
@@ -11289,6 +11399,17 @@ msgctxt "#36329"
 msgid "Define the webserver port."
 msgstr "ウェブサーバーのポート番号を定義"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36330"
+msgid "Define the webserver username."
+msgstr "ウェブサーバーのユーザ名を定義"
+
+msgctxt "#36331"
+msgid "Define the webserver password."
+msgstr "Web サーバーのパスワードを指定します。"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the Add-on Manager."
 msgstr "アドオンマネージャによりインストールしたウェブインタフェースの中から選択"
@@ -11310,8 +11431,13 @@ msgid "Define the maximum number of clients that can connect."
 msgstr "接続可能な最大クライアント数を指定します。"
 
 msgctxt "#36338"
+<<<<<<< HEAD
 msgid "Allow programs on the network to control Kodi."
 msgstr "ネットワーク上のプログラムから Kodi のコントロールを許可します。"
+=======
+msgid "Allow programs on the network to control XBMC."
+msgstr "ネットワーク上のプログラムから XBMC のコントロールを許可します。"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36341"
 msgid "Category containing settings for how the zeroconf network discovery service is handled, required for AirPlay."
@@ -11330,12 +11456,21 @@ msgid "Category containing settings for how the SMB Client (samba) service is ha
 msgstr "SMB クライアント (samba) サービスに関する設定のカテゴリーです。"
 
 msgctxt "#36351"
+<<<<<<< HEAD
 msgid "Display Kodi in a window, or fullscreen on the selected screen."
 msgstr "Kodi 表示をウィンドウにするか、指定したスクリーンにフルスクリーン表示するかを選びます。"
 
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens where Kodi is not displayed are blacked out."
 msgstr "マルチスクリーンの環境で、Kodi が表示されていないスクリーンをブラックアウトさせます。"
+=======
+msgid "Display XBMC in a window, or fullscreen on the selected screen."
+msgstr "XBMC 表示をウィンドウにするか、指定したスクリーンにフルスクリーン表示するかを選びます。"
+
+msgctxt "#36355"
+msgid "In a multi-screen configuration, the screens where XBMC is not displayed are blacked out."
+msgstr "マルチスクリーンの環境で、XBMC が表示されていないスクリーンをブラックアウトさせます。"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36356"
 msgid "Eliminate vertical tearing."
@@ -11370,8 +11505,13 @@ msgid "Category containing settings for how input devices are handled."
 msgstr "入力デバイス設定のカテゴリーです。"
 
 msgctxt "#36378"
+<<<<<<< HEAD
 msgid "Use a joystick to control Kodi."
 msgstr "Kodi の操作にジョイスティックを使用"
+=======
+msgid "Use a joystick to control XBMC."
+msgstr "XBMC の操作にジョイスティックを使用"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36379"
 msgid "Category containing settings for internet access."
@@ -11486,8 +11626,13 @@ msgid "Specify the type of remote used."
 msgstr "リモートの種類を指定します。"
 
 msgctxt "#36417"
+<<<<<<< HEAD
 msgid "Always run an Kodi helper so that the remote can be used to start Kodi."
 msgstr "常に Kodi ヘルパーを起動しておき、リモートから Kodi を起動できるようにします。"
+=======
+msgid "Always run an XBMC helper so that the remote can be used to start XBMC."
+msgstr "常に XBMC ヘルパーを起動しておき、リモートから XBMC を起動できるようにします。"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36419"
 msgid "Define locations used for retrieving weather information."
@@ -11517,9 +11662,19 @@ msgctxt "#36428"
 msgid "Record"
 msgstr "録音"
 
+<<<<<<< HEAD
 msgctxt "#36502"
 msgid "Disabled"
 msgstr "無効"
+=======
+msgctxt "#36520"
+msgid "Playback mode of stereoscopic videos."
+msgstr "立体映像の再生モード。"
+
+msgctxt "#36522"
+msgid "Use preferred mode"
+msgstr "お好みのモードをご使用"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36524"
 msgid "Preferred mode"
@@ -11529,10 +11684,24 @@ msgctxt "#36525"
 msgid "Same as movie (autodetect)"
 msgstr "ムービーと同じ(自動検出)"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36530"
+msgid "Preferred mode"
+msgstr "推奨モード"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36532"
 msgid "Same as movie"
 msgstr "ムービーと同じ"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36537"
+msgid "Set playback mode of stereoscopic 3D videos."
+msgstr "3D 立体映像の再生モードを設定します。"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36544"
 msgid "Enable hardware decoding of video files."
 msgstr "ビデオファイル再生時のハードウェアデコードを有効にします。"
@@ -11553,6 +11722,7 @@ msgctxt "#36603"
 msgid "Category containing settings for how video output is handled."
 msgstr "映像出力に関する設定のカテゴリーです。"
 
+<<<<<<< HEAD
 msgctxt "#36900"
 msgid "movie"
 msgstr "ムービー"
@@ -11641,6 +11811,8 @@ msgctxt "#36921"
 msgid "songs"
 msgstr "曲"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#37001"
 msgid "(Directors Comments)"
 msgstr "(監督のコメント)"

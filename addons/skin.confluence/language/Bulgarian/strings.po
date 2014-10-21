@@ -469,8 +469,13 @@ msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG
 msgstr "[B]КОНФИГУРИРАЙТЕ ТЕЛЕВИЗИЯТА[/B][CR][CR]Променете пълно екранната информация · Управлявайте настройките за ЕПС данните"
 
 msgctxt "#31410"
+<<<<<<< HEAD
 msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
 msgstr "[B]КОНФИГУРИРАЙТЕ УСЛУГИТЕ[/B][CR][CR]Настройте контрола над Kodi чрез UPnP и HTTP · Настройте споделянето на файлове[CR]Включете Zeroconf · Настройте AirPlay"
+=======
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]КОНФИГУРИРАЙТЕ УСЛУГИТЕ[/B][CR][CR]Настройте контрола над XBMC чрез UPnP и HTTP · Настройте споделянето на файлове[CR]Включете Zeroconf · Настройте AirPlay"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31411"
 msgid "First run help...."

@@ -4829,10 +4829,32 @@ msgctxt "#13435"
 msgid "Enable HQ Scalers for scalings above"
 msgstr "Käytä HQ-skaalaimia yllä oleville"
 
+<<<<<<< HEAD
+=======
+msgctxt "#13441"
+msgid "Use Mpeg-2 VDPAU"
+msgstr "Käytä Mpeg-2 VDPAU:ta"
+
+msgctxt "#13443"
+msgid "Use Mpeg-4 VDPAU"
+msgstr "Käytä Mpeg-4 VDPAU:ta"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
 msgstr "Käytä VC-1 VDPAU:ta"
 
+<<<<<<< HEAD
+=======
+msgctxt "#13447"
+msgid "Use Mpeg-2 VAAPI"
+msgstr "Käytä Mpeg-2 VAAPI:a"
+
+msgctxt "#13449"
+msgid "Use Mpeg-4 VAAPI"
+msgstr "Käytä Mpeg-4 VAAPI:a"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
 msgstr "Käytä VC-1 VAAPI:a"
@@ -5980,6 +6002,10 @@ msgstr "Mene alkuun"
 msgctxt "#19064"
 msgid "Go to end"
 msgstr "Mene loppuun"
+
+msgctxt "#19066"
+msgid "Channel icons"
+msgstr "Kanavakuvakkeet"
 
 msgctxt "#19066"
 msgid "Channel icons"
@@ -10602,8 +10628,13 @@ msgid "No info available yet."
 msgstr "Ei tietoa saatavilla vielä."
 
 msgctxt "#36146"
+<<<<<<< HEAD
 msgid "Check for new media files on Kodi startup."
 msgstr "Etsi uusia mediatiedostoja Kodi:n käynnistyessä."
+=======
+msgid "Check for new media files on XBMC startup."
+msgstr "Etsi uusia mediatiedostoja XBMC:n käynnistyessä."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36181"
 msgid "No info available yet."
@@ -10634,8 +10665,13 @@ msgid "No info available yet."
 msgstr "Ei tietoa saatavilla vielä."
 
 msgctxt "#36203"
+<<<<<<< HEAD
 msgid "Enable the Personal Video Recorder (PVR) features in Kodi. This requires that at least one PVR Add-on is installed."
 msgstr "Aktivoi videotallennusominaisuudet (PVR) Kodi:ssä. Ainakin yhden PVR-lisäosan on oltava asennettu tätä varten."
+=======
+msgid "Enable the Personal Video Recorder (PVR) features in XBMC. This requires that at least one PVR Add-on is installed."
+msgstr "Aktivoi videotallennusominaisuudet (PVR) XBMC:ssä. Ainakin yhden PVR-lisäosan on oltava asennettu tätä varten."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36217"
 msgid "Scan for missing channel icons."
@@ -10648,6 +10684,7 @@ msgstr "Näytä signaalin voimakkuustiedot codecin infoikkunassa (mikäli lisäo
 msgctxt "#36243"
 msgid "The command to execute."
 msgstr "Suoritettava komento."
+<<<<<<< HEAD
 
 msgctxt "#36245"
 msgid "Execute the wakeup command every day at the given time."
@@ -10657,6 +10694,17 @@ msgctxt "#36246"
 msgid "When to execute the daily wakeup command."
 msgstr "Koska suorittaa päivittäinen herätyskomento."
 
+=======
+
+msgctxt "#36245"
+msgid "Execute the wakeup command every day at the given time."
+msgstr "Suorita herätyskomento joka päivä ilmoitettuun aikaan."
+
+msgctxt "#36246"
+msgid "When to execute the daily wakeup command."
+msgstr "Koska suorittaa päivittäinen herätyskomento."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36249"
 msgid "Enter a new pin code to unlock parental locked channels."
 msgstr "Syötä uusi pin-koodi avataksesi lapsilukitut kanavat."
@@ -10666,8 +10714,13 @@ msgid "Enable the music library."
 msgstr "Salli musiikkikirjasto"
 
 msgctxt "#36259"
+<<<<<<< HEAD
 msgid "Check for new and removed media files on Kodi startup."
 msgstr "Tarkista uudet ja poistetut mediatiedostot Kodi:n käynnistyessä."
+=======
+msgid "Check for new and removed media files on XBMC startup."
+msgstr "Tarkista uudet ja poistetut mediatiedostot XBMC:n käynnistyessä."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36260"
 msgid "No info available yet."
@@ -10728,6 +10781,26 @@ msgstr "Aseta AirPlay salasana."
 msgctxt "#36378"
 msgid "Use a joystick to control Kodi."
 msgstr "Käytä ohjainta ohjataksesi Kodi:tä."
+
+msgctxt "#36331"
+msgid "Define the webserver password."
+msgstr "Määritä web-palvelimen salasana."
+
+msgctxt "#36335"
+msgid "Define the remote control port."
+msgstr "Määritä kauko-ohjaimen portti."
+
+msgctxt "#36344"
+msgid "Enable AirPlay password protection."
+msgstr "Salli AirPlay salasanasuojaus."
+
+msgctxt "#36345"
+msgid "Sets the AirPlay password."
+msgstr "Aseta AirPlay salasana."
+
+msgctxt "#36378"
+msgid "Use a joystick to control XBMC."
+msgstr "Käytä ohjainta ohjataksesi XBMC:tä."
 
 msgctxt "#36380"
 msgid "If your internet connection uses a proxy, configure it here."
@@ -10793,10 +10866,13 @@ msgctxt "#36428"
 msgid "Record"
 msgstr "Nauhoita"
 
+<<<<<<< HEAD
 msgctxt "#36502"
 msgid "Disabled"
 msgstr "Ei käytössä"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36504"
 msgid "Side by side"
 msgstr "Vierekkäin"
@@ -10809,6 +10885,7 @@ msgctxt "#36532"
 msgid "Same as movie"
 msgstr "Sama kuin elokuva"
 
+<<<<<<< HEAD
 msgctxt "#36902"
 msgid "TV show"
 msgstr "TV-ohjelma"
@@ -10825,6 +10902,8 @@ msgctxt "#36907"
 msgid "episodes"
 msgstr "jaksoa"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#37001"
 msgid "(Directors Comments)"
 msgstr "(Ohjaajan kommentit)"
@@ -10844,7 +10923,10 @@ msgstr "Viimeksi käytetty profiili"
 msgctxt "#37022"
 msgid "UPnP Player"
 msgstr "UPnP-soitin"
+<<<<<<< HEAD
 
 msgctxt "#37026"
 msgid "Auto"
 msgstr "Automaattinen"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64

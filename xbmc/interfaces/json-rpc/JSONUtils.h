@@ -542,7 +542,11 @@ namespace JSONRPC
         date.SetFromDBDateTime(jsonDate.asString());
     }
 
+<<<<<<< HEAD
     static bool GetXspFiltering(const std::string &type, const CVariant &filter, std::string &xsp)
+=======
+    static bool GetXspFiltering(const CStdString &type, const CVariant &filter, CStdString &xsp)
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     {
       if (type.empty() || !filter.isObject())
         return false;

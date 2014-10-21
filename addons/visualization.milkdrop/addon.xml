@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="visualization.milkdrop"
+<<<<<<< HEAD
   version="1.0.22"
+=======
+  version="1.0.26"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   name="MilkDrop"
   provider-name="Team-Kodi">
   <extension

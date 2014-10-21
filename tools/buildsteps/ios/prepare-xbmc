@@ -4,8 +4,13 @@ XBMC_PLATFORM_DIR=ios
 
 #fetch submodules
 cd $WORKSPACE
+<<<<<<< HEAD
 if test -d $WORKSPACE/addons/skin.re-touched
 then
 rm -r $WORKSPACE/addons/skin.re-touched
 fi
 git submodule update --init $WORKSPACE/addons/skin.re-touched
+=======
+rm -r $WORKSPACE/addons/skin.touched
+git submodule update --init $WORKSPACE/addons/skin.touched
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64

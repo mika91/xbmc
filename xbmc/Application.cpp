@@ -667,6 +667,7 @@ bool CApplication::Create()
 #else
   buildType = "Unknown";
 #endif
+<<<<<<< HEAD
   std::string specialVersion;
 #if defined(TARGET_DARWIN_IOS_ATV2)
   specialVersion = " (version for AppleTV2)";
@@ -703,6 +704,23 @@ bool CApplication::Create()
     else
       CLog::Log(LOGNOTICE, "WARNING: unsupported ffmpeg version detected");
   }
+=======
+  CLog::Log(LOGNOTICE, "Using %s XBMC x%d build, compiled " __DATE__ " by %s for %s %s %d-bit %s", buildType.c_str(), g_sysinfo.GetXbmcBitness(), compilerStr.c_str(),
+      g_sysinfo.GetBuildTargetCpuFamily().c_str(), g_sysinfo.GetBuildTargetPlatformName().c_str(), g_sysinfo.GetXbmcBitness(), g_sysinfo.GetBuildTargetPlatformVersion().c_str());
+
+#if defined(TARGET_DARWIN_OSX)
+  CLog::Log(LOGNOTICE, "Running on Darwin OSX %d-bit %s", g_sysinfo.GetKernelBitness(), g_sysinfo.GetUnameVersion().c_str());
+#elif defined(TARGET_DARWIN_IOS)
+  CLog::Log(LOGNOTICE, "Running on Darwin iOS %d-bit %s%s", g_sysinfo.GetKernelBitness(), g_sysinfo.IsAppleTV2() ? "(AppleTV2) " : "", g_sysinfo.GetUnameVersion().c_str());
+#elif defined(TARGET_FREEBSD)
+  CLog::Log(LOGNOTICE, "Running on FreeBSD %d-bit %s", g_sysinfo.GetKernelBitness(), g_sysinfo.GetUnameVersion().c_str());
+#elif defined(TARGET_ANDROID)
+  CLog::Log(LOGNOTICE, "Running on Android %d-bit API level %d (%s, %s)", g_sysinfo.GetKernelBitness(), CJNIBuild::SDK_INT, g_sysinfo.GetLinuxDistro().c_str(), g_sysinfo.GetUnameVersion().c_str());
+#elif defined(TARGET_POSIX)
+  CLog::Log(LOGNOTICE, "Running on Linux %d-bit (%s, %s)", g_sysinfo.GetKernelBitness(), g_sysinfo.GetLinuxDistro().c_str(), g_sysinfo.GetUnameVersion().c_str());
+#elif defined(TARGET_WINDOWS)
+  CLog::Log(LOGNOTICE, "Running on %s", g_sysinfo.GetKernelVersion().c_str());
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 #endif
   
   std::string cpuModel(g_cpuInfo.getCPUModel());
@@ -3522,7 +3540,11 @@ void CApplication::Stop(int exitCode)
     CLog::Log(LOGNOTICE, "stop player");
     m_pPlayer->ClosePlayer();
 
+<<<<<<< HEAD
     CAnnouncementManager::Get().Deinitialize();
+=======
+    CAnnouncementManager::Deinitialize();
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
     StopPVRManager();
     StopServices();
@@ -4971,7 +4993,12 @@ bool CApplication::ExecuteXBMCAction(std::string actionStr)
   //We don't know if there is unsecure information in this yet, so we
   //postpone any logging
   const std::string in_actionStr(actionStr);
+<<<<<<< HEAD
   actionStr = CGUIInfoLabel::GetLabel(actionStr);
+=======
+  CGUIInfoLabel info(actionStr, "");
+  actionStr = info.GetLabel(0);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   // user has asked for something to be executed
   if (CBuiltins::HasCommand(actionStr))

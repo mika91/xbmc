@@ -556,6 +556,7 @@ int CBuiltins::Execute(const std::string& execString)
     if (params.size())
     {
       AddonPtr addon;
+<<<<<<< HEAD
       std::string cmd;
       if (CAddonMgr::Get().GetAddon(params[0],addon,ADDON_PLUGIN))
       {
@@ -563,13 +564,26 @@ int CBuiltins::Execute(const std::string& execString)
         std::string addonid = params[0];
         std::string urlParameters;
         vector<string> parameters;
+=======
+      CStdString cmd;
+      if (CAddonMgr::Get().GetAddon(params[0],addon,ADDON_PLUGIN))
+      {
+        PluginPtr plugin = boost::dynamic_pointer_cast<CPluginSource>(addon);
+        CStdString addonid = params[0];
+        CStdString urlParameters;
+        CStdStringArray parameters;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
         if (params.size() == 2 &&
            (StringUtils::StartsWith(params[1], "/") || StringUtils::StartsWith(params[1], "?")))
           urlParameters = params[1];
         else if (params.size() > 1)
         {
           parameters.insert(parameters.begin(), params.begin() + 1, params.end());
+<<<<<<< HEAD
           urlParameters = "?" + StringUtils::Join(parameters, "&");
+=======
+          urlParameters = "?" + StringUtils::JoinString(parameters, "&");
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
         }
         else
         {
@@ -589,14 +603,22 @@ int CBuiltins::Execute(const std::string& execString)
         else
           // Pass the script name (params[0]) and all the parameters
           // (params[1] ... params[x]) separated by a comma to RunPlugin
+<<<<<<< HEAD
           cmd = StringUtils::Format("RunPlugin(%s)", StringUtils::Join(params, ",").c_str());
+=======
+          cmd = StringUtils::Format("RunPlugin(%s)", StringUtils::JoinString(params, ",").c_str());
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
       }
       else if (CAddonMgr::Get().GetAddon(params[0], addon, ADDON_SCRIPT) ||
                CAddonMgr::Get().GetAddon(params[0], addon, ADDON_SCRIPT_WEATHER) ||
                CAddonMgr::Get().GetAddon(params[0], addon, ADDON_SCRIPT_LYRICS))
         // Pass the script name (params[0]) and all the parameters
         // (params[1] ... params[x]) separated by a comma to RunScript
+<<<<<<< HEAD
         cmd = StringUtils::Format("RunScript(%s)", StringUtils::Join(params, ",").c_str());
+=======
+        cmd = StringUtils::Format("RunScript(%s)", StringUtils::JoinString(params, ",").c_str());
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
       return Execute(cmd);
     }

@@ -577,8 +577,13 @@ msgid "PICTURES"
 msgstr "画像"
 
 msgctxt "#31952"
+<<<<<<< HEAD
 msgid "TV"
 msgstr "TV"
+=======
+msgid "LIVE TV"
+msgstr "ライブTV"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31953"
 msgid "VIDEOS"

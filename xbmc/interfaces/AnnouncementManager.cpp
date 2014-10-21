@@ -56,6 +56,12 @@ void CAnnouncementManager::Deinitialize()
   m_announcers.clear();
 }
 
+void CAnnouncementManager::Deinitialize()
+{
+  CSingleLock lock (m_critSection);
+  m_announcers.clear();
+}
+
 void CAnnouncementManager::AddAnnouncer(IAnnouncer *listener)
 {
   if (!listener)

@@ -592,9 +592,19 @@ void CDecoder::Close()
 
   FiniVAAPIOutput();
 
+<<<<<<< HEAD
   if (m_vaapiConfig.context)
     m_vaapiConfig.context->Release(this);
   m_vaapiConfig.context = 0;
+=======
+  avctx->hwaccel_context = m_hwaccel;
+  avctx->get_buffer      = GetBufferS;
+  avctx->reget_buffer    = GetBufferS;
+  avctx->release_buffer  = RelBufferS;
+  avctx->draw_horiz_band = NULL;
+  avctx->slice_flags     = SLICE_FLAG_CODED_ORDER|SLICE_FLAG_ALLOW_FIELD;
+  return true;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 }
 
 long CDecoder::Release()

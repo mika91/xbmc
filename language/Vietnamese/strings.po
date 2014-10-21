@@ -50,8 +50,13 @@ msgid "Weather"
 msgstr "Thời tiết"
 
 msgctxt "#9"
+<<<<<<< HEAD
 msgid "Kodi media center"
 msgstr "Kodi trung tâm truyền thông đa phương tiện"
+=======
+msgid "xbmc media center"
+msgstr "xbmc trung tâm truyền thông đa phương tiện"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#11"
 msgid "Monday"
@@ -5357,6 +5362,34 @@ msgctxt "#19017"
 msgid "Recordings"
 msgstr "Các bản ghi"
 
+msgctxt "#19008"
+msgid "Signal quality"
+msgstr "Chất lượng tín hiệu"
+
+msgctxt "#19009"
+msgid "SNR"
+msgstr "SNR"
+
+msgctxt "#19010"
+msgid "BER"
+msgstr "BẺ"
+
+msgctxt "#19011"
+msgid "UNC"
+msgstr "UNC"
+
+msgctxt "#19012"
+msgid "PVR Backend"
+msgstr "PVR Backend"
+
+msgctxt "#19014"
+msgid "Fixed"
+msgstr "Sửa chữa"
+
+msgctxt "#19015"
+msgid "Encryption"
+msgstr "Mã hóa"
+
 msgctxt "#19019"
 msgid "Channels"
 msgstr "Kênh"
@@ -5473,6 +5506,7 @@ msgctxt "#19180"
 msgid "TV"
 msgstr "TV"
 
+<<<<<<< HEAD
 msgctxt "#19183"
 msgid "Radio"
 msgstr "Radio"
@@ -5481,6 +5515,8 @@ msgctxt "#19190"
 msgid "Background"
 msgstr "Nền"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19191"
 msgid "PVR service"
 msgstr "Dịch vụ PVR"

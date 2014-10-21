@@ -490,7 +490,7 @@ FFMPEGOBJS = @FFMPEG_LIBDIR@/libavcodec.a \
              @FFMPEG_LIBDIR@/libpostproc.a \
              @FFMPEG_LIBDIR@/libswscale.a
 DYNOBJSXBMC+= $(FFMPEGOBJS)
-LIBS+= @GNUTLS_ALL_LIBS@ @VORBISENC_ALL_LIBS@
+LIBS+= @GNUTLS_ALL_LIBS@ @VORBISENC_ALL_LIBS@ @HOGWEED_ALL_LIBS@
 
 $(FFMPEGOBJS): dvdpcodecs
 endif
@@ -642,11 +642,19 @@ endif
 endif
 	@# Icons and links
 	@install -d $(DESTDIR)$(datarootdir)/applications
+<<<<<<< HEAD
 	@install -m 0644 tools/Linux/@APP_NAME_LC@.desktop $(DESTDIR)$(datarootdir)/applications/@APP_NAME_LC@.desktop
 	@install -d $(DESTDIR)$(datadir)/icons/hicolor/48x48/apps
 	@install -m 0644 media/icon48x48.png $(DESTDIR)$(datadir)/icons/hicolor/48x48/apps/@APP_NAME_LC@.png
 	@install -d $(DESTDIR)$(datadir)/icons/hicolor/256x256/apps
 	@install -m 0644 media/icon256x256.png $(DESTDIR)$(datadir)/icons/hicolor/256x256/apps/@APP_NAME_LC@.png
+=======
+	@install -m 0644 tools/Linux/xbmc.desktop $(DESTDIR)$(datarootdir)/applications/xbmc.desktop
+	@install -d $(DESTDIR)$(datadir)/icons/hicolor/48x48/apps
+	@install -m 0644 media/icon48x48.png $(DESTDIR)$(datadir)/icons/hicolor/48x48/apps/xbmc.png
+	@install -d $(DESTDIR)$(datadir)/icons/hicolor/256x256/apps
+	@install -m 0644 media/icon256x256.png $(DESTDIR)$(datadir)/icons/hicolor/256x256/apps/xbmc.png
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 	@test -z "$(DESTDIR)" && gtk-update-icon-cache -f -q -t $(datadir)/icons/hicolor || :
 
 	@echo "Copying bindings to $(DESTDIR)$(includedir)/@APP_NAME_LC@"

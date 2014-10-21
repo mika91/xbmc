@@ -12568,7 +12568,11 @@ msgstr ""
 #: xbmc/filesystem/BlurayDirectory.cpp
 #: system/settings/settings.xml
 msgctxt "#25003"
+<<<<<<< HEAD
 msgid "Show Blu-ray menu"
+=======
+msgid "Show Blu-ray menus"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgstr ""
 
 #: xbmc/filesystem/BlurayDirectory.cpp
@@ -14197,7 +14201,11 @@ msgstr ""
 
 #: system/settings/settings.xml
 msgctxt "#36210"
+<<<<<<< HEAD
 msgid "Prevent the 'connection lost' notification window from displaying when Kodi is unable to talk to the PVR backend server."
+=======
+msgid "Prevent the 'connection lost' notification window from displaying when XBMC is unable to talk to the PVR backend server."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgstr ""
 
 #: system/settings/settings.xml
@@ -14210,14 +14218,28 @@ msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
 msgstr ""
 
+<<<<<<< HEAD
 #empty string with id 36213
+=======
+#: system/settings/settings.xml
+msgctxt "#36213"
+msgid "Hide the programming information automatically after a few seconds, defined below."
+msgstr ""
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 #: system/settings/settings.xml
 msgctxt "#36214"
 msgid "Close the on screen display controls after switching channels."
 msgstr ""
 
+<<<<<<< HEAD
 #empty string with id 36215
+=======
+#: system/settings/settings.xml
+msgctxt "#36215"
+msgid "How long the programming information is displayed when the 'automatically hide' setting is turned on."
+msgstr ""
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 #: system/settings/settings.xml
 msgctxt "#36216"
@@ -14234,7 +14256,14 @@ msgctxt "#36218"
 msgid "Category for electronic programming guide settings."
 msgstr ""
 
+<<<<<<< HEAD
 #empty string with id 36219
+=======
+#: system/settings/settings.xml
+msgctxt "#36219"
+msgid "Default electronic programming guide window to show."
+msgstr ""
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 #: system/settings/settings.xml
 msgctxt "#36220"
@@ -14288,7 +14317,11 @@ msgstr ""
 
 #: system/settings/settings.xml
 msgctxt "#36230"
+<<<<<<< HEAD
 msgid "How long Kodi will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
+=======
+msgid "How long XBMC will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgstr ""
 
 #: system/settings/settings.xml
@@ -14393,12 +14426,20 @@ msgstr ""
 
 #: system/settings/settings.xml
 msgctxt "#36251"
+<<<<<<< HEAD
 msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
+=======
+msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgstr ""
 
 #: system/settings/settings.xml
 msgctxt "#36252"
+<<<<<<< HEAD
 msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
+=======
+msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgstr ""
 
 #. Description of settings section "Music" with label #2

@@ -82,6 +82,10 @@
 #include "view/ViewStateSettings.h"
 #include "windowing/WindowingFactory.h"
 
+#if defined(TARGET_DARWIN_OSX)
+#include "osx/DarwinUtils.h"
+#endif// defined(TARGET_DARWIN_OSX)
+
 #define SETTINGS_XML_FOLDER "special://xbmc/system/settings/"
 #define SETTINGS_XML_ROOT   "settings"
 
@@ -605,7 +609,96 @@ void CSettings::InitializeOptionFillers()
 
 void CSettings::InitializeConditions()
 {
+<<<<<<< HEAD
   CSettingConditions::Initialize();
+=======
+  // add basic conditions
+  m_settingsManager->AddCondition("true");
+#ifdef HAS_UPNP
+  m_settingsManager->AddCondition("has_upnp");
+#endif
+#ifdef HAS_AIRPLAY
+  m_settingsManager->AddCondition("has_airplay");
+#endif
+#ifdef HAS_EVENT_SERVER
+  m_settingsManager->AddCondition("has_event_server");
+#endif
+#ifdef HAVE_X11
+  m_settingsManager->AddCondition("have_x11");
+#endif
+#ifdef HAS_GL
+  m_settingsManager->AddCondition("has_gl");
+#endif
+#ifdef HAS_GLES
+  m_settingsManager->AddCondition("has_gles");
+#endif
+#if HAS_GLES == 2
+  m_settingsManager->AddCondition("has_glesv2");
+#endif
+#ifdef HAS_KARAOKE
+  m_settingsManager->AddCondition("has_karaoke");
+#endif
+#ifdef HAS_SDL_JOYSTICK
+  m_settingsManager->AddCondition("has_sdl_joystick");
+#endif
+#ifdef HAS_SKIN_TOUCHED
+  m_settingsManager->AddCondition("has_skin_touched");
+#endif
+#ifdef HAS_TIME_SERVER
+  m_settingsManager->AddCondition("has_time_server");
+#endif
+#ifdef HAS_WEB_SERVER
+  m_settingsManager->AddCondition("has_web_server");
+#endif
+#ifdef HAS_ZEROCONF
+  m_settingsManager->AddCondition("has_zeroconf");
+#endif
+#ifdef HAVE_LIBCRYSTALHD
+  m_settingsManager->AddCondition("have_libcrystalhd");
+  if (CCrystalHD::GetInstance()->DevicePresent())
+    m_settingsManager->AddCondition("hascrystalhddevice");
+#endif
+#ifdef HAVE_LIBOPENMAX
+  m_settingsManager->AddCondition("have_libopenmax");
+#endif
+#ifdef HAVE_LIBVA
+  m_settingsManager->AddCondition("have_libva");
+#endif
+#ifdef HAVE_LIBVDPAU
+  m_settingsManager->AddCondition("have_libvdpau");
+#endif
+#ifdef TARGET_ANDROID
+  if (CAndroidFeatures::GetVersion() > 15)
+    m_settingsManager->AddCondition("has_mediacodec");
+#endif
+#ifdef HAS_LIBSTAGEFRIGHT
+  m_settingsManager->AddCondition("have_libstagefrightdecoder");
+#endif
+#ifdef HAVE_VIDEOTOOLBOXDECODER
+  m_settingsManager->AddCondition("have_videotoolboxdecoder");
+  if (g_sysinfo.HasVideoToolBoxDecoder())
+    m_settingsManager->AddCondition("hasvideotoolboxdecoder");
+#endif
+#ifdef HAS_LIBAMCODEC
+  if (aml_present())
+    m_settingsManager->AddCondition("have_amcodec");
+#endif
+#ifdef TARGET_DARWIN_IOS_ATV2
+  if (g_sysinfo.IsAppleTV2())
+    m_settingsManager->AddCondition("isappletv2");
+#endif
+#ifdef TARGET_DARWIN_OSX
+  if (DarwinIsSnowLeopard())
+    m_settingsManager->AddCondition("osxissnowleopard");
+#endif
+#if defined(TARGET_WINDOWS) && defined(HAS_DX)
+  m_settingsManager->AddCondition("has_dx");
+  m_settingsManager->AddCondition("hasdxva2");
+#endif
+
+  if (g_application.IsStandAlone())
+    m_settingsManager->AddCondition("isstandalone");
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   // add basic conditions
   const std::set<std::string> &simpleConditions = CSettingConditions::GetSimpleConditions();
@@ -679,8 +772,11 @@ void CSettings::InitializeISettingCallbacks()
   settingSet.insert("videoscreen.resolution");
   settingSet.insert("videoscreen.screenmode");
   settingSet.insert("videoscreen.vsync");
+<<<<<<< HEAD
   settingSet.insert("videoscreen.monitor");
   settingSet.insert("videoscreen.preferedstereoscopicmode");
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   m_settingsManager->RegisterCallback(&CDisplaySettings::Get(), settingSet);
 
   settingSet.clear();

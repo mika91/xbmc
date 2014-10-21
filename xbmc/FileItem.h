@@ -358,6 +358,12 @@ public:
    */
   bool SkipLocalArt() const;
 
+  /*! \brief Whether or not to skip searching for local art.
+   \return true if local art should be skipped for this item, false otherwise.
+   \sa GetLocalArt, FindLocalArt
+   */
+  bool SkipLocalArt() const;
+
   // Gets the .tbn file associated with this item
   std::string GetTBNFile() const;
   // Gets the folder image associated with this item (defaults to folder.jpg)

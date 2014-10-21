@@ -18,7 +18,11 @@ msgstr ""
 
 msgctxt "#31000"
 msgid "Change Your"
+<<<<<<< HEAD
 msgstr "Kodi -"
+=======
+msgstr "XBMC -"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31003"
 msgid "Power Options"
@@ -206,11 +210,19 @@ msgstr "Opcje"
 
 msgctxt "#31116"
 msgid "Show Recently added Albums"
+<<<<<<< HEAD
 msgstr "Pokazuj Ostatnio dodane Albumy"
 
 msgctxt "#31117"
 msgid "Show Recently added Videos"
 msgstr "Pokazuj Ostatnio dodane Video"
+=======
+msgstr "Pokazuj Albumy ostatnio dodane"
+
+msgctxt "#31117"
+msgid "Show Recently added Videos"
+msgstr "Pokazuj Wideo ostatnio dodane"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31118"
 msgid "Home Page Programs Sub-menu"
@@ -234,7 +246,11 @@ msgstr "Odtwarzaj motywy muzyczne w bibliotece wideo (dodatek TvTunes)"
 
 msgctxt "#31127"
 msgid "TvTunes"
+<<<<<<< HEAD
 msgstr "Dodatek TvTunes"
+=======
+msgstr "Wtyczka TvTunes"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31128"
 msgid "Lyrics"
@@ -438,7 +454,11 @@ msgstr "Bazujące na Arialu"
 
 msgctxt "#31400"
 msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
+<<<<<<< HEAD
 msgstr "[B]KONFIGURACJA WYGLĄDU[/B][CR][CR]Wybór skóry · Ustawienia regionalne · Listy plików · Wygaszacz ekranu"
+=======
+msgstr "[B]KONFIGURACJA WYGLĄDU[/B][CR][CR]Wybór skóry · Język · Listy plików · Wygaszacz ekranu"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31401"
 msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
@@ -469,8 +489,13 @@ msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG
 msgstr "[B]KONFIGURACJA TELEWIZJI[/B][CR][CR]Menu ekranowe · Przewodnik TV · Nagrywanie"
 
 msgctxt "#31410"
+<<<<<<< HEAD
 msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
 msgstr "[B]KONFIGURACJA USŁUG[/B][CR][CR]Kontrola Kodi przez UPnP i HTTP · Współdzielenie plików[CR]Aktywacja Zeroconf · Ustawienia AirPlay"
+=======
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]KONFIGURACJA USŁUG[/B][CR][CR]Kontrola XBMC przez UPnP i HTTP · Współdzielenie plików[CR]Aktywacja Zeroconf · Ustawienia AirPlay"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31411"
 msgid "First run help...."
@@ -489,7 +514,11 @@ msgid "Login"
 msgstr "Logowanie"
 
 msgctxt "#31421"
+<<<<<<< HEAD
 msgid "Select your Kodi user Profile[CR]to login and continue"
+=======
+msgid "Select your XBMC user Profile[CR]to login and continue"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgstr "Wybierz profil użytkownika[CR]do zalogowania, aby kontynuować"
 
 msgctxt "#31422"

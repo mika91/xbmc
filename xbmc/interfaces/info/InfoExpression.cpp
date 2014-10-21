@@ -302,9 +302,14 @@ bool InfoExpression::Parse(const std::string &expression)
       CLog::Log(LOGERROR, "Bad operand '%s'", operand.c_str());
       return false;
     }
+<<<<<<< HEAD
     /* Propagate any listItem dependency from the operand to the expression */
     m_listItemDependent |= info->ListItemDependent();
     nodes.push(boost::make_shared<InfoLeaf>(info, invert));
+=======
+    else if (expr >= 0) // operand
+      save.push(m_operands[expr]->Get(item));
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   }
   while (!operator_stack.empty())
     OperatorPop(operator_stack, invert, nodes);

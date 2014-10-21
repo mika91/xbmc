@@ -500,6 +500,14 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Select the profile that will be used at startup when the login screen is disabled."
 
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr "Show or hide the login screen at startup."
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr "Select the profile that will be used at startup when the login screen is disabled."
+
 msgctxt "#31501"
 msgid "Scheduled Time"
 msgstr "Scheduled Time"

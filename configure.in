@@ -2,7 +2,11 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.59)
+<<<<<<< HEAD
 AC_INIT([kodi], [13.9.705], [http://issues.kodi.tv])
+=======
+AC_INIT([xbmc], [13.2.0], [http://issues.xbmc.org])
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 AC_CONFIG_HEADERS([xbmc/config.h])
 AH_TOP([#pragma once])
 m4_include([m4/ax_prog_cc_for_build.m4])
@@ -587,6 +591,20 @@ MAKE="${MAKE:-make}"
 OBJDUMP="${OBJDUMP:-objdump}"
 READELF="${READELF:-readelf}"
 NM="${NM:-nm}"
+<<<<<<< HEAD
+=======
+
+use_external_ffmpeg=no
+use_static_ffmpeg=no
+
+# ffmpeg needs the output of uname -s (e.x. linux, darwin) for the target_os
+# there is no autoconf variable which will give
+# the correct output format when doing cross compilation
+# so we have to use our own var here
+# defaults to the build side target_os
+# and should be overridden for cross below (see android)
+ffmpeg_target_os=$(tolower $(uname -s))
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 # host detection and setup
 case $host in
@@ -835,6 +853,7 @@ elif test "$use_arch" = "arm"; then
     fi
   fi
 fi
+<<<<<<< HEAD
 
 use_sse4=no
 if test "$ARCH" = "x86_64-linux" || test "$ARCH" = "i486-linux"; then
@@ -848,6 +867,17 @@ if test "$ARCH" = "x86_64-linux" || test "$ARCH" = "i486-linux"; then
         USE_SSE4=0])
     CFLAGS="$SAVE_CFLAGS"
 fi
+=======
+if test "$use_static_ffmpeg" = "yes"; then
+  USE_STATIC_FFMPEG=1
+  AC_DEFINE([USE_STATIC_FFMPEG], [1], [link ffmpeg statically])
+  # ffmpeg may depend on gnutls and vorbisenc, we add those libs at the end of linker
+  # command in order to resolve any missing symbols
+  GNUTLS_ALL_LIBS=`${PKG_CONFIG} --static --libs-only-l --silence-errors gnutls`
+  HOGWEED_ALL_LIBS=`${PKG_CONFIG} --static --libs-only-l --silence-errors hogweed nettle`
+  VORBISENC_ALL_LIBS=`${PKG_CONFIG} --static --libs-only-l --silence-errors vorbisenc`
+fi 
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 # Checks for library functions.
 AC_FUNC_ALLOCA
@@ -1062,6 +1092,10 @@ AC_CHECK_HEADER([jpeglib.h],,        AC_MSG_ERROR($missing_library))
 AC_CHECK_HEADER([ogg/ogg.h],,        AC_MSG_ERROR($missing_library))
 AC_CHECK_HEADER([vorbis/vorbisfile.h],, AC_MSG_ERROR($missing_library))
 AC_CHECK_HEADER([libmodplug/modplug.h],, AC_MSG_ERROR($missing_library))
+<<<<<<< HEAD
+=======
+AC_CHECK_HEADER([FLAC/stream_decoder.h],, AC_MSG_ERROR($missing_library))
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 AC_CHECK_HEADER([curl/curl.h],, AC_MSG_ERROR($missing_library))
 XB_FIND_SONAME([CURL], [curl])
@@ -1229,6 +1263,10 @@ fi
 fi
 
 XB_FIND_SONAME([OGG],         [ogg])
+<<<<<<< HEAD
+=======
+XB_FIND_SONAME([FLAC],        [FLAC])
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 XB_FIND_SONAME([VORBIS],      [vorbis])
 XB_FIND_SONAME([VORBISFILE],  [vorbisfile])
 XB_FIND_SONAME([MODPLUG],     [modplug])
@@ -1442,20 +1480,27 @@ fi
 
 # libRTMP
 if test "$use_librtmp" != "no"; then
-  AC_CHECK_HEADERS([librtmp/log.h librtmp/amf.h librtmp/rtmp.h],,
-   [if test "$use_librtmp" = "yes"; then
-      AC_MSG_ERROR($librtmp_not_found)
-    elif test "$use_librtmp" != "no"; then
-      AC_MSG_NOTICE($librtmp_not_found)
-      use_librtmp="no"
-    fi
-   ])
-  if test "$use_librtmp" != "no"; then
-    XB_FIND_SONAME([RTMP], [rtmp], [use_librtmp])
-  fi
-  if test "$use_librtmp" != "no"; then
-    AC_DEFINE([HAS_LIBRTMP], [1], [Whether to use libRTMP library.])
-  fi
+  PKG_CHECK_MODULES([LIBRTMP], [librtmp],
+    [INCLUDES="$INCLUDES $LIBRTMP_CFLAGS"; LIBS="$LIBS $LIBRTMP_LIBS";
+      XB_FIND_SONAME([RTMP], [rtmp], [use_librtmp])
+      AC_DEFINE([HAS_LIBRTMP], [1], [Whether to use libRTMP library.])
+      RTMP_ALL_LIBS=$(${PKG_CONFIG} --static --libs-only-l --silence-errors librtmp)
+      test "$use_static_ffmpeg" = "yes" && LIBS="$LIBS $RTMP_ALL_LIBS"; LIBS="`echo $LIBS | sed 's/-lrtmp//g'`"],
+    [AC_CHECK_HEADERS([librtmp/log.h librtmp/amf.h librtmp/rtmp.h],,
+      [if test "$use_librtmp" = "yes"; then
+        AC_MSG_ERROR($librtmp_not_found)
+      elif test "$use_librtmp" != "no"; then
+        AC_MSG_NOTICE($librtmp_not_found)
+        use_librtmp="no"
+      fi
+      ])
+      if test "$use_librtmp" != "no"; then
+        XB_FIND_SONAME([RTMP], [rtmp], [use_librtmp])
+      fi
+      if test "$use_librtmp" != "no"; then
+        AC_DEFINE([HAS_LIBRTMP], [1], [Whether to use libRTMP library.])
+      fi
+    ])
 else
   AC_MSG_NOTICE($librtmp_disabled)
 fi
@@ -2599,10 +2644,16 @@ AC_SUBST(USE_ANDROID)
 AC_SUBST(GTEST_CONFIGURED)
 AC_SUBST(USE_DOXYGEN)
 AC_SUBST(USE_PVR_ADDONS)
+<<<<<<< HEAD
 AC_SUBST(UPNP_DEFINES)
 AC_SUBST(USE_SSE4)
 AC_SUBST(USE_MMAL)
 AC_SUBST(USE_X11)
+=======
+AC_SUBST(GNUTLS_ALL_LIBS)
+AC_SUBST(HOGWEED_ALL_LIBS)
+AC_SUBST(VORBISENC_ALL_LIBS)
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 # pushd and popd are not available in other shells besides bash, so implement
 # our own pushd/popd functions
@@ -2654,6 +2705,135 @@ fi
 ])
 ])
 
+<<<<<<< HEAD
+=======
+XB_CONFIG_MODULE([lib/ffmpeg], [
+  if test "$host_vendor" = "apple" ; then
+    ffmpg_config="--target-os=$ffmpeg_target_os"
+    # handle disables first, we do individual enables later
+    ffmpg_config="$ffmpg_config --disable-muxers   --disable-encoders"
+    ffmpg_config="$ffmpg_config --disable-devices  --disable-doc"
+    ffmpg_config="$ffmpg_config --disable-ffplay   --disable-ffmpeg"
+    ffmpg_config="$ffmpg_config --disable-ffprobe  --disable-ffserver"
+    ffmpg_config="$ffmpg_config --enable-vda       --disable-crystalhd"
+    ffmpg_config="$ffmpg_config --disable-decoder=mpeg_xvmc"
+
+    # handle conditional enables/disables
+    if test "$use_debug" = "no"; then
+      ffmpg_config="$ffmpg_config --disable-debug"
+    fi
+    if test "$use_cpu"  != "no";  then
+      ffmpg_config="$ffmpg_config --cpu=$use_cpu"
+    fi
+    if test "$use_arch" != "no"; then
+      ffmpg_config="$ffmpg_config --arch=$use_arch --enable-cross-compile"
+    fi
+    if test "$use_arch"  = "arm"; then
+      ffmpg_config="$ffmpg_config --enable-pic"
+      ffmpg_config="$ffmpg_config --disable-armv5te --disable-armv6t2"
+      if test "$use_neon"  = "yes"; then
+        ffmpg_config="$ffmpg_config --enable-neon"
+      else
+        ffmpg_config="$ffmpg_config --disable-neon"
+      fi
+    else
+      ffmpg_config="$ffmpg_config --disable-amd3dnow"
+    fi
+    if test "$use_ffmpeg_libvorbis" = "yes"; then
+      ffmpg_config="$ffmpg_config --enable-libvorbis --enable-muxer=ogg --enable-encoder=libvorbis"
+    else
+      ffmpg_config="$ffmpg_config --disable-libvorbis"
+    fi
+    if test "$have_gnutls" = "yes"; then
+      ffmpg_config="$ffmpg_config --enable-gnutls"
+    fi
+
+    # handle individual enables
+    ffmpg_config="$ffmpg_config --enable-gpl"
+    ffmpg_config="$ffmpg_config --enable-postproc"
+    ffmpg_config="$ffmpg_config --enable-static      --enable-pthreads"
+    ffmpg_config="$ffmpg_config --enable-muxer=spdif --enable-muxer=adts --enable-muxer=asf --enable-muxer=ipod"
+    ffmpg_config="$ffmpg_config --enable-encoder=ac3 --enable-encoder=aac --enable-encoder=wmav2"
+    ffmpg_config="$ffmpg_config --enable-protocol=http"
+    ffmpg_config="$ffmpg_config --enable-runtime-cpudetect"
+
+    # ffmpeg will not compile with llvm-gcc-4.2, use clang instead
+    case $CC in
+      *llvm-gcc-4.2*)
+        ffmpg_config="$ffmpg_config --cc=clang" ;;
+      *)
+        ffmpg_config="$ffmpg_config --cc=$CC" ;;
+    esac
+    
+    # extra-cflags must be passed alone or it gets expanded wrong by the ffmpeg configure
+    FFMPEG_EXTRACFLAGS="$CFLAGS $FFMPEG_EXTRACFLAGS -w -D_DARWIN_C_SOURCE -Dattribute_deprecated="
+
+    LDFLAGS="$LDFLAGS" ./configure --extra-cflags="$FFMPEG_EXTRACFLAGS" $ffmpg_config --as="$AS"
+
+    # if using llvm-gcc-4.2 as assembler, -MMD is not enough to generate
+    # dependency files in the right place, replace it with something that works
+    case $AS in
+      *llvm-gcc-4.2*)
+        sed -ie "s#AS_DEPFLAGS=-MMD#AS_DEPFLAGS=-MMD -MF \$(\@:.o=.d) -MT \$\@#" config.mak ;;
+    esac
+
+    # ffmpeg will use yasm found at ${prefix}/bin during configure
+    # but then hardcodes 'yasm' in config.mak, fix it.
+    sed -ie "s#YASM=yasm#YASM=${YASM}#" config.mak
+    sed -ie "s#YASMDEP=yasm#YASMDEP=${YASM}#" config.mak
+    sed -ie "s# -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 # #" config.mak
+  else
+    CFLAGS="" \
+    CPPFLAGS="" \
+    CXXFLAGS="" \
+    LDFLAGS="$(echo "$LDFLAGS" | sed "s/-Wl,-Bsymbolic-functions//g")" \
+    ./configure \
+      --extra-cflags="$PASSED_CFLAGS $FFMPEG_EXTRACFLAGS" \
+      `if test "$use_debug" = "no"; then echo --disable-debug; fi` \
+      `if test "$cross_compiling" = "yes"; then echo --enable-cross-compile; fi` \
+      `if test "$use_arch" != "no"; then echo --arch=$use_arch; fi`\
+      `if test "$use_cpu" != "no"; then echo --cpu=$use_cpu; fi`\
+      `if test "$use_neon" = "yes"; then echo --enable-neon; else echo --disable-neon; fi`\
+      --target-os=$ffmpeg_target_os \
+      --disable-muxers \
+      --enable-muxer=spdif \
+      --enable-muxer=adts \
+      --enable-muxer=asf \
+      --enable-muxer=ipod \
+      --disable-encoders \
+      --enable-encoder=ac3 \
+      --enable-encoder=aac \
+      --enable-encoder=wmav2 \
+      `if test "$use_ffmpeg_libvorbis" = "yes"; then echo --enable-libvorbis --enable-muxer=ogg --enable-encoder=libvorbis; else echo --disable-libvorbis; fi` \
+      --disable-decoder=mpeg_xvmc \
+      --disable-devices \
+      --disable-ffprobe \
+      --disable-ffplay \
+      --disable-ffserver \
+      --disable-ffmpeg \
+      --disable-crystalhd \
+      `if test "$use_static_ffmpeg" = "yes"; then echo --enable-static --disable-shared; else echo --disable-static --enable-shared; fi` \
+      --disable-doc \
+      --enable-postproc \
+      --enable-gpl \
+      `if test "x$use_vdpau" != "xno"; then echo --enable-vdpau; else echo --disable-vdpau; fi` \
+      `if test "x$use_vaapi" != "xno"; then echo --enable-vaapi; else echo --disable-vaapi; fi` \
+      `if test "$use_optimizations" != "no"; then echo --enable-optimizations; else echo --disable-optimizations; fi` \
+      --enable-protocol=http \
+      `if test "$have_gnutls" = "yes"; then echo --enable-gnutls; fi` \
+      --enable-pthreads \
+      --enable-runtime-cpudetect \
+      `if test "$use_hardcoded_tables" = "yes"; then echo --enable-hardcoded-tables; else echo --disable-hardcoded-tables; fi`\
+      `if test "$target_platform" = "target_android"; then echo "--custom-libname-with-major=\\$(SLIBPREF)\\$(FULLNAME)-\\$(LIBMAJOR)-${ARCH}\\$(SLIBSUF)"; \
+       else echo "--custom-libname-with-major=\\$(FULLNAME)-\\$(LIBMAJOR)-${ARCH}\\$(SLIBSUF)"; fi` \
+      `case $host_cpu in i?86*) echo --disable-pic ;; *) echo --enable-pic ;; esac` \
+      --cc="$CC" &&
+      sed -i -e "s#define HAVE_SYMVER 1#define HAVE_SYMVER 0#" config.h &&
+      sed -i -e "s#define HAVE_SYMVER_GNU_ASM 1#define HAVE_SYMVER_GNU_ASM 0#" config.h
+  fi
+], [$USE_EXTERNAL_FFMPEG])
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 XB_CONFIG_MODULE([lib/libdvd/libdvdcss], [
   ./configure \
     CC="$CC" \

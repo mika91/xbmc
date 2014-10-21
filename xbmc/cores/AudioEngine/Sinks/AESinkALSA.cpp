@@ -901,7 +901,11 @@ unsigned int CAESinkALSA::AddPackets(uint8_t **data, unsigned int frames, unsign
     if(ret < 0)
     {
       HandleError("snd_pcm_writei(1)", ret);
+<<<<<<< HEAD
       ret = snd_pcm_writei(m_pcm, buffer, frames);
+=======
+      ret = snd_pcm_writei(m_pcm, (void*)data, frames);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
       if (ret < 0)
       {
         HandleError("snd_pcm_writei(2)", ret);
@@ -1343,6 +1347,24 @@ void CAESinkALSA::EnumerateDevice(AEDeviceInfoList &list, const std::string &dev
             /* snd_hctl_close also closes ctlhandle */
             snd_hctl_close(hctl);
 
+<<<<<<< HEAD
+=======
+            // regarding data formats we don't trust ELD
+            // push all passthrough formats to the list
+            AEDataFormatList::iterator it;
+            for (enum AEDataFormat i = AE_FMT_MAX; i > AE_FMT_INVALID; i = (enum AEDataFormat)((int)i - 1))
+            {
+              if (!AE_IS_RAW(i))
+                continue;
+              it = find(info.m_dataFormats.begin(), info.m_dataFormats.end(), i);
+              if (it == info.m_dataFormats.end())
+              {
+                info.m_dataFormats.push_back(i);
+                CLog::Log(LOGNOTICE, "CAESinkALSA::%s data format \"%s\" on device \"%s\" seems to be not supported.", __FUNCTION__, CAEUtil::DataFormatToStr(i), device.c_str());
+              }
+            }
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
             if (badHDMI)
             {
               /* 
@@ -1562,7 +1584,11 @@ bool CAESinkALSA::GetELD(snd_hctl_t *hctl, int device, CAEDeviceInfo& info, bool
 
 void CAESinkALSA::sndLibErrorHandler(const char *file, int line, const char *function, int err, const char *fmt, ...)
 {
+<<<<<<< HEAD
   if(!g_advancedSettings.CanLogComponent(LOGAUDIO))
+=======
+  if(!(g_advancedSettings.m_extraLogLevels & LOGAUDIO))
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     return;
 
   va_list arg;

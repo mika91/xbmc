@@ -64,10 +64,17 @@ namespace XFILE
       virtual int IoControl(EIoControl request, void* param);
       virtual std::string GetContentCharset(void)                { return GetServerReportedCharset(); }
 
+<<<<<<< HEAD
       bool Post(const std::string& strURL, const std::string& strPostData, std::string& strHTML);
       bool Get(const std::string& strURL, std::string& strHTML);
       bool ReadData(std::string& strHTML);
       bool Download(const std::string& strURL, const std::string& strFileName, LPDWORD pdwSize = NULL);
+=======
+      bool Post(const CStdString& strURL, const CStdString& strPostData, CStdString& strHTML);
+      bool Get(const CStdString& strURL, CStdString& strHTML);
+      bool ReadData(CStdString& strHTML);
+      bool Download(const CStdString& strURL, const CStdString& strFileName, LPDWORD pdwSize = NULL);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
       bool IsInternet();
       void Cancel();
       void Reset();
@@ -169,6 +176,7 @@ namespace XFILE
       std::string     m_customrequest;
       std::string     m_contentencoding;
       std::string     m_acceptCharset;
+<<<<<<< HEAD
       std::string     m_ftpauth;
       std::string     m_ftpport;
       std::string     m_binary;
@@ -179,6 +187,18 @@ namespace XFILE
       std::string     m_password;
       std::string     m_httpauth;
       std::string     m_cipherlist;
+=======
+      CStdString      m_ftpauth;
+      CStdString      m_ftpport;
+      CStdString      m_binary;
+      CStdString      m_postdata;
+      CStdString      m_referer;
+      CStdString      m_cookie;
+      CStdString      m_username;
+      CStdString      m_password;
+      CStdString      m_httpauth;
+      CStdString      m_cipherlist;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
       bool            m_ftppasvip;
       int             m_connecttimeout;
       int             m_lowspeedtime;

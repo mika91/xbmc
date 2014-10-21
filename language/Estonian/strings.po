@@ -6526,8 +6526,13 @@ msgid "Continue last channel on startup"
 msgstr "Käivitamisel jätka viimase kanaliga"
 
 msgctxt "#19190"
+<<<<<<< HEAD
 msgid "Background"
 msgstr "Taust"
+=======
+msgid "Minimised"
+msgstr "Vähendatud"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -6844,6 +6849,10 @@ msgstr "Ära näita 'Informatsioon puudub' silte"
 msgctxt "#19269"
 msgid "Do not show 'connection lost' warnings"
 msgstr "Ära näita 'Ühendus kadus' hoiatusi"
+
+msgctxt "#19271"
+msgid "No PVR Add-ons could be found"
+msgstr "Ei leidnud ühtegi PVR lisamoodulist"
 
 msgctxt "#19271"
 msgid "No PVR Add-ons could be found"
@@ -11218,8 +11227,13 @@ msgid "Configure how interface sounds are handled, such as menu navigation and i
 msgstr "Seadista kuidas kasutajaliidese, näiteks menüü navigatsiooni ja oluliste teadete, helisid käsitletakse."
 
 msgctxt "#36377"
+<<<<<<< HEAD
 msgid "Use a mouse or touch screen device to control Kodi. Note: disabling will cause you to lose control over Kodi when no keyboard or remote is present."
 msgstr "Kasuta Kodi juhtimiseks hiirt või puuteekraaniga seadet. Märkus : Valiku deaktiveerimisega kaotate, klaviatuuri või kaugjuhtimispuldi puudumisel, võimaluse programmi juhtida."
+=======
+msgid "Use a mouse or touch screen device to control XBMC. Note: disabling will cause you to lose control over XBMC when no keyboard or remote is present."
+msgstr "Kasuta XBMC juhtimiseks hiirt või puuteekraaniga seadet. Märkus : Valiku deaktiveerimisega kaotate, klaviatuuri või kaugjuhtimispuldi puudumisel, võimaluse programmi juhtida."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36378"
 msgid "Use a joystick to control Kodi."

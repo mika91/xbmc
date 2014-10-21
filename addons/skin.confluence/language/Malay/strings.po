@@ -288,6 +288,7 @@ msgctxt "#31362"
 msgid "Enabled"
 msgstr "Dibenarkan"
 
+<<<<<<< HEAD
 msgctxt "#31502"
 msgid "Live TV"
 msgstr "TV"
@@ -296,6 +297,8 @@ msgctxt "#31952"
 msgid "TV"
 msgstr "TV"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#31959"
 msgid "SYSTEM"
 msgstr "Sistem"

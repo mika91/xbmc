@@ -36,7 +36,11 @@
 #define NUM_OMX_BUFFERS 2
 #define AUDIO_PLAYBUFFER (0.1) // 100ms
 
+<<<<<<< HEAD
 static const unsigned int PassthroughSampleRates[] = { 8000, 11025, 16000, 22050, 24000, 32000, 44100, 48000, 88200, 96000, 176400, 192000 };
+=======
+static const unsigned int PassthroughSampleRates[] = { 8000, 11025, 16000, 22050, 24000, 32000, 41400, 48000, 88200, 96000, 176400, 192000 };
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 CAEDeviceInfo CAESinkPi::m_info;
 
@@ -180,19 +184,31 @@ bool CAESinkPi::Initialize(AEAudioFormat &format, std::string &device)
     format.m_channelLayout = AE_CH_LAYOUT_2_0;
 
   // setup for a 50ms sink feed from SoftAE
+<<<<<<< HEAD
   if (format.m_dataFormat != AE_FMT_FLOATP && format.m_dataFormat != AE_FMT_FLOAT &&
       format.m_dataFormat != AE_FMT_S32NE && format.m_dataFormat != AE_FMT_S32NEP && format.m_dataFormat != AE_FMT_S32LE &&
       format.m_dataFormat != AE_FMT_S16NE && format.m_dataFormat != AE_FMT_S16NEP && format.m_dataFormat != AE_FMT_S16LE)
+=======
+  if (format.m_dataFormat != AE_FMT_FLOAT && format.m_dataFormat != AE_FMT_S32LE)
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     format.m_dataFormat = AE_FMT_S16LE;
   unsigned int channels    = format.m_channelLayout.Count();
   unsigned int sample_size = CAEUtil::DataFormatToBits(format.m_dataFormat) >> 3;
   format.m_frameSize     = sample_size * channels;
   format.m_sampleRate    = std::max(8000U, std::min(192000U, format.m_sampleRate));
+<<<<<<< HEAD
   format.m_frames        = format.m_sampleRate * AUDIO_PLAYBUFFER / NUM_OMX_BUFFERS;
   format.m_frameSamples  = format.m_frames * channels;
 
   SetAudioProps(m_passthrough, GetChannelMap(format, m_passthrough));
 
+=======
+  format.m_frames        = format.m_sampleRate * AUDIO_PLAYBUFFER;
+  format.m_frameSamples  = format.m_frames * channels;
+
+  SetAudioProps(m_passthrough, GetChannelMap(format, m_passthrough));
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   m_format = format;
   m_sinkbuffer_sec_per_byte = 1.0 / (double)(m_format.m_frameSize * m_format.m_sampleRate);
 
@@ -212,6 +228,7 @@ bool CAESinkPi::Initialize(AEAudioFormat &format, std::string &device)
   m_pcm_input.eEndian               = OMX_EndianLittle;
   m_pcm_input.bInterleaved          = OMX_TRUE;
   m_pcm_input.nBitPerSample         = sample_size * 8;
+<<<<<<< HEAD
   // 0x8000 = float, 0x10000 = planar
   uint32_t flags = 0;
   if (m_format.m_dataFormat == AE_FMT_FLOAT || m_format.m_dataFormat == AE_FMT_FLOATP)
@@ -219,6 +236,9 @@ bool CAESinkPi::Initialize(AEAudioFormat &format, std::string &device)
   if (AE_IS_PLANAR(m_format.m_dataFormat))
    flags |= 0x10000;
   m_pcm_input.ePCMMode              = flags == 0 ? OMX_AUDIO_PCMModeLinear : (OMX_AUDIO_PCMMODETYPE)flags;
+=======
+  m_pcm_input.ePCMMode              = m_format.m_dataFormat == AE_FMT_FLOAT ? (OMX_AUDIO_PCMMODETYPE)0x8000 : OMX_AUDIO_PCMModeLinear;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   m_pcm_input.nChannels             = channels;
   m_pcm_input.nSamplingRate         = m_format.m_sampleRate;
 
@@ -240,7 +260,11 @@ bool CAESinkPi::Initialize(AEAudioFormat &format, std::string &device)
     CLog::Log(LOGERROR, "%s:%s - error get OMX_IndexParamPortDefinition (input) omx_err(0x%08x)", CLASSNAME, __func__, omx_err);
 
   port_param.nBufferCountActual = std::max((unsigned int)port_param.nBufferCountMin, (unsigned int)NUM_OMX_BUFFERS);
+<<<<<<< HEAD
   port_param.nBufferSize = m_format.m_frameSize * m_format.m_frames;
+=======
+  port_param.nBufferSize = m_format.m_frameSize * m_format.m_frames / port_param.nBufferCountActual;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   omx_err = m_omx_render.SetParameter(OMX_IndexParamPortDefinition, &port_param);
   if (omx_err != OMX_ErrorNone)
@@ -335,8 +359,56 @@ unsigned int CAESinkPi::AddPackets(uint8_t **data, unsigned int frames, unsigned
   omx_buffer = m_omx_render.GetInputBuffer(1000);
   if (omx_buffer == NULL)
   {
+<<<<<<< HEAD
     CLog::Log(LOGERROR, "CAESinkPi::AddPackets timeout");
     return 0;
+=======
+    double delay = GetDelay();
+    double ideal_submission_time = AUDIO_PLAYBUFFER - delay;
+    // ideal amount of audio we'd like submit (to make delay match AUDIO_PLAYBUFFER)
+    int timeout = blocking ? 1000 : 0;
+    int ideal_submission_samples = ideal_submission_time / (m_sinkbuffer_sec_per_byte * m_format.m_frameSize);
+    // if we are almost full then sleep (to avoid repeatedly sending a few samples)
+    bool too_laggy = ideal_submission_time < 0.25 * AUDIO_PLAYBUFFER;
+    int sleeptime = (int)(AUDIO_PLAYBUFFER * 0.25 * 1000.0);
+    if (too_laggy)
+    {
+      if (blocking)
+      {
+        Sleep(sleeptime);
+        continue;
+      }
+      break;
+    }
+    omx_buffer = m_omx_render.GetInputBuffer(timeout);
+    if (omx_buffer == NULL)
+    {
+      if (blocking)
+        CLog::Log(LOGERROR, "COMXAudio::Decode timeout");
+      break;
+    }
+
+    unsigned int space = omx_buffer->nAllocLen / m_format.m_frameSize;
+    unsigned int samples = std::min(std::min(space, (unsigned int)ideal_submission_samples), frames - sent);
+
+    omx_buffer->nFilledLen = samples * m_format.m_frameSize;
+    omx_buffer->nTimeStamp = ToOMXTime(0);
+    omx_buffer->nFlags = 0;
+    memcpy(omx_buffer->pBuffer, (uint8_t *)data + sent * m_format.m_frameSize, omx_buffer->nFilledLen);
+
+    sent += samples;
+
+    if (sent == frames)
+      omx_buffer->nFlags |= OMX_BUFFERFLAG_ENDOFFRAME;
+
+    if (delay <= 0.0 && m_submitted)
+      CLog::Log(LOGNOTICE, "%s:%s Underrun (delay:%.2f frames:%d)", CLASSNAME, __func__, delay, frames);
+
+    omx_err = m_omx_render.EmptyThisBuffer(omx_buffer);
+    if (omx_err != OMX_ErrorNone)
+      CLog::Log(LOGERROR, "%s:%s frames=%d err=%x", CLASSNAME, __func__, frames, omx_err);
+    m_submitted++;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   }
 
   omx_buffer->nFilledLen = frames * m_format.m_frameSize;
@@ -387,8 +459,11 @@ void CAESinkPi::EnumerateDevicesEx(AEDeviceInfoList &list, bool force)
   for (unsigned int i=0; i<sizeof PassthroughSampleRates/sizeof *PassthroughSampleRates; i++)
     m_info.m_sampleRates.push_back(PassthroughSampleRates[i]);
   m_info.m_dataFormats.push_back(AE_FMT_FLOAT);
+<<<<<<< HEAD
   m_info.m_dataFormats.push_back(AE_FMT_S32NE);
   m_info.m_dataFormats.push_back(AE_FMT_S16NE);
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   m_info.m_dataFormats.push_back(AE_FMT_S32LE);
   m_info.m_dataFormats.push_back(AE_FMT_S16LE);
   m_info.m_dataFormats.push_back(AE_FMT_FLOATP);

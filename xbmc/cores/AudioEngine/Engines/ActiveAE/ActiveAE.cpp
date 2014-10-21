@@ -95,8 +95,13 @@ void CEngineStats::GetDelay(AEDelayStatus& status, CActiveAEStream *stream)
   status = m_sinkDelay;
   status.delay += (double)m_bufferedSamples / m_sinkSampleRate;
 
+<<<<<<< HEAD
   status.delay += m_sinkLatency;
   status.delay += stream->m_bufferedTime / stream->m_streamResampleRatio;
+=======
+  delay += stream->m_bufferedTime / stream->m_streamResampleRatio;
+  return delay;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 }
 
 float CEngineStats::GetCacheTime(CActiveAEStream *stream)

@@ -29,6 +29,7 @@ typedef const struct __CFString * CFStringRef;
 
 class CDarwinUtils
 {
+<<<<<<< HEAD
 public:
   static const char *getIosPlatformString(void);
   static bool        IsAppleTV2(void);
@@ -52,5 +53,27 @@ public:
   static bool        CFStringRefToUTF8String(CFStringRef source, std::string& destination);
   static const std::string&  GetManufacturer(void);
 };
+=======
+#endif
+  bool        DarwinIsAppleTV2(void);
+  bool        DarwinIsMavericks(void);
+  bool        DarwinIsSnowLeopard(void);
+  bool        DarwinHasRetina(void);
+  const char *GetDarwinOSReleaseString(void);
+  const char *GetDarwinVersionString(void);
+  float       GetIOSVersion(void);
+  int         GetDarwinFrameworkPath(bool forPython, char* path, uint32_t *pathsize);
+  int         GetDarwinExecutablePath(char* path, uint32_t *pathsize);
+  const char *DarwinGetXbmcRootFolder(void);
+  bool        DarwinIsIosSandboxed(void);
+  bool        DarwinHasVideoToolboxDecoder(void);
+  int         DarwinBatteryLevel(void);
+  void        DarwinSetScheduling(int message);
+  bool        DarwinCFStringRefToString(CFStringRef source, std::string& destination);
+  bool        DarwinCFStringRefToUTF8String(CFStringRef source, std::string& destination);
+#ifdef __cplusplus
+}
+#endif
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 #endif

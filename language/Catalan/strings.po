@@ -5001,6 +5001,25 @@ msgctxt "#13440"
 msgid "Allow multi threaded software decoding"
 msgstr "Permeteu descodificació per programari multi fil"
 
+<<<<<<< HEAD
+=======
+msgctxt "#13441"
+msgid "Use Mpeg-2 VDPAU"
+msgstr "Utilitza Mpeg-2 VDPAU"
+
+msgctxt "#13442"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
+msgstr "Activeu aquesta opció per a utilitzar acceleració per maquinari per a codecs Mpeg-(1/2). Si es deshabilita es farà servir la CPU. Targetes Radeon antigues tenen tendència a fallar amb aquesta opció activada."
+
+msgctxt "#13443"
+msgid "Use Mpeg-4 VDPAU"
+msgstr "Utilitza Mpeg-4 VDPAU"
+
+msgctxt "#13444"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
+msgstr "Activeu aquesta opció per a utilitzar acceleració per maquinari per al codec Mpeg-4. Si es deshabilita es farà servir la CPU. Algun maquinari basat en ION té problemes amb aquesta opció activada per defecte."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
 msgstr "Utilitza VC-1 VDPAU"
@@ -5009,6 +5028,25 @@ msgctxt "#13446"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. AMD Hardware with VDPAU cannot decode VC-1 Simple."
 msgstr "Activeu aquesta opció per a utilitzar acceleració per maquinari per a codecs basats en VC-1. Si es deshabilita es farà servir la CPU. Maquinari AMD amb VDPAU no pot descodificar VC-1 simple."
 
+<<<<<<< HEAD
+=======
+msgctxt "#13447"
+msgid "Use Mpeg-2 VAAPI"
+msgstr "Utilitza Mpeg-2 VAAPI"
+
+msgctxt "#13448"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Some Mpeg-2 Videos might have green artifacts."
+msgstr "Activeu aquesta opció per a utilitzar acceleració per maquinari per a codecs Mpeg-(1/2). Si es deshabilita es farà servir la CPU. Alguns vídeos Mpeg-2 poden tenir artefactes verds."
+
+msgctxt "#13449"
+msgid "Use Mpeg-4 VAAPI"
+msgstr "Utilitza Mpeg-4 VAAPI"
+
+msgctxt "#13450"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead."
+msgstr "Activeu aquesta opció per a utilitzar acceleració per maquinari per al codec Mpeg-4. Si es deshabilita es farà servir la CPU."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
 msgstr "Utilitza VC-1 VAAPI"
@@ -6057,6 +6095,10 @@ msgctxt "#19018"
 msgid "Folder with channel icons"
 msgstr "Carpeta amb les icones de canal"
 
+msgctxt "#19018"
+msgid "Folder with channel icons"
+msgstr "Carpeta amb les icones de canal"
+
 msgctxt "#19019"
 msgid "Channels"
 msgstr "Canals"
@@ -6240,6 +6282,10 @@ msgstr "Anar a l'inici"
 msgctxt "#19064"
 msgid "Go to end"
 msgstr "Anar al final"
+
+msgctxt "#19066"
+msgid "Channel icons"
+msgstr "Icones del cananl"
 
 msgctxt "#19066"
 msgid "Channel icons"
@@ -11321,6 +11367,10 @@ msgctxt "#36243"
 msgid "The command to execute."
 msgstr "La comanda a executar."
 
+msgctxt "#36243"
+msgid "The command to execute."
+msgstr "La comanda a executar."
+
 msgctxt "#36245"
 msgid "Execute the wakeup command every day at the given time."
 msgstr "Executa la comanda wakeup cada dia a l'hora indicada."
@@ -11445,6 +11495,18 @@ msgctxt "#36298"
 msgid "Select the character set used during karaoke."
 msgstr "Seleccioneu el joc de caràcters utilitzat durant el karaoke."
 
+msgctxt "#36296"
+msgid "Select the size of the font used during karaoke."
+msgstr "Seleccioneu la mida de la font utilitzada durant el karaoke."
+
+msgctxt "#36297"
+msgid "Select the font colour used during karaoke."
+msgstr "Seleccioneu el color de la font utilitzada durant el karaoke."
+
+msgctxt "#36298"
+msgid "Select the character set used during karaoke."
+msgstr "Seleccioneu el joc de caràcters utilitzat durant el karaoke."
+
 msgctxt "#36301"
 msgid "No info available yet."
 msgstr "No hi ha informació disponible"
@@ -11509,6 +11571,17 @@ msgctxt "#36329"
 msgid "Define the webserver port."
 msgstr "Definiu el port del servidor web."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36330"
+msgid "Define the webserver username."
+msgstr "Definiu l'usuari del servidor web."
+
+msgctxt "#36331"
+msgid "Define the webserver password."
+msgstr "Definiu la contrasenya del servidor web."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the Add-on Manager."
 msgstr "Selecciona una de les interfícies web instal·lades a través de l'Administrador de Complements."
@@ -11529,9 +11602,25 @@ msgctxt "#36337"
 msgid "Define the maximum number of clients that can connect."
 msgstr "Definiu el nombre màxim de clients que poden connectar-se."
 
+msgctxt "#36335"
+msgid "Define the remote control port."
+msgstr "Definiu el port de control remot."
+
+msgctxt "#36336"
+msgid "Define the remote control port range."
+msgstr "Definiu el rang de ports de control remot."
+
+msgctxt "#36337"
+msgid "Define the maximum number of clients that can connect."
+msgstr "Definiu el nombre màxim de clients que poden connectar-se."
+
 msgctxt "#36338"
 msgid "Allow programs on the network to control Kodi."
 msgstr "Permetre a programes de la xarxa que controlin l'Kodi."
+
+msgctxt "#36344"
+msgid "Enable AirPlay password protection."
+msgstr "Habilita la protecció amb contrasenya de l'AirPlay."
 
 msgctxt "#36344"
 msgid "Enable AirPlay password protection."
@@ -11753,6 +11842,7 @@ msgctxt "#36544"
 msgid "Enable hardware decoding of video files."
 msgstr "Habilita el maquinari de descodificació d'arxius de vídeo."
 
+<<<<<<< HEAD
 msgctxt "#36902"
 msgid "TV show"
 msgstr "Sèrie de TV"
@@ -11768,6 +11858,15 @@ msgstr "episodi"
 msgctxt "#36907"
 msgid "episodes"
 msgstr "episodis"
+=======
+msgctxt "#36545"
+msgid "Subtitle stereoscopic depth"
+msgstr "Profunditat estereoscòpica dels subtítols"
+
+msgctxt "#36548"
+msgid "Limits resolution of GUI to save memory. Does not affect video playback. Use 1080 for unlimited. Requires restart."
+msgstr "Limita la resolució de la interfície per a estalviar memòria. No afecta a la reproducció de vídeo. Utilitzeu 1080 per a no limitar-la. Requereix reiniciar."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#37000"
 msgid "(Visually Impaired)"
@@ -11824,7 +11923,10 @@ msgstr "Reproductor UPnP"
 msgctxt "#37023"
 msgid "Do you wish to stop playback on the remote device?"
 msgstr "Voleu parar la reproducció al dispositiu remot?"
+<<<<<<< HEAD
 
 msgctxt "#37026"
 msgid "Auto"
 msgstr "Auto"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64

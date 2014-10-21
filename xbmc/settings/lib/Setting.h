@@ -95,7 +95,10 @@ public:
   int GetHelp() const { return m_help; }
   void SetHelp(int help) { m_help = help; }
   bool IsEnabled() const;
+<<<<<<< HEAD
   void SetEnabled(bool enabled);
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   bool IsDefault() const { return !m_changed; }
   const std::string& GetParent() const { return m_parentSetting; }
   void SetParent(const std::string& parentSetting) { m_parentSetting = parentSetting; }

@@ -390,8 +390,13 @@ msgid "Confirm file move"
 msgstr "Patvirtinti failo perkėlimą"
 
 msgctxt "#122"
+<<<<<<< HEAD
 msgid "Confirm delete"
 msgstr "Patvirtinti trynimą"
+=======
+msgid "Confirm file delete?"
+msgstr "Patvirtinti failo pašalinimą?"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#123"
 msgid "Copy these files?"
@@ -688,6 +693,7 @@ msgstr "Įkeliami filmo duomenys"
 msgctxt "#199"
 msgid "Web interface"
 msgstr "Žiniatinklio sąsaja"
+<<<<<<< HEAD
 
 msgctxt "#200"
 msgid "Audio encoders"
@@ -696,6 +702,12 @@ msgstr "Garso koduotuvai"
 msgctxt "#202"
 msgid "Tagline"
 msgstr "Paantraštė"
+=======
+
+msgctxt "#202"
+msgid "Tagline"
+msgstr "Šūkis"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#203"
 msgid "Plot outline"
@@ -922,8 +934,13 @@ msgid "Scripts output"
 msgstr "Scenarijų išvestis"
 
 msgctxt "#263"
+<<<<<<< HEAD
 msgid "Allow control of Kodi via HTTP"
 msgstr "Leisti valdyti Kodi per HTTP"
+=======
+msgid "Allow control of XBMC via HTTP"
+msgstr "Leisti valdyti XBMC per HTTP"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#264"
 msgid "Record"
@@ -1096,10 +1113,13 @@ msgstr "Originali srauto kalba"
 msgctxt "#309"
 msgid "User interface language"
 msgstr "Vartotojo sąsajos kalba"
+<<<<<<< HEAD
 
 msgctxt "#310"
 msgid "Keyboard layouts"
 msgstr "Klaviatūros išdėstymai"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#312"
 msgid "(0=auto)"
@@ -1996,10 +2016,13 @@ msgstr "Šio atlikėjo biografija nerasta"
 msgctxt "#548"
 msgid "Downmix multichannel audio to stereo"
 msgstr "Daugiakanalį garsą permiksuoti į stereo"
+<<<<<<< HEAD
 
 msgctxt "#549"
 msgid "Number"
 msgstr "Numeris"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#550"
 msgid "Sort by: %s"
@@ -2418,8 +2441,13 @@ msgid "Compression level"
 msgstr "Glaudinimo lygis"
 
 msgctxt "#666"
+<<<<<<< HEAD
 msgid "Enable component-specific logging"
 msgstr "Įgalinti komponentą ruošai"
+=======
+msgid "Verbose logging..."
+msgstr "Išsamus žurnalo rašymas..."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#667"
 msgid "Enable Dolby Digital transcoding"
@@ -2854,8 +2882,13 @@ msgid "Unable to connect"
 msgstr "Neįmanoma prisijungti"
 
 msgctxt "#1002"
+<<<<<<< HEAD
 msgid "Kodi was unable to connect to the network location."
 msgstr "Kodi nepavyko prisijungti prie tinklo vietos."
+=======
+msgid "XBMC was unable to connect to the network location."
+msgstr "XBMC nepavyko prisijungti prie tinklo vietos."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#1003"
 msgid "This could be due to the network not being connected."
@@ -4143,7 +4176,11 @@ msgstr "Išjungimo funkcija"
 
 msgctxt "#13009"
 msgid "Quit"
+<<<<<<< HEAD
 msgstr "Išeiti iš Kodi"
+=======
+msgstr "Išeiti iš XBMC"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13010"
 msgid "Hibernate"
@@ -4354,8 +4391,13 @@ msgid "Active connections detected!"
 msgstr "Aptikti aktyvūs ryšiai!"
 
 msgctxt "#13141"
+<<<<<<< HEAD
 msgid "If you proceed, you might not be able to control Kodi"
 msgstr "Jei tęsite, galite prarasti galimybę kontroliuoti Kodi"
+=======
+msgid "If you proceed, you might not be able to control XBMC"
+msgstr "Jei tęsite, galite prarasti galimybę kontroliuoti XBMC"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13142"
 msgid "any longer. Are you sure you want to stop the Event server?"
@@ -4370,8 +4412,13 @@ msgid "If you are currently using the Apple Remote to control"
 msgstr "Jei šiuo metu naudojate Apple nuotolinio valdymo pultelį"
 
 msgctxt "#13146"
+<<<<<<< HEAD
 msgid "Kodi, changing this setting might affect your ability"
 msgstr "Kodi valdymui, šių nustatymų pakeitimas gali įtakoti"
+=======
+msgid "XBMC, changing this setting might affect your ability"
+msgstr "XBMC valdymui, šių nustatymų pakeitimas gali įtakoti"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13147"
 msgid "to continue controlling it. Do you want to proceed?"
@@ -4598,8 +4645,13 @@ msgid "Do you wish to reboot your system"
 msgstr "Ar norite iš naujo paleisti sistemą"
 
 msgctxt "#13309"
+<<<<<<< HEAD
 msgid "instead of just Kodi?"
 msgstr "vietoj to, kad iš naujo paleisti tik Kodi?"
+=======
+msgid "instead of just XBMC?"
+msgstr "vietoj to, kad iš naujo paleisti tik XBMC?"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13310"
 msgid "Zoom effect"
@@ -5066,16 +5118,26 @@ msgid "Use MPEG-2 VDPAU"
 msgstr "Naudoti MPEG-2 VDPAU"
 
 msgctxt "#13442"
+<<<<<<< HEAD
 msgid "Enable this option to use hardware acceleration for MPEG-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
 msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą MPEG-(1/2) kodekams. Jei išjungta, bus naudojamas procesorius. Senesnės Radeon grafinės plokštės gali veikti netinkamai, kai įjungta ši parinktis."
+=======
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
+msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą MPEG-(1/2) kodekams. Jei išjungta bus naudojamas procesorius. Senesnės Radeon grafinės plokštės gali veikti nekorektiškai, kai įjungta ši parinktis."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13443"
 msgid "Use MPEG-4 VDPAU"
 msgstr "Naudoti MPEG-4 VDPAU"
 
 msgctxt "#13444"
+<<<<<<< HEAD
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
 msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą MPEG-4 kodekui. Jei išjungta, bus naudojamas procesorius. Kai kuriai ION aparatinei įrangai kyla problemų, kai įjungta  ši parinktis."
+=======
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
+msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą Mpeg-4 kodekui. Jei išjungta bus naudojamas procesorius. Kai kuriai ION aparatinei įrangai kyla problemų, kai ši parinktis įjungta pagal nutylėjimą."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
@@ -5083,23 +5145,37 @@ msgstr "Naudoti VC-1 VDPAU"
 
 msgctxt "#13446"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. AMD Hardware with VDPAU cannot decode VC-1 Simple."
+<<<<<<< HEAD
 msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą kodekams, paremtiems VC-1. Jei išjungta, bus naudojamas procesorius. AMD aparatinė įranga su VDPAU negali iškoduoti VC-1 Simple."
+=======
+msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą kodekams, paremtiems VC-1. Jei išjungta bus naudojamas procesorius. AMD aparatinė įranga su VDPAU negali iškoduoti VC-1 Simple."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13447"
 msgid "Use MPEG-2 VAAPI"
 msgstr "Naudoti MPEG-2 VAAPI"
 
 msgctxt "#13448"
+<<<<<<< HEAD
 msgid "Enable this option to use hardware acceleration for MPEG-(1/2) codecs. If disabled the CPU will be used instead. Some MPEG-2 Videos might have green artifacts."
 msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą MPEG-(1/2) kodekams. Jei išjungta, bus naudojamas procesorius. Kai kurie MPEG-2 vaizdo įrašai gali turėti žalių artefaktų."
+=======
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Some Mpeg-2 Videos might have green artifacts."
+msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą Mpeg-(1/2) kodekams. Jei išjungta bus naudojamas procesorius. Kai kurie Mpeg-2 vaizdo failai, atkūrimo metu gali turėti žalių artefaktų."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13449"
 msgid "Use MPEG-4 VAAPI"
 msgstr "Naudoti MPEG-4 VAAPI"
 
 msgctxt "#13450"
+<<<<<<< HEAD
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead."
 msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą MPEG-4 kodekui. Jei išjungta, bus naudojamas procesorius."
+=======
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead."
+msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą Mpeg-4 kodekui. Jei išjungta bus naudojamas procesorius."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
@@ -5107,7 +5183,11 @@ msgstr "Naudoti VC-1 VAAPI"
 
 msgctxt "#13452"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. Especially VC-1 Interlaced fails hard on Intel hardware."
+<<<<<<< HEAD
 msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą kodekams, paremtiems VC-1. Jei išjungta, bus naudojamas procesorius. Labai dažnai su VC-1 Interlaced kyla problemų Intel aparatinei įrangai."
+=======
+msgstr "Įgalinkite šią parinktį, jei norite naudoti aparatinės įrangos spartinimą kodekams, paremtiems VC-1. Jei išjungta bus naudojamas procesorius. Labai dažnai su VC-1 Interlaced kyla problemų Intel aparatinei įrangai."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13454"
 msgid "Decoding method"
@@ -5121,6 +5201,7 @@ msgctxt "#13456"
 msgid "Hardware accelerated"
 msgstr "Aparatinės įrangos spartinimas"
 
+<<<<<<< HEAD
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "Pirmenybė VAAPI metodui"
@@ -5133,6 +5214,8 @@ msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
 msgstr "Naudokite OMXPlayer vaizdo failų dekodavimui."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13500"
 msgid "A/V sync method"
 msgstr "A/V sinchronizavimo metodas"
@@ -5230,8 +5313,13 @@ msgid "Apple remote"
 msgstr "Apple nuotolinio valdymo pultelis"
 
 msgctxt "#13602"
+<<<<<<< HEAD
 msgid "Allow start of Kodi using the remote"
 msgstr "Leisti paleisti Kodi naudojant nuotolinio valdymo pultelį"
+=======
+msgid "Allow start of XBMC using the remote"
+msgstr "Leisti paleisti XBMC naudojant nuotolinio valdymo pultelį"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13603"
 msgid "Sequence delay time"
@@ -5402,8 +5490,13 @@ msgid "Network settings changed"
 msgstr "Tinklo parametrai pasikeitė"
 
 msgctxt "#14039"
+<<<<<<< HEAD
 msgid "Kodi requires to restart to change your"
 msgstr "Būtina iš naujo paleisti Kodi, norint pakeisti"
+=======
+msgid "XBMC requires to restart to change your"
+msgstr "Būtina iš naujo paleisti XBMC, norint pakeisti"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#14040"
 msgid "network setup.  Would you like to restart now?"
@@ -5700,10 +5793,13 @@ msgstr "Navigacijos garsai"
 msgctxt "#15109"
 msgid "Skin default"
 msgstr "Kaip numatyta"
+<<<<<<< HEAD
 
 msgctxt "#15110"
 msgid "Larger font size"
 msgstr "Didesnis šrifto dydis"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#15111"
 msgid "Theme"
@@ -6372,6 +6468,13 @@ msgstr "Eiti į pradžią"
 msgctxt "#19064"
 msgid "Go to end"
 msgstr "Eiti į pabaigą"
+<<<<<<< HEAD
+=======
+
+msgctxt "#19065"
+msgid "Default EPG window"
+msgstr "Numatytasis EPG langas"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19066"
 msgid "Channel icons"
@@ -6520,18 +6623,24 @@ msgstr "Tiekėjas"
 msgctxt "#19102"
 msgid "Please switch to another channel."
 msgstr "Perjunkite kitą kanalą"
+<<<<<<< HEAD
 
 msgctxt "#19103"
 msgid "Go to channel"
 msgstr "Eiti į kanalą"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19104"
 msgid "Enter the name of the folder for the recording"
 msgstr "Įvesti aplanko pavadinimą įrašams"
+<<<<<<< HEAD
 
 msgctxt "#19105"
 msgid "Please select a channel"
 msgstr "Prašome pasirinkti kanalą"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19106"
 msgid "Next timer on"
@@ -6552,6 +6661,7 @@ msgstr "Įvyko netikėta klaida. Bandykite vėliau arba patikrinkite žurnalą, 
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for details."
 msgstr "PVR posistemės klaida. Patikrinkite žurnalą, norėdami gauti išsamesnės informacijos."
+<<<<<<< HEAD
 
 msgctxt "#19112"
 msgid "Delete this recording?"
@@ -6560,6 +6670,8 @@ msgstr "Ištrinti šį įrašą?"
 msgctxt "#19113"
 msgid "Delete all recordings in this folder?"
 msgstr "Ištrinti visus šio aplanko įrašus?"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19114"
 msgid "Version"
@@ -6813,6 +6925,13 @@ msgctxt "#19178"
 msgid "Show channel information when switching channels"
 msgstr "Rodyti kanalų informaciją perjungiant kanalus"
 
+<<<<<<< HEAD
+=======
+msgctxt "#19179"
+msgid "Automatically hide channel information"
+msgstr "Automatiškai paslėpti kanalo informaciją"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19180"
 msgid "TV"
 msgstr "TV"
@@ -6850,8 +6969,13 @@ msgid "Continue last channel on startup"
 msgstr "Paleidus rodyti paskutinį žiūrėtą kanalą"
 
 msgctxt "#19190"
+<<<<<<< HEAD
 msgid "Background"
 msgstr "Fonas"
+=======
+msgid "Minimised"
+msgstr "Sumažintas"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -7170,8 +7294,13 @@ msgid "Do not show 'connection lost' warnings"
 msgstr "Nerodyti 'Ryšys nutrūko' perspėjimų"
 
 msgctxt "#19270"
+<<<<<<< HEAD
 msgid "Group Items"
 msgstr "Grupės punktai"
+=======
+msgid "* All recordings"
+msgstr "* Visi įrašymai"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19271"
 msgid "No PVR Add-ons could be found"
@@ -7232,6 +7361,7 @@ msgstr "Pasirinkti piktogramą"
 msgctxt "#19285"
 msgid "Browse for icon"
 msgstr "Parinkti piktogramą"
+<<<<<<< HEAD
 
 msgctxt "#19286"
 msgid "Searching for channel icons"
@@ -7244,6 +7374,8 @@ msgstr "Visi kanalai"
 msgctxt "#19288"
 msgid "Foreground"
 msgstr "Priekinis planas"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19499"
 msgid "Other/Unknown"
@@ -8546,8 +8678,13 @@ msgid "Do you want to remove all items within"
 msgstr "Ar norite pašalinti visus elementus, esančius"
 
 msgctxt "#20341"
+<<<<<<< HEAD
 msgid "this path from the Kodi library?"
 msgstr "šiame kelyje, iš Kodi bibliotekos?"
+=======
+msgid "this path from the XBMC library?"
+msgstr "šioje dalyje, iš XBMC bibliotekos?"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#20342"
 msgid "Movies"
@@ -9524,10 +9661,13 @@ msgstr "%d - %d"
 msgctxt "#21469"
 msgid "%s to %s"
 msgstr "%s - %s"
+<<<<<<< HEAD
 
 msgctxt "#21470"
 msgid "%s [%d]"
 msgstr "%s [%d]"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#21602"
 msgid "(External)"
@@ -9762,8 +9902,13 @@ msgid "Reference service"
 msgstr "Nuorodos paslauga"
 
 msgctxt "#21881"
+<<<<<<< HEAD
 msgid "Allow control of Kodi via UPnP"
 msgstr "Leisti valdyti Kodi per UPnP"
+=======
+msgid "Allow control of XBMC via UPnP"
+msgstr "Leisti valdyti XBMC per UPnP"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#21882"
 msgid "Attempt to skip introduction before DVD menu"
@@ -10344,6 +10489,7 @@ msgstr "Reikalingas priedas"
 msgctxt "#24080"
 msgid "Try to reconnect?"
 msgstr "Pabandyti prisijungti iš naujo?"
+<<<<<<< HEAD
 
 msgctxt "#24081"
 msgid "Helper Add-ons"
@@ -10360,6 +10506,8 @@ msgstr "Informacinės bibliotekos"
 msgctxt "#24084"
 msgid "Visualisation libraries"
 msgstr "Vizualizacijos bibliotekos"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#24089"
 msgid "Add-on restarts"
@@ -10501,6 +10649,7 @@ msgctxt "#24125"
 msgid "Custom location"
 msgstr "Sava vieta"
 
+<<<<<<< HEAD
 msgctxt "#24126"
 msgid "Auto download first subtitle"
 msgstr "Automatiškai atsiųsti pirmus subtitrus"
@@ -10509,6 +10658,8 @@ msgctxt "#24127"
 msgid "Automatically download first subtitle from the search result list"
 msgstr "Automatiškai atsiųsti pirmus subtitrus iš paieškos rezultatų sąrašo"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#25000"
 msgid "Notifications"
 msgstr "Pranešimai"
@@ -10814,8 +10965,13 @@ msgid "This version of %s requires an"
 msgstr "Šiai %s versijai reikalinga"
 
 msgctxt "#33075"
+<<<<<<< HEAD
 msgid "Kodi revision of %s or greater to run."
 msgstr "Kodi %s ar aukštesnė versija."
+=======
+msgid "XBMC revision of %s or greater to run."
+msgstr "XBMC %s ar aukštesnė versija."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#33076"
 msgid "Please update Kodi."
@@ -11100,6 +11256,13 @@ msgstr "Įjungti vairasvirtės ir žaidimų pulto palaikymą"
 msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "Išjungti vairasvirtę, kai šis įrenginys veikia"
+<<<<<<< HEAD
+=======
+
+msgctxt "#35103"
+msgid "Enable system keys in fullscreen"
+msgstr "Įgalinti sistemos klavišus visame ekrane"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#35500"
 msgid "Location"
@@ -11150,12 +11313,21 @@ msgid "Could not open the adaptor"
 msgstr "Nepavyko atidaryti adapterio"
 
 msgctxt "#36007"
+<<<<<<< HEAD
 msgid "Devices to power on when starting Kodi"
 msgstr "Paleidžiant Kodi įjungti šiuos įrenginius"
 
 msgctxt "#36008"
 msgid "Devices to power off when stopping Kodi"
 msgstr "Stabdant Kodi išjungti šiuos įrenginius"
+=======
+msgid "Devices to power on when starting XBMC"
+msgstr "Paleidžiant XBMC įjungti šiuos įrenginius"
+
+msgctxt "#36008"
+msgid "Devices to power off when stopping XBMC"
+msgstr "Stabdant XBMC išjungti šiuos įrenginius"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36009"
 msgid "Put devices in standby mode when activating screensaver"
@@ -11194,8 +11366,13 @@ msgid "Connected to HDMI device"
 msgstr "Prisijungta prie HDMI įrenginio"
 
 msgctxt "#36020"
+<<<<<<< HEAD
 msgid "Make Kodi the active source when starting"
 msgstr "Padaryti Kodi aktyviu šaltiniu paleidžiant"
+=======
+msgid "Make XBMC the active source when starting"
+msgstr "Padaryti XBMC aktyviu šaltiniu paleidžiant"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36021"
 msgid "Physical address (overrules HDMI port)"
@@ -11214,8 +11391,13 @@ msgid "Failed to set the new configuration. Please check your settings."
 msgstr "Nepavyko nustatyti naujos konfigūracijos. Patikrinkite nustatymus."
 
 msgctxt "#36025"
+<<<<<<< HEAD
 msgid "Send 'inactive source' command when stopping Kodi"
 msgstr "Siųsti 'neaktyvus šaltinis' komandą, kai išjungiamas Kodi"
+=======
+msgid "Send 'inactive source' command when stopping XBMC"
+msgstr "Siųsti 'neaktyvus šaltinis' komandą, kai išjungiamas XBMC"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36026"
 msgid "Put devices in standby mode when putting the PC in standby"
@@ -11270,8 +11452,13 @@ msgid "TV and AVR device (explicit)"
 msgstr "Televizorius ir AVR įrenginys (tikslus)"
 
 msgctxt "#36040"
+<<<<<<< HEAD
 msgid "Unsupported libCEC interface version. %x is lower than the version Kodi supports (%x)"
 msgstr "Nepalaikoma libCEC sąsajos versija. %x yra mažesnė nei Kodi palaikoma versija (%x)"
+=======
+msgid "Unsupported libCEC interface version. %x is lower than the version XBMC supports (%x)"
+msgstr "Nepalaikoma libCEC sąsajos versija. %x yra mažesnė nei XBMC palaikoma versija (%x)"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36041"
 msgid "* Item folder"
@@ -11290,8 +11477,13 @@ msgid "Category containing all Skin related settings."
 msgstr "Kategorija, kurioje yra visi su temine išvaizda susiję nustatymai."
 
 msgctxt "#36103"
+<<<<<<< HEAD
 msgid "Select the skin for the user interface. This will define the look and feel of Kodi."
 msgstr "Pasirinkite vartotojo sąsajos teminę išvaizdą. Tai nustatys Kodi išvaizdą ir pojūtį."
+=======
+msgid "Select the skin for the user interface. This will define the look and feel of XBMC."
+msgstr "Pasirinkite vartotojo sąsajos teminę išvaizdą. Tai nustatys XBMC išvaizdą ir pojūtį."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36104"
 msgid "Change specific skin settings. The available options are dependent on the skin used."
@@ -11314,8 +11506,13 @@ msgid "Resize the view of the user interface."
 msgstr "Pakeiskite vartotojo sąsajos vaizdo dydį."
 
 msgctxt "#36109"
+<<<<<<< HEAD
 msgid "Select the media window that Kodi displays on startup."
 msgstr "Pasirinkite medijos langą, kuris bus rodomas paleidus Kodi."
+=======
+msgid "Select the media window that XBMC displays on startup."
+msgstr "Pasirinkite medijos langą, kuris bus rodomas paleidus XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36110"
 msgid "Select or disable the sound scheme used in the user interface."
@@ -11398,8 +11595,13 @@ msgid "Set the amount of idle time required before displaying the screensaver."
 msgstr "Nustatykite prastovos laiką, kuriam praėjus bus įjungta ekrano užsklanda."
 
 msgctxt "#36130"
+<<<<<<< HEAD
 msgid "Select the screensaver. Kodi will force the 'Dim' screensaver when fullscreen video playback is paused or a dialogue box is active."
 msgstr "Pasirinkite ekrano užsklandą. Kodi priverstinai naudos 'Dim' ekrano užsklandą, kai vaizdo atkūrimas yra pristabdytas arba yra aktyvus dialogo langas."
+=======
+msgid "Select the screensaver. XBMC will force the 'Dim' screensaver when fullscreen video playback is paused or a dialogue box is active."
+msgstr "Pasirinkite ekrano užsklandą. XBMC priverstinai naudos 'Dim' ekrano užsklandą, kai vaizdo atkūrimas yra pristabdytas arba yra aktyvus dialogo langas."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36131"
 msgid "Change specific screensaver settings. The available options are dependent on the screensaver used."
@@ -11410,8 +11612,13 @@ msgid "Preview the selected screensaver."
 msgstr "Peržiūrėkite pasirinktą ekrano užsklandą."
 
 msgctxt "#36133"
+<<<<<<< HEAD
 msgid "If music is being played, Kodi will start the selected visualisation instead of displaying the screensaver."
 msgstr "Muzikos atkūrimo metu Kodi įjungs pasirinktą vizualizaciją, o ne ekrano užsklandą."
+=======
+msgid "If music is being played, XBMC will start the selected visualisation instead of displaying the screensaver."
+msgstr "Muzikos atkūrimo metu XBMC įjungs pasirinktą vizualizaciją, o ne ekrano užsklandą."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36134"
 msgid "Dim the display when media is paused. Not valid for the 'Dim' screensaver mode."
@@ -11458,8 +11665,13 @@ msgid "Group movies into 'Movie sets' when browsing the movie library."
 msgstr "Grupuoti filmus į 'Filmų rinkinius' naršant filmų bibliotekoje."
 
 msgctxt "#36146"
+<<<<<<< HEAD
 msgid "Check for new media files on Kodi startup."
 msgstr "Ieškoti naujų media failų paleidžiant Kodi."
+=======
+msgid "Check for new media files on XBMC startup."
+msgstr "Ieškoti naujų media failų paleidžiant XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36147"
 msgid "Hide the library scanning progress bar during scans."
@@ -11558,8 +11770,13 @@ msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Pasirinkite priartinimo lygį 4:3 formato vaizdui, kai filmai rodomi plačiame ekrane."
 
 msgctxt "#36172"
+<<<<<<< HEAD
 msgid "VDPAU studio level conversion provides a way for advanced applications like Kodi to influence the colour space conversion."
 msgstr "VDPAU studijos lygio konversija suteikia galimybę tokioms pažangioms programoms kaip Kodi daryti įtaką spalvų erdvės konversijai."
+=======
+msgid "VDPAU studio level conversion provides a way for advanced applications like XBMC to influence the colour space conversion."
+msgstr "VDPAU studijos lygio konversija suteikia galimybę tokioms pažangioms programoms kaip XBMC daryti įtaką spalvų erdvės konversijai."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36173"
 msgid "Enable upscaling using VDPAU."
@@ -11682,20 +11899,34 @@ msgid "Category for general settings for PVR/Live TV features."
 msgstr "Kategorija skirta pagrindinėms PVR/televizijos savybių nustatymams."
 
 msgctxt "#36203"
+<<<<<<< HEAD
 msgid "Enable the Personal Video Recorder (PVR) features in Kodi. This requires that at least one PVR Add-on is installed."
 msgstr "Įjungti Personal Video Recorder (PVR) funkciją Kodi sistemoje. Tam reikia, kad būtų įdiegtas bent vienas PVR priedas."
+=======
+msgid "Enable the Personal Video Recorder (PVR) features in XBMC. This requires that at least one PVR Add-on is installed."
+msgstr "Įjungti Personal Video Recorder (PVR) funkciją XBMC sistemoje. Tam reikia, kad būtų įdiegtas bent vienas PVR priedas."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "Importuoti kanalų grupes iš PVR posistemės (jei jos palaikomos). Bus ištrintos vartotojo sukurtos grupės, jei jos nebuvo rastos posistemėje."
 
 msgctxt "#36205"
+<<<<<<< HEAD
 msgid "Sort the channels by channel number on the backend, but use Kodi's own numbering for channels."
 msgstr "Rūšiuoti kanalus pagal kanalo numerį posistemėje, bet naudoti savo paties kanalų numeraciją."
 
 msgctxt "#36206"
 msgid "Use numbering from the backend, instead of configuring them manually over Kodi."
 msgstr "Naudoti numeraciją iš posistemės, o ne konfigūravimą rankiniu būdu naudojant Kodi."
+=======
+msgid "Sort the channels by channel number on the backend, but use XBMC's own numbering for channels."
+msgstr "Rūšiuoti kanalus pagal kanalo numerį posistemėje, bet naudoti savo paties kanalų numeraciją."
+
+msgctxt "#36206"
+msgid "Use numbering from the backend, instead of configuring them manually over XBMC."
+msgstr "Naudoti numeraciją iš posistemės, o ne konfigūravimą rankiniu būdu naudojant XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -11710,8 +11941,13 @@ msgid "Delete channel/EPG database and reimport the data from the backend afterw
 msgstr "Ištrinti kanalų/EPG duomenų bazę ir po to iš naujo įkelti duomenis iš posistemės."
 
 msgctxt "#36210"
+<<<<<<< HEAD
 msgid "Prevent the 'connection lost' notification window from displaying when Kodi is unable to talk to the PVR backend server."
 msgstr "Nerodyti 'Ryšys nutrūko' pranešimo lango, kai Kodi negali susisiekti su PVR posistemės serveriu."
+=======
+msgid "Prevent the 'connection lost' notification window from displaying when XBMC is unable to talk to the PVR backend server."
+msgstr "Nerodyti 'Ryšys nutrūko' pranešimo lango, kai XBMC negali susisiekti su PVR posistemės serveriu."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36211"
 msgid "Category for PVR menus and on-screen display settings, as well as channel info windows."
@@ -11720,10 +11956,24 @@ msgstr "Kategorija skirta PVR meniu, OSD bei kanalo informacijos langų nustatym
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
 msgstr "Rodyti programos informaciją, tokią kaip dabartinė TV laida, kai keičiami kanalai."
+<<<<<<< HEAD
+=======
+
+msgctxt "#36213"
+msgid "Hide the programming information automatically after a few seconds, defined below."
+msgstr "Po keleto sekundžių automatiškai paslėpti programos informaciją."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36214"
 msgid "Close the on screen display controls after switching channels."
 msgstr "Uždaryti OSD valdiklius perjungus kanalą."
+<<<<<<< HEAD
+=======
+
+msgctxt "#36215"
+msgid "How long the programming information is displayed when the 'automatically hide' setting is turned on."
+msgstr "Kaip ilgai bus rodoma programos informacija, kai įjungtas 'slėpti automatiškai' nustatymas."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36216"
 msgid "Folder where channel icons are stored."
@@ -11737,6 +11987,13 @@ msgctxt "#36218"
 msgid "Category for electronic programming guide settings."
 msgstr "Kategorija skirta elektroninio programų gido nustatymams."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36219"
+msgid "Default electronic programming guide window to show."
+msgstr "Numatytasis elektroninio programų gido langas."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36220"
 msgid "Number of days of EPG data to import from backends."
 msgstr "EPG duomenų dienų skaičius, kuris bus importuojamas iš posistemių."
@@ -11750,16 +12007,26 @@ msgid "Do not import EPG data while playing TV to minimise CPU usage."
 msgstr "Neimportuoti EPG duomenų atkūriant TV trancialiciją tam, kad minimizuoti procesoriaus naudojimą."
 
 msgctxt "#36223"
+<<<<<<< HEAD
 msgid "By default, EPG data is stored in a local database to speed up importing when Kodi is restarted."
 msgstr "Pagal nutylėjimą, EPG duomenys yra saugomi vietinėje duomenų bazėje tam, kad pagreitinti importavimą iš naujo paleidus Kodi."
+=======
+msgid "By default, EPG data is stored in a local database to speed up importing when XBMC is restarted."
+msgstr "Pagal nutylėjimą, EPG duomenys yra saugomi vietinėje duomenų bazėje tam, kad pagreitinti importavimą iš naujo paleidus XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36224"
 msgid "Hide \"no information available\" labels when no EPG data can be retrieved for a channel."
 msgstr "Slėpti \"Nėra informacijos\" etiketę, kai kanalas neturi EPG duomenų."
 
 msgctxt "#36225"
+<<<<<<< HEAD
 msgid "Delete the EPG database in Kodi and reimport the data afterwards from the backend."
 msgstr "Ištrinti EPG duomenų bazę iš Kodi ir iš naujo įkelti duomenis iš posistemės."
+=======
+msgid "Delete the EPG database in XBMC and reimport the data afterwards from the backend."
+msgstr "Ištrinti EPG duomenų bazę iš XBMC ir iš naujo įkelti duomenis iš posistemės."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36226"
 msgid "Category for PVR playback and channel switching settings."
@@ -11778,8 +12045,13 @@ msgid "Display signal quality information in the codec information window (if su
 msgstr "Rodyti signalo kokybę kodeko informaciniame lange (jei tai palaiko priedas ir posistemė)."
 
 msgctxt "#36230"
+<<<<<<< HEAD
 msgid "How long Kodi will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "Kaip ilgai Kodi lauks kanalo pakeitimo, kai kanalas nėra gaunamas. Naudinga oru transliuojamiems kanalams, kurie retkarčiais praranda signalo stiprumą."
+=======
+msgid "How long XBMC will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
+msgstr "Kaip ilgai XBMC lauks kanalo pakeitimo, kai kanalas nėra gaunamas. Naudinga oru transliuojamiems kanalams, kurie retkarčiais praranda signalo stiprumą."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36231"
 msgid "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
@@ -11822,8 +12094,13 @@ msgid "Category for PVR power management settings, such as when to wake the PVR 
 msgstr "Kategorija skirta PVR maitinimo valdymo nustatymams, pvz.: kada žadinti PVR posistemės serverį."
 
 msgctxt "#36241"
+<<<<<<< HEAD
 msgid "Execute the \"wakeup command\" below when Kodi exits or is going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
 msgstr "Vykdyti žemiau esančią \"žadinimo komandą\", kai Kodi išjungiamas arba perjungiamas į miego režimą. Kito suplanuoto įrašymo laiko žyma yra perduodama kaip parametras."
+=======
+msgid "Execute the \"wakeup command\" below when XBMC exits or is going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
+msgstr "Vykdyti žemiau esančią \"žadinimo komandą\", kai XBMC išjungiamas arba perjungiamas į miego režimą. Kito suplanuoto įrašymo laiko žyma yra perduodama kaip parametras."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36242"
 msgid "The command will not be executed when a recording will be started within this timeout."
@@ -11862,12 +12139,21 @@ msgid "Ask for the pin code again when trying to access a parental locked channe
 msgstr "Klausti PIN kodo dar kartą, kai bandoma prieiti prie tėvų užrakinto kanalo ir kodo nebuvo prašoma šį laiko periodą."
 
 msgctxt "#36251"
+<<<<<<< HEAD
 msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Kategorija skirta bet kokiems specifiniams PVR posistemės nustatymams, jei PVR posistemė palaiko šių nustatymų keitimą per Kodi."
 
 msgctxt "#36252"
 msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Ši parinktis atvers bet kokius specifinius PVR posistemės nustatymus, jei PVR posistemė palaiko šių nustatymų keitimą per Kodi."
+=======
+msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "Kategorija skirta bet kokiems specifiniams PVR posistemės nustatymams, jei PVR posistemė palaiko šių nustatymų keitimą per XBMC."
+
+msgctxt "#36252"
+msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "Ši parinktis atvers bet kokius specifinius PVR posistemės nustatymus, jei PVR posistemė palaiko šių nustatymų keitimą per XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
@@ -11894,8 +12180,13 @@ msgid "Select the default artist information source. See the Add-ons Manager for
 msgstr "Pasirinkite numatytąjį atlikėjo informacijos šaltinį. Galimas parinktis galite peržiūrėti priedų tvarkyklėje."
 
 msgctxt "#36259"
+<<<<<<< HEAD
 msgid "Check for new and removed media files on Kodi startup."
 msgstr "Tikrinti ar yra naujų ar pašalintų media failų paleidžiant Kodi."
+=======
+msgid "Check for new and removed media files on XBMC startup."
+msgstr "Tikrinti ar yra naujų ar pašalintų media failų paleidžiant XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36260"
 msgid "No info available yet."
@@ -11914,16 +12205,26 @@ msgid "Category containing settings for how music playback is handled."
 msgstr "Kategorija, kurioje nustatoma kaip tvarkyti muzikos atkūrimą."
 
 msgctxt "#36265"
+<<<<<<< HEAD
 msgid "Kodi automatically plays the next item in the current folder. For example, in Files View: After a track has been played, Kodi would automatically play the next track in the same folder."
 msgstr "Kodi automatiškai atkuria kitą elementą dabartiniame aplanke. Pavyzdžiui, failų rodinyje: baigus vieno takelio atkūrimą, Kodi automatiškai paleis kitą tame pačiame aplanke esantį takelį."
+=======
+msgid "XBMC automatically plays the next item in the current folder. For example, in Files View: After a track has been played, XBMC would automatically play the next track in the same folder."
+msgstr "XBMC automatiškai atkuria kitą elementą dabartiniame aplanke. Pavyzdžiui, failų rodinyje: baigus vieno takelio atkūrimą, XBMC automatiškai paleis kitą tame pačiame aplanke esantį takelį."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36266"
 msgid "When songs are selected they are queued instead of playback starting immediately."
 msgstr "Pasirinkus dainą, ji įdedama į atkūrimo eilę, vietoj to, kad iš karto pradėti atkūrimą."
 
 msgctxt "#36267"
+<<<<<<< HEAD
 msgid "Kodi will read the ReplayGain information encoded in your audio files by a program such as MP3Gain and normalise the sound levels accordingly."
 msgstr "Kodi nuskaitys ReplayGain informaciją, įrašyta į jūsų garso failus tokių programų kaip MP3Gain ir atitinkamai normalizuos garso lygius."
+=======
+msgid "XBMC will read the ReplayGain information encoded in your audio files by a program such as MP3Gain and normalise the sound levels accordingly."
+msgstr "XBMC nuskaitys ReplayGain informaciją, įrašyta į jūsų garso failus tokių programų kaip MP3Gain ir atitinkamai normalizuos garso lygius."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36268"
 msgid "Default is 89dB per standard. Change with caution."
@@ -11978,8 +12279,13 @@ msgid "Used for formatting the second column in library lists."
 msgstr "Naudojama antro stulpelio formatavimui bibliotekos sąrašuose."
 
 msgctxt "#36281"
+<<<<<<< HEAD
 msgid "Kodi will search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
 msgstr "Kodi ieškos miniatiūrų nuotoliniuose bendruosiuose ištekliuose ir optininėse laikmenose. Tai gali sulėtinti tinklinių aplankų sąrašo atvaizdavimą."
+=======
+msgid "XBMC will search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
+msgstr "XBMC ieškos miniatiūrų nuotoliniuose bendruosiuose ištekliuose ir optininėse laikmenose. Tai gali sulėtinti tinklinių aplankų sąrašo atvaizdavimą."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36282"
 msgid "Category containing settings for how CDs are handled."
@@ -12026,8 +12332,13 @@ msgid "Category containing the settings for how karaoke is handled."
 msgstr "Kategorija, kurioje nustatoma kaip tvarkyti karaoke."
 
 msgctxt "#36293"
+<<<<<<< HEAD
 msgid "When playing any music file, Kodi will look for a matching .cdg file and display its graphics."
 msgstr "Atkuriant muzikos failą, Kodi ieškos atitinkamo .cdg failo ir atvaizduos jo grafinius elementus."
+=======
+msgid "When playing any music file, XBMC will look for a matching .cdg file and display its graphics."
+msgstr "Atkuriant muzikos failą, XBMC ieškos atitinkamo .cdg failo ir atvaizduos jo grafinius elementus."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36294"
 msgid "Show song selection dialog once the last song in the queue has been played."
@@ -12138,8 +12449,13 @@ msgid "Category containing settings used for all services."
 msgstr "Kategorija, kurioje yra nustatymai naudojami visoms paslaugoms."
 
 msgctxt "#36321"
+<<<<<<< HEAD
 msgid "Display name of the Kodi installation when using various network services."
 msgstr "Rodomas Kodi sistemos vardas naudojant įvairias tinklo paslaugas."
+=======
+msgid "Display name of the XBMC installation when using various network services."
+msgstr "Rodomas XBMC sistemos vardas naudojant įvairias tinklo paslaugas."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36322"
 msgid "Category containing settings for how the UPnP service is handled."
@@ -12158,28 +12474,47 @@ msgid "Enable the UPnP client. This allows you to stream media from any UPnP ser
 msgstr "Įjungti UPnP klientą. Tai leis jums priimti media srautą iš bet kurio UPnP serverio su kontrolės tašku ir atkūrimo valdymu iš to serverio."
 
 msgctxt "#36326"
+<<<<<<< HEAD
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from Kodi."
 msgstr "Įjungti UPnP kontrolės tašką. Tai leis jums perduoti media srautą bet kuriam UPnP klientui ir kontroliuoti atkūrimą iš Kodi."
+=======
+msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from XBMC."
+msgstr "Įjungti UPnP kontrolės tašką. Tai leis jums perduoti media srautą bet kuriam UPnP klientui ir kontroliuoti atkūrimą iš XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36327"
 msgid "Category containing settings for how the webserver service is handled."
 msgstr "Kategorija, kurioje nustatoma kaip tvarkyti žiniatinklio serverio paslaugą."
 
 msgctxt "#36328"
+<<<<<<< HEAD
 msgid "Enable remote users to control Kodi through the built-in webserver."
 msgstr "Leisti nutolusiam vartotojui valdyti Kodi per integruotą žiniatinklio serverį."
+=======
+msgid "Enable remote users to control XBMC through the built-in webserver."
+msgstr "Leisti nutolusiam vartotojui valdyti XBMC per integruotą žiniatinklio serverį."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36329"
 msgid "Define the webserver port."
 msgstr "Nustatyti žiniatinklio serverio prievadą."
 
 msgctxt "#36330"
+<<<<<<< HEAD
 msgid "Define the webserver username. This only takes effect when both the username and the password are set."
 msgstr "Nustatyti žiniatinklio serverio vartotojo vardą. Jis galioja tik tada, kai nustatytas ir vartotojo vardas, ir slaptažodis."
 
 msgctxt "#36331"
 msgid "Define the webserver password. This only takes effect when both the username and the password are set."
 msgstr "Nustatyti žiniatinklio serverio slaptažodį. Jis galioja tik tada, kai nustatytas ir vartotojo vardas, ir slaptažodis."
+=======
+msgid "Define the webserver username."
+msgstr "Nustatyti žiniatinklio serverio vartotojo vardą."
+
+msgctxt "#36331"
+msgid "Define the webserver password."
+msgstr "Nustatyti žiniatinklio serverio slaptažodį."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the Add-on Manager."
@@ -12190,8 +12525,13 @@ msgid "Category containing settings for how the remote control service is handle
 msgstr "Kategorija, kurioje nustatoma kaip tvarkyti nuotolinio valdymo paslaugą."
 
 msgctxt "#36334"
+<<<<<<< HEAD
 msgid "Allow programs on this computer to control Kodi via the Web Interface or the JSON-RPC interface protocol."
 msgstr "Leisti programoms šiame kompiuteryje valdyti Kodi per žiniatinklio sąsają arba JSON-RPC sąsajos protokolą."
+=======
+msgid "Allow programs on this computer to control XBMC via the Web Interface or the JSON-RPC interface protocol."
+msgstr "Leisti programoms šiame kompiuteryje valdyti XBMC per žiniatinklio sąsają arba JSON-RPC sąsajos protokolą."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -12206,8 +12546,13 @@ msgid "Define the maximum number of clients that can connect."
 msgstr "Nustatyti maksimalų prisijungusių klientų skaičių."
 
 msgctxt "#36338"
+<<<<<<< HEAD
 msgid "Allow programs on the network to control Kodi."
 msgstr "Leisti programoms tinkle valdyt Kodi."
+=======
+msgid "Allow programs on the network to control XBMC."
+msgstr "Leisti programoms tinkle valdyt XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -12222,12 +12567,21 @@ msgid "Category containing settings for how the zeroconf network discovery servi
 msgstr "Kategorija, kurioje nustatoma kaip tvarkyti zeroconf tinklo aptikimo paslaugą, reikalingą AirPlay veikimui."
 
 msgctxt "#36342"
+<<<<<<< HEAD
 msgid "Allows applications on the network to discover Kodi's running services."
 msgstr "Leisti taikomosioms programoms tinkle aptikti veikiančias Kodi paslaugas."
 
 msgctxt "#36343"
 msgid "Allows Kodi to receive content from other AirPlay devices or applications."
 msgstr "Leisti Kodi gauti turinį iš kitų Airplay prietaisų ar taikomųjų programų."
+=======
+msgid "Allows applications on the network to discover XBMC's running services."
+msgstr "Leisti taikomosioms programoms tinkle aptikti veikiančias XBMC paslaugas."
+
+msgctxt "#36343"
+msgid "Allows XBMC to receive content from other AirPlay devices or applications."
+msgstr "Leisti XBMC gauti turinį iš kitų Airplay prietaisų ar taikomųjų programų."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36344"
 msgid "Enable AirPlay password protection."
@@ -12250,16 +12604,26 @@ msgid "If a WINS server is running on the network, enter its workgroup name here
 msgstr "Jei tinkle veikia WINS serveris, įveskite jo darbo grupės pavadinimą. Priešingu atveju, palikite tuščią."
 
 msgctxt "#36349"
+<<<<<<< HEAD
 msgid "Section that contains the System related settings for the device Kodi is installed on."
 msgstr "Skyrius, kuriame yra su sistema, kurioje įdiegtas Kodi, susiję nustatymais."
+=======
+msgid "Section that contains the System related settings for the device XBMC is installed on."
+msgstr "Skyrius, kuriame yra su sistema, kurioje įdiegtas XBMC, susiję nustatymais."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36350"
 msgid "Automatically send 'Wake-On-Lan' to server(s) right before trying to access shared files or services."
 msgstr "Automatiškai siųsti 'Wake-On-Lan' serveriui(-iams) prieš bandant pasiekti bendrinamus failus ar paslaugas."
 
 msgctxt "#36351"
+<<<<<<< HEAD
 msgid "Display Kodi in a window, or fullscreen on the selected screen."
 msgstr "Rodyti Kodi lange arba visame ekrane pasirinktame ekrane."
+=======
+msgid "Display XBMC in a window, or fullscreen on the selected screen."
+msgstr "Rodyti XBMC lange arba visame ekrane pasirinktame ekrane."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36352"
 msgid "Changes the resolution that the user interface is displayed in."
@@ -12270,12 +12634,21 @@ msgid "Changes the refresh rate that the user interface is displayed in."
 msgstr "Pakeiskite vartotojo sąsajos vaizdo atnaujinimo dažnį."
 
 msgctxt "#36354"
+<<<<<<< HEAD
 msgid "Display Kodi in a fullscreen window. The main benefit is for multi-screen configurations, so that Kodi can be used without minimising other applications. This uses more resources so playback may be less smooth."
 msgstr "Rodyti Kodi viso ekrano lange. Suteikia privalumą naudojant kelis ekranus, nes tokiu atveju Kodi gali būti naudojamas nesumažinus kitų taikomųjų programų. Tai naudoja daugiau resursų, todėl atkūrimas gali būti nebe toks sklandus."
 
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens where Kodi is not displayed are blacked out."
 msgstr "Naudojant kelis ekranus, ekranai, kuriuose nėra rodomas Kodi, bus užtemdyti."
+=======
+msgid "Display XBMC in a fullscreen window. The main benefit is for multi-screen configurations, so that XBMC can be used without minimising other applications. This uses more resources so playback may be less smooth."
+msgstr "Rodyti XBMC viso ekrano lange. Suteikia privalumą naudojant kelis ekranus, nes tokiu atveju XBMC gali būti naudojamas nesumažinus kitų taikomųjų programų. Tai naudoja daugiau resursų, todėl atkūrimas gali būti nebe toks sklandus."
+
+msgctxt "#36355"
+msgid "In a multi-screen configuration, the screens where XBMC is not displayed are blacked out."
+msgstr "Naudojant kelis ekranus, ekranai, kuriuose nėra rodomas XBMC, bus užtemdyti."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36356"
 msgid "Eliminate vertical tearing."
@@ -12362,12 +12735,21 @@ msgid "When activated, your keyboard arrows will move the selection on the virtu
 msgstr "Kai aktyvuota, rodyklės jūsų klaviatūroje keis pasirinktą klavišą virtualioje klaviatūroje. Kai išjungta, jos judins kursorių teksto laukelyje."
 
 msgctxt "#36377"
+<<<<<<< HEAD
 msgid "Use a mouse or touch screen device to control Kodi. Note: disabling will cause you to lose control over Kodi when no keyboard or remote is present."
 msgstr "Naudoti pelę arba jutiklinį įrenginio ekraną Kodi valdymui. Pastaba: išjungus prarasite galimybę valdyti Kodi, jei nėra klaviatūros arba nuotolinio valdymo pultelio."
 
 msgctxt "#36378"
 msgid "Use a joystick to control Kodi."
 msgstr "Naudoti vairasvirtę Kodi valdymui."
+=======
+msgid "Use a mouse or touch screen device to control XBMC. Note: disabling will cause you to lose control over XBMC when no keyboard or remote is present."
+msgstr "Naudoti pelę arba jutiklinį įrenginio ekraną XBMC valdymui. Pastaba: išjungus prarasite galimybę valdyti XBMC, jei nėra klaviatūros arba nuotolinio valdymo pultelio."
+
+msgctxt "#36378"
+msgid "Use a joystick to control XBMC."
+msgstr "Naudoti vairasvirtę XBMC valdymui."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36379"
 msgid "Category containing settings for internet access."
@@ -12398,8 +12780,13 @@ msgid "Configure the proxy server password."
 msgstr "Nustatykite įgalioto serverio slaptažodį."
 
 msgctxt "#36386"
+<<<<<<< HEAD
 msgid "If you have limited bandwidth available, Kodi will try to keep within these limits."
 msgstr "Jei jūs turite ribotą interneto pralaidumą, Kodi pasistengs jį išlaikyti šiose ribose."
+=======
+msgid "If you have limited bandwidth available, XBMC will try to keep within these limits."
+msgstr "Jei jūs turite ribotą interneto pralaidumą, XBMC pasistengs jį išlaikyti šiose ribose."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36387"
 msgid "Category containing settings for power saving."
@@ -12410,12 +12797,21 @@ msgid "Turn off display when idle. Useful for TVs that turn off when there is no
 msgstr "Išjungti ekraną, kai nenaudojamas. Naudinga televizoriams, kurie išsijungia, kai neaptinka vaizdo signalo."
 
 msgctxt "#36389"
+<<<<<<< HEAD
 msgid "Define how long Kodi should idle before shutting down."
 msgstr "Nustatykite, kiek laiko Kodi turi veikti tuščiąja eiga prieš išjungiant."
 
 msgctxt "#36390"
 msgid "Define what action Kodi should do when it has been idle for a long period of time."
 msgstr "Nustatykite, kokį veiskmą Kodi turi atlikti, jei nenaudojamas ilgą laiko tarpą."
+=======
+msgid "Define how long XBMC should idle before shutting down."
+msgstr "Nustatykite, kiek laiko XBMC turi veikti tuščiąja eiga prieš išjungiant."
+
+msgctxt "#36390"
+msgid "Define what action XBMC should do when it has been idle for a long period of time."
+msgstr "Nustatykite, kokį veiskmą XBMC turi atlikti, jei nenaudojamas ilgą laiko tarpą."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36391"
 msgid "Category containing settings for debugging functions."
@@ -12426,12 +12822,21 @@ msgid "Turn debug logging on or off. Useful for troubleshooting."
 msgstr "Įjunkite arba išjunkite derinimo žurnalą. Naudinga trikčių šalinimui."
 
 msgctxt "#36393"
+<<<<<<< HEAD
 msgid "Folder used to save screenshots taken within Kodi."
 msgstr "Kodi ekrano nuotraukų saugojimo aplankas."
 
 msgctxt "#36394"
 msgid "Enables log messages from additional libraries to be included in the log."
 msgstr "Įjungia žurnalo pranešimų iš papildomų bibliotekų rašymą į žurnalą."
+=======
+msgid "Folder used to save screenshots taken within XBMC."
+msgstr "XBMC ekrano nuotraukų saugojimo aplankas."
+
+msgctxt "#36394"
+msgid "Specify additional libraries to be included in the debug log."
+msgstr "Nurodykite papildomas bibliotekas, kurios turi būti įtrauktos į derinimo žurnalą."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36395"
 msgid "Category containing settings for the master lock function."
@@ -12442,12 +12847,21 @@ msgid "Define the PIN code used for the master lock."
 msgstr "Nustatykite PIN kodą, naudojamą valdytojo užraktui."
 
 msgctxt "#36397"
+<<<<<<< HEAD
 msgid "If enabled, the master lock code is required to unlock Kodi on startup."
 msgstr "Jei įjungta, paleidžiant Kodi bus reikalingas valdytojo užrakto kodas, norint jį atrakinti."
 
 msgctxt "#36398"
 msgid "Define the maximum number of retries before Kodi is closed down."
 msgstr "Nustatykite maksimalų bandymų skaičių prieš uždarant Kodi."
+=======
+msgid "If enabled, the master lock code is required to unlock XBMC on startup."
+msgstr "Jei įjungta, paleidžiant XBMC bus reikalingas valdytojo užrakto kodas, norint jį atrakinti."
+
+msgctxt "#36398"
+msgid "Define the maximum number of retries before XBMC is closed down."
+msgstr "Nustatykite maksimalų bandymų skaičių prieš uždarant XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36399"
 msgid "Category containing settings for the cache function."
@@ -12522,8 +12936,13 @@ msgid "Specify the type of remote used."
 msgstr "Nurodykite naudojamo nuotolinio valdymo pultelio tipą."
 
 msgctxt "#36417"
+<<<<<<< HEAD
 msgid "Always run an Kodi helper so that the remote can be used to start Kodi."
 msgstr "Visada laikyti įjungtą Kodi padėjėją, kad būtų galima paleisti Kodi naudojant nuotolinio valdymo pultelį."
+=======
+msgid "Always run an XBMC helper so that the remote can be used to start XBMC."
+msgstr "Visada laikyti įjungtą XBMC padėjėją, kad būtų galima paleisti XBMC naudojant nuotolinio valdymo pultelį."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36418"
 msgid "Specify the delay between button sequences on a universal remote."
@@ -12575,6 +12994,7 @@ msgstr "Nustatyti kaip bus spartinamas vaizdo apdorojimas. Tai apima tokius daly
 
 msgctxt "#36431"
 msgid "Defines whether video decoding should be performed in software (requires more CPU) or with hardware acceleration where possible."
+<<<<<<< HEAD
 msgstr "Nurodo ar vaizdo dekodavimas turėtų būti atliekamas programinės įrangos (didesnis CPU išnaudojimas) ar, jei įmanoma, naudojamas aparatinės įrangos spartinimas."
 
 msgctxt "#36432"
@@ -12584,6 +13004,9 @@ msgstr "Pasirinkti virtualios klaviatūros išdėstymus."
 msgctxt "#36433"
 msgid "If enabled VAAPI render method is prefered. This puts less load on the CPU but driver may hang!"
 msgstr "Jei įjungta VAAPI. Bus mažiau apkrautas CPU, tačiau gali sutrikti tvarkyklės darbas!"
+=======
+msgstr "Nurodo ar vaizdo dekodavimas turėtų būti atliekamas programinės įrangos (reikia daugiau CPU) ar, jei įmanoma, naudojant aparatinės įrangos spartinimą."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36500"
 msgid "Stereoscopic 3D mode (current)"
@@ -12594,8 +13017,13 @@ msgid "Stereoscopic 3D mode"
 msgstr "Stereoskopinis 3D režimas"
 
 msgctxt "#36502"
+<<<<<<< HEAD
 msgid "Disabled"
 msgstr "Atjungta"
+=======
+msgid "None"
+msgstr "Joks"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36503"
 msgid "Over/Under"
@@ -12629,10 +13057,21 @@ msgctxt "#36520"
 msgid "Playback mode of stereoscopic 3D videos"
 msgstr "Stereoskopinis 3D video atkūrimo režimas"
 
+msgctxt "#36520"
+msgid "Playback mode of stereoscopic videos."
+msgstr "Stereoskopinių vaizdo įrašų atkūrimo būdas."
+
 msgctxt "#36521"
 msgid "Ask me"
 msgstr "Paklausti manęs"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36522"
+msgid "Use preferred mode"
+msgstr "Naudoti pageidautiną režimą"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36523"
 msgid "Maximum sampling rate for spdif or sampling rate for fixed output configuration."
 msgstr "Didžiausias SPDIF diskretizavimo dažnis arba fiksuotos išvesties diskretizavimo dažnis."
@@ -12650,12 +13089,29 @@ msgid "Disable stereoscopic 3D mode when playback ended"
 msgstr "Išjungti stereoskopinį 3D režimą, kai atkūrimas pasibaigė"
 
 msgctxt "#36527"
+<<<<<<< HEAD
 msgid "Select playback mode"
 msgstr "Pasirinkite atkūrimo režimą"
 
 msgctxt "#36528"
 msgid "Select stereoscopic 3D mode"
 msgstr "Pasirinkite stereoskopinį 3D režimą"
+=======
+msgid "This video is stereoscopic. Select playback mode"
+msgstr "Šis vaizdo įrašas yra stereoskopinis. Pasirinkite atkūrimo režimą"
+
+msgctxt "#36528"
+msgid "Select stereoscopic mode"
+msgstr "Pasirinkite stereoskopinį režimą"
+
+msgctxt "#36529"
+msgid "Mono (2D)"
+msgstr "Mono (2D)"
+
+msgctxt "#36530"
+msgid "Preferred mode"
+msgstr "Pageidautinas režimas"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36531"
 msgid "Select alternate mode..."
@@ -12668,30 +13124,51 @@ msgstr "Toks pat kaip ir filmo"
 msgctxt "#36533"
 msgid "Select how audio is downmixed, for example from 5.1 to 2.0: [Enabled] maintains the dynamic range of the original audio source when downmixed however volume will be lower [Disabled] maintains volume level of the original audio source however the dynamic range is compressed. Note - Dynamic range is the difference between the quietest and loudest sounds in a audio source."
 msgstr "Pasirinkite kaip permiksuoti garsą, pvz, iš 5.1 į 2.0: [Įjungta] išlaiko dinaminį originalaus garso šaltinio diapazoną, tačiau garsumo lygis bus mažesnis [Išjungta] išlaiko originalaus garso šaltinio garsumo lygį, tačiau dinaminis diapazonas yra suglaudinamas. Pastaba - dinaminis diapazonas yra skirtumas tarp tyliausio ir garsiausio garso garso šaltinyje."
+<<<<<<< HEAD
 
 msgctxt "#36534"
 msgid "Specify additional libraries whose log messages are to be included in the log."
 msgstr "Nurodykite papildomas bibliotekos, kurių žurnalo pranešimus įrašyti į žurnalą."
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36535"
 msgid "Stereoscopic 3D mode of video"
 msgstr "Stereoskopinis 3D vaizdo režimas"
 
 msgctxt "#36536"
+<<<<<<< HEAD
 msgid "Invert Stereoscopic 3D mode (flip eyes)"
 msgstr "Invertuoti Stereoskopinį 3D režimą (apversti akis)"
 
 msgctxt "#36538"
 msgid "[Enabled] Switch GUI (and some TVs) back to 2D mode when playback ended. [Disabled] GUI and TV will stay in stereoscopic 3D mode. For video playlists the stereoscopic 3D mode won't change between videos, not even for non stereoscopic ones."
 msgstr "[Įjungta] Perjungti vartotojo sąsają (ir kai kuriuos televizorius) atgal į 2D režimą, kai atkūrimas baigiasi. [Išjungta] Vartotojo sąsaja ir televizorius liks stereoskopiniame 3D režime. Vaizdo grojaraščiams stereoskopinis 3D režimas nepasikeist tarp vaizdo įrašų, net jei vaizdo įrašas ir nėra stereoskopinis."
+=======
+msgid "Stereoscopic mode inverted"
+msgstr "Stereoskopinis atvirkščias režimas"
+
+msgctxt "#36537"
+msgid "Set playback mode of stereoscopic 3D videos."
+msgstr "Nustatyti stereoskopinio 3D vaizdo atkūrimo būdą."
+
+msgctxt "#36538"
+msgid "Prevents XBMC exiting out of stereoscopic 3D mode when playback is stopped as not all TVs will recognise the switch from 3D back to 2D without the viewing mode being toggled on the TV."
+msgstr "Neleidžia XBMC išeiti iš stereoskopinio 3D režimo, kai atkūrimas sustabdomas, nes ne visi televizoriai atpažįsta perjungimą iš 3D režimo atgal į 2D, pirmiau neperjungus peržiūros režimo televizoriuje."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36539"
 msgid "Changes the stereoscopic 3D mode of the user interface."
 msgstr "Pakeiskite stereoskopinį 3D vartotojo sąsajos režimą."
 
 msgctxt "#36540"
+<<<<<<< HEAD
 msgid "The preferred mode in which stereoscopic 3D media such as videos should be played."
 msgstr "Pageidaujamas režimas, kuriuo stereoskopiniai 3D media įrašai, tokie kaip vaizdo įrašai, turi būti atkurti."
+=======
+msgid "The preferred stereoscopic 3D mode."
+msgstr "Pageidautinas stereoskopinis 3D režimas."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
@@ -12717,13 +13194,22 @@ msgctxt "#36546"
 msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher the value, the closer the subtitles will appear to the viewer."
 msgstr "Nustatyti vizualinį subtitrų gylį stereoskopiniams 3D vaizdo įrašams. Kuo didesnė vertė, tuo arčiau bus rodomi subtitrai."
 
+msgctxt "#36546"
+msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher the value, the closer the subtitles will appear to the viewer."
+msgstr "Nustatyti vizualinį subtitrų gylį stereoskopiniams 3D vaizdo įrašams. Kuo didesnė vertė, tuo arčiau bus rodomi subtitrai."
+
 msgctxt "#36547"
 msgid "Use higher quality textures for covers and fanart (uses more memory)"
 msgstr "Naudoti aukštesnės kokybės tekstūras viršeliams ir FanArt (naudoja daugiau atminties)"
 
 msgctxt "#36548"
+<<<<<<< HEAD
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "Apriboja GUI raišką, kad naudotų mažiau atminties. Tai neturi įtakos vaizdo atkūrimui. Reikia paleisti iš naujo."
+=======
+msgid "Limits resolution of GUI to save memory. Does not affect video playback. Use 1080 for unlimited. Requires restart."
+msgstr "Apriboja GUI raišką tam, kad naudotų mažiau atminties. Neturi įtakos vaizdo atkūrimui. Naudokite 1080 neribotai raiškai. Reikia paleisti iš naujo."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36600"
 msgid "Category containing the settings for how the music library is handled."
@@ -12740,6 +13226,7 @@ msgstr "Kategorija, kurioje nustatoma kaip tvarkyti AirPlay paslaugą."
 msgctxt "#36603"
 msgid "Category containing settings for how video output is handled."
 msgstr "Kategorija, kurioje nustatoma kaip tvarkyti vaizdo išvestį."
+<<<<<<< HEAD
 
 msgctxt "#36900"
 msgid "movie"
@@ -12828,6 +13315,8 @@ msgstr "daina"
 msgctxt "#36921"
 msgid "songs"
 msgstr "dainos"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#37000"
 msgid "(Visually Impaired)"
@@ -12872,6 +13361,13 @@ msgstr "Dviguba garso išvestis"
 msgctxt "#37018"
 msgid "Boost centre channel when downmixing"
 msgstr "Didinti centrinį kanalą permiksuojant"
+<<<<<<< HEAD
+=======
+
+msgctxt "#37019"
+msgid "Enables system keys like printscreen, alt-tab and volume keys when in fullscreen."
+msgstr "Įjungia sisteminius klavišus, tokius kaip 'PrintScreen', alt-tab ir garsumo mygtukus, viso ekrano režime."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#37020"
 msgid "Enable higher colour depth artwork"
@@ -12891,6 +13387,7 @@ msgstr "Ar norite sustabdyti atkūrimą nutolusiame įrenginyje?"
 
 msgctxt "#37024"
 msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1, this allows multichannel audio such as AAC5.1 or FLAC5.1 to be listened to in 5.1 surround sound. Note - Not recommended on Pi as this requires a lot of CPU."
+<<<<<<< HEAD
 msgstr "Pasirinkite, jei garso išvesties jungtis palaiko tik daugiakanalį garsą, tokį kaip Dolby Digital 5.1. Tai leidžia daugiakanalį garsą, tokį kaip  AAC5.1 ar FLAC5.1, perklausyti kaip 5.1 erdvinį garsą. Pastaba - nerekomenduojama Pi įrenginiams, nes tai reikalauja daugiau CPU resursų."
 
 msgctxt "#37025"
@@ -12916,3 +13413,6 @@ msgstr "900"
 msgctxt "#37030"
 msgid "Unlimited"
 msgstr "Neribotas"
+=======
+msgstr "Pasirinkite, jei garso išvesties jungtis palaiko tik daugiakanalį garsą, tokį kaip Dolby Digital 5.1. Tai leidžia daugiakanalį garsą, tokį kaip  AAC5.1 ar FLAC5.1, perklausyti kaip 5.1 erdvinį garsą. Pastaba - nerekomenduojama Pi įrenginiams, nes tai reikalauja daug CPU resursų."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64

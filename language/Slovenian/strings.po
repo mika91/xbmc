@@ -5069,6 +5069,10 @@ msgctxt "#13442"
 msgid "Enable this option to use hardware acceleration for MPEG-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
 msgstr "Omogočite to možnost za uporabo strojnega pospeševanja kodekov MPEG-(1/2). CPU bo uporabljen, če je možnost onemogočena. Starejše kartice Radeon lahko povzročijo nestabilnost s to možnostjo."
 
+msgctxt "#13442"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
+msgstr "Omogočite to možnost za uporabo strojnega pospeševanja kodekov Mpeg-(1/2). CPU bo uporabljen, če je možnost onemogočena. Starejše kartice Radeon lahko povzročijo nestabilnost s to možnostjo."
+
 msgctxt "#13443"
 msgid "Use MPEG-4 VDPAU"
 msgstr "Uporabi MPEG-4 VDPAU"
@@ -5076,6 +5080,10 @@ msgstr "Uporabi MPEG-4 VDPAU"
 msgctxt "#13444"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
 msgstr "Omogočite to možnost za uporabo strojnega pospeševanja kodeka MPEG-4. CPU bo uporabljen, če je možnost onemogočena. Nekatera oprema ION lahko povzroči nestabilnost s to možnostjo."
+
+msgctxt "#13444"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
+msgstr "Omogočite to možnost za uporabo strojnega pospeševanja kodeka Mpeg-4. CPU bo uporabljen, če je možnost onemogočena. Nekatera oprema ION lahko povzroči nestabilnost s to možnostjo."
 
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
@@ -5093,6 +5101,10 @@ msgctxt "#13448"
 msgid "Enable this option to use hardware acceleration for MPEG-(1/2) codecs. If disabled the CPU will be used instead. Some MPEG-2 Videos might have green artifacts."
 msgstr "Omogočite to možnost za uporabo strojnega pospeševanja kodekov MPEG-(1/2). CPU bo uporabljen, če je možnost onemogočena. Nekateri posnetki Mpeg-2 lahko prikažejo zelene artefakte."
 
+msgctxt "#13448"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Some Mpeg-2 Videos might have green artifacts."
+msgstr "Omogočite to možnost za uporabo strojnega pospeševanja kodekov Mpeg-(1/2). CPU bo uporabljen, če je možnost onemogočena. Nekateri posnetki Mpeg-2 lahko prikažejo zelene artefakte."
+
 msgctxt "#13449"
 msgid "Use MPEG-4 VAAPI"
 msgstr "Uporabi MPEG-4 VAAPI"
@@ -5100,6 +5112,10 @@ msgstr "Uporabi MPEG-4 VAAPI"
 msgctxt "#13450"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead."
 msgstr "Omogočite to možnost za uporabo strojnega pospeševanja kodeka MPEG-4. CPU bo uporabljen, če je možnost onemogočena."
+
+msgctxt "#13450"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead."
+msgstr "Omogočite to možnost za uporabo strojnega pospeševanja kodeka Mpeg-4. CPU bo uporabljen, če je možnost onemogočena."
 
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
@@ -5120,10 +5136,13 @@ msgstr "Programska oprema"
 msgctxt "#13456"
 msgid "Hardware accelerated"
 msgstr "Strojno pospešeno"
+<<<<<<< HEAD
 
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "Raje uporabi VAAPI render metodo"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13500"
 msgid "A/V sync method"
@@ -10520,10 +10539,13 @@ msgstr "Poglavja: %u - trajanje: %s"
 msgctxt "#25008"
 msgid "Playback of Blu-ray failed"
 msgstr "Predvajanje Blu-ray-ja je spodletelo"
+<<<<<<< HEAD
 
 msgctxt "#25009"
 msgid "The menu of this Blu-ray is not supported"
 msgstr "Meni tega Blu-ray diska ni podprt"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#29800"
 msgid "Library Mode"
@@ -11261,10 +11283,13 @@ msgctxt "#36102"
 msgid "Category containing all Skin related settings."
 msgstr "Kategorija nastavitev preoblek."
 
+<<<<<<< HEAD
 msgctxt "#36103"
 msgid "Select the skin for the user interface. This will define the look and feel of Kodi."
 msgstr "Izberite preobleko uporabniškega vmesnika. To bo določilo izgled in obnašanje Kodi."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36104"
 msgid "Change specific skin settings. The available options are dependent on the skin used."
 msgstr "Spremenite nastavitve specifične za preobleko. Možnosti, ki so na voljo, so odvisne od uporabljene preobleke."
@@ -11288,6 +11313,10 @@ msgstr "Spremeni velikost uporabniškega vmesnika."
 msgctxt "#36109"
 msgid "Select the media window that Kodi displays on startup."
 msgstr "Izberite privzeto okno, ki se bo prikazalo ob zagonu Kodi-ja."
+
+msgctxt "#36110"
+msgid "Select or disable the sound scheme used in the user interface."
+msgstr "Izberite ali onemogočite zvočno temo, uporabljeno v uporabniškem vmesniku."
 
 msgctxt "#36110"
 msgid "Select or disable the sound scheme used in the user interface."
@@ -11465,10 +11494,13 @@ msgctxt "#36154"
 msgid "Use high quality scalers when upscaling a video by at least this percentage."
 msgstr "Omogočite orodja visoke ločljivosti za zviševanje ločljivosti videa nad temi odstotki."
 
+<<<<<<< HEAD
 msgctxt "#36155"
 msgid "Enable VDPAU hardware decoding of video files, mainly used for NVIDIA graphics and in some circumstances AMD graphics."
 msgstr "Omogočite strojno pospeševanje videa VDPAU, pogosto uporabljeno pri NVIDIA in nekaterih AMD-jevih grafičnih karticah."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36156"
 msgid "Enable VAAPI hardware decoding of video files, mainly used for Intel graphics and in some circumstances AMD graphics."
 msgstr "Omogočite strojno pospeševanje videa VAAPI, pogosto uporabljeno pri Intelu in nekaterih AMD-jevih grafičnih karticah."
@@ -11492,10 +11524,13 @@ msgstr "Omogočite strojno pospeševanje videa OpenMax."
 msgctxt "#36162"
 msgid "Enable VideoToolbox hardware decoding of video files."
 msgstr "Omogočite strojno pospeševanje videa VideoToolbox."
+<<<<<<< HEAD
 
 msgctxt "#36163"
 msgid "Enable decoding of video files using pixel buffer objects."
 msgstr "Vključi strojno dekodiranje video datotek z uporabo pixel-buffer objektov."
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36166"
 msgid "Synchronise the video to the refresh rate of the monitor."
@@ -11634,8 +11669,13 @@ msgid "Category for general settings for PVR/Live TV features."
 msgstr "Kategorija splošnih nastavitev PVR/televizije v živo."
 
 msgctxt "#36203"
+<<<<<<< HEAD
 msgid "Enable the Personal Video Recorder (PVR) features in Kodi. This requires that at least one PVR Add-on is installed."
 msgstr "Omogočite storitve osebnega snemalnika (PVR) v Kodi-ju. To zahteva nameščen vsaj en dodatek PVR."
+=======
+msgid "Enable the Personal Video Recorder (PVR) features in XBMC. This requires that at least one PVR Add-on is installed."
+msgstr "Omogočite storitve osebnega snemalnika (PVR) v XBMC-ju. To zahteva nameščen vsaj en dodatek PVR."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
@@ -11757,6 +11797,14 @@ msgctxt "#36243"
 msgid "The command to execute."
 msgstr "Ukaz, ki naj se zažene."
 
+msgctxt "#36242"
+msgid "The command will not be executed when a recording will be started within this timeout."
+msgstr "Ukaz ne bo zagnan, če se bo snemanje začelo med tem časom."
+
+msgctxt "#36243"
+msgid "The command to execute."
+msgstr "Ukaz, ki naj se zažene."
+
 msgctxt "#36245"
 msgid "Execute the wakeup command every day at the given time."
 msgstr "Zaženite ukaz bujenja vsak dan ob določenem času."
@@ -11782,12 +11830,21 @@ msgid "Ask for the pin code again when trying to access a parental locked channe
 msgstr "Ponovno vprašaj za kodo pin ob dostopu starševsko zaklenjenih programov, če za kodo ni bilo vprašano med tem časom."
 
 msgctxt "#36251"
+<<<<<<< HEAD
 msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Kategorija specifičnih nastavitev za vašo hrbtenico PVR, če sama to podpira znotraj Kodi-ja."
 
 msgctxt "#36252"
 msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Ta možnost bo omogočila vse specifične nastavitve za vašo hrbtenico PVR, če sama to podpira znotraj Kodi-ja."
+=======
+msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "Kategorija specifičnih nastavitev za vašo hrbtenico PVR, če sama to podpira znotraj XBMC-ja."
+
+msgctxt "#36252"
+msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "Ta možnost bo omogočila vse specifične nastavitve za vašo hrbtenico PVR, če sama to podpira znotraj XBMC-ja."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
@@ -11865,6 +11922,10 @@ msgctxt "#36282"
 msgid "Category containing settings for how CDs are handled."
 msgstr "Kategorija nastavitev ravnanja z CD-ji."
 
+msgctxt "#36282"
+msgid "Category containing settings for how CDs are handled."
+msgstr "Kategorija nastavitev ravnanja z CD-ji."
+
 msgctxt "#36283"
 msgid "Autorun CDs when inserted in drive."
 msgstr "Samodejno predvajajte CD-je, ko jih vstavite v pogon."
@@ -11893,10 +11954,13 @@ msgctxt "#36289"
 msgid "Select which bitrate to use for the specified audio encoder for audio compression."
 msgstr "Izberi bitno hitrost, katero uporablja izbrani avdio kodirnik za stiskanje zvoka."
 
+<<<<<<< HEAD
 msgctxt "#36290"
 msgid "For FLAC define compression level, default 5."
 msgstr "Za FLAC določi stopnjo kompresije, privzeto je 5"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36291"
 msgid "Auto eject disc after rip is complete."
 msgstr "Samodejno izvrzite ploščo po končanem zajemanju."
@@ -11908,6 +11972,22 @@ msgstr "Kategorija nastavitev delovanja karaok."
 msgctxt "#36293"
 msgid "When playing any music file, Kodi will look for a matching .cdg file and display its graphics."
 msgstr "Ob predvajanju katerikoli glasbene datoteke bo Kodi preveril za pripadajočo .cdg datoteko in prikazal pripadajočo grafiko."
+
+msgctxt "#36295"
+msgid "Select the font type used during karaoke."
+msgstr "Izberite tip pisave za prikazovanje med karaokami."
+
+msgctxt "#36296"
+msgid "Select the size of the font used during karaoke."
+msgstr "Izberite velikost pisave za prikazovanje med karaokami."
+
+msgctxt "#36297"
+msgid "Select the font colour used during karaoke."
+msgstr "Izberite barvo pisave za prikazovanje med karaokami."
+
+msgctxt "#36298"
+msgid "Select the character set used during karaoke."
+msgstr "Izberite nabor znakov za uporabo med karaokami."
 
 msgctxt "#36295"
 msgid "Select the font type used during karaoke."
@@ -12017,6 +12097,14 @@ msgctxt "#36323"
 msgid "Enable the UPnP server. This allows you to stream media to a UPnP client."
 msgstr "Omogočite strežnik UPnP. To omogoča pretakanje vsebin na odjemalce UPnP."
 
+msgctxt "#36322"
+msgid "Category containing settings for how the UPnP service is handled."
+msgstr "Kategorija nastavitev storitve UPnP."
+
+msgctxt "#36323"
+msgid "Enable the UPnP server. This allows you to stream media to a UPnP client."
+msgstr "Omogočite strežnik UPnP. To omogoča pretakanje vsebin na odjemalce UPnP."
+
 msgctxt "#36324"
 msgid "When a manual or automatical library update occurs, notify UPnP clients."
 msgstr "Obvestite odjemalce UPnP ob vsaki posodobitvi knjižnice, tako ročni kot samodejni."
@@ -12026,21 +12114,42 @@ msgid "Enable the UPnP client. This allows you to stream media from any UPnP ser
 msgstr "Omogočite odjemalec UPnP. To omogoča pretakanje vsebin s kateregakoli strežnika UPnP s kotrolno točko in upravljanje s predvanjanjem na tem strežniku."
 
 msgctxt "#36326"
+<<<<<<< HEAD
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from Kodi."
 msgstr "Omogočite kontrolno točko UPnP. To omogoča pretakanje vsebin na katerikoli odjemalec UPnP in upravljanje s predvajanjem z Kodi."
+=======
+msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from XBMC."
+msgstr "Omogočite kontrolno točko UPnP. To omogoča pretakanje vsebin na katerikoli odjemalec UPnP in upravljanje s predvajanjem z XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36327"
 msgid "Category containing settings for how the webserver service is handled."
 msgstr "Kategorija nastavitev storitve spletnega strežnika."
 
 msgctxt "#36328"
+<<<<<<< HEAD
 msgid "Enable remote users to control Kodi through the built-in webserver."
 msgstr "Omogočite nadzor Kodi-ja oddaljenim uporabnikom prek vgrajenega spletnega strežnika."
+=======
+msgid "Enable remote users to control XBMC through the built-in webserver."
+msgstr "Omogočite nadzor XBMC-ja oddaljenim uporabnikom prek vgrajenega spletnega strežnika."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36329"
 msgid "Define the webserver port."
 msgstr "Določite vrata spletnega strežnika."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36330"
+msgid "Define the webserver username."
+msgstr "Določite uporabniško ime spletnega strežnika."
+
+msgctxt "#36331"
+msgid "Define the webserver password."
+msgstr "Določite geslo spletnega strežnika."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the Add-on Manager."
 msgstr "Izberite enega izmed spletnih vmesnikov, nameščenih preko upravljalnika dodatkov."
@@ -12052,6 +12161,14 @@ msgstr "Kategorija nastavitev oddaljenega upravljanja."
 msgctxt "#36334"
 msgid "Allow programs on this computer to control Kodi via the Web Interface or the JSON-RPC interface protocol."
 msgstr "Dovolite programom na tem računalniku, da upravljajo z Kodi-jem preko spletnega vmesnika ali protokola JSON-RPC."
+
+msgctxt "#36335"
+msgid "Define the remote control port."
+msgstr "Določite vrata oddaljenega upravljanja."
+
+msgctxt "#36336"
+msgid "Define the remote control port range."
+msgstr "Določite območje vrat oddaljenega upravljanja."
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -12100,6 +12217,26 @@ msgstr "Kategorija nastavitev storitve SMB (samba)."
 msgctxt "#36349"
 msgid "Section that contains the System related settings for the device Kodi is installed on."
 msgstr "Razdelek sistemskih nastavitev za napravo, na katero je nameščen Kodi."
+
+msgctxt "#36341"
+msgid "Category containing settings for how the zeroconf network discovery service is handled, required for AirPlay."
+msgstr "Kategorija nastavitev storitve omrežnega odkrivanja zeroconf, ki je potrebna za AirPlay."
+
+msgctxt "#36344"
+msgid "Enable AirPlay password protection."
+msgstr "Omogočite zaščito z geslom za AirPlay."
+
+msgctxt "#36345"
+msgid "Sets the AirPlay password."
+msgstr "Nastavite geslo za AirPlay."
+
+msgctxt "#36346"
+msgid "Category containing settings for how the SMB Client (samba) service is handled."
+msgstr "Kategorija nastavitev storitve SMB (samba)."
+
+msgctxt "#36349"
+msgid "Section that contains the System related settings for the device XBMC is installed on."
+msgstr "Razdelek sistemskih nastavitev za napravo, na katero je nameščen XBMC."
 
 msgctxt "#36350"
 msgid "Automatically send 'Wake-On-Lan' to server(s) right before trying to access shared files or services."
@@ -12173,6 +12310,10 @@ msgctxt "#36379"
 msgid "Category containing settings for internet access."
 msgstr "Kategorija nastavitev spletnega dostopa."
 
+msgctxt "#36379"
+msgid "Category containing settings for internet access."
+msgstr "Kategorija nastavitev spletnega dostopa."
+
 msgctxt "#36380"
 msgid "If your internet connection uses a proxy, configure it here."
 msgstr "V primeru, da vaša internetna povezava uporablja proxy, to nastavite tukaj."
@@ -12205,6 +12346,10 @@ msgctxt "#36387"
 msgid "Category containing settings for power saving."
 msgstr "Kategorija nastavitev varčevanja z energijo."
 
+msgctxt "#36387"
+msgid "Category containing settings for power saving."
+msgstr "Kategorija nastavitev varčevanja z energijo."
+
 msgctxt "#36389"
 msgid "Define how long Kodi should idle before shutting down."
 msgstr "Določite kako dolgo je lahko Kodi nedejaven preden se izklopi."
@@ -12212,6 +12357,10 @@ msgstr "Določite kako dolgo je lahko Kodi nedejaven preden se izklopi."
 msgctxt "#36390"
 msgid "Define what action Kodi should do when it has been idle for a long period of time."
 msgstr "Določite dejanje ko je Kodi nedejaven dalj časa."
+
+msgctxt "#36391"
+msgid "Category containing settings for debugging functions."
+msgstr "Kategorija nastavitev razhroščevanja."
 
 msgctxt "#36391"
 msgid "Category containing settings for debugging functions."
@@ -12233,6 +12382,10 @@ msgctxt "#36395"
 msgid "Category containing settings for the master lock function."
 msgstr "Kategorija nastavitev zaklepanja"
 
+msgctxt "#36395"
+msgid "Category containing settings for the master lock function."
+msgstr "Kategorija nastavitev zaklepanja"
+
 msgctxt "#36396"
 msgid "Define the PIN code used for the master lock."
 msgstr "Določite PIN kodo, ki se uporablja za glavni zaklep."
@@ -12244,6 +12397,50 @@ msgstr "Če je omogočeno, se zahteva koda za glavni zaklep za odklepanje Kodi o
 msgctxt "#36398"
 msgid "Define the maximum number of retries before Kodi is closed down."
 msgstr "Določite največje število poskusov, preden se Kodi izključi."
+
+msgctxt "#36399"
+msgid "Category containing settings for the cache function."
+msgstr "Kategorija nastavitev za upravljanje predpomnjenja."
+
+msgctxt "#36400"
+msgid "Enable cache for playback of Video, Audio or DVDs from hard disk."
+msgstr "Omogočite predpomnjenje predvajanja videa, glasbe ali DVD-jev s trdega diska."
+
+msgctxt "#36401"
+msgid "Enable cache for playback of Video from DVD-ROM."
+msgstr "Omogočite predpomnjenje predvajanja videa z DVD-ROM-a."
+
+msgctxt "#36402"
+msgid "Enable cache for Video playback from Local Network."
+msgstr "Omogočite predpomnjenje predvajanja videa iz krajevnega omrežja."
+
+msgctxt "#36403"
+msgid "Enable cache for Video playback from Internet."
+msgstr "Omogočite predpomnjenje predvajanja videa z interneta."
+
+msgctxt "#36404"
+msgid "Enable cache for playback of Audio from DVD-ROM."
+msgstr "Omogočite predpomnjenje predvajanja glasbe z DVD-ROM-a."
+
+msgctxt "#36405"
+msgid "Enable cache for Audio playback from Local Network."
+msgstr "Omogočite predpomnjenje predvajanja glasbe iz krajevnega omrežja."
+
+msgctxt "#36406"
+msgid "Enable cache for Audio playback from Internet."
+msgstr "Omogočite predpomnjenje predvajanja glasbe z interneta."
+
+msgctxt "#36407"
+msgid "Enable cache for playback of DVD from DVD-ROM."
+msgstr "Omogočite predpomnjenje predvajanja DVD-ja z DVD-ROM-a."
+
+msgctxt "#36408"
+msgid "Enable cache for DVD playback from Local Network."
+msgstr "Omogočite predpomnjenje predvajanja DVD-ja iz krajevnega omrežja."
+
+msgctxt "#36409"
+msgid "Enable cache of unknown types from Internet."
+msgstr "Omogočite predpomnjenje neznanih tipov z interneta."
 
 msgctxt "#36399"
 msgid "Category containing settings for the cache function."
@@ -12393,13 +12590,27 @@ msgctxt "#36533"
 msgid "Select how audio is downmixed, for example from 5.1 to 2.0: [Enabled] maintains the dynamic range of the original audio source when downmixed however volume will be lower [Disabled] maintains volume level of the original audio source however the dynamic range is compressed. Note - Dynamic range is the difference between the quietest and loudest sounds in a audio source."
 msgstr "Izberite, kako se združujejo zvočni kanali, na primer s 5.1 na 2.0: [Omogočeno] ohrani dinamični razpon izvirnega zvočnega vira po združevanju, vendar bo glasnost nižja; [Onemogočeno] ohrani glasnost izvirnega zvočnega vira, a zmanjša dinamični razpon. Opomba - Dinamični razpon je razlika med najtišjim in najglasnejšim zvokom iz vira."
 
+<<<<<<< HEAD
 msgctxt "#36534"
 msgid "Specify additional libraries whose log messages are to be included in the log."
 msgstr "Določite dodatne knjižnice ki bodo vključene v zapisnik."
+=======
+msgctxt "#36535"
+msgid "Stereoscopic mode of video"
+msgstr "Stereoskopski način videa"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36539"
 msgid "Changes the stereoscopic 3D mode of the user interface."
 msgstr "Spremeni stereoskopski 3D način uporabniškega vmesnika."
+
+msgctxt "#36539"
+msgid "Changes the stereoscopic 3D mode of the user interface."
+msgstr "Spremeni stereoskopski 3D način uporabniškega vmesnika."
+
+msgctxt "#36540"
+msgid "The preferred stereoscopic 3D mode."
+msgstr "Prednostni stereoskopski 3D način."
 
 msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
@@ -12532,6 +12743,22 @@ msgstr "pesem"
 msgctxt "#36921"
 msgid "songs"
 msgstr "pesmi"
+
+msgctxt "#36600"
+msgid "Category containing the settings for how the music library is handled."
+msgstr "Kategorija nastavitev delovanja knjižnice glasbe."
+
+msgctxt "#36601"
+msgid "Category containing settings for how music file lists are handled."
+msgstr "Kategorija nastavitev ravnanja s seznami glasbe."
+
+msgctxt "#36602"
+msgid "Category containing settings for how the AirPlay service is handled."
+msgstr "Kategorija nastavitev storitve AirPlay."
+
+msgctxt "#36603"
+msgid "Category containing settings for how video output is handled."
+msgstr "Kategorija nastavitev izhoda slike."
 
 msgctxt "#37000"
 msgid "(Visually Impaired)"

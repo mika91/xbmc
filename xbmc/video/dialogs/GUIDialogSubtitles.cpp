@@ -537,7 +537,11 @@ void CGUIDialogSubtitles::OnDownloadComplete(const CFileItemList *items, const s
          * items end up in the same folder
          */
         CLog::Log(LOGDEBUG, "%s - Saving subtitle %s to %s", __FUNCTION__, strDownloadFile.c_str(), strTryDestFile.c_str());
+<<<<<<< HEAD
         if (CFile::Copy(strDownloadFile, strTryDestFile))
+=======
+        if (CFile::Cache(strDownloadFile, strTryDestFile))
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
         {
           CFile::Delete(strDownloadFile);
           strDestFile = strTryDestFile;

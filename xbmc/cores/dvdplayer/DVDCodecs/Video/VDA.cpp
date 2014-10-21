@@ -59,6 +59,7 @@ void CDecoder::RelBuffer(uint8_t *data)
 
 int CDecoder::GetBuffer(AVCodecContext *avctx, AVFrame *pic, int flags)
 {
+<<<<<<< HEAD
   pic->data[3] = (uint8_t *)(uintptr_t)1;
   pic->reordered_opaque = avctx->reordered_opaque;
 
@@ -70,6 +71,11 @@ int CDecoder::GetBuffer(AVCodecContext *avctx, AVFrame *pic, int flags)
   }
   pic->buf[0] = buffer;
 
+=======
+  pic->type = FF_BUFFER_TYPE_USER;
+  pic->data[0] = (uint8_t *)1;
+  pic->reordered_opaque = avctx->reordered_opaque;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   return 0;
 }
 

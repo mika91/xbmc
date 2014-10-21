@@ -270,6 +270,7 @@ void CPVRChannelGroup::SearchAndSetChannelIcons(bool bUpdateDb /* = false */)
     fileItemMap.insert(std::make_pair(baseName, (*it)->GetPath()));
   }
 
+<<<<<<< HEAD
   int channelIndex = 0;
   for(std::vector<PVRChannelGroupMember>::const_iterator it = m_members.begin(); it != m_members.end(); ++it)
   {
@@ -301,6 +302,57 @@ void CPVRChannelGroup::SearchAndSetChannelIcons(bool bUpdateDb /* = false */)
         (itItem = fileItemMap.find(strChannelUid)) != fileItemMap.end())
     {
       channel->SetIconPath(itItem->second, g_advancedSettings.m_bPVRAutoScanIconsUserSet);
+=======
+    /* skip if an icon is already set and exists */
+    if (groupMember.channel->IsIconExists())
+      continue;
+
+    /* reset icon before searching for a new one */
+    groupMember.channel->SetIconPath(StringUtils::Empty);
+
+    CStdString strBasePath = CSettings::Get().GetString("pvrmenu.iconpath");
+    CStdString strSanitizedClientChannelName = CUtil::MakeLegalFileName(groupMember.channel->ClientChannelName());
+    
+    CStdString strIconPath = strBasePath + strSanitizedClientChannelName;
+    StringUtils::ToLower(strSanitizedClientChannelName);
+    CStdString strIconPathLower = strBasePath + strSanitizedClientChannelName;
+    CStdString strIconPathUid;
+    strIconPathUid = StringUtils::Format("%08d", groupMember.channel->UniqueID());
+    strIconPathUid = URIUtils::AddFileToFolder(strBasePath, strIconPathUid);
+
+    bool bIconFound =
+      SetChannelIconPath(groupMember.channel, strIconPath + ".tbn") ||
+      SetChannelIconPath(groupMember.channel, strIconPath + ".jpg") ||
+      SetChannelIconPath(groupMember.channel, strIconPath + ".png") ||
+
+      SetChannelIconPath(groupMember.channel, strIconPathLower + ".tbn") ||
+      SetChannelIconPath(groupMember.channel, strIconPathLower + ".jpg") ||
+      SetChannelIconPath(groupMember.channel, strIconPathLower + ".png") ||
+
+      SetChannelIconPath(groupMember.channel, strIconPathUid + ".tbn") ||
+      SetChannelIconPath(groupMember.channel, strIconPathUid + ".jpg") ||
+      SetChannelIconPath(groupMember.channel, strIconPathUid + ".png");
+
+    // lets do the same with the db channel name if those are different
+    if (!bIconFound)
+    {
+      CStdString strSanitizedChannelName = CUtil::MakeLegalFileName(groupMember.channel->ChannelName());
+      CStdString strIconPath2 = strBasePath + strSanitizedChannelName;
+      CStdString strSanitizedLowerChannelName = strSanitizedChannelName;
+      StringUtils::ToLower(strSanitizedLowerChannelName);
+      CStdString strIconPathLower2 = strBasePath + strSanitizedLowerChannelName;
+
+      if (strIconPathLower != strIconPathLower2)
+      {
+        SetChannelIconPath(groupMember.channel, strIconPath2 + ".tbn") ||
+        SetChannelIconPath(groupMember.channel, strIconPath2 + ".jpg") ||
+        SetChannelIconPath(groupMember.channel, strIconPath2 + ".png") ||
+
+        SetChannelIconPath(groupMember.channel, strIconPathLower2 + ".tbn") ||
+        SetChannelIconPath(groupMember.channel, strIconPathLower2 + ".jpg") ||
+        SetChannelIconPath(groupMember.channel, strIconPathLower2 + ".png");
+      } 
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     }
 
     if (bUpdateDb)
@@ -1289,7 +1341,11 @@ void CPVRChannelGroup::SetPreventSortAndRenumber(bool bPreventSortAndRenumber /*
   m_bPreventSortAndRenumber = bPreventSortAndRenumber;
 }
 
+<<<<<<< HEAD
 bool CPVRChannelGroup::UpdateChannel(const CFileItem &item, bool bHidden, bool bVirtual, bool bEPGEnabled, bool bParentalLocked, int iEPGSource, int iChannelNumber, const std::string &strChannelName, const std::string &strIconPath, const std::string &strStreamURL, bool bUserSetIcon)
+=======
+bool CPVRChannelGroup::UpdateChannel(const CFileItem &item, bool bHidden, bool bVirtual, bool bEPGEnabled, bool bParentalLocked, int iEPGSource, int iChannelNumber, const CStdString &strChannelName, const CStdString &strIconPath, const CStdString &strStreamURL, bool bUserSetIcon)
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 {
   if (!item.HasPVRChannelInfoTag())
     return false;

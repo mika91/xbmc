@@ -187,11 +187,14 @@ namespace PVR
      */
     bool IsIconExists(void) const;
 
+<<<<<<< HEAD
     /*!
      * @return whether the user has changed the channel name through the GUI
      */
     bool IsUserSetName(void) const;
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     /*!
      * @brief Set the path to the icon for this channel.
      * @param strIconPath The new path.

@@ -504,6 +504,18 @@ msgctxt "#31501"
 msgid "Scheduled Time"
 msgstr "Uppsettur Tími"
 
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr "Sýna eða fela innskráningarskjá við ræsingu."
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr "Veldu uppsetninguna sem verður notuð í ræsingu þegar innskráningarglugginn hefur verið gerður óvirkur."
+
+msgctxt "#31501"
+msgid "Scheduled Time"
+msgstr "Uppsettur Tími"
+
 msgctxt "#31502"
 msgid "Live TV"
 msgstr "Sjónvarp bein útsending"
@@ -577,8 +589,13 @@ msgid "PICTURES"
 msgstr "MYNDIR"
 
 msgctxt "#31952"
+<<<<<<< HEAD
 msgid "TV"
 msgstr "Sjónvarp"
+=======
+msgid "LIVE TV"
+msgstr "Beinar útsendingar"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31953"
 msgid "VIDEOS"

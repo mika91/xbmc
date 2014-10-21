@@ -50,8 +50,13 @@ msgid "Weather"
 msgstr "Veður"
 
 msgctxt "#9"
+<<<<<<< HEAD
 msgid "Kodi media center"
 msgstr "Kodi miðlunarstöð"
+=======
+msgid "xbmc media center"
+msgstr "xbmc miðlunarstöð"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#11"
 msgid "Monday"
@@ -852,10 +857,13 @@ msgstr "Fylla skjá"
 msgctxt "#245"
 msgid "Sizing: (%i,%i)->(%i,%i) (Zoom x%2.2f) AR:%2.2f:1 (Pixels: %2.2f:1) (VShift: %2.2f)"
 msgstr "Stærðir: (%i,%i)->(%i,%i) (Þysjun x%2.2f) AR:%2.2f:1 (Punktar: %2.2f:1) (Lóð.hliðrun: %2.2f)"
+<<<<<<< HEAD
 
 msgctxt "#246"
 msgid "Monitor"
 msgstr "Skjár"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#247"
 msgid "Scripts"
@@ -1097,10 +1105,13 @@ msgctxt "#309"
 msgid "User interface language"
 msgstr "Tungumál notandaviðmóts"
 
+<<<<<<< HEAD
 msgctxt "#310"
 msgid "Keyboard layouts"
 msgstr "Útlit lyklaborðs"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#312"
 msgid "(0=auto)"
 msgstr "(0=sjálfv.)"
@@ -2417,6 +2428,7 @@ msgctxt "#665"
 msgid "Compression level"
 msgstr "Þjöppunarhlutfall"
 
+<<<<<<< HEAD
 msgctxt "#667"
 msgid "Enable Dolby Digital transcoding"
 msgstr "Virkja Dolby Digital umkóðun"
@@ -2452,6 +2464,15 @@ msgstr "Fjölorð viðburðaskráningu fyrir JSON-RPC beiðnir"
 msgctxt "#676"
 msgid "Verbose logging for AUDIO component"
 msgstr "Fjölorð viðburðaskráningu fyrir HLJÓÐ tæki"
+=======
+msgctxt "#666"
+msgid "Verbose logging..."
+msgstr "Ítarleg viðburðaskráning"
+
+msgctxt "#667"
+msgid "Enable Dolby Digital transcoding"
+msgstr "Virkja Dolby Digital umkóðun"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2758,8 +2779,13 @@ msgid "Remote control"
 msgstr "Fjarstýring"
 
 msgctxt "#791"
+<<<<<<< HEAD
 msgid "Allow programs on this system to control Kodi"
 msgstr "Leyfa forritum á þessu kerfi að stjórna Kodi"
+=======
+msgid "Allow programs on this system to control XBMC"
+msgstr "Leyfa forritum á þessu kerfi að stjórna XBMC"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#792"
 msgid "Port"
@@ -2770,8 +2796,13 @@ msgid "Port range"
 msgstr "Gáttabil"
 
 msgctxt "#794"
+<<<<<<< HEAD
 msgid "Allow programs on other systems to control Kodi"
 msgstr "Leyfa forritum á öðrum kerfum að stjórna Kodi"
+=======
+msgid "Allow programs on other systems to control XBMC"
+msgstr "Leyfa forritum á öðrum kerfum að stjórna XBMC"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#795"
 msgid "Initial repeat delay (ms)"
@@ -5041,6 +5072,25 @@ msgctxt "#13440"
 msgid "Allow multi threaded software decoding"
 msgstr "Leyfa margra þráða hugbúnaðar-afkóðun"
 
+<<<<<<< HEAD
+=======
+msgctxt "#13441"
+msgid "Use Mpeg-2 VDPAU"
+msgstr "Nota Mpeg-2 VDPAU"
+
+msgctxt "#13442"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
+msgstr "Virkjaðu þennan valkost til að nota vélbúnaðarhröðun fyrir Mpeg-(1/2) kóðun. Ef ekki virkt þá mun örgjörvinn vera notaður í staðinn. Gömul Radeon skjákort gætu stundum klikkað ef þetta er virkt."
+
+msgctxt "#13443"
+msgid "Use Mpeg-4 VDPAU"
+msgstr "Nota Mpeg-4 VDPAU"
+
+msgctxt "#13444"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
+msgstr "Virkjaðu þennan valkost til að nota vélbúnaðarhröðun fyrir Mpeg-4 kóðun. Ef ekki virkt þá mun örgjörvinn vera notaður í staðinn. Sum ION kort valda vandamálum ef þetta er haft sjálfgefið virkt."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
 msgstr "Nota VC-1 VDPAU"
@@ -5049,6 +5099,25 @@ msgctxt "#13446"
 msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. AMD Hardware with VDPAU cannot decode VC-1 Simple."
 msgstr "Virkjaðu þennan valkost til að nota vélbúnaðarhröðun fyrir VC-1 kóðun. Ef ekki virkt þá mun örgjörvinn vera notaður í staðinn. AMD kort með VDPAU geta ekki afkóðað VC-1 Simple."
 
+<<<<<<< HEAD
+=======
+msgctxt "#13447"
+msgid "Use Mpeg-2 VAAPI"
+msgstr "Nota Mpeg-2 VAAPI"
+
+msgctxt "#13448"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Some Mpeg-2 Videos might have green artifacts."
+msgstr "Virkjaðu þennan valkost til að nota vélbúnaðarhröðun fyrir Mpeg-(1/2) kóðun. Ef ekki virkt þá mun örgjörvinn vera notaður í staðinn. Sumar Mpeg-2 myndir geta haft græna slikju útúr köntum."
+
+msgctxt "#13449"
+msgid "Use Mpeg-4 VAAPI"
+msgstr "Nota Mpeg-4 VAAPI"
+
+msgctxt "#13450"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead."
+msgstr "Virkjaðu þennan valkost til að nota vélbúnaðarhröðun fyrir Mpeg-4 kóðun. Ef ekki virkt þá mun örgjörvinn vera notaður í staðinn."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
 msgstr "Nota VC-1 VAAPI"
@@ -5633,10 +5702,13 @@ msgctxt "#15109"
 msgid "Skin default"
 msgstr "Sjálfgildi viðmóts"
 
+<<<<<<< HEAD
 msgctxt "#15110"
 msgid "Larger font size"
 msgstr "Stærra letur"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#15111"
 msgid "Theme"
 msgstr "Þema"
@@ -6046,8 +6118,13 @@ msgid "or use phrases to find an exact match, like \"The wizard of Oz\"."
 msgstr "eða notið setningar til að finna nákvæma samsvörun, eins og \"The wizard of Oz\"."
 
 msgctxt "#19003"
+<<<<<<< HEAD
 msgid "Find similar"
 msgstr "Finna svipað"
+=======
+msgid "Find similar programs"
+msgstr "Finna lík forrit"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19004"
 msgid "Importing EPG from clients"
@@ -6104,6 +6181,10 @@ msgstr "Bakendi upptökutækis %i - %s"
 msgctxt "#19017"
 msgid "Recordings"
 msgstr "Upptökur"
+
+msgctxt "#19018"
+msgid "Folder with channel icons"
+msgstr "Mappa með táknmyndum rása"
 
 msgctxt "#19018"
 msgid "Folder with channel icons"
@@ -6293,6 +6374,13 @@ msgctxt "#19064"
 msgid "Go to end"
 msgstr "Fara á enda"
 
+<<<<<<< HEAD
+=======
+msgctxt "#19065"
+msgid "Default EPG window"
+msgstr "Sjálfgefinn gluggi rafræns sjónvarpsvísis"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19066"
 msgid "Channel icons"
 msgstr "Táknmyndir rása"
@@ -6441,18 +6529,24 @@ msgctxt "#19102"
 msgid "Please switch to another channel."
 msgstr "Vinsamlegast skiptu yfir á aðra rás."
 
+<<<<<<< HEAD
 msgctxt "#19103"
 msgid "Go to channel"
 msgstr "Fara á rás"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19104"
 msgid "Enter the name of the folder for the recording"
 msgstr "Settu inn nafn á möppu fyrir upptökuna"
 
+<<<<<<< HEAD
 msgctxt "#19105"
 msgid "Please select a channel"
 msgstr "Veldu rás"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19106"
 msgid "Next timer on"
 msgstr "Næsta tímataka hefst"
@@ -6472,10 +6566,13 @@ msgstr "Óvænt villa kom upp. Reyndu aftur síðar eða skoðaðu atburðaskrá
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for details."
 msgstr "Villa í bakenda upptökutækis. Athugaðu atburðaskráningu fyrir nánari upplýsingar."
+<<<<<<< HEAD
 
 msgctxt "#19112"
 msgid "Delete this recording?"
 msgstr "Eyða þessari upptöku?"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19114"
 msgid "Version"
@@ -6560,6 +6657,7 @@ msgstr "Leitarstrengur"
 msgctxt "#19134"
 msgid "Include description"
 msgstr "Hafa með lýsingu"
+<<<<<<< HEAD
 
 msgctxt "#19135"
 msgid "Case sensitive"
@@ -6588,11 +6686,40 @@ msgstr "Leita..."
 msgctxt "#19141"
 msgid "Group"
 msgstr "Hópur"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
+
+msgctxt "#19135"
+msgid "Case sensitive"
+msgstr "Eftir há- og lágstöfum"
+
+<<<<<<< HEAD
+=======
+msgctxt "#19136"
+msgid "Channel unavailable"
+msgstr "Rás ekki tiltæk"
+
+msgctxt "#19137"
+msgid "No groups defined"
+msgstr "Engir hópar tilgreindir"
+
+msgctxt "#19138"
+msgid "Please create a group first"
+msgstr "Vinsamlegast búðu til hóp fyrst"
+
+msgctxt "#19139"
+msgid "Name of the new group"
+msgstr "Nafn nýja hópsins"
+
+msgctxt "#19141"
+msgid "Group"
+msgstr "Hópur"
 
 msgctxt "#19142"
 msgid "Search guide"
 msgstr "Leitarvél"
 
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19143"
 msgid "Group management"
 msgstr "Stjórnun hópa"
@@ -6729,6 +6856,13 @@ msgctxt "#19178"
 msgid "Show channel information when switching channels"
 msgstr "Sýna rásaupplýsingar þegar skipt er um rás"
 
+<<<<<<< HEAD
+=======
+msgctxt "#19179"
+msgid "Automatically hide channel information"
+msgstr "Fela sjálfvirkt rásaupplýsingar"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19180"
 msgid "TV"
 msgstr "Sjónvarp"
@@ -6741,9 +6875,15 @@ msgctxt "#19182"
 msgid "Days to display in the EPG"
 msgstr "Dagar til að sýna í rafræna sjónvarpsvísinum"
 
+<<<<<<< HEAD
 msgctxt "#19183"
 msgid "Radio"
 msgstr "Útvarp"
+=======
+msgctxt "#19184"
+msgid "Channel information duration"
+msgstr "Tímalengd rásauppýsinga"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19185"
 msgid "Reset the PVR database"
@@ -6766,8 +6906,13 @@ msgid "Continue last channel on startup"
 msgstr "Halda áfram með síðustu rás við endurræsingu"
 
 msgctxt "#19190"
+<<<<<<< HEAD
 msgid "Background"
 msgstr "Bakgrunnur"
+=======
+msgid "Minimised"
+msgstr "Minnkað"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19191"
 msgid "PVR service"
@@ -6842,8 +6987,13 @@ msgid "Enter the name of the new channel"
 msgstr "Settu inn nafn á nýrri rás"
 
 msgctxt "#19209"
+<<<<<<< HEAD
 msgid "Kodi virtual backend"
 msgstr "Kodi sýndar-bakendi"
+=======
+msgid "XBMC virtual backend"
+msgstr "XBMC sýndar-bakendi"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19210"
 msgid "Client"
@@ -7085,6 +7235,13 @@ msgctxt "#19269"
 msgid "Do not show 'connection lost' warnings"
 msgstr "Ekki sýna 'tenging rofnaði' aðvaranir"
 
+<<<<<<< HEAD
+=======
+msgctxt "#19270"
+msgid "* All recordings"
+msgstr "* Allar upptökur"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19271"
 msgid "No PVR Add-ons could be found"
 msgstr "Engin upptöku-viðbót fannst"
@@ -7145,10 +7302,13 @@ msgctxt "#19285"
 msgid "Browse for icon"
 msgstr "Fletta eftir táknmynd"
 
+<<<<<<< HEAD
 msgctxt "#19287"
 msgid "All channels"
 msgstr "Allar rásir"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19499"
 msgid "Other/Unknown"
 msgstr "Annað/Óþekkt"
@@ -9429,10 +9589,13 @@ msgctxt "#21469"
 msgid "%s to %s"
 msgstr "%s til %s"
 
+<<<<<<< HEAD
 msgctxt "#21470"
 msgid "%s [%d]"
 msgstr "%s [%d]"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#21602"
 msgid "(External)"
 msgstr "(Útvær)"
@@ -10933,6 +11096,22 @@ msgctxt "#34408"
 msgid "2 finger single tap or 1 finger long press for contextmenu"
 msgstr "Pikka einu sinni með 2 fingrum eða halda niðri 1 fingri til að fá efnisvalmynd"
 
+msgctxt "#34405"
+msgid "1 finger swipe left,right,up,down for cursors"
+msgstr "Strjúka með 1 fingri til vinstri, hægri, upp, niður fyrir örvahnappa"
+
+msgctxt "#34406"
+msgid "2 finger swipe left for backspace"
+msgstr "Strjúka með 2 fingrum til vinstri fyrir bakk-lykil"
+
+msgctxt "#34407"
+msgid "1 finger single tap for enter"
+msgstr "Pikka með 1 fingri fyrir innslátt"
+
+msgctxt "#34408"
+msgid "2 finger single tap or 1 finger long press for contextmenu"
+msgstr "Pikka einu sinni með 2 fingrum eða halda niðri 1 fingri til að fá efnisvalmynd"
+
 msgctxt "#35000"
 msgid "Peripherals"
 msgstr "Tæki"
@@ -10981,6 +11160,13 @@ msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "Gera stýripinna óvirkann þegar þetta tæki er tiltækt"
 
+<<<<<<< HEAD
+=======
+msgctxt "#35103"
+msgid "Enable system keys in fullscreen"
+msgstr "Virkja kerfishnappa þegar fullur skjár"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#35500"
 msgid "Location"
 msgstr "Staðsetning"
@@ -11074,8 +11260,13 @@ msgid "Connected to HDMI device"
 msgstr "Tengt við HDMI tæki"
 
 msgctxt "#36020"
+<<<<<<< HEAD
 msgid "Make Kodi the active source when starting"
 msgstr "Gera Kodi að virkri veitu þegar ræst er"
+=======
+msgid "Make XBMC the active source when starting"
+msgstr "Gera XBMC að virkri veitu þegar ræst er"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36021"
 msgid "Physical address (overrules HDMI port)"
@@ -11094,8 +11285,13 @@ msgid "Failed to set the new configuration. Please check your settings."
 msgstr "Mistókst að setja upp nýju uppsetninguna. Athugaðu stillingarnar."
 
 msgctxt "#36025"
+<<<<<<< HEAD
 msgid "Send 'inactive source' command when stopping Kodi"
 msgstr "Senda skipunina 'Óvirk veita' þegar Kodi er stöðvað"
+=======
+msgid "Send 'inactive source' command when stopping XBMC"
+msgstr "Senda skipunina 'Óvirk veita' þegar XBMC er stöðvað"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36026"
 msgid "Put devices in standby mode when putting the PC in standby"
@@ -11150,8 +11346,13 @@ msgid "TV and AVR device (explicit)"
 msgstr "Sjónvarp og Hljóð-Mynd tæki (Skilgreining)"
 
 msgctxt "#36040"
+<<<<<<< HEAD
 msgid "Unsupported libCEC interface version. %x is lower than the version Kodi supports (%x)"
 msgstr "Ekki stuðningur við þessa útgáfu af libCEC. %x er lægra en útgáfan sem Kodi styður (%x)"
+=======
+msgid "Unsupported libCEC interface version. %x is lower than the version XBMC supports (%x)"
+msgstr "Ekki stuðningur við þessa útgáfu af libCEC. %x er lægra en útgáfan sem XBMC styður (%x)"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36041"
 msgid "* Item folder"
@@ -11170,8 +11371,13 @@ msgid "Category containing all Skin related settings."
 msgstr "Flokkurinn inniheldur allar stillingar tengdar Viðmótinu"
 
 msgctxt "#36103"
+<<<<<<< HEAD
 msgid "Select the skin for the user interface. This will define the look and feel of Kodi."
 msgstr "Veldu Viðmót fyrir notandaviðmótið. Þetta mun tilgreina útlit og virkni á Kodi."
+=======
+msgid "Select the skin for the user interface. This will define the look and feel of XBMC."
+msgstr "Veldu Viðmót fyrir notandaviðmótið. Þetta mun tilgreina útlit og virkni á XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36104"
 msgid "Change specific skin settings. The available options are dependent on the skin used."
@@ -11194,8 +11400,13 @@ msgid "Resize the view of the user interface."
 msgstr "Breyta stærð sýnar í notandaviðmótinu."
 
 msgctxt "#36109"
+<<<<<<< HEAD
 msgid "Select the media window that Kodi displays on startup."
 msgstr "Veldu miðilsgluggan sem Kodi sýnir í ræsingu."
+=======
+msgid "Select the media window that XBMC displays on startup."
+msgstr "Veldu miðilsgluggan sem XBMC sýnir í ræsingu."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36110"
 msgid "Select or disable the sound scheme used in the user interface."
@@ -11278,8 +11489,13 @@ msgid "Set the amount of idle time required before displaying the screensaver."
 msgstr "Setja tímamörk hve lengi tækið þarf að vera í bið áður en skjáhvíla verður virk."
 
 msgctxt "#36130"
+<<<<<<< HEAD
 msgid "Select the screensaver. Kodi will force the 'Dim' screensaver when fullscreen video playback is paused or a dialogue box is active."
 msgstr "Veldu skjáhvílu. Kodi mun neyða 'Dimma' skjáhvíluna þegar kvikmynd yfir allan skjáinn er sett í pásu eða þegar tilkynningargluggi er virkur."
+=======
+msgid "Select the screensaver. XBMC will force the 'Dim' screensaver when fullscreen video playback is paused or a dialogue box is active."
+msgstr "Veldu skjáhvílu. XBMC mun neyða 'Dimma' skjáhvíluna þegar kvikmynd yfir allan skjáinn er sett í pásu eða þegar tilkynningargluggi er virkur."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36131"
 msgid "Change specific screensaver settings. The available options are dependent on the screensaver used."
@@ -11290,8 +11506,13 @@ msgid "Preview the selected screensaver."
 msgstr "Forskoða valda skjáhvílu."
 
 msgctxt "#36133"
+<<<<<<< HEAD
 msgid "If music is being played, Kodi will start the selected visualisation instead of displaying the screensaver."
 msgstr "Ef það er verið að spila tónlist mun Kodi ræsa valda sjónræna upplifun í staðinn fyrir að sýna skjáhvíluna."
+=======
+msgid "If music is being played, XBMC will start the selected visualisation instead of displaying the screensaver."
+msgstr "Ef það er verið að spila tónlist mun XBMC ræsa valda sjónræna upplifun í staðinn fyrir að sýna skjáhvíluna."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36134"
 msgid "Dim the display when media is paused. Not valid for the 'Dim' screensaver mode."
@@ -11338,8 +11559,13 @@ msgid "Group movies into 'Movie sets' when browsing the movie library."
 msgstr "Hópa kvikmyndir í 'Kvikmyndasett' þegar flett er í kvikmyndasafni."
 
 msgctxt "#36146"
+<<<<<<< HEAD
 msgid "Check for new media files on Kodi startup."
 msgstr "Athuga með nýjar miðlunarskrár þegar Kodi er ræstur."
+=======
+msgid "Check for new media files on XBMC startup."
+msgstr "Athuga með nýjar miðlunarskrár þegar XBMC er ræstur."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36147"
 msgid "Hide the library scanning progress bar during scans."
@@ -11438,8 +11664,13 @@ msgid "Select the zoom level that 4:3 videos are shown on widescreen displays."
 msgstr "Veldu þys-hlutfall sem 4:3 myndefni notar til að spilast á víðskjám."
 
 msgctxt "#36172"
+<<<<<<< HEAD
 msgid "VDPAU studio level conversion provides a way for advanced applications like Kodi to influence the colour space conversion."
 msgstr "VDPAU studio level breyting gerir kleyft fyrir háþróuð forrit eins og Kodi til að hafa áhrif á litasvið umbreytingar."
+=======
+msgid "VDPAU studio level conversion provides a way for advanced applications like XBMC to influence the colour space conversion."
+msgstr "VDPAU studio level breyting gerir kleyft fyrir háþróuð forrit eins og XBMC til að hafa áhrif á litasvið umbreytingar."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36173"
 msgid "Enable upscaling using VDPAU."
@@ -11562,20 +11793,34 @@ msgid "Category for general settings for PVR/Live TV features."
 msgstr "Flokkur fyrir almennar stillingar fyrir aðgerðir Upptöku/Live TV"
 
 msgctxt "#36203"
+<<<<<<< HEAD
 msgid "Enable the Personal Video Recorder (PVR) features in Kodi. This requires that at least one PVR Add-on is installed."
 msgstr "Virkja stuðning við Personal Video Recorder (PVR) upptökutækið í Kodi. Þetta þarfnast að allavegana ein viðbót fyrir upptökutæki sé uppsett."
+=======
+msgid "Enable the Personal Video Recorder (PVR) features in XBMC. This requires that at least one PVR Add-on is installed."
+msgstr "Virkja stuðning við Personal Video Recorder (PVR) upptökutækið í XBMC. Þetta þarfnast að allavegana ein viðbót fyrir upptökutæki sé uppsett."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "Flytja inn rásahópa frá bakenda upptökutækis (ef stuðningur við það). Mun eyða hópum sem notandinn hefur búið til ef þeir eru ekki á bakendanum."
 
 msgctxt "#36205"
+<<<<<<< HEAD
 msgid "Sort the channels by channel number on the backend, but use Kodi's own numbering for channels."
 msgstr "Raða rásum eftir rásanúmerum á bakendanum, en nota eigin númer Kodi fyrir rásir."
 
 msgctxt "#36206"
 msgid "Use numbering from the backend, instead of configuring them manually over Kodi."
 msgstr "Nota númeraröð af bakendanum í staðinn fyrir að tilgreina þá handvirkt á Kodi."
+=======
+msgid "Sort the channels by channel number on the backend, but use XBMC's own numbering for channels."
+msgstr "Raða rásum eftir rásanúmerum á bakendanum, en nota eigin númer XBMC fyrir rásir."
+
+msgctxt "#36206"
+msgid "Use numbering from the backend, instead of configuring them manually over XBMC."
+msgstr "Nota númeraröð af bakendanum í staðinn fyrir að tilgreina þá handvirkt á XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -11590,8 +11835,13 @@ msgid "Delete channel/EPG database and reimport the data from the backend afterw
 msgstr "Eyða gagnagrunni rása/dagskrárvísa og flytja þá aftur inn frá bakenda."
 
 msgctxt "#36210"
+<<<<<<< HEAD
 msgid "Prevent the 'connection lost' notification window from displaying when Kodi is unable to talk to the PVR backend server."
 msgstr "Hindra 'tenging tapaðist' tilkynningar að birtast þegar Kodi getur ekki talað við bakenda upptökutækis."
+=======
+msgid "Prevent the 'connection lost' notification window from displaying when XBMC is unable to talk to the PVR backend server."
+msgstr "Hindra 'tenging tapaðist' tilkynningar að birtast þegar XBMC getur ekki talað við bakenda upptökutækis."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36211"
 msgid "Category for PVR menus and on-screen display settings, as well as channel info windows."
@@ -11601,10 +11851,24 @@ msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
 msgstr "Sýna upplýsingar um efnið þegar skipt er um rás, eins og hvaða sjónvarpsþáttur er í gangi."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36213"
+msgid "Hide the programming information automatically after a few seconds, defined below."
+msgstr "Fela upplýsingar um þætti sjálfkrafa eftir nokkrar sekúndur, skilgreint hér fyrir neðan."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36214"
 msgid "Close the on screen display controls after switching channels."
 msgstr "Loka stjórntökkum á skjánum eftir að það er skipt um rás."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36215"
+msgid "How long the programming information is displayed when the 'automatically hide' setting is turned on."
+msgstr "Hversu lengi upplýsingar um dagskrárlið eru sýndar þega 'fela sjálfvirkt' er virkt."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36216"
 msgid "Folder where channel icons are stored."
 msgstr "Mappa þar sem táknmyndum rása eru vistaðar."
@@ -11617,6 +11881,13 @@ msgctxt "#36218"
 msgid "Category for electronic programming guide settings."
 msgstr "Flokkur fyrir stillingar rafræns dagskrárvísis."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36219"
+msgid "Default electronic programming guide window to show."
+msgstr "Sjálfgefin rafrænn dagskrárvísir sem er sýndur."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36220"
 msgid "Number of days of EPG data to import from backends."
 msgstr "Fjöldi daga af rafrænum dagskrárvísis-gögnum sem á að flytja inn frá bakendum."
@@ -11630,16 +11901,26 @@ msgid "Do not import EPG data while playing TV to minimise CPU usage."
 msgstr "Ekki flytja inn gögn dagskrárvísa á meðan spilun á sjónvarp fer fram til að létta örgjörvaálag."
 
 msgctxt "#36223"
+<<<<<<< HEAD
 msgid "By default, EPG data is stored in a local database to speed up importing when Kodi is restarted."
 msgstr "Sjálfgefið er að gögn dagskrárvísa séu geymd í staðbundnum gagnagrunni til að flýta fyrir innflutningi þegar Kodi er endurræstur."
+=======
+msgid "By default, EPG data is stored in a local database to speed up importing when XBMC is restarted."
+msgstr "Sjálfgefið er að gögn dagskrárvísa séu geymd í staðbundnum gagnagrunni til að flýta fyrir innflutningi þegar XBMC er endurræstur."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36224"
 msgid "Hide \"no information available\" labels when no EPG data can be retrieved for a channel."
 msgstr "Fela 'engar upplýsingar tiltækar' tilkynningar þegar ekki er hægt að ná í dagskrárupplýsingar fyrir rás."
 
 msgctxt "#36225"
+<<<<<<< HEAD
 msgid "Delete the EPG database in Kodi and reimport the data afterwards from the backend."
 msgstr "Eyða gagnagrunni rafræns sjónvarpsvísis í Kodi og síðan flytja aftur inn gögn frá bakendanum."
+=======
+msgid "Delete the EPG database in XBMC and reimport the data afterwards from the backend."
+msgstr "Eyða gagnagrunni rafræns sjónvarpsvísis í XBMC og síðan flytja aftur inn gögn frá bakendanum."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36226"
 msgid "Category for PVR playback and channel switching settings."
@@ -11658,8 +11939,13 @@ msgid "Display signal quality information in the codec information window (if su
 msgstr "Sýna upplýsingar um gæði merkis í upplýsingarglugga kóðara (ef stutt af Viðbót og bakenda)."
 
 msgctxt "#36230"
+<<<<<<< HEAD
 msgid "How long Kodi will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "Hve lengi Kodi bíður þegar skipt er um rás, ef ekki næst í rás. Gagnlegt fyrir útsendingarrásir sem detta stundum niður í styrk."
+=======
+msgid "How long XBMC will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
+msgstr "Hve lengi XBMC bíður þegar skipt er um rás, ef ekki næst í rás. Gagnlegt fyrir útsendingarrásir sem detta stundum niður í styrk."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36231"
 msgid "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
@@ -11702,8 +11988,13 @@ msgid "Category for PVR power management settings, such as when to wake the PVR 
 msgstr "Flokkur fyrir orkustillingar upptökutækis, til dæmis hvenær á að vekja miðlara fyrir bakenda upptökutækis."
 
 msgctxt "#36241"
+<<<<<<< HEAD
 msgid "Execute the \"wakeup command\" below when Kodi exits or is going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
 msgstr "Framkvæma \"vakna skipun\" hér fyrir neðan þegar Kodi lokast eða fer í dvala. Tími á næstu áætluðu upptöku er sent sem breyta."
+=======
+msgid "Execute the \"wakeup command\" below when XBMC exits or is going into hibernation mode. The timestamp of the next scheduled recording is passed as parameter."
+msgstr "Framkvæma \"vakna skipun\" hér fyrir neðan þegar XBMC lokast eða fer í dvala. Tími á næstu áætluðu upptöku er sent sem breyta."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36242"
 msgid "The command will not be executed when a recording will be started within this timeout."
@@ -11742,12 +12033,21 @@ msgid "Ask for the pin code again when trying to access a parental locked channe
 msgstr "Biðja aftur um auðkennistölur þegar reynt er að opna rás með barnalæsingu og þessi tími er liðinn síðan beðið var um tölurnar."
 
 msgctxt "#36251"
+<<<<<<< HEAD
 msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Flokkur fyrir sértækar stillingar fyrir bakenda upptökutækis, ef bakendi upptökutækis styður að þessu sé breytt í Kodi."
 
 msgctxt "#36252"
 msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Þessi valkostur mun sýna þér allar sértækar stillingar fyrir upptökubakendann þinn, ef að upptökubakendinn styður að þeim sé breytt frá Kodi."
+=======
+msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "Flokkur fyrir sértækar stillingar fyrir bakenda upptökutækis, ef bakendi upptökutækis styður að þessu sé breytt í XBMC."
+
+msgctxt "#36252"
+msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "Þessi valkostur mun sýna þér allar sértækar stillingar fyrir upptökubakendann þinn, ef að upptökubakendinn styður að þeim sé breytt frá XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
@@ -11774,8 +12074,13 @@ msgid "Select the default artist information source. See the Add-ons Manager for
 msgstr "Veldu sjálfgefna upplýsingaveitu listamanna. Sjá Viðbótastjóra fyrir valkosti."
 
 msgctxt "#36259"
+<<<<<<< HEAD
 msgid "Check for new and removed media files on Kodi startup."
 msgstr "Leita að nýjum eða fjarlægðum miðlunarskrám þegar Kodi ræsir sig."
+=======
+msgid "Check for new and removed media files on XBMC startup."
+msgstr "Leita að nýjum eða fjarlægðum miðlunarskrám þegar XBMC ræsir sig."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36260"
 msgid "No info available yet."
@@ -11794,16 +12099,26 @@ msgid "Category containing settings for how music playback is handled."
 msgstr "Flokkur sem inniheldur stillingar á hvernig afspilun tónlistar er höndluð."
 
 msgctxt "#36265"
+<<<<<<< HEAD
 msgid "Kodi automatically plays the next item in the current folder. For example, in Files View: After a track has been played, Kodi would automatically play the next track in the same folder."
 msgstr "Kodi spilar sjálfvirkt næsta hlut í núverandi möppu. Til dæmis, í Skráarsýn: Þegar spilun lags er búin mun Kodi spila næsta lag í sömu möppu."
+=======
+msgid "XBMC automatically plays the next item in the current folder. For example, in Files View: After a track has been played, XBMC would automatically play the next track in the same folder."
+msgstr "XBMC spilar sjálfvirkt næsta hlut í núverandi möppu. Til dæmis, í Skráarsýn: Þegar spilun lags er búin mun XBMC spila næsta lag í sömu möppu."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36266"
 msgid "When songs are selected they are queued instead of playback starting immediately."
 msgstr "Þegar lög eru valin þá fara þau í biðminni í staðinn fyrir að það sé strax farið að spila þau."
 
 msgctxt "#36267"
+<<<<<<< HEAD
 msgid "Kodi will read the ReplayGain information encoded in your audio files by a program such as MP3Gain and normalise the sound levels accordingly."
 msgstr "Kodi mun lesa ReplayGain upplýsingar fléttaðar í hljóðskrárnar þínar af forritum eins og MP3Gain og stilla hljóðstyrk eftir því."
+=======
+msgid "XBMC will read the ReplayGain information encoded in your audio files by a program such as MP3Gain and normalise the sound levels accordingly."
+msgstr "XBMC mun lesa ReplayGain upplýsingar fléttaðar í hljóðskrárnar þínar af forritum eins og MP3Gain og stilla hljóðstyrk eftir því."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36268"
 msgid "Default is 89dB per standard. Change with caution."
@@ -11858,8 +12173,13 @@ msgid "Used for formatting the second column in library lists."
 msgstr "Notað til að stjórna forminu á annari röð í safna-listum."
 
 msgctxt "#36281"
+<<<<<<< HEAD
 msgid "Kodi will search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
 msgstr "Kodi mun leita að smámyndum á fjarlægum deilimiðlum og geisladrifum. Þetta getur oft hægt á listun á netmöppum."
+=======
+msgid "XBMC will search for thumbs on remote shares and optical media. This can often slow down the listing of network folders."
+msgstr "XBMC mun leita að smámyndum á fjarlægum deilimiðlum og geisladrifum. Þetta getur oft hægt á listun á netmöppum."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36282"
 msgid "Category containing settings for how CDs are handled."
@@ -11906,8 +12226,13 @@ msgid "Category containing the settings for how karaoke is handled."
 msgstr "Flokkur sem inniheldur stillingar hvernig karaoke eru höndlaðar."
 
 msgctxt "#36293"
+<<<<<<< HEAD
 msgid "When playing any music file, Kodi will look for a matching .cdg file and display its graphics."
 msgstr "Þegar spiluð er einhver tónlistarskrá mun Kodi leita að hliðstæðri .cdg skrá og birta grafík hennar."
+=======
+msgid "When playing any music file, XBMC will look for a matching .cdg file and display its graphics."
+msgstr "Þegar spiluð er einhver tónlistarskrá mun XBMC leita að hliðstæðri .cdg skrá og birta grafík hennar."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36294"
 msgid "Show song selection dialog once the last song in the queue has been played."
@@ -12018,8 +12343,13 @@ msgid "Category containing settings used for all services."
 msgstr "Flokkur sem inniheldur stillingar fyrir allar þjónustur."
 
 msgctxt "#36321"
+<<<<<<< HEAD
 msgid "Display name of the Kodi installation when using various network services."
 msgstr "Sjáanlegt nafn á Kodi miðlara til að nota á ýmsum netþjónustum."
+=======
+msgid "Display name of the XBMC installation when using various network services."
+msgstr "Sjáanlegt nafn á XBMC miðlara til að nota á ýmsum netþjónustum."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36322"
 msgid "Category containing settings for how the UPnP service is handled."
@@ -12038,21 +12368,42 @@ msgid "Enable the UPnP client. This allows you to stream media from any UPnP ser
 msgstr "Virkja UPnP biðlara. Þetta gerir þér kleyft að streyma miðlunarefni frá öllum UPnP miðlurum og nota sem stjórnstöð og stjórna afspilun frá miðlaranum."
 
 msgctxt "#36326"
+<<<<<<< HEAD
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from Kodi."
 msgstr "Virkja UPnP stjórnstöð. Gerir þér mögulegt að streyma miðlunarefni til allra UPnP biðlara og stjórna afspilun frá Kodi."
+=======
+msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from XBMC."
+msgstr "Virkja UPnP stjórnstöð. Gerir þér mögulegt að streyma miðlunarefni til allra UPnP biðlara og stjórna afspilun frá XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36327"
 msgid "Category containing settings for how the webserver service is handled."
 msgstr "Flokkur sem inniheldur stillingar á hvernig vefmiðlaraþjónustan er höndluð."
 
 msgctxt "#36328"
+<<<<<<< HEAD
 msgid "Enable remote users to control Kodi through the built-in webserver."
 msgstr "Leyfa fjartengdum notendum að stjórna Kodi í gegnum innbyggða vefmiðlarann."
+=======
+msgid "Enable remote users to control XBMC through the built-in webserver."
+msgstr "Leyfa fjartengdum notendum að stjórna XBMC í gegnum innbyggða vefmiðlarann."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36329"
 msgid "Define the webserver port."
 msgstr "Skilgreina gátt vefmiðlara."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36330"
+msgid "Define the webserver username."
+msgstr "Skilgreina notandanafn vefmiðlara."
+
+msgctxt "#36331"
+msgid "Define the webserver password."
+msgstr "Skilgreina lykilorð vefmiðlara."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the Add-on Manager."
 msgstr "Veldu á milli vefviðmóta sem eru innsett með Viðbótastjóranum."
@@ -12062,8 +12413,13 @@ msgid "Category containing settings for how the remote control service is handle
 msgstr "Flokkur sem inniheldur stillingar á hvernig fjarstýriþjónusta er meðhöndluð."
 
 msgctxt "#36334"
+<<<<<<< HEAD
 msgid "Allow programs on this computer to control Kodi via the Web Interface or the JSON-RPC interface protocol."
 msgstr "Leyfa forritum á þessari tölvu að stjórna Kodi í gegnum vefviðmót eða JSON-RPC samskiptastaðalinn."
+=======
+msgid "Allow programs on this computer to control XBMC via the Web Interface or the JSON-RPC interface protocol."
+msgstr "Leyfa forritum á þessari tölvu að stjórna XBMC í gegnum vefviðmót eða JSON-RPC samskiptastaðalinn."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -12078,8 +12434,13 @@ msgid "Define the maximum number of clients that can connect."
 msgstr "Skilgreina hámarksfjölda biðlara sem geta tengst."
 
 msgctxt "#36338"
+<<<<<<< HEAD
 msgid "Allow programs on the network to control Kodi."
 msgstr "Leyfa forritum á netinu að stjórna Kodi."
+=======
+msgid "Allow programs on the network to control XBMC."
+msgstr "Leyfa forritum á netinu að stjórna XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."
@@ -12094,12 +12455,21 @@ msgid "Category containing settings for how the zeroconf network discovery servi
 msgstr "Flokkur sem inniheldur stillingar hvernig zeroconf netuppgötvun er meðhöndluð, þarf að hafa fyrir AirPlay."
 
 msgctxt "#36342"
+<<<<<<< HEAD
 msgid "Allows applications on the network to discover Kodi's running services."
 msgstr "Leyfir forritum á netkerfinu að finna Kodi þjónustur sem eru í gangi."
 
 msgctxt "#36343"
 msgid "Allows Kodi to receive content from other AirPlay devices or applications."
 msgstr "Leyfir Kodi að taka á móti efni frá öðrum AirPlay tækjum eða forritum."
+=======
+msgid "Allows applications on the network to discover XBMC's running services."
+msgstr "Leyfir forritum á netkerfinu að finna XBMC þjónustur sem eru í gangi."
+
+msgctxt "#36343"
+msgid "Allows XBMC to receive content from other AirPlay devices or applications."
+msgstr "Leyfir XBMC að taka á móti efni frá öðrum AirPlay tækjum eða forritum."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36344"
 msgid "Enable AirPlay password protection."
@@ -12122,16 +12492,26 @@ msgid "If a WINS server is running on the network, enter its workgroup name here
 msgstr "Ef að WIN miðlari er að keyra á netkerfinu, settu þá inn workgroup nafnið hér. Annars hafðu þetta autt."
 
 msgctxt "#36349"
+<<<<<<< HEAD
 msgid "Section that contains the System related settings for the device Kodi is installed on."
 msgstr "Hluti sem inniheldur Kerfisstillingar sem tilheyra kerfinu sem Kodi er keyrt á."
+=======
+msgid "Section that contains the System related settings for the device XBMC is installed on."
+msgstr "Hluti sem inniheldur Kerfisstillingar sem tilheyra kerfinu sem XBMC er keyrt á."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36350"
 msgid "Automatically send 'Wake-On-Lan' to server(s) right before trying to access shared files or services."
 msgstr "Senda sjálfvirkt 'Vekja við net' til miðlara rétt áður en þú reynir að fá aðgang að deildum skrám eða þjónustum."
 
 msgctxt "#36351"
+<<<<<<< HEAD
 msgid "Display Kodi in a window, or fullscreen on the selected screen."
 msgstr "Sýna Kodi í glugga, eða á öllum skjánum á völdum skjá."
+=======
+msgid "Display XBMC in a window, or fullscreen on the selected screen."
+msgstr "Sýna XBMC í glugga, eða á öllum skjánum á völdum skjá."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36352"
 msgid "Changes the resolution that the user interface is displayed in."
@@ -12142,12 +12522,21 @@ msgid "Changes the refresh rate that the user interface is displayed in."
 msgstr "Breytir glæðningartíðninni sem notendaviðmótið er sýnt í."
 
 msgctxt "#36354"
+<<<<<<< HEAD
 msgid "Display Kodi in a fullscreen window. The main benefit is for multi-screen configurations, so that Kodi can be used without minimising other applications. This uses more resources so playback may be less smooth."
 msgstr "Sýna Kodi yfir allan skjáinn. Aðal kostirnir eru fyrir uppsetningu með mörgum skjáum, þá er hægt að nota Kodi án þess að minnka aðra glugga. Þetta notar meira vélarafl svo afspilun gæti orðið ekki eins slétt og felld."
 
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens where Kodi is not displayed are blacked out."
 msgstr "Í uppsetningum með mörgum skjáum, munu skjáirnir sem eru ekki að sýna Kodi sýna svartan skjá."
+=======
+msgid "Display XBMC in a fullscreen window. The main benefit is for multi-screen configurations, so that XBMC can be used without minimising other applications. This uses more resources so playback may be less smooth."
+msgstr "Sýna XBMC yfir allan skjáinn. Aðal kostirnir eru fyrir uppsetningu með mörgum skjáum, þá er hægt að nota XBMC án þess að minnka aðra glugga. Þetta notar meira vélarafl svo afspilun gæti orðið ekki eins slétt og felld."
+
+msgctxt "#36355"
+msgid "In a multi-screen configuration, the screens where XBMC is not displayed are blacked out."
+msgstr "Í uppsetningum með mörgum skjáum, munu skjáirnir sem eru ekki að sýna XBMC sýna svartan skjá."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36356"
 msgid "Eliminate vertical tearing."
@@ -12234,12 +12623,21 @@ msgid "When activated, your keyboard arrows will move the selection on the virtu
 msgstr "Þegar virkt, munu örvalyklar lyklaborðs færa val á skjályklaborðinu. Þegar óvirkt munu þeir færa bendilinn á textanum."
 
 msgctxt "#36377"
+<<<<<<< HEAD
 msgid "Use a mouse or touch screen device to control Kodi. Note: disabling will cause you to lose control over Kodi when no keyboard or remote is present."
 msgstr "Nota mús eða tæki með snertiskjá til að stjórna Kodi. Athugaðu: ef óvirkt muntu missa alla stjórn á Kodi þegar ekkert lyklaborð eða fjarstýring er til staðar."
 
 msgctxt "#36378"
 msgid "Use a joystick to control Kodi."
 msgstr "Nota stýripinna til að stjórna Kodi."
+=======
+msgid "Use a mouse or touch screen device to control XBMC. Note: disabling will cause you to lose control over XBMC when no keyboard or remote is present."
+msgstr "Nota mús eða tæki með snertiskjá til að stjórna XBMC. Athugaðu: ef óvirkt muntu missa alla stjórn á XBMC þegar ekkert lyklaborð eða fjarstýring er til staðar."
+
+msgctxt "#36378"
+msgid "Use a joystick to control XBMC."
+msgstr "Nota stýripinna til að stjórna XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36379"
 msgid "Category containing settings for internet access."
@@ -12270,8 +12668,13 @@ msgid "Configure the proxy server password."
 msgstr "Setja inn lykilorð staðgengils-miðlara (proxy)."
 
 msgctxt "#36386"
+<<<<<<< HEAD
 msgid "If you have limited bandwidth available, Kodi will try to keep within these limits."
 msgstr "Ef þú ert með takmarkaða bandvídd mun Kodi reyna að halda sig innan þessara marka."
+=======
+msgid "If you have limited bandwidth available, XBMC will try to keep within these limits."
+msgstr "Ef þú ert með takmarkaða bandvídd mun XBMC reyna að halda sig innan þessara marka."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36387"
 msgid "Category containing settings for power saving."
@@ -12282,12 +12685,21 @@ msgid "Turn off display when idle. Useful for TVs that turn off when there is no
 msgstr "Slökkva á skjá þegar aðgerðarlaus. Gagnlegt fyrir sjónvörp sem slökkva á sér þegar ekkert skjámerki er skynjað."
 
 msgctxt "#36389"
+<<<<<<< HEAD
 msgid "Define how long Kodi should idle before shutting down."
 msgstr "Skilgreina hve lengi Kodi á að vera í bið áður en hann keyrir sig niður."
 
 msgctxt "#36390"
 msgid "Define what action Kodi should do when it has been idle for a long period of time."
 msgstr "Skilgreina hvað Kodi á að gera þegar hann hefur verið óvirkur í langan tíma."
+=======
+msgid "Define how long XBMC should idle before shutting down."
+msgstr "Skilgreina hve lengi XBMC á að vera í bið áður en hann keyrir sig niður."
+
+msgctxt "#36390"
+msgid "Define what action XBMC should do when it has been idle for a long period of time."
+msgstr "Skilgreina hvað XBMC á að gera þegar hann hefur verið óvirkur í langan tíma."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36391"
 msgid "Category containing settings for debugging functions."
@@ -12421,6 +12833,130 @@ msgctxt "#36425"
 msgid "Show context menu"
 msgstr "Sýna samhengisvalblað"
 
+msgctxt "#36394"
+msgid "Specify additional libraries to be included in the debug log."
+msgstr "Skilbreina önnur söfn sem á að hafa með í kembi-atburðaskráningu."
+
+msgctxt "#36395"
+msgid "Category containing settings for the master lock function."
+msgstr "Flokkur sem inniheldur stillingar fyrir aðallæsingu."
+
+msgctxt "#36396"
+msgid "Define the PIN code used for the master lock."
+msgstr "Skilgreina auðkennisnúmer sem á að nota við Höfuðlæsingu."
+
+msgctxt "#36397"
+msgid "If enabled, the master lock code is required to unlock XBMC on startup."
+msgstr "Ef virkt, þá þarf aðallæsingakóða til að aflæsa XBMC í ræsingu."
+
+msgctxt "#36398"
+msgid "Define the maximum number of retries before XBMC is closed down."
+msgstr "Skilgreina hámarksfjölda tilrauna áður en XBMC slekkur á sér."
+
+msgctxt "#36399"
+msgid "Category containing settings for the cache function."
+msgstr "Flokkur sem inniheldur stillingar fyrir flýtiminni."
+
+msgctxt "#36400"
+msgid "Enable cache for playback of Video, Audio or DVDs from hard disk."
+msgstr "Virkja flýtiminni fyrir Myndefni, Hljóð eða DVD frá hörðum diski."
+
+msgctxt "#36401"
+msgid "Enable cache for playback of Video from DVD-ROM."
+msgstr "Virkja flýtiminni fyrir afspilun á myndefni frá DVD-ROM."
+
+msgctxt "#36402"
+msgid "Enable cache for Video playback from Local Network."
+msgstr "Virkja flýtiminni fyrir afspilun myndefnis af nærneti."
+
+msgctxt "#36403"
+msgid "Enable cache for Video playback from Internet."
+msgstr "Virkja flýtiminni fyrir afspilun myndefnis af Internetinu."
+
+msgctxt "#36404"
+msgid "Enable cache for playback of Audio from DVD-ROM."
+msgstr "Virkja flýtiminni fyrir afspilun á Hljóði frá DVD-ROM."
+
+msgctxt "#36405"
+msgid "Enable cache for Audio playback from Local Network."
+msgstr "Virkja flýtiminni fyrir afspilun Hljóðs af nærneti."
+
+msgctxt "#36406"
+msgid "Enable cache for Audio playback from Internet."
+msgstr "Virkja flýtiminni fyrir afspilun hljóðs frá Internetinu."
+
+msgctxt "#36407"
+msgid "Enable cache for playback of DVD from DVD-ROM."
+msgstr "Virkja flýtiminni fyrir afspilun á DVD frá DVD-ROM."
+
+msgctxt "#36408"
+msgid "Enable cache for DVD playback from Local Network."
+msgstr "Virkja flýtiminni fyrir afspilun á DVD af nærnetinu."
+
+msgctxt "#36409"
+msgid "Enable cache of unknown types from Internet."
+msgstr "Virkja flýtiminni fyrir óþekkt efni af Internetinu."
+
+msgctxt "#36410"
+msgid "No info available yet."
+msgstr "Engar upplýsingar tiltækar eins og er."
+
+msgctxt "#36411"
+msgid "No info available yet."
+msgstr "Engar upplýsingar tiltækar eins og er."
+
+msgctxt "#36412"
+msgid "No info available yet."
+msgstr "Engar upplýsingar tiltækar eins og er."
+
+msgctxt "#36413"
+msgid "No info available yet."
+msgstr "Engar upplýsingar tiltækar eins og er."
+
+msgctxt "#36414"
+msgid "No info available yet."
+msgstr "Engar upplýsingar tiltækar eins og er."
+
+msgctxt "#36415"
+msgid "No info available yet."
+msgstr "Engar upplýsingar tiltækar eins og er."
+
+msgctxt "#36416"
+msgid "Specify the type of remote used."
+msgstr "Skilgreindu gerð fjarstýringar sem notuð er."
+
+msgctxt "#36417"
+msgid "Always run an XBMC helper so that the remote can be used to start XBMC."
+msgstr "Keyra alltaf XBMC aðstoð svo hægt sé að nota fjartengdan búnað til að ræsa XBMC."
+
+msgctxt "#36418"
+msgid "Specify the delay between button sequences on a universal remote."
+msgstr "Tilgreindu bið á milli takkasamsetninga á almennri fjarstýringu."
+
+msgctxt "#36419"
+msgid "Define locations used for retrieving weather information."
+msgstr "Skilgreindu staðsetningar sem á að nota til að ná í veðurupplýsingar."
+
+msgctxt "#36421"
+msgid "Bypassing VDPAU mixer saves resources on low power systems but slightly reduces picture quality."
+msgstr "Að nota ekki VDPAU blandara sparar vélarafl á hægvirkari tölvum en minnkar aðeins myndgæðin."
+
+msgctxt "#36422"
+msgid "Enable hardware video decode using AMLogic decoder."
+msgstr "Virkja afkóðun með vélbúnaði með AMLogic afkóðun."
+
+msgctxt "#36423"
+msgid "Enables frame-multi-threaded software decoding (less reliable than the default single threaded mode)."
+msgstr "Virkja ramma-fjöl-þráða hugbúnaðar afkóðun (ekki eins áreiðanlegt og sjálfgefin eins þráða aðferð)."
+
+msgctxt "#36424"
+msgid "Select what will happen when an EPG item is selected: [Show context menu] will trigger the contextual menu from where you can choose further actions; [Switch to channel] will instantly tune to the related channel; [Show information] will display a detailed information with plot and further options; [Record] will create a recording timer for the selected item."
+msgstr "Velja hvað gerist þegar hlutur í rafrænum dagskrárvísi er valinn. [Sýna samhengisvalblað] mun opna valblað þar sem þú getur valið fleiri kosti; [Skipta yfir á rás] mun samstundis skipta yfir á rásina; [Sýna upplýsingar] mun sýna nánari upplýsingar með söguþræði og frekara vali; [Taka upp] mun setja upp tímasetta upptöku á völdum hlut."
+
+msgctxt "#36425"
+msgid "Show context menu"
+msgstr "Sýna samhengisvalblað"
+
 msgctxt "#36426"
 msgid "Switch to channel"
 msgstr "Skipta yfir á rás"
@@ -12445,9 +12981,23 @@ msgctxt "#36431"
 msgid "Defines whether video decoding should be performed in software (requires more CPU) or with hardware acceleration where possible."
 msgstr "Skilgrinir hvort myndvinnsla verður gerð í hugbúnaði (þarfnast meira af örgjörvanum) eða gerð í vélbúnaðarhraðli ef hægt er."
 
+<<<<<<< HEAD
 msgctxt "#36502"
 msgid "Disabled"
 msgstr "Óvirkt"
+=======
+msgctxt "#36500"
+msgid "Stereoscopic mode (current)"
+msgstr "Þrívíddarhamur (núverandi)"
+
+msgctxt "#36501"
+msgid "Stereoscopic mode"
+msgstr "Þrívíddarhamur"
+
+msgctxt "#36502"
+msgid "None"
+msgstr "Enginn"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36503"
 msgid "Over/Under"
@@ -12473,10 +13023,28 @@ msgctxt "#36508"
 msgid "Hardware Based"
 msgstr "Byggt á vélbúnaði"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36509"
+msgid "Monoscopic - 2D"
+msgstr "Monoscopic - 2D"
+
+msgctxt "#36520"
+msgid "Playback mode of stereoscopic videos."
+msgstr "Afspilunarháttur á Stereoscopic þrívíddarefni."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36521"
 msgid "Ask me"
 msgstr "Spurðu mig"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36522"
+msgid "Use preferred mode"
+msgstr "Nota sjálfgefinn ham"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36523"
 msgid "Maximum sampling rate for spdif or sampling rate for fixed output configuration."
 msgstr "Hámarks sýnatökutíðni fyrir spdif eða sýnatökutíðni fyrir fastar útgangsuppsetningar."
@@ -12489,6 +13057,29 @@ msgctxt "#36525"
 msgid "Same as movie (autodetect)"
 msgstr "Sama og kvikmynd (skynja sjálfvirkt)"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36526"
+msgid "Disable stereoscopic mode when playback is stopped"
+msgstr "Gera þrívídd óvirka þegar afspilun er stöðvuð"
+
+msgctxt "#36527"
+msgid "This video is stereoscopic. Select playback mode"
+msgstr "Þessi mynd er þrívíð. Veldu afspilunarham."
+
+msgctxt "#36528"
+msgid "Select stereoscopic mode"
+msgstr "Veldu þrívíddarham"
+
+msgctxt "#36529"
+msgid "Mono (2D)"
+msgstr "Mono (2D)"
+
+msgctxt "#36530"
+msgid "Preferred mode"
+msgstr "Sjálfgefinn hamur"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36531"
 msgid "Select alternate mode..."
 msgstr "Veldu ham til vara..."
@@ -12501,10 +13092,36 @@ msgctxt "#36533"
 msgid "Select how audio is downmixed, for example from 5.1 to 2.0: [Enabled] maintains the dynamic range of the original audio source when downmixed however volume will be lower [Disabled] maintains volume level of the original audio source however the dynamic range is compressed. Note - Dynamic range is the difference between the quietest and loudest sounds in a audio source."
 msgstr "Veldu hvernig hljóð er blandað niður, til dæmis 5.1 í 2.0: [Virkt] heldur hljóðsviði upprunalegs hljóðs en styrkur mun verða lægri. [Óvirkt] heldur hljóðstyrk upprunahljóðs en hljóðsvið er þjappað. Athugið - Hljóðsvið er mismunur á milli lægsta og hæðsta hljóðs í hljóðveitu."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36535"
+msgid "Stereoscopic mode of video"
+msgstr "Þrívíður háttur myndar"
+
+msgctxt "#36536"
+msgid "Stereoscopic mode inverted"
+msgstr "Þrívíðum ham umsnúið"
+
+msgctxt "#36537"
+msgid "Set playback mode of stereoscopic 3D videos."
+msgstr "Setur afspilunarhátt á stereoscopic 3D myndefni."
+
+msgctxt "#36538"
+msgid "Prevents XBMC exiting out of stereoscopic 3D mode when playback is stopped as not all TVs will recognise the switch from 3D back to 2D without the viewing mode being toggled on the TV."
+msgstr "Varnar þess að XBMC fari útúr stereoscopic 3D ham þegar afspilun er stöðvuð þar sem ekki öll sjónvörp munu þekkja skiptinguna frá þrívídd yfir í tvívídd án þes að það sé stillt handvirkt á sjónvarpinu."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36539"
 msgid "Changes the stereoscopic 3D mode of the user interface."
 msgstr "Breytir stereoscopic 3D ham notendaviðmóts."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36540"
+msgid "The preferred stereoscopic 3D mode."
+msgstr "Æskilegur hamur fyrir stereoscopic 3D."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
 msgstr "Leyfa hljóðstyrkstillingu frá AirPlay biðlurum."
@@ -12521,6 +13138,13 @@ msgctxt "#36544"
 msgid "Enable hardware decoding of video files."
 msgstr "Virkja vélbúnaðarhraðal við afkóðun kvikmyndaskráa."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36545"
+msgid "Subtitle stereoscopic depth"
+msgstr "Þrívíddardýpt þýðingartexta"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36546"
 msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher the value, the closer the subtitles will appear to the viewer."
 msgstr "Setur sýnilega dýpt á þýðingartextum fyrir stereoscopic 3D myndefni. Eftir því sem gildið er hærra því nær virðast þýðingartextarnir vera áhorfandanum."
@@ -12529,6 +13153,13 @@ msgctxt "#36547"
 msgid "Use higher quality textures for covers and fanart (uses more memory)"
 msgstr "Nota hærri gæði í plötuumslög og aðdáendamyndverk (notar meira minni)"
 
+<<<<<<< HEAD
+=======
+msgctxt "#36548"
+msgid "Limits resolution of GUI to save memory. Does not affect video playback. Use 1080 for unlimited. Requires restart."
+msgstr "Takmarkar upplausn notandaviðmóts til að spara minni. Hefur ekki áhrif á afspilun. Notaðu 1080 til að hafa ótakmarkað. Þarfnast endurræsingar."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36600"
 msgid "Category containing the settings for how the music library is handled."
 msgstr "Flokkur sem inniheldur stillingar fyrir hvernig tónlistarsafn er höndlað."
@@ -12545,6 +13176,7 @@ msgctxt "#36603"
 msgid "Category containing settings for how video output is handled."
 msgstr "Flokkur sem inniheldur stillingar fyrir hvernig myndútgangur er höndlaður."
 
+<<<<<<< HEAD
 msgctxt "#36902"
 msgid "TV show"
 msgstr "Sjónvarpsþáttur"
@@ -12577,6 +13209,8 @@ msgctxt "#36921"
 msgid "songs"
 msgstr "lög"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#37000"
 msgid "(Visually Impaired)"
 msgstr "(Sjónskertir)"
@@ -12621,6 +13255,13 @@ msgctxt "#37018"
 msgid "Boost centre channel when downmixing"
 msgstr "Auka styrk Miðrásar þegar blandað er niður"
 
+<<<<<<< HEAD
+=======
+msgctxt "#37019"
+msgid "Enables system keys like printscreen, alt-tab and volume keys when in fullscreen."
+msgstr "Virkjar kerfislykla svo sem printscreen, alt-tab og hljóðstyrkshnappa þegar er í fullum skjá."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#37020"
 msgid "Enable higher colour depth artwork"
 msgstr "Virkja myndverk með meiri litadýpt"
@@ -12640,7 +13281,10 @@ msgstr "Viltu stöðva afspilun á fjartengda tækinu?"
 msgctxt "#37024"
 msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1, this allows multichannel audio such as AAC5.1 or FLAC5.1 to be listened to in 5.1 surround sound. Note - Not recommended on Pi as this requires a lot of CPU."
 msgstr "Veldu þetta ef hljóðtengingarnar þínar styðja aðeins fjölrása hljóð eins og Dolby Digital 5.1, þetta gerir kleyft að fjölrása hljóð eins og AAC5.1 eða FLAC5.1 er hægt að hlusta í 5.1 umhverfishljóði. Athugið - Ekki mælt með að nota á Pi vegna þess að þetta krefst mikils af örgjörvanum."
+<<<<<<< HEAD
 
 msgctxt "#37026"
 msgid "Auto"
 msgstr "Sjálfvirkt"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64

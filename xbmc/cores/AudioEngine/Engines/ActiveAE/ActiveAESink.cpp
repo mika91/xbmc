@@ -921,3 +921,14 @@ void CActiveAESink::SetSilenceTimer()
     m_extSilenceTimeout = 0;
   m_extSilenceTimer.Set(m_extSilenceTimeout);
 }
+
+void CActiveAESink::SetSilenceTimer()
+{
+  if (m_extStreaming)
+    m_extSilenceTimeout = XbmcThreads::EndTime::InfiniteValue;
+  else if (m_extAppFocused)
+    m_extSilenceTimeout = CSettings::Get().GetInt("audiooutput.streamsilence") * 60000;
+  else
+    m_extSilenceTimeout = 0;
+  m_extSilenceTimer.Set(m_extSilenceTimeout);
+}

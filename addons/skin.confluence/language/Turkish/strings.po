@@ -577,8 +577,13 @@ msgid "PICTURES"
 msgstr "RESİMLER"
 
 msgctxt "#31952"
+<<<<<<< HEAD
 msgid "TV"
 msgstr "TV"
+=======
+msgid "LIVE TV"
+msgstr "CANLI TV"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31953"
 msgid "VIDEOS"

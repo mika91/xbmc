@@ -7072,6 +7072,13 @@ msgstr "Ne pas afficher les messages 'pas d'information disponible'"
 msgctxt "#19269"
 msgid "Do not show 'connection lost' warnings"
 msgstr "Ne pas afficher les messages 'connexion perdue'"
+<<<<<<< HEAD
+=======
+
+msgctxt "#19270"
+msgid "* All recordings"
+msgstr "* Tous les enregistrements"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19271"
 msgid "No PVR Add-ons could be found"
@@ -11566,8 +11573,13 @@ msgid "Delete channel/EPG database and reimport the data from the backend afterw
 msgstr "Supprimer les base de données chaînes/GEP et réimporter les données depuis le serveur."
 
 msgctxt "#36210"
+<<<<<<< HEAD
 msgid "Prevent the 'connection lost' notification window from displaying when Kodi is unable to talk to the PVR backend server."
 msgstr "Empêche la fenêtre de notification \"connexion perdue\" de s'afficher quand Kodi ne peut communiquer avec le serveur de traitement de l'Enregistreur Vidéo."
+=======
+msgid "Prevent the 'connection lost' notification window from displaying when XBMC is unable to talk to the PVR backend server."
+msgstr "Empêche la fenêtre de notification \"connexion perdue\" de s'afficher quand XBMC ne peut communiquer avec le serveur de traitement de l'Enregistreur Vidéo."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36211"
 msgid "Category for PVR menus and on-screen display settings, as well as channel info windows."
@@ -11576,10 +11588,24 @@ msgstr "Catégorie pour les réglages des menus de l'Enregistreur Vidéo, du men
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
 msgstr "Montrer les informations du programme lors du changement de chaînes, l'émission en cours par exemple."
+<<<<<<< HEAD
+=======
+
+msgctxt "#36213"
+msgid "Hide the programming information automatically after a few seconds, defined below."
+msgstr "Cacher les informations de programmation automatiquement après quelques secondes, délai définie ci-après."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36214"
 msgid "Close the on screen display controls after switching channels."
 msgstr "Fermer le menu à l'écran après un changement de chaîne."
+<<<<<<< HEAD
+=======
+
+msgctxt "#36215"
+msgid "How long the programming information is displayed when the 'automatically hide' setting is turned on."
+msgstr "Combien de temps les informations de programmation sont affichées quand l'option \"Cacher automatiquement\" est activée."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36216"
 msgid "Folder where channel icons are stored."
@@ -11592,6 +11618,13 @@ msgstr "Rechercher les icônes manquantes des chaînes."
 msgctxt "#36218"
 msgid "Category for electronic programming guide settings."
 msgstr "Catégorie pour les réglages du Guide des Programmes."
+<<<<<<< HEAD
+=======
+
+msgctxt "#36219"
+msgid "Default electronic programming guide window to show."
+msgstr "Guide des Programmes par défaut à afficher."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36220"
 msgid "Number of days of EPG data to import from backends."
@@ -11614,8 +11647,13 @@ msgid "Hide \"no information available\" labels when no EPG data can be retrieve
 msgstr "Cacher \"Aucune information disponible\" quand aucun donnée GEP ne peut être trouvée pour une chaîne."
 
 msgctxt "#36225"
+<<<<<<< HEAD
 msgid "Delete the EPG database in Kodi and reimport the data afterwards from the backend."
 msgstr "Supprimer la base de données chaînes/GEP de Kodi puis réimporter les données depuis le serveur."
+=======
+msgid "Delete the EPG database in XBMC and reimport the data afterwards from the backend."
+msgstr "Supprimer la base de données chaînes/GEP de XBMC puis réimporter les données depuis le serveur."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36226"
 msgid "Category for PVR playback and channel switching settings."
@@ -11634,8 +11672,13 @@ msgid "Display signal quality information in the codec information window (if su
 msgstr "Afficher la qualité du signal dans la fenêtre des informations codecs (si supporté par l'extension et le serveur)."
 
 msgctxt "#36230"
+<<<<<<< HEAD
 msgid "How long Kodi will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "Délai avant que Kodi change de chaîne si la chaîne n'est pas reçue. Utile pour les chaines TNT dont le signal est faible."
+=======
+msgid "How long XBMC will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
+msgstr "Délai avant que XBMC change de chaîne si la chaîne n'est pas reçue. Utile pour les chaines TNT dont le signal est faible."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36231"
 msgid "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
@@ -11718,12 +11761,21 @@ msgid "Ask for the pin code again when trying to access a parental locked channe
 msgstr "Demande à nouveau le code PIN pour accéder à une chaîne protégée par verrouillage parental alors que le code n'a pas été demandée pendant cette durée."
 
 msgctxt "#36251"
+<<<<<<< HEAD
 msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Catégorie pour les réglages spécifique à votre moteur de traitement de l'Enregistreur Vidéo, si celui-ci permet le changement de ces réglages dans Kodi."
 
 msgctxt "#36252"
 msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Cette option vous amènera à n'importe quel réglages du moteur de l'Enregistreur Vidéo, si celui-ci supporte le changement de ces réglages dans Kodi."
+=======
+msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "Catégorie pour les réglages spécifique à votre moteur de traitement de l'Enregistreur Vidéo, si celui-ci permet le changement de ces réglages dans XBMC."
+
+msgctxt "#36252"
+msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "Cette option vous amènera à n'importe quel réglages du moteur de l'Enregistreur Vidéo, si celui-ci supporte le changement de ces réglages dans XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
@@ -12118,8 +12170,13 @@ msgid "Changes the refresh rate that the user interface is displayed in."
 msgstr "Changer le taux de rafraîchissement de l'écran sur lequel l'interface utilisateur est affichée."
 
 msgctxt "#36354"
+<<<<<<< HEAD
 msgid "Display Kodi in a fullscreen window. The main benefit is for multi-screen configurations, so that Kodi can be used without minimising other applications. This uses more resources so playback may be less smooth."
 msgstr "Afficher Kodi en plein écran. Le principal avantage étant pour les configurations multi-écrans, car Kodi peut être utilisé sans réduire automatiquement les autres applications. La fonction utilise plus de ressources et la fluidité de la lecture peut être dégradée."
+=======
+msgid "Display XBMC in a fullscreen window. The main benefit is for multi-screen configurations, so that XBMC can be used without minimising other applications. This uses more resources so playback may be less smooth."
+msgstr "Afficher XBMC en plein écran. Le principal avantage étant pour les configurations multi-écrans, car XBMC peut être utilisé sans réduire automatiquement les autres applications. La fonction utilise plus de ressources et la fluidité de la lecture peut être dégradée."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens where Kodi is not displayed are blacked out."

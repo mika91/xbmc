@@ -16,10 +16,13 @@ msgstr ""
 "Language: vi_VN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+<<<<<<< HEAD
 msgctxt "#31102"
 msgid "Background"
 msgstr "Hình nền"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#31327"
 msgid "Resolution"
 msgstr "Độ phân giải"

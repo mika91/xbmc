@@ -1313,6 +1313,10 @@ msgctxt "#19019"
 msgid "Channels"
 msgstr "Saluran"
 
+msgctxt "#19019"
+msgid "Channels"
+msgstr "Saluran"
+
 msgctxt "#19020"
 msgid "TV"
 msgstr "TV"
@@ -1337,10 +1341,13 @@ msgctxt "#19136"
 msgid "Channel unavailable"
 msgstr "Saluran tidak tersedia"
 
+<<<<<<< HEAD
 msgctxt "#19163"
 msgid "Recordings"
 msgstr "Rakaman"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19177"
 msgid "Playback"
 msgstr "Main Balik"

@@ -246,9 +246,12 @@ void ClearPhotoAssetCache()
 void CAirPlayServer::StopServer(bool bWait)
 {
   CSingleLock lock(ServerInstanceLock);
+<<<<<<< HEAD
   //clean up the photo cache temp folder
   ClearPhotoAssetCache();
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   if (ServerInstance)
   {
     ServerInstance->StopThread(bWait);
@@ -319,6 +322,18 @@ CAirPlayServer::CAirPlayServer(int port, bool nonlocal) : CThread("AirPlayServer
 CAirPlayServer::~CAirPlayServer()
 {
   CAnnouncementManager::Get().RemoveAnnouncer(this);
+}
+
+void handleZeroconfAnnouncement()
+{
+#if defined(HAS_ZEROCONF)
+  static XbmcThreads::EndTime timeout(10000);
+  if(timeout.IsTimePast())
+  {
+    CZeroconf::GetInstance()->ForceReAnnounceService("servers.airplay");
+    timeout.Set(10000);
+  }
+#endif
 }
 
 void handleZeroconfAnnouncement()

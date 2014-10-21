@@ -1096,10 +1096,13 @@ msgstr "Език на оригиналния поток"
 msgctxt "#309"
 msgid "User interface language"
 msgstr "Език на потребителския интерфейс"
+<<<<<<< HEAD
 
 msgctxt "#310"
 msgid "Keyboard layouts"
 msgstr "Клавиатурни подредби"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#312"
 msgid "(0=auto)"
@@ -1983,7 +1986,11 @@ msgstr "Информация"
 
 msgctxt "#545"
 msgid "Audio output device"
+<<<<<<< HEAD
 msgstr "Аудио изход (устройство)"
+=======
+msgstr "Аудио изxод (устройство)"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#546"
 msgid "Passthrough output device"
@@ -2424,6 +2431,7 @@ msgstr "Включи определени компоненти в дневник
 msgctxt "#667"
 msgid "Enable Dolby Digital transcoding"
 msgstr "Включи Dolby Digital транскодиране"
+<<<<<<< HEAD
 
 msgctxt "#668"
 msgid "Specify component-specific logging..."
@@ -2472,6 +2480,8 @@ msgstr "Подробно описване в дневника на UPnP комп
 msgctxt "#679"
 msgid "Verbose logging for CEC library"
 msgstr "Подробно описване в дневника на CEC библиотеката"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -2703,7 +2713,11 @@ msgstr "Грешка %i: споделеното не е налично"
 
 msgctxt "#772"
 msgid "Audio output"
+<<<<<<< HEAD
 msgstr "Аудио изход"
+=======
+msgstr "Аудио изxод"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#773"
 msgid "Seeking"
@@ -5047,7 +5061,11 @@ msgstr "Разреши хардуерното ускорение (libstagefright
 
 msgctxt "#13437"
 msgid "Prefer VDPAU Video Mixer"
+<<<<<<< HEAD
 msgstr "Стандартно ползвай VDPAU Video Mixer"
+=======
+msgstr "Стандартно  ползвай VDPAU Video Mixer"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13438"
 msgid "Allow hardware acceleration (amcodec)"
@@ -5066,16 +5084,26 @@ msgid "Use MPEG-2 VDPAU"
 msgstr "Ползвай Mpeg-2 VDPAU"
 
 msgctxt "#13442"
+<<<<<<< HEAD
 msgid "Enable this option to use hardware acceleration for MPEG-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
 msgstr "Активирайте опцията, за да използвате хардуерно ускорение на MPEG-(1/2) кодеци. Ако не е активна, декодирането ще се изпълнява от централния процесор. Активирането може да доведе до сривове при по-старите видео карти тип Radeon."
+=======
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
+msgstr "Включете опцията, за да ползвате хардуерно ускорение на MPEG-(1/2) кодеци. Ако не е включена, декодирането ще се изпълнява от централния процесор. Активирането може да доведе до сривове при по-старите видео карти тип Radeon."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13443"
 msgid "Use MPEG-4 VDPAU"
 msgstr "Ползвай Mpeg-4 VDPAU"
 
 msgctxt "#13444"
+<<<<<<< HEAD
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
 msgstr "Активирайте опцията, за да използвате хардуерно ускорение на Mpeg-4 кодека. Ако не е активна, декодирането ще се изпълнява от централния процесор. Активирането на опцията може да доведе до сривове при ION базираните системи."
+=======
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
+msgstr "Включете опцията, за да ползвате хардуерно ускорение на Mpeg-4 кодека. Ако не е включена, декодирането ще се изпълнява от централния процесор. Активирането на опцията може да доведе до сривове при ION базираните системи."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
@@ -5090,16 +5118,26 @@ msgid "Use MPEG-2 VAAPI"
 msgstr "Ползвай Mpeg-2 VAAPI"
 
 msgctxt "#13448"
+<<<<<<< HEAD
 msgid "Enable this option to use hardware acceleration for MPEG-(1/2) codecs. If disabled the CPU will be used instead. Some MPEG-2 Videos might have green artifacts."
 msgstr "Активирайте опцията, за да използвате хардуерното ускорение на MPEG-(1/2) кодеци. Ако не е активна, декодирането ще се изпълнява от централния процесор. При декодирането на някои MPEG-2 видео файлове, може да се появят зелени артефакти."
+=======
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Some Mpeg-2 Videos might have green artifacts."
+msgstr "Включете опцията, за да ползвате хардуерното ускорение на MPEG-(1/2) кодеци. Ако не е включена, декодирането ще се изпълнява от централния процесор. При декодирането на някои MPEG-2 видео файлове, може да се появят зелени артефакти."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13449"
 msgid "Use MPEG-4 VAAPI"
 msgstr "Ползвай Mpeg-4 VAAPI"
 
 msgctxt "#13450"
+<<<<<<< HEAD
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead."
 msgstr "Активирайте опцията, за да използвате хардуерното ускорение на Mpeg-4 кодека. Ако не е активна, декодирането ще се изпълнява от централния процесор."
+=======
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead."
+msgstr "Включете опцията, за да ползвате хардуерното ускорение на Mpeg-4 кодека. Ако не е включена, декодирането ще се изпълнява от централния процесор."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13451"
 msgid "Use VC-1 VAAPI"
@@ -5121,6 +5159,7 @@ msgctxt "#13456"
 msgid "Hardware accelerated"
 msgstr "Хардуерно ускорен"
 
+<<<<<<< HEAD
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "При възможност ползвай VAAPI рендър"
@@ -5133,6 +5172,8 @@ msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
 msgstr "Активира ползването на OMXPlayer за декодиране а видео файлове."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13500"
 msgid "A/V sync method"
 msgstr "А/В синхронизиране"
@@ -5700,10 +5741,13 @@ msgstr "Звуци при навигиране"
 msgctxt "#15109"
 msgid "Skin default"
 msgstr "Стандартната (за облика)"
+<<<<<<< HEAD
 
 msgctxt "#15110"
 msgid "Larger font size"
 msgstr "По-голям шрифт"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#15111"
 msgid "Theme"
@@ -6373,6 +6417,13 @@ msgctxt "#19064"
 msgid "Go to end"
 msgstr "Отиди в края"
 
+<<<<<<< HEAD
+=======
+msgctxt "#19065"
+msgid "Default EPG window"
+msgstr "Стандартен ЕПС прозорец"
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19066"
 msgid "Channel icons"
 msgstr "Икони на канала"
@@ -6548,6 +6599,7 @@ msgstr "Неочаквана грешка. Опитайте по-късно ил
 msgctxt "#19111"
 msgid "PVR backend error. Check the log for details."
 msgstr "Грешка в ПВР сървъра. Проверете дневника за подробности."
+<<<<<<< HEAD
 
 msgctxt "#19112"
 msgid "Delete this recording?"
@@ -6556,6 +6608,8 @@ msgstr "Изтриване на записа?"
 msgctxt "#19113"
 msgid "Delete all recordings in this folder?"
 msgstr "Изтриване на всички записи в тази папка?"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#19114"
 msgid "Version"
@@ -7297,10 +7351,13 @@ msgctxt "#19533"
 msgid "Game Show/Quiz/Contest"
 msgstr "Гейм шоу/Викторина/Конкурс"
 
+<<<<<<< HEAD
 msgctxt "#19534"
 msgid "Variety Show"
 msgstr "Вариете"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19535"
 msgid "Talk Show"
 msgstr "Ток шоу"
@@ -9083,7 +9140,11 @@ msgstr "Споделяй видео и музикалната библиотек
 
 msgctxt "#21361"
 msgid "Look for remote UPnP players"
+<<<<<<< HEAD
 msgstr "Търси отдалечени UPnP плейъри"
+=======
+msgstr "Tърси отдалечени UPnP плейъри"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#21362"
 msgid "Bookmark created"
@@ -10409,6 +10470,10 @@ msgctxt "#24106"
 msgid "Specify where downloaded subtitles should be saved, the same location as the video or a custom location."
 msgstr "Посочете къде да се съхраняват свалените субтитри. В папката на дадения видео файл или друго зададено от Вас персонално място."
 
+msgctxt "#24106"
+msgid "Specify where downloaded subtitles should be saved, the same location as the video or a custom location."
+msgstr "Посочете къде да се съхраняват свалените субтитри. В папката на дадения видео файл или друго зададено от Вас персонално място."
+
 msgctxt "#24107"
 msgid "Searching for subtitles ..."
 msgstr "Търсене за субтитри..."
@@ -10485,6 +10550,7 @@ msgctxt "#24125"
 msgid "Custom location"
 msgstr "Зададено място"
 
+<<<<<<< HEAD
 msgctxt "#24126"
 msgid "Auto download first subtitle"
 msgstr "Сваляй автоматично първите субтитри"
@@ -10493,6 +10559,8 @@ msgctxt "#24127"
 msgid "Automatically download first subtitle from the search result list"
 msgstr "Първите субтитри от списъка с резултати, от търсене, ще бъдат сваляни автоматично."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#25000"
 msgid "Notifications"
 msgstr "Известия"
@@ -10802,8 +10870,13 @@ msgid "Kodi revision of %s or greater to run."
 msgstr "Kodi ревизия %s или по-нова."
 
 msgctxt "#33076"
+<<<<<<< HEAD
 msgid "Please update Kodi."
 msgstr "Моля, обновете Kodi."
+=======
+msgid "Please update XBMC."
+msgstr "Моля, обновете XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#33077"
 msgid "No data found!"
@@ -11298,8 +11371,13 @@ msgid "Resize the view of the user interface."
 msgstr "Променете размера на изгледа на потребителския интерфейс."
 
 msgctxt "#36109"
+<<<<<<< HEAD
 msgid "Select the media window that Kodi displays on startup."
 msgstr "Изберете кой прозорец да се отваря автоматично, при стартиране на Kodi."
+=======
+msgid "Select the media window that XBMC displays on startup."
+msgstr "Изберете кой прозорец да се отваря автоматично, при стартиране на  XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36110"
 msgid "Select or disable the sound scheme used in the user interface."
@@ -11363,7 +11441,11 @@ msgstr "Игнорирай определени символи по време �
 
 msgctxt "#36125"
 msgid "Allow files to be deleted and renamed through the user interface, via the contextual menu (press C on a keyboard, for example, to bring up this menu)."
+<<<<<<< HEAD
 msgstr "Разрешава изтриването и преименуването на файлове от потребителския интерфейс на Kodi, чрез контекстното меню (натиснете клавиша \"C\" от клавиатурата, за да се покаже менюто)."
+=======
+msgstr "Разрешава изтриването и преименуването на файлове от потребителския интерфейс на XBMC, чрез контекстното меню (натиснете клавиша \"C\" от клавиатурата, за да се покаже менюто)."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36126"
 msgid "Show the add source button in root sections of the user interface."
@@ -11442,8 +11524,13 @@ msgid "Group movies into 'Movie sets' when browsing the movie library."
 msgstr "Групира филмите във \"Филмови поредици\" при преглеждане на филмовата библиотека."
 
 msgctxt "#36146"
+<<<<<<< HEAD
 msgid "Check for new media files on Kodi startup."
 msgstr "Проверява за нови мултимедийни файлове при всяко стартиране на Kodi."
+=======
+msgid "Check for new media files on XBMC startup."
+msgstr "Проверява за нови мултимедийни файлове при всяко стартиране на XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36147"
 msgid "Hide the library scanning progress bar during scans."
@@ -11451,7 +11538,11 @@ msgstr "Скрива лентата за напредъка на сканира�
 
 msgctxt "#36148"
 msgid "Remove items from your library that can't be found (either renamed, deleted, or on removable storage that is currently unplugged)."
+<<<<<<< HEAD
 msgstr "Премахва елементи от библиотеката Ви които не могат да бъдат намерени (които са били преименувани или се намират на външен носител на данни, който към монета не е свързан с Kodi)."
+=======
+msgstr "Премахва елементи от библиотеката Ви които не могат да бъдат намерени (които са били преименувани или се намират на външен носител на данни, който към монета не е свързан с XBMC)."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36149"
 msgid "Export the Video Library database to XML files. This will optionally overwrite your current XML files."
@@ -11515,7 +11606,11 @@ msgstr "Разрешете промяната на честота на обно�
 
 msgctxt "#36165"
 msgid "Pause for a small amount of time during a refresh rate change."
+<<<<<<< HEAD
 msgstr "Превключване в режим \"На пауза\" за периода на превключване на честотата."
+=======
+msgstr "Превключване в режим \"На пауза\" за предиода на превключване на честотата."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36166"
 msgid "Synchronise the video to the refresh rate of the monitor."
@@ -11544,6 +11639,10 @@ msgstr "Изберете нивото за увеличаване на карт�
 msgctxt "#36172"
 msgid "VDPAU studio level conversion provides a way for advanced applications like Kodi to influence the colour space conversion."
 msgstr "VDPAU студио предоставя начин на преобразуване за съвременни приложения като Kodi да повлияят на преобразуването на цветовото пространство."
+
+msgctxt "#36173"
+msgid "Enable upscaling using VDPAU."
+msgstr "Включете мащабиране, посредством VDPAU."
 
 msgctxt "#36173"
 msgid "Enable upscaling using VDPAU."
@@ -11666,20 +11765,34 @@ msgid "Category for general settings for PVR/Live TV features."
 msgstr "Категория с общите настройки на ПВР/ТВ."
 
 msgctxt "#36203"
+<<<<<<< HEAD
 msgid "Enable the Personal Video Recorder (PVR) features in Kodi. This requires that at least one PVR Add-on is installed."
 msgstr "Включете функцията за гледане и записване на ТВ (ПВР) в Kodi. Това изисква най-малко една инсталирана ПВР добавка."
+=======
+msgid "Enable the Personal Video Recorder (PVR) features in XBMC. This requires that at least one PVR Add-on is installed."
+msgstr "Включете функцията за гледане и записване на ТВ (ПВР) в XBMC. Това изисква най-малко една инсталирана ПВР добавка."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "Импортирайте групи от канали от ПВР сървъра (ако функцията се поддържа). При това действие, създадените от потребителя групи ще бъдат изтрити, ако те не бъдат открити на сървъра."
 
 msgctxt "#36205"
+<<<<<<< HEAD
 msgid "Sort the channels by channel number on the backend, but use Kodi's own numbering for channels."
 msgstr "Сортиране на каналите съгласно номерата на каналите на сървъра, но ползвайки номериране на каналите от Kodi."
 
 msgctxt "#36206"
 msgid "Use numbering from the backend, instead of configuring them manually over Kodi."
 msgstr "Ползвайте номерацията на каналите от сървъра, вместо да ги конфигурирате ръчно през Kodi."
+=======
+msgid "Sort the channels by channel number on the backend, but use XBMC's own numbering for channels."
+msgstr "Сортиране на каналите съгласно номерата на каналите на сървъра, но ползвайки номериране на каналите от XBMC."
+
+msgctxt "#36206"
+msgid "Use numbering from the backend, instead of configuring them manually over XBMC."
+msgstr "Ползвайте номерацията на каналите от сървъра, вместо да ги конфигурирате ръчно през XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36207"
 msgid "Open the channel manager, which allows modifying the channel order, channel name, icon, etc."
@@ -11694,8 +11807,13 @@ msgid "Delete channel/EPG database and reimport the data from the backend afterw
 msgstr "Изтрийте базата данни с канали/ЕПС и повторно импортирайте данните от ТВ сървъра след това."
 
 msgctxt "#36210"
+<<<<<<< HEAD
 msgid "Prevent the 'connection lost' notification window from displaying when Kodi is unable to talk to the PVR backend server."
 msgstr "Не показва прозореца за известяване при пропаднала връзка, когато Kodi не може да получи информация от ПВР сървъра."
+=======
+msgid "Prevent the 'connection lost' notification window from displaying when XBMC is unable to talk to the PVR backend server."
+msgstr "Не показва прозореца за известяване при пропаднала връзка, когато XBMC не може да получи информация от ПВР сървъра."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36211"
 msgid "Category for PVR menus and on-screen display settings, as well as channel info windows."
@@ -11704,10 +11822,24 @@ msgstr "Категория с настройки на ПВР менютата и
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
 msgstr "Показва програмна информацията при смяна на канала, като например текущо предаване."
+<<<<<<< HEAD
+=======
+
+msgctxt "#36213"
+msgid "Hide the programming information automatically after a few seconds, defined below."
+msgstr "Скрий автоматично информацията за канала след няколко секунди, посочени по-долу."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36214"
 msgid "Close the on screen display controls after switching channels."
 msgstr "Скрий бутоните за управление на дисплея след превключване на каналите."
+<<<<<<< HEAD
+=======
+
+msgctxt "#36215"
+msgid "How long the programming information is displayed when the 'automatically hide' setting is turned on."
+msgstr "Колко дълго да се показва програмната информацията, когато настройката за автоматично скриване е включена."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36216"
 msgid "Folder where channel icons are stored."
@@ -11719,7 +11851,15 @@ msgstr "Сканиране за липсващи иконки на канали.
 
 msgctxt "#36218"
 msgid "Category for electronic programming guide settings."
+<<<<<<< HEAD
 msgstr "Категория с настройки на електронния програмен справочник (ЕПС)."
+=======
+msgstr "Категория с настройки на електронния програмен справочник."
+
+msgctxt "#36219"
+msgid "Default electronic programming guide window to show."
+msgstr "Стандартен прозорец за показване на електронния програмен справочник."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36220"
 msgid "Number of days of EPG data to import from backends."
@@ -11734,16 +11874,26 @@ msgid "Do not import EPG data while playing TV to minimise CPU usage."
 msgstr "Не импортирайте ЕПС данни по време на ТВ гледане, за да намалите натоварването върху централния процесор."
 
 msgctxt "#36223"
+<<<<<<< HEAD
 msgid "By default, EPG data is stored in a local database to speed up importing when Kodi is restarted."
 msgstr "Стандартно, ЕПС данните се съхраняват в локална база данни, за да се ускори импортирането при рестартиране на Kodi."
+=======
+msgid "By default, EPG data is stored in a local database to speed up importing when XBMC is restarted."
+msgstr "Стандартно, ЕПС данните се съхраняват в локална база данни, за да се ускори импортирането при рестартиране на XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36224"
 msgid "Hide \"no information available\" labels when no EPG data can be retrieved for a channel."
 msgstr "Скрий етикетите \"Няма налична информация\", ако те не могат да се получат ЕПС данните за канала."
 
 msgctxt "#36225"
+<<<<<<< HEAD
 msgid "Delete the EPG database in Kodi and reimport the data afterwards from the backend."
 msgstr "Изтрийте ЕПС базата данни в Kodi и повторно импортирайте данните от ТВ сървърите."
+=======
+msgid "Delete the EPG database in XBMC and reimport the data afterwards from the backend."
+msgstr "Изтрийте ЕПС базата данни в XBMC и повторно импортирайте данните от ТВ сървърите."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36226"
 msgid "Category for PVR playback and channel switching settings."
@@ -11762,8 +11912,13 @@ msgid "Display signal quality information in the codec information window (if su
 msgstr "Покажете информация за качеството на сигнала в прозореца за информация на кодека (ако се поддържа от добавката и сървъра)."
 
 msgctxt "#36230"
+<<<<<<< HEAD
 msgid "How long Kodi will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "Колко дълго Kodi ще чака смяната на канала, ако не получава сигнал. Полезно за радиоразпръскване 'по въздуха', когато силата на сигнала не е постоянна."
+=======
+msgid "How long XBMC will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
+msgstr "Колко дълго XBMC ще чака смяната на канала, ако не получава сигнал. Полезно за радиоразпръскване 'по въздуха', когато силата на сигнала не е постоянна."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36231"
 msgid "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
@@ -11846,12 +12001,21 @@ msgid "Ask for the pin code again when trying to access a parental locked channe
 msgstr "Изисквайте отново пин кода, при опит за получаване на достъп до заключените за деца канали и ако кодът не е бил изискан през указаният период от време."
 
 msgctxt "#36251"
+<<<<<<< HEAD
 msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Категория със специфични настройки за вашият ПВР сървър, ако той поддържа промяната им посредством Kodi."
 
 msgctxt "#36252"
 msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Опцията ще ви отведе до всички специфични настройки за вашият ПВР сървър, ако той поддържа промяна на тези настройки чрез Kodi."
+=======
+msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "Категория със специфични настройки за вашият ПВР сървър, ако той поддържа промяната им посредством XBMC."
+
+msgctxt "#36252"
+msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "Опцията ще ви отведе до всички специфични настройки за вашият ПВР сървър, ако той поддържа промяна на тези настройки чрез XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
@@ -11878,8 +12042,13 @@ msgid "Select the default artist information source. See the Add-ons Manager for
 msgstr "Изберете стандартният източник на информация за артисти (музиканти). За повече опции отворете диспечера на добавки."
 
 msgctxt "#36259"
+<<<<<<< HEAD
 msgid "Check for new and removed media files on Kodi startup."
 msgstr "Проверява за нови и премахнати мултимедийни файлове при всяко стартиране на Kodi."
+=======
+msgid "Check for new and removed media files on XBMC startup."
+msgstr "Проверява за нови и премахнати мултимедийни файлове при всяко стартиране на XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36260"
 msgid "No info available yet."
@@ -11900,6 +12069,10 @@ msgstr "Категорията съдържа всички настройки с
 msgctxt "#36265"
 msgid "Kodi automatically plays the next item in the current folder. For example, in Files View: After a track has been played, Kodi would automatically play the next track in the same folder."
 msgstr "Kodi ще възпроизвежда автоматично следващия елемент в текущата папка. Например при активен файлов изглед: когато приключи възпроизвеждането на песен Kodi ще започне възпроизвеждането на следващата песен от папката автоматично."
+
+msgctxt "#36266"
+msgid "When songs are selected they are queued instead of playback starting immediately."
+msgstr "Когато песните са избрани те биват наредени на опашката за слушане, вместо да бъдат възпроизведени веднага."
 
 msgctxt "#36266"
 msgid "When songs are selected they are queued instead of playback starting immediately."
@@ -11969,6 +12142,10 @@ msgctxt "#36282"
 msgid "Category containing settings for how CDs are handled."
 msgstr "Категорията съдържа всички настройки свързани с аудио дисковете."
 
+msgctxt "#36282"
+msgid "Category containing settings for how CDs are handled."
+msgstr "Категорията съдържа всички настройки свързани с аудио дисковете."
+
 msgctxt "#36283"
 msgid "Autorun CDs when inserted in drive."
 msgstr "Започва да възпроизвежда дисковете автоматично, при поставянето им в дисковото устройство."
@@ -12012,6 +12189,34 @@ msgstr "Категорията съдържа всички настройки с
 msgctxt "#36293"
 msgid "When playing any music file, Kodi will look for a matching .cdg file and display its graphics."
 msgstr "При възпроизвеждане на аудио файл Kodi ще потърси съвпадащ .cdg файл и ако намери такъв, ще покаже графичните символи, който се съдържат в него."
+
+msgctxt "#36294"
+msgid "Show song selection dialog once the last song in the queue has been played."
+msgstr "Показвай прозореца за ибор на песен след възпроизвеждането на последната песен от опашката."
+
+msgctxt "#36295"
+msgid "Select the font type used during karaoke."
+msgstr "Изберете вида на шрифта за караокето."
+
+msgctxt "#36296"
+msgid "Select the size of the font used during karaoke."
+msgstr "Изберете размера на шрифта за караокето."
+
+msgctxt "#36297"
+msgid "Select the font colour used during karaoke."
+msgstr "Изберете цвета на шрифта за караокето."
+
+msgctxt "#36298"
+msgid "Select the character set used during karaoke."
+msgstr "Изберете коя кодировка да се ползва за изобразяване на текста."
+
+msgctxt "#36299"
+msgid "Export the karaoke numbered songs to HTML or CSV files."
+msgstr "Експортирайте номерираните караоке песни в HTML или CSV файлове."
+
+msgctxt "#36300"
+msgid "Import the karaoke numbered songs from HTML or CSV files."
+msgstr "Импортирайте номерираните караоке песни в HTML или CSV файлове."
 
 msgctxt "#36294"
 msgid "Show song selection dialog once the last song in the queue has been played."
@@ -12119,11 +12324,19 @@ msgstr "Раздел съдържащ настройки за мрежовите
 
 msgctxt "#36320"
 msgid "Category containing settings used for all services."
+<<<<<<< HEAD
 msgstr "Категорията съдържа всички настройки свързани с услугите предоставяни от Kodi."
 
 msgctxt "#36321"
 msgid "Display name of the Kodi installation when using various network services."
 msgstr "Името с което Kodi ще се представя пред останалите мрежови услуги."
+=======
+msgstr "Категорията съдържа всички настройки свързани с услугите предоставяни от XBMC."
+
+msgctxt "#36321"
+msgid "Display name of the XBMC installation when using various network services."
+msgstr "Името с което XBMC ще се представя пред останалите мрежови услуги."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36322"
 msgid "Category containing settings for how the UPnP service is handled."
@@ -12131,7 +12344,11 @@ msgstr "Категорията съдържа всички настройки с
 
 msgctxt "#36323"
 msgid "Enable the UPnP server. This allows you to stream media to a UPnP client."
+<<<<<<< HEAD
 msgstr "Включете UPnP функционалността \"сървър\". Това ще позволи на UPnP клиентите да се свърват към Kodi и да получават поточно всеки мултимедиен файл."
+=======
+msgstr "Включете UPnP функционалността \"сървър\". Това ще позволи на UPnP клиентите да се свърват към XBMC и да получават поточно всеки мултимедиен файл."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36324"
 msgid "When a manual or automatical library update occurs, notify UPnP clients."
@@ -12142,7 +12359,11 @@ msgid "Enable the UPnP client. This allows you to stream media from any UPnP ser
 msgstr "Включете UPnP функционалността \"клиент\". Това ще позволи да се свървате към UPnP сървъри (с контролна точка) и да получавате поточно всеки мултимедиен файл от сървъра, като контролирате възпроизвеждането от сървъра."
 
 msgctxt "#36326"
+<<<<<<< HEAD
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from Kodi."
+=======
+msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgstr "Включете UPnP функционалността \"контролната точка\". Това ще позволи да предавате поточно всеки мултимедиен файл към UPnP клиент, като същевременно контролирате възпроизвеждането."
 
 msgctxt "#36327"
@@ -12150,8 +12371,13 @@ msgid "Category containing settings for how the webserver service is handled."
 msgstr "Категорията съдържа всички настройки свързани с уеб сървъра."
 
 msgctxt "#36328"
+<<<<<<< HEAD
 msgid "Enable remote users to control Kodi through the built-in webserver."
 msgstr "Включете контролирането на Kodi от разстояние посредством вградения уеб сървър."
+=======
+msgid "Enable remote users to control XBMC through the built-in webserver."
+msgstr "Включете контролирането на XBMC от разстояние посредством вградения уеб сървър."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36329"
 msgid "Define the webserver port."
@@ -12206,12 +12432,21 @@ msgid "Category containing settings for how the zeroconf network discovery servi
 msgstr "Категорията съдържа всички настройки свързани с управлението на услугата Zeroconf (за откриване на услуги, налични в локалната мрежа), изисква AirPlay."
 
 msgctxt "#36342"
+<<<<<<< HEAD
 msgid "Allows applications on the network to discover Kodi's running services."
 msgstr "Разрешава на програми от мрежата да откриват какви услуги може да предоставя Kodi."
 
 msgctxt "#36343"
 msgid "Allows Kodi to receive content from other AirPlay devices or applications."
 msgstr "Позволете на Kodi да получава съдържание от други AirPlay устройства или приложения."
+=======
+msgid "Allows applications on the network to discover XBMC's running services."
+msgstr "Разрешава на програми от мрежата да откриват какви услуги може да предоставя XBMC."
+
+msgctxt "#36343"
+msgid "Allows XBMC to receive content from other AirPlay devices or applications."
+msgstr "Позволете на XBMC да получава съдържание от други AirPlay устройства или приложения."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36344"
 msgid "Enable AirPlay password protection."
@@ -12234,16 +12469,26 @@ msgid "If a WINS server is running on the network, enter its workgroup name here
 msgstr "Ако в мрежата има WINS сървър, въведете тук неговото име на работна група. В противен случай, оставете празно."
 
 msgctxt "#36349"
+<<<<<<< HEAD
 msgid "Section that contains the System related settings for the device Kodi is installed on."
 msgstr "Раздел съдържащ системните настройки с инсталиран Kodi."
+=======
+msgid "Section that contains the System related settings for the device XBMC is installed on."
+msgstr "Раздел съдържащ системните настройки с инсталиран XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36350"
 msgid "Automatically send 'Wake-On-Lan' to server(s) right before trying to access shared files or services."
 msgstr "Преди изискването на споделени файлове/услуги изпраща команда за събуждане по LAN (Wake-on-LAN или просто \"Отдалечено събуждане\") до сървърите, които ги споделят."
 
 msgctxt "#36351"
+<<<<<<< HEAD
 msgid "Display Kodi in a window, or fullscreen on the selected screen."
 msgstr "Изобразява Kodi в прозорец или на цял екран, в избран монитор."
+=======
+msgid "Display XBMC in a window, or fullscreen on the selected screen."
+msgstr "Изобразява XBMC в прозорец или на цял екран, в избран монитор."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36352"
 msgid "Changes the resolution that the user interface is displayed in."
@@ -12254,8 +12499,13 @@ msgid "Changes the refresh rate that the user interface is displayed in."
 msgstr "Променя честотата на опресняване, която се показва в потребителския интерфейс."
 
 msgctxt "#36354"
+<<<<<<< HEAD
 msgid "Display Kodi in a fullscreen window. The main benefit is for multi-screen configurations, so that Kodi can be used without minimising other applications. This uses more resources so playback may be less smooth."
 msgstr "Изобразява Kodi в прозорец заемащ целия екран. Режима е от полза за системи с няколко екрана, при които ще можете да ползвате Kodi без да се налага минимизиране на други приложения. Минус е, че изисква повече ресурси, което може да доведе до накъсване на видеото."
+=======
+msgid "Display XBMC in a fullscreen window. The main benefit is for multi-screen configurations, so that XBMC can be used without minimising other applications. This uses more resources so playback may be less smooth."
+msgstr "Изобразява XBMC в прозорец заемащ целия екран. Режима е от полза за системи с няколко екрана, при които ще можете да ползвате XBMC без да се налага минимизиране на други приложения. Минус е, че изисква повече ресурси, което може да доведе до накъсване на видеото."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens where Kodi is not displayed are blacked out."
@@ -12357,6 +12607,10 @@ msgctxt "#36379"
 msgid "Category containing settings for internet access."
 msgstr "Категорията съдържа всички настройки свързани с достъпа до интернет."
 
+msgctxt "#36379"
+msgid "Category containing settings for internet access."
+msgstr "Категорията съдържа всички настройки свързани с достъпа до интернет."
+
 msgctxt "#36380"
 msgid "If your internet connection uses a proxy, configure it here."
 msgstr "Ако ползвате прокси за свърване с интернет въведете настройките си тук."
@@ -12393,6 +12647,14 @@ msgctxt "#36388"
 msgid "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
 msgstr "Изключва дисплея при бездействие. Опцията е полезна когато разполагате с телевизор който може да се изклюва когато сигнала към него бъде прекъснат."
 
+msgctxt "#36387"
+msgid "Category containing settings for power saving."
+msgstr "Категорията съдържа всички настройки свързани с пестенето на енергия."
+
+msgctxt "#36388"
+msgid "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
+msgstr "Изключва дисплея при бездействие. Опцията е полезна когато разполагате с телевизор който може да се изклюва когато сигнала към него бъде прекъснат."
+
 msgctxt "#36389"
 msgid "Define how long Kodi should idle before shutting down."
 msgstr "Определете колко дълго Kodi може да бездейства преди да изключи устройството."
@@ -12405,17 +12667,30 @@ msgctxt "#36391"
 msgid "Category containing settings for debugging functions."
 msgstr "Категорията съдържа всички настройки свързани с дебъгването - функциите за събиране на информация, необходима отстраняване на неизправности."
 
+msgctxt "#36391"
+msgid "Category containing settings for debugging functions."
+msgstr "Категорията съдържа всички настройки свързани с дебъгването - функциите за  събиране на информация, необходима отстраняване на неизправности."
+
 msgctxt "#36392"
 msgid "Turn debug logging on or off. Useful for troubleshooting."
 msgstr "Включва/Изключва воденето на дебъг дневник. Опцията е полезна когато е необходимо да се събере възможно най-много информация за отстраняването на дадена неизправност."
 
 msgctxt "#36393"
+<<<<<<< HEAD
 msgid "Folder used to save screenshots taken within Kodi."
 msgstr "Папка ползвана за съхраняване на скрийншотите заснети от Kodi."
 
 msgctxt "#36394"
 msgid "Enables log messages from additional libraries to be included in the log."
 msgstr "Добавя съобщения от различни библиотеки в дневника."
+=======
+msgid "Folder used to save screenshots taken within XBMC."
+msgstr "Папка ползвана за съхраняване на скрийншотите заснети от XBMC."
+
+msgctxt "#36394"
+msgid "Specify additional libraries to be included in the debug log."
+msgstr "Посочете кои допълнителни библиотеки да бъдат включени в дебъг дневника (за събиране на информация, която е от полза при отстраняване на грешки)."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36395"
 msgid "Category containing settings for the master lock function."
@@ -12426,12 +12701,21 @@ msgid "Define the PIN code used for the master lock."
 msgstr "Задайте пин код за заключване с код."
 
 msgctxt "#36397"
+<<<<<<< HEAD
 msgid "If enabled, the master lock code is required to unlock Kodi on startup."
 msgstr "Ако е включено, кода за заключване ще се изисква, за отключване на Kodi при всяко стартиране."
+=======
+msgid "If enabled, the master lock code is required to unlock XBMC on startup."
+msgstr "Ако е включено, кода за заключване се изисква, за да отключите XBMC при стартиране."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36398"
 msgid "Define the maximum number of retries before Kodi is closed down."
 msgstr "Определете след колко грешни опита Kodi да се изключва."
+
+msgctxt "#36399"
+msgid "Category containing settings for the cache function."
+msgstr "Категорията съдържа всички настройки свързани с функцията за кеширане."
 
 msgctxt "#36399"
 msgid "Category containing settings for the cache function."
@@ -12506,8 +12790,13 @@ msgid "Specify the type of remote used."
 msgstr "Посочете вида на ползваното дистанционно."
 
 msgctxt "#36417"
+<<<<<<< HEAD
 msgid "Always run an Kodi helper so that the remote can be used to start Kodi."
 msgstr "Винаги стартирай Kodi с помощта на дистанционното управление."
+=======
+msgid "Always run an XBMC helper so that the remote can be used to start XBMC."
+msgstr "Винаги стартирай XBMC с помощта на дистанционното управление."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36418"
 msgid "Specify the delay between button sequences on a universal remote."
@@ -12561,6 +12850,7 @@ msgctxt "#36431"
 msgid "Defines whether video decoding should be performed in software (requires more CPU) or with hardware acceleration where possible."
 msgstr "Определя как да се извършва декодирането на видео сигнала - софтуерно (изисква по-мощно ЦПУ) или с хардуерно ускорение (ако е възможно)."
 
+<<<<<<< HEAD
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Изберете подредба за вирт. клавиатура"
@@ -12569,6 +12859,8 @@ msgctxt "#36433"
 msgid "If enabled VAAPI render method is prefered. This puts less load on the CPU but driver may hang!"
 msgstr "Определя VAAPI рендъра като стандартен. Резултат от включването на опцията е по-малко натоварване на централния процесор, но има вероятност от проблеми с драйвърите."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36500"
 msgid "Stereoscopic 3D mode (current)"
 msgstr "Стереоскопичен режим (текущ)"
@@ -12610,8 +12902,13 @@ msgid "Monoscopic (2D)"
 msgstr "Моноскопичен - 2D"
 
 msgctxt "#36520"
+<<<<<<< HEAD
 msgid "Playback mode of stereoscopic 3D videos"
 msgstr "Режим за стереоскопичните 3D видео файлове"
+=======
+msgid "Playback mode of stereoscopic videos."
+msgstr "Режим за стереоскопичните видео файлове"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36521"
 msgid "Ask me"
@@ -12665,17 +12962,32 @@ msgctxt "#36536"
 msgid "Invert Stereoscopic 3D mode (flip eyes)"
 msgstr "Обърнат стереоскопичен режим"
 
+<<<<<<< HEAD
 msgctxt "#36538"
 msgid "[Enabled] Switch GUI (and some TVs) back to 2D mode when playback ended. [Disabled] GUI and TV will stay in stereoscopic 3D mode. For video playlists the stereoscopic 3D mode won't change between videos, not even for non stereoscopic ones."
 msgstr "Превключва интефейса (и някои ТВ) обратно в 2D режим при приклюване на възпроизвеждане. Ако опцията не е включена интерфейса и ТВ остават в стереоскопичен 3D режим. Стереоскопичния режим няма да се променя между отделните видео файлове, дори и тези които не са 3D."
+=======
+msgctxt "#36537"
+msgid "Set playback mode of stereoscopic 3D videos."
+msgstr "Определя кой режим за възпроизвеждане да се ползва стереоскопични 3D видео файлове."
+
+msgctxt "#36538"
+msgid "Prevents XBMC exiting out of stereoscopic 3D mode when playback is stopped as not all TVs will recognise the switch from 3D back to 2D without the viewing mode being toggled on the TV."
+msgstr "Предотвратява излизането от стереоскопичния 3D режим при спиране на възпроизвеждането. Опцията е полезна когато телевизора не може да разбере за промяната без да превключите режима от дистанционното."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36539"
 msgid "Changes the stereoscopic 3D mode of the user interface."
 msgstr "Променете стереоскопичния 3D режим на потребителския интерфейс."
 
 msgctxt "#36540"
+<<<<<<< HEAD
 msgid "The preferred mode in which stereoscopic 3D media such as videos should be played."
 msgstr "Предпочитаният стереоскопичен режим за възпроизвеждане на 3D видео файлове."
+=======
+msgid "The preferred stereoscopic 3D mode."
+msgstr "Предпочитаният стереоскопичен 3D режим."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
@@ -12706,8 +13018,13 @@ msgid "Use higher quality textures for covers and fanart (uses more memory)"
 msgstr "Ползвай висококачествени текстури за обложките и фанарта (използва повече памет)"
 
 msgctxt "#36548"
+<<<<<<< HEAD
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "Ограничава резолюцията на интерфейса, с цел пестене на памет. Не засяга възпроизвеждането на видео. Изисква се рестарт."
+=======
+msgid "Limits resolution of GUI to save memory. Does not affect video playback. Use 1080 for unlimited. Requires restart."
+msgstr "Ограничава резолюцията на интерфейса, с цел пестене на памет. Не засяга възпроизвеждането на видео. Ползвайте 1080, за да няма ограничение. Изисква се рестарт."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36600"
 msgid "Category containing the settings for how the music library is handled."
@@ -12724,6 +13041,7 @@ msgstr "Категорията съдържа всички настройки с
 msgctxt "#36603"
 msgid "Category containing settings for how video output is handled."
 msgstr "Категорията съдържа всички настройки свързани с видео изхода."
+<<<<<<< HEAD
 
 msgctxt "#36900"
 msgid "movie"
@@ -12812,6 +13130,8 @@ msgstr "песен"
 msgctxt "#36921"
 msgid "songs"
 msgstr "песни"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#37000"
 msgid "(Visually Impaired)"
@@ -12856,6 +13176,10 @@ msgstr "Двойно извеждане на аудиото"
 msgctxt "#37018"
 msgid "Boost centre channel when downmixing"
 msgstr "Усилвай централния канал при смесване на каналите за намаляване броя"
+
+msgctxt "#37019"
+msgid "Enables system keys like printscreen, alt-tab and volume keys when in fullscreen."
+msgstr "Включете системните клавиши като PrintScreen (PrtScr), Alt-Tab и клавишите за контрол на звука при режим на цял екран."
 
 msgctxt "#37020"
 msgid "Enable higher colour depth artwork"

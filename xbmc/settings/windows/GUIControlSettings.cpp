@@ -531,6 +531,7 @@ bool CGUIControlButtonSetting::OnClick()
   const std::string &controlFormat = control->GetFormat();
   if (controlType == "button")
   {
+<<<<<<< HEAD
     if (controlFormat == "addon")
     {
       // prompt for the addon
@@ -538,6 +539,13 @@ bool CGUIControlButtonSetting::OnClick()
       CStdString addonID = setting->GetValue();
       if (CGUIWindowAddonBrowser::SelectAddonID(setting->GetAddonType(), addonID, setting->AllowEmpty()) != 1)
         return false;
+=======
+    // prompt for the addon
+    CSettingAddon *setting = (CSettingAddon *)m_pSetting;
+    CStdString addonID = setting->GetValue();
+    if (CGUIWindowAddonBrowser::SelectAddonID(setting->GetAddonType(), addonID, setting->AllowEmpty()) != 1)
+      return false;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
       SetValid(setting->SetValue(addonID));
     }
@@ -778,6 +786,7 @@ bool CGUIControlEditSetting::InputValidation(const std::string &input, void *dat
   if (editControl == NULL || editControl->GetSetting() == NULL)
     return true;
 
+<<<<<<< HEAD
   editControl->SetValid(editControl->GetSetting()->CheckValidity(input));
   return editControl->IsValid();
 }
@@ -1122,6 +1131,9 @@ void CGUIControlRangeSetting::Update(bool updateDisplayOnly /* = false */)
 
   if (!strText.empty())
     m_pSlider->SetTextValue(strText);
+=======
+  return editControl->GetSetting()->CheckValidity(input);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 }
 
 CGUIControlSeparatorSetting::CGUIControlSeparatorSetting(CGUIImage *pImage, int id)

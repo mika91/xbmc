@@ -107,3 +107,8 @@ void CGUIViewStateWindowPVRSearch::SaveViewState(void)
 {
   SaveViewToDb("pvr://search/", m_windowId, CViewStateSettings::Get().Get("pvrsearch"));
 }
+
+bool CGUIViewStatePVR::HideParentDirItems(void)
+{
+  return (CGUIViewState::HideParentDirItems() || PVR_WINDOW_RECORDINGS != GetActiveView() || m_items.GetPath() == "pvr://recordings/");
+}

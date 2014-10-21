@@ -324,6 +324,7 @@ bool CDisplaySettings::OnSettingUpdate(CSetting* &setting, const char *oldSettin
       return vsyncSetting->SetValue(VSYNC_ALWAYS);
 #endif
   }
+<<<<<<< HEAD
   else if (settingId == "videoscreen.preferedstereoscopicmode")
   {
     CSettingInt *stereomodeSetting = (CSettingInt*)setting;
@@ -343,6 +344,8 @@ bool CDisplaySettings::OnSettingUpdate(CSetting* &setting, const char *oldSettin
       return stereomodeSetting->SetValue(RENDER_STEREO_MODE_AUTO);
     }
   }
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
   return false;
 }

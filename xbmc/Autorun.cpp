@@ -208,8 +208,11 @@ bool CAutorun::RunDisc(IDirectory* pDir, const CStdString& strDrive, int& nAdded
 
           g_playlistPlayer.ClearPlaylist(PLAYLIST_VIDEO);
           g_playlistPlayer.SetShuffle (PLAYLIST_VIDEO, false);
+<<<<<<< HEAD
           if (!CGUIWindowVideoBase::ShowPlaySelection(item))
             return false;
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
           g_playlistPlayer.Add(PLAYLIST_VIDEO, item);
           g_playlistPlayer.SetCurrentPlaylist(PLAYLIST_VIDEO);
           g_playlistPlayer.Play(0);

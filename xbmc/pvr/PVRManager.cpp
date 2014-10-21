@@ -43,7 +43,10 @@
 #include "threads/Atomics.h"
 #include "utils/JobManager.h"
 #include "interfaces/AnnouncementManager.h"
+<<<<<<< HEAD
 #include "video/VideoDatabase.h"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 #include "PVRManager.h"
 #include "PVRDatabase.h"
@@ -64,6 +67,7 @@ using namespace MUSIC_INFO;
 using namespace PVR;
 using namespace EPG;
 using namespace ANNOUNCEMENT;
+<<<<<<< HEAD
 
 int CPVRManager::m_pvrWindowIds[10] = {
     WINDOW_TV_CHANNELS,
@@ -77,6 +81,8 @@ int CPVRManager::m_pvrWindowIds[10] = {
     WINDOW_RADIO_SEARCH,
     WINDOW_RADIO_TIMERS
 };
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 CPVRManager::CPVRManager(void) :
     CThread("PVRManager"),
@@ -94,13 +100,21 @@ CPVRManager::CPVRManager(void) :
     m_managerState(ManagerStateStopped),
     m_openWindowId(0)
 {
+<<<<<<< HEAD
   CAnnouncementManager::Get().AddAnnouncer(this);
+=======
+  CAnnouncementManager::AddAnnouncer(this);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   ResetProperties();
 }
 
 CPVRManager::~CPVRManager(void)
 {
+<<<<<<< HEAD
   CAnnouncementManager::Get().RemoveAnnouncer(this);
+=======
+  CAnnouncementManager::RemoveAnnouncer(this);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   Stop();
   CLog::Log(LOGDEBUG,"PVRManager - destroyed");
 }
@@ -486,18 +500,25 @@ void CPVRManager::Process(void)
   bool bRestart(false);
   while (IsStarted() && m_addons && m_addons->HasConnectedClients() && !bRestart)
   {
+<<<<<<< HEAD
     /* first startup */
+=======
+    /* continue last watched channel after first startup */
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     if (m_bFirstStart)
     {
       {
         CSingleLock lock(m_critSection);
         m_bFirstStart = false;
       }
+<<<<<<< HEAD
       
       /* start job to search for missing channel icons */
       TriggerSearchMissingChannelIcons();
       
       /* continue last watched channel */
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
       ContinueLastChannel();
     }
     /* execute the next pending jobs if there are any */
@@ -702,16 +723,24 @@ bool CPVRManager::ChannelUpDown(unsigned int *iNewChannelNumber, bool bPreview, 
 
 bool CPVRManager::ContinueLastChannel(void)
 {
+<<<<<<< HEAD
   if (CSettings::Get().GetInt("pvrplayback.startlast") == CONTINUE_LAST_CHANNEL_OFF)
+=======
+  if (CSettings::Get().GetInt("pvrplayback.startlast") == START_LAST_CHANNEL_OFF)
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     return false;
 
   CFileItemPtr channel = m_channelGroups->GetLastPlayedChannel();
   if (channel && channel->HasPVRChannelInfoTag())
   {
     CLog::Log(LOGNOTICE, "PVRManager - %s - continue playback on channel '%s'", __FUNCTION__, channel->GetPVRChannelInfoTag()->ChannelName().c_str());
+<<<<<<< HEAD
     SetPlayingGroup(m_channelGroups->GetLastPlayedGroup());
     StartPlayback(channel->GetPVRChannelInfoTag(), (CSettings::Get().GetInt("pvrplayback.startlast") == CONTINUE_LAST_CHANNEL_IN_BACKGROUND));
     return true;
+=======
+    return StartPlayback(channel->GetPVRChannelInfoTag(), (CSettings::Get().GetInt("pvrplayback.startlast") == START_LAST_CHANNEL_MIN));
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   }
 
   return false;

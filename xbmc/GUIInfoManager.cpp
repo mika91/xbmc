@@ -2994,7 +2994,11 @@ bool CGUIInfoManager::GetMultiInfoBool(const GUIInfo &info, int contextWindow, c
       case VIDEOPLAYER_CONTENT:
         {
           CStdString strContent="files";
+<<<<<<< HEAD
           if (m_currentFile->HasVideoInfoTag() && m_currentFile->GetVideoInfoTag()->m_type == MediaTypeMovie)
+=======
+          if (m_currentFile->HasVideoInfoTag() && m_currentFile->GetVideoInfoTag()->m_type == "movie")
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
             strContent = "movies";
           if (m_currentFile->HasVideoInfoTag() && m_currentFile->GetVideoInfoTag()->m_iSeason > -1) // episode
             strContent = "episodes";

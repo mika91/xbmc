@@ -3286,12 +3286,37 @@ bool CDVDPlayer::OpenVideoStream(CDVDStreamInfo& hint, bool reset)
   if (hint.stereo_mode.empty())
     hint.stereo_mode = CStereoscopicsManager::Get().DetectStereoModeByString(m_filename);
 
+<<<<<<< HEAD
   if(hint.flags & AV_DISPOSITION_ATTACHED_PIC)
     return false;
 
   if(!OpenStreamPlayer(m_CurrentVideo, hint, reset))
     return false;
 
+=======
+  if(m_CurrentVideo.id    < 0
+  || m_CurrentVideo.hint != hint)
+  {
+    // discard if it's a picture attachment (e.g. album art embedded in MP3 or AAC)
+    if ((pStream->flags & AV_DISPOSITION_ATTACHED_PIC) || !m_dvdPlayerVideo.OpenStream(hint))
+    {
+      /* mark stream as disabled, to disallaw further attempts */
+      CLog::Log(LOGWARNING, "%s - Unsupported stream %d. Stream disabled.", __FUNCTION__, iStream);
+      pStream->disabled = true;
+      pStream->SetDiscard(AVDISCARD_ALL);
+      return false;
+    }
+  }
+  else if (reset)
+    m_dvdPlayerVideo.SendMessage(new CDVDMsg(CDVDMsg::GENERAL_RESET));
+
+  /* store information about stream */
+  m_CurrentVideo.id = iStream;
+  m_CurrentVideo.source = source;
+  m_CurrentVideo.hint = hint;
+  m_CurrentVideo.stream = (void*)pStream;
+  m_CurrentVideo.started = false;
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   m_HasVideo = true;
 
   /* we are potentially going to be waiting on this */

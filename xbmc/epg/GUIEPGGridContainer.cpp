@@ -388,9 +388,38 @@ void CGUIEPGGridContainer::ProcessProgrammeGrid(unsigned int currentTime, CDirty
       // calculate the size to truncate if item is out of grid view
       float truncateSize = 0;
       if (posA2 < posA)
+<<<<<<< HEAD
       {
         truncateSize = posA - posA2;
         posA2 = posA; // reset to grid start position
+=======
+      {
+        truncateSize = posA - posA2;
+        posA2 = posA; // reset to grid start position
+      }
+
+      if (m_orientation == VERTICAL)
+      {
+        // truncate item's width
+        m_gridIndex[channel][block].width = m_gridIndex[channel][block].originWidth - truncateSize;
+
+        ProcessItem(posA2, posB, item.get(), m_lastChannel, focused, m_programmeLayout, m_focusedProgrammeLayout, currentTime, dirtyregions, m_gridIndex[channel][block].width);
+
+        // increment our X position
+        posA2 += m_gridIndex[channel][block].width; // assumes focused & unfocused layouts have equal length
+        block += (int)(m_gridIndex[channel][block].originWidth / m_blockSize);
+      }
+      else
+      {
+        // truncate item's height
+        m_gridIndex[channel][block].height = m_gridIndex[channel][block].originHeight - truncateSize;
+
+        ProcessItem(posB, posA2, item.get(), m_lastChannel, focused, m_programmeLayout, m_focusedProgrammeLayout, currentTime, dirtyregions, m_gridIndex[channel][block].height);
+
+        // increment our X position
+        posA2 += m_gridIndex[channel][block].height; // assumes focused & unfocused layouts have equal length
+        block += (int)(m_gridIndex[channel][block].originHeight / m_blockSize);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
       }
 
       // truncate item's width
@@ -485,8 +514,21 @@ void CGUIEPGGridContainer::RenderProgrammeGrid()
       }
 
       // increment our X position
+<<<<<<< HEAD
       posA2 += m_gridIndex[channel][block].width; // assumes focused & unfocused layouts have equal length
       block += (int)(m_gridIndex[channel][block].originWidth / m_blockSize);
+=======
+      if (m_orientation == VERTICAL)
+      {
+        posA2 += m_gridIndex[channel][block].width; // assumes focused & unfocused layouts have equal length
+        block += (int)(m_gridIndex[channel][block].originWidth / m_blockSize);
+      }
+      else
+      {
+        posA2 += m_gridIndex[channel][block].height; // assumes focused & unfocused layouts have equal length
+        block += (int)(m_gridIndex[channel][block].originHeight / m_blockSize);
+      }
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     }
 
     // increment our Y position
@@ -550,6 +592,7 @@ void CGUIEPGGridContainer::ProcessItem(float posX, float posY, CGUIListItem* ite
 
     if (resize != -1.0f)
     {
+<<<<<<< HEAD
       item->GetFocusedLayout()->SetWidth(resize);
     }
 
@@ -565,6 +608,26 @@ void CGUIEPGGridContainer::ProcessItem(float posX, float posY, CGUIListItem* ite
       item->GetFocusedLayout()->SetFocusedItem(subItem ? subItem : 1);
     }
 
+=======
+      if (m_orientation == VERTICAL)
+        item->GetFocusedLayout()->SetWidth(resize);
+      else
+        item->GetFocusedLayout()->SetHeight(resize);
+    }
+
+    if (item != lastitem || !HasFocus())
+      item->GetFocusedLayout()->SetFocusedItem(0);
+
+    if (item != lastitem && HasFocus())
+    {
+      item->GetFocusedLayout()->ResetAnimation(ANIM_TYPE_UNFOCUS);
+      unsigned int subItem = 1;
+      if (lastitem && lastitem->GetFocusedLayout())
+        subItem = lastitem->GetFocusedLayout()->GetFocusedItem();
+      item->GetFocusedLayout()->SetFocusedItem(subItem ? subItem : 1);
+    }
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     item->GetFocusedLayout()->Process(item, m_parentID, currentTime, dirtyregions);
     lastitem = item;
   }
@@ -578,7 +641,14 @@ void CGUIEPGGridContainer::ProcessItem(float posX, float posY, CGUIListItem* ite
 
     if (resize != -1.0f)
     {
+<<<<<<< HEAD
       item->GetLayout()->SetWidth(resize);
+=======
+      if (m_orientation == VERTICAL)
+        item->GetLayout()->SetWidth(resize);
+      else
+        item->GetLayout()->SetHeight(resize);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     }
 
     if (item->GetFocusedLayout())
@@ -915,8 +985,24 @@ void CGUIEPGGridContainer::UpdateItems()
           m_gridIndex[row][savedBlock].item->SetProperty("GenreType", tag->GenreType());
         }
 
+<<<<<<< HEAD
         m_gridIndex[row][savedBlock].originWidth = itemSize*m_blockSize;
         m_gridIndex[row][savedBlock].originHeight = m_channelHeight;
+
+        m_gridIndex[row][savedBlock].width = m_gridIndex[row][savedBlock].originWidth;
+        m_gridIndex[row][savedBlock].height = m_gridIndex[row][savedBlock].originHeight;
+=======
+        if (m_orientation == VERTICAL)
+        {
+          m_gridIndex[row][savedBlock].originWidth = itemSize*m_blockSize;
+          m_gridIndex[row][savedBlock].originHeight = m_channelHeight;
+        }
+        else
+        {
+          m_gridIndex[row][savedBlock].originWidth = m_channelWidth;
+          m_gridIndex[row][savedBlock].originHeight = itemSize*m_blockSize;
+        }
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
         m_gridIndex[row][savedBlock].width = m_gridIndex[row][savedBlock].originWidth;
         m_gridIndex[row][savedBlock].height = m_gridIndex[row][savedBlock].originHeight;
@@ -1030,11 +1116,20 @@ void CGUIEPGGridContainer::OnLeft()
     }
     else if (m_blockCursor <= 0 && m_blockOffset && m_blockOffset - BLOCK_SCROLL_OFFSET >= 0)
     {
+<<<<<<< HEAD
       // this is the first item on page
       ScrollToBlockOffset(m_blockOffset - BLOCK_SCROLL_OFFSET);
       SetBlock(GetBlock(m_item->item, m_channelCursor));
 
       return;
+=======
+      if (m_blockOffset - BLOCK_SCROLL_OFFSET < 0)
+        return false;
+
+      // this is the first item on page
+      ScrollToBlockOffset(m_blockOffset - BLOCK_SCROLL_OFFSET);
+      SetBlock(GetBlock(m_item->item, m_channelCursor));
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     }
   }
 
@@ -1055,11 +1150,20 @@ void CGUIEPGGridContainer::OnRight()
     }
     else if ((m_blockOffset != m_blocks - m_blocksPerPage) && m_blocks > m_blocksPerPage && m_blockOffset + BLOCK_SCROLL_OFFSET <= m_blocks)
     {
+<<<<<<< HEAD
       // this is the last item on page
       ScrollToBlockOffset(m_blockOffset + BLOCK_SCROLL_OFFSET);
       SetBlock(GetBlock(m_item->item, m_channelCursor));
 
       return;
+=======
+      if (m_blockOffset + BLOCK_SCROLL_OFFSET > m_blocks)
+        return false;
+      
+      // this is the last item on page
+      ScrollToBlockOffset(m_blockOffset + BLOCK_SCROLL_OFFSET);
+      SetBlock(GetBlock(m_item->item, m_channelCursor));
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
     }
   }
 

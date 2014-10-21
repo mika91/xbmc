@@ -2727,6 +2727,7 @@ std::string CFileItem::GetTBNFile() const
 }
 
 bool CFileItem::SkipLocalArt() const
+<<<<<<< HEAD
 {
   return (m_strPath.empty()
        || StringUtils::StartsWithNoCase(m_strPath, "newsmartplaylist://")
@@ -2744,6 +2745,25 @@ bool CFileItem::SkipLocalArt() const
 
 std::string CFileItem::FindLocalArt(const std::string &artFile, bool useFolder) const
 {
+=======
+{
+  return (m_strPath.empty()
+       || StringUtils::StartsWithNoCase(m_strPath, "newsmartplaylist://")
+       || StringUtils::StartsWithNoCase(m_strPath, "newplaylist://")
+       || m_bIsShareOrDrive
+       || IsInternetStream()
+       || URIUtils::IsUPnP(m_strPath)
+       || (URIUtils::IsFTP(m_strPath) && !g_advancedSettings.m_bFTPThumbs)
+       || IsPlugin()
+       || IsAddonsPath()
+       || IsParentFolder()
+       || IsLiveTV()
+       || IsDVD());
+}
+
+CStdString CFileItem::FindLocalArt(const std::string &artFile, bool useFolder) const
+{
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   if (SkipLocalArt())
     return "";
 

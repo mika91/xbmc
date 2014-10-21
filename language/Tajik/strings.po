@@ -5000,6 +5000,25 @@ msgstr "Фаъол кардани шитоби сахтафзор (MediaCodec)"
 msgctxt "#13440"
 msgid "Allow multi threaded software decoding"
 msgstr "Иҷозат додани рамзкушоии нармафзор бо якҷанд ҷараён"
+<<<<<<< HEAD
+=======
+
+msgctxt "#13441"
+msgid "Use Mpeg-2 VDPAU"
+msgstr "Истифодаи Mpeg-2 VDPAU"
+
+msgctxt "#13442"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
+msgstr "Ин имконро фаъол кунед, агар хоҳед ки шитобдиҳандаи сахтафзориро барои кодеки Mpeg-(1/2) истифода баред. Агар ғайрифаъол кунед, ба ҷояш CPU истифода мешавад. Кортҳои кӯҳнаи Radeon бо ин имкони фаъолшуда кор намекунанд."
+
+msgctxt "#13443"
+msgid "Use Mpeg-4 VDPAU"
+msgstr "Истифодаи Mpeg-4 VDPAU"
+
+msgctxt "#13444"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
+msgstr "Ин имконро фаъол кунед, агар хоҳед ки шитобдиҳандаи сахтафзориро барои кодеки Mpeg-4 истифода баред. Агар ғайрифаъол кунед, ба ҷояш CPU истифода мешавад. Баъзе сахтафзори ION ҳангоми истифодаи ин имкон кор намекунанд."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
@@ -11249,6 +11268,10 @@ msgctxt "#36173"
 msgid "Enable upscaling using VDPAU."
 msgstr "Фаъол кардани миқёсбандии баландсифат тавассути VDPAU."
 
+msgctxt "#36173"
+msgid "Enable upscaling using VDPAU."
+msgstr "Фаъол кардани миқёсбандии баландсифат тавассути VDPAU."
+
 msgctxt "#36174"
 msgid "Enable Teletext when watching a live TV stream."
 msgstr "Фаъол кардани телетекст ҳангоми тамошои ҷараёни телевизионии пахши мустақим."
@@ -11577,6 +11600,10 @@ msgctxt "#36322"
 msgid "Category containing settings for how the UPnP service is handled."
 msgstr "Категория дорои танзимот барои тарзи коркарди хидмати UPnP."
 
+msgctxt "#36322"
+msgid "Category containing settings for how the UPnP service is handled."
+msgstr "Категория дорои танзимот барои тарзи коркарди хидмати UPnP."
+
 msgctxt "#36324"
 msgid "When a manual or automatical library update occurs, notify UPnP clients."
 msgstr "Фиристодани огоҳӣ ба муштариёни UPnP ҳангоми ба вуҷуд омадани навсозиҳои дастӣ ё худкор барои китобхона."
@@ -11593,6 +11620,17 @@ msgctxt "#36329"
 msgid "Define the webserver port."
 msgstr "Порти сервери вебро ворид кунед."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36330"
+msgid "Define the webserver username."
+msgstr "Номи корбари сервери вебро ворид кунед."
+
+msgctxt "#36331"
+msgid "Define the webserver password."
+msgstr "Таъин кардани парол барои сервери веб."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the Add-on Manager."
 msgstr "Интихоби интерфейсҳои веби насбшуда тавассути мудири барномаҳои иловагӣ."
@@ -11613,9 +11651,33 @@ msgctxt "#36336"
 msgid "Define the remote control port range."
 msgstr "Таъин кардани диапазон барои порти идоракунии дурдаст."
 
+msgctxt "#36335"
+msgid "Define the remote control port."
+msgstr "Таъин кардани порт барои сервери веб."
+
+msgctxt "#36336"
+msgid "Define the remote control port range."
+msgstr "Таъин кардани диапазон барои порти идоракунии дурдаст."
+
 msgctxt "#36338"
 msgid "Allow programs on the network to control Kodi."
 msgstr "Иҷозати идоракунии Kodi ба воситаи барномаҳо аз шабакаи пайвастшуда."
+
+msgctxt "#36339"
+msgid "Initial repeat delay (ms)."
+msgstr "Таъхири такрори ибтидоӣ (мс)."
+
+msgctxt "#36340"
+msgid "Continuous repeat delay (ms)."
+msgstr "Таъхири такрори бефосила (мс)."
+
+msgctxt "#36344"
+msgid "Enable AirPlay password protection."
+msgstr "Фаъол кардани муҳофизат бо пароли AirPlay."
+
+msgctxt "#36345"
+msgid "Sets the AirPlay password."
+msgstr "Пароли AirPlay-ро танзим мекунад."
 
 msgctxt "#36339"
 msgid "Initial repeat delay (ms)."

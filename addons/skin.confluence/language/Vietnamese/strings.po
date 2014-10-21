@@ -500,6 +500,14 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Chọn tài khoản sẽ được sử dụng trong trường hợp tắt màn hình đăng nhập"
 
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr "Hiện hoặc ẩn cửa màn hình nhập khi khởi động"
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr "Chọn tài khoản sẽ được sử dụng trong trường hợp tắt màn hình đăng nhập"
+
 msgctxt "#31501"
 msgid "Scheduled Time"
 msgstr "Lịch phát sóng"

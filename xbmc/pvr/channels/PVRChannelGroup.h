@@ -418,7 +418,11 @@ namespace PVR
      */
     CDateTime GetLastEPGDate(void) const;
 
+<<<<<<< HEAD
     bool UpdateChannel(const CFileItem &channel, bool bHidden, bool bVirtual, bool bEPGEnabled, bool bParentalLocked, int iEPGSource, int iChannelNumber, const std::string &strChannelName, const std::string &strIconPath, const std::string &strStreamURL, bool bUserSetIcon = false);
+=======
+    bool UpdateChannel(const CFileItem &channel, bool bHidden, bool bVirtual, bool bEPGEnabled, bool bParentalLocked, int iEPGSource, int iChannelNumber, const CStdString &strChannelName, const CStdString &strIconPath, const CStdString &strStreamURL, bool bUserSetIcon = false);
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
     bool ToggleChannelLocked(const CFileItem &channel);
 

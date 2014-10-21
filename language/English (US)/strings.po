@@ -1097,10 +1097,13 @@ msgctxt "#309"
 msgid "User interface language"
 msgstr "User interface language"
 
+<<<<<<< HEAD
 msgctxt "#310"
 msgid "Keyboard layouts"
 msgstr "Keyboard layouts"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#312"
 msgid "(0=auto)"
 msgstr "(0=auto)"
@@ -2472,6 +2475,10 @@ msgstr "Verbose logging for UPnP components"
 msgctxt "#679"
 msgid "Verbose logging for CEC library"
 msgstr "Verbose logging for CEC library"
+
+msgctxt "#667"
+msgid "Enable Dolby Digital transcoding"
+msgstr "Enable Dolby Digital transcoding"
 
 msgctxt "#700"
 msgid "Cleaning up library"
@@ -5062,6 +5069,7 @@ msgid "Allow multi threaded software decoding"
 msgstr "Allow multi threaded software decoding"
 
 msgctxt "#13441"
+<<<<<<< HEAD
 msgid "Use MPEG-2 VDPAU"
 msgstr "Use MPEG-2 VDPAU"
 
@@ -5076,6 +5084,22 @@ msgstr "Use MPEG-4 VDPAU"
 msgctxt "#13444"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
 msgstr "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
+=======
+msgid "Use Mpeg-2 VDPAU"
+msgstr "Use MPEG-2 VDPAU"
+
+msgctxt "#13442"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon Cards tend to segfault with this enabled."
+msgstr "Enable this option to use hardware acceleration for MPEG-(1/2) codecs. If disabled the CPU will be used instead. Older Radeon cards tend to segfault with this enabled."
+
+msgctxt "#13443"
+msgid "Use Mpeg-4 VDPAU"
+msgstr "Use MPEG-4 VDPAU"
+
+msgctxt "#13444"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead. Some ION Hardware has problems with this being enabled by default."
+msgstr "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead. Some ION hardware has problems with this being enabled by default."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#13445"
 msgid "Use VC-1 VDPAU"
@@ -5086,6 +5110,7 @@ msgid "Enable this option to use hardware acceleration for VC-1 based codecs. If
 msgstr "Enable this option to use hardware acceleration for VC-1 based codecs. If disabled the CPU will be used instead. AMD hardware with VDPAU cannot decode VC-1 Simple."
 
 msgctxt "#13447"
+<<<<<<< HEAD
 msgid "Use MPEG-2 VAAPI"
 msgstr "Use MPEG-2 VAAPI"
 
@@ -5099,6 +5124,21 @@ msgstr "Use MPEG-4 VAAPI"
 
 msgctxt "#13450"
 msgid "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead."
+=======
+msgid "Use Mpeg-2 VAAPI"
+msgstr "Use MPEG-2 VAAPI"
+
+msgctxt "#13448"
+msgid "Enable this option to use hardware acceleration for Mpeg-(1/2) codecs. If disabled the CPU will be used instead. Some Mpeg-2 Videos might have green artifacts."
+msgstr "Enable this option to use hardware acceleration for MPEG-(1/2) codecs. If disabled the CPU will be used instead. Some MPEG-2 videos might have green artifacts."
+
+msgctxt "#13449"
+msgid "Use Mpeg-4 VAAPI"
+msgstr "Use MPEG-4 VAAPI"
+
+msgctxt "#13450"
+msgid "Enable this option to use hardware acceleration for the Mpeg-4 codec. If disabled the CPU will be used instead."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgstr "Enable this option to use hardware acceleration for the MPEG-4 codec. If disabled the CPU will be used instead."
 
 msgctxt "#13451"
@@ -5121,6 +5161,7 @@ msgctxt "#13456"
 msgid "Hardware accelerated"
 msgstr "Hardware accelerated"
 
+<<<<<<< HEAD
 msgctxt "#13457"
 msgid "Prefer VAAPI render method"
 msgstr "Prefer VAAPI render method"
@@ -5133,6 +5174,8 @@ msgctxt "#13459"
 msgid "Use OMXPlayer for decoding of video files."
 msgstr "Use OMXPlayer for decoding of video files."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#13500"
 msgid "A/V sync method"
 msgstr "A/V sync method"
@@ -6081,6 +6124,7 @@ msgctxt "#16326"
 msgid "DXVA-HD"
 msgstr "DXVA-HD"
 
+<<<<<<< HEAD
 msgctxt "#16327"
 msgid "VAAPI Bob"
 msgstr "VAAPI Bob"
@@ -6093,6 +6137,8 @@ msgctxt "#16329"
 msgid "VAAPI Motion Compensated"
 msgstr "VAAPI Motion Compensated"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#16400"
 msgid "Post-processing"
 msgstr "Post-processing"
@@ -6184,6 +6230,10 @@ msgstr "PVR Backend %i - %s"
 msgctxt "#19017"
 msgid "Recordings"
 msgstr "Recordings"
+
+msgctxt "#19018"
+msgid "Folder with channel icons"
+msgstr "Folder with channel icons"
 
 msgctxt "#19018"
 msgid "Folder with channel icons"
@@ -6372,6 +6422,10 @@ msgstr "Go to begin"
 msgctxt "#19064"
 msgid "Go to end"
 msgstr "Go to end"
+
+msgctxt "#19066"
+msgid "Channel icons"
+msgstr "Channel icons"
 
 msgctxt "#19066"
 msgid "Channel icons"
@@ -7233,6 +7287,7 @@ msgctxt "#19285"
 msgid "Browse for icon"
 msgstr "Browse for icon"
 
+<<<<<<< HEAD
 msgctxt "#19286"
 msgid "Searching for channel icons"
 msgstr "Searching for channel icons"
@@ -7245,6 +7300,8 @@ msgctxt "#19288"
 msgid "Foreground"
 msgstr "Foreground"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#19499"
 msgid "Other/Unknown"
 msgstr "Other/Unknown"
@@ -10501,6 +10558,7 @@ msgctxt "#24125"
 msgid "Custom location"
 msgstr "Custom location"
 
+<<<<<<< HEAD
 msgctxt "#24126"
 msgid "Auto download first subtitle"
 msgstr "Auto download first subtitle"
@@ -10509,6 +10567,8 @@ msgctxt "#24127"
 msgid "Automatically download first subtitle from the search result list"
 msgstr "Automatically download first subtitle from the search result list"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#25000"
 msgid "Notifications"
 msgstr "Notifications"
@@ -11101,6 +11161,10 @@ msgctxt "#35102"
 msgid "Disable joystick when this device is present"
 msgstr "Disable joystick when this device is present"
 
+msgctxt "#35103"
+msgid "Enable system keys in fullscreen"
+msgstr "Enable system keys in fullscreen"
+
 msgctxt "#35500"
 msgid "Location"
 msgstr "Location"
@@ -11290,8 +11354,13 @@ msgid "Category containing all Skin related settings."
 msgstr "Category containing all Skin related settings."
 
 msgctxt "#36103"
+<<<<<<< HEAD
 msgid "Select the skin for the user interface. This will define the look and feel of Kodi."
 msgstr "Select the skin for the user interface. This will define the look and feel of Kodi."
+=======
+msgid "Select the skin for the user interface. This will define the look and feel of XBMC."
+msgstr "Select the skin for the user interface. This will define the look and feel of XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36104"
 msgid "Change specific skin settings. The available options are dependent on the skin used."
@@ -11316,6 +11385,10 @@ msgstr "Resize the view of the user interface."
 msgctxt "#36109"
 msgid "Select the media window that Kodi displays on startup."
 msgstr "Select the media window that Kodi displays on startup."
+
+msgctxt "#36110"
+msgid "Select or disable the sound scheme used in the user interface."
+msgstr "Select or disable the sound scheme used in the user interface."
 
 msgctxt "#36110"
 msgid "Select or disable the sound scheme used in the user interface."
@@ -11565,6 +11638,10 @@ msgctxt "#36173"
 msgid "Enable upscaling using VDPAU."
 msgstr "Enable upscaling using VDPAU."
 
+msgctxt "#36173"
+msgid "Enable upscaling using VDPAU."
+msgstr "Enable upscaling using VDPAU."
+
 msgctxt "#36174"
 msgid "Enable Teletext when watching a live TV stream."
 msgstr "Enable Teletext when watching a live TV stream."
@@ -11682,16 +11759,26 @@ msgid "Category for general settings for PVR/Live TV features."
 msgstr "Category for general settings for PVR/Live TV features."
 
 msgctxt "#36203"
+<<<<<<< HEAD
 msgid "Enable the Personal Video Recorder (PVR) features in Kodi. This requires that at least one PVR Add-on is installed."
 msgstr "Enable the Personal Video Recorder (PVR) features in Kodi. This requires that at least one PVR Add-on is installed."
+=======
+msgid "Enable the Personal Video Recorder (PVR) features in XBMC. This requires that at least one PVR Add-on is installed."
+msgstr "Enable the Personal Video Recorder (PVR) features in XBMC. This requires that at least one PVR Add-on is installed."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36204"
 msgid "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 msgstr "Import channel groups from the PVR backend (if supported). Will delete user created groups if they're not found on the backend."
 
 msgctxt "#36205"
+<<<<<<< HEAD
 msgid "Sort the channels by channel number on the backend, but use Kodi's own numbering for channels."
 msgstr "Sort the channels by channel number on the backend, but use Kodi's own numbering for channels."
+=======
+msgid "Sort the channels by channel number on the backend, but use XBMC's own numbering for channels."
+msgstr "Sort the channels by channel number on the backend, but use XBMC's own numbering for channels."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36206"
 msgid "Use numbering from the backend, instead of configuring them manually over Kodi."
@@ -11710,8 +11797,13 @@ msgid "Delete channel/EPG database and reimport the data from the backend afterw
 msgstr "Delete channel/EPG database and reimport the data from the backend afterwards."
 
 msgctxt "#36210"
+<<<<<<< HEAD
 msgid "Prevent the 'connection lost' notification window from displaying when Kodi is unable to talk to the PVR backend server."
 msgstr "Prevent the 'connection lost' notification window from displaying when Kodi is unable to talk to the PVR backend server."
+=======
+msgid "Prevent the 'connection lost' notification window from displaying when XBMC is unable to talk to the PVR backend server."
+msgstr "Prevent the 'connection lost' notification window from displaying when XBMC is unable to talk to the PVR backend server."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36211"
 msgid "Category for PVR menus and on-screen display settings, as well as channel info windows."
@@ -11720,10 +11812,24 @@ msgstr "Category for PVR menus and on-screen display settings, as well as channe
 msgctxt "#36212"
 msgid "Display programming information when changing channels, such as the current TV show."
 msgstr "Display programming information when changing channels, such as the current TV show."
+<<<<<<< HEAD
+=======
+
+msgctxt "#36213"
+msgid "Hide the programming information automatically after a few seconds, defined below."
+msgstr "Hide the programming information automatically after a few seconds, defined below."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36214"
 msgid "Close the on screen display controls after switching channels."
 msgstr "Close the on screen display controls after switching channels."
+<<<<<<< HEAD
+=======
+
+msgctxt "#36215"
+msgid "How long the programming information is displayed when the 'automatically hide' setting is turned on."
+msgstr "How long the programming information is displayed when the 'automatically hide' setting is turned on."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36216"
 msgid "Folder where channel icons are stored."
@@ -11737,6 +11843,13 @@ msgctxt "#36218"
 msgid "Category for electronic programming guide settings."
 msgstr "Category for electronic programming guide settings."
 
+<<<<<<< HEAD
+=======
+msgctxt "#36219"
+msgid "Default electronic programming guide window to show."
+msgstr "Default electronic programming guide window to show."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36220"
 msgid "Number of days of EPG data to import from backends."
 msgstr "Number of days of EPG data to import from backends."
@@ -11758,8 +11871,13 @@ msgid "Hide \"no information available\" labels when no EPG data can be retrieve
 msgstr "Hide \"no information available\" labels when no EPG data can be retrieved for a channel."
 
 msgctxt "#36225"
+<<<<<<< HEAD
 msgid "Delete the EPG database in Kodi and reimport the data afterwards from the backend."
 msgstr "Delete the EPG database in Kodi and reimport the data afterwards from the backend."
+=======
+msgid "Delete the EPG database in XBMC and reimport the data afterwards from the backend."
+msgstr "Delete the EPG database in XBMC and reimport the data afterwards from the backend."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36226"
 msgid "Category for PVR playback and channel switching settings."
@@ -11778,8 +11896,13 @@ msgid "Display signal quality information in the codec information window (if su
 msgstr "Display signal quality information in the codec information window (if supported by the Add-on and backend)."
 
 msgctxt "#36230"
+<<<<<<< HEAD
 msgid "How long Kodi will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
 msgstr "How long Kodi will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
+=======
+msgid "How long XBMC will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
+msgstr "How long XBMC will wait to change the channel if the channel isn't being received. Useful for over-the-air channels that occasionally lose signal strength."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36231"
 msgid "Pressing a number button in full screen mode will automatically switch to the channel number that was entered after 1 second."
@@ -11837,6 +11960,18 @@ msgctxt "#36244"
 msgid "Time to subtract from the start time of the next scheduled recording."
 msgstr "Time to subtract from the start time of the next scheduled recording."
 
+msgctxt "#36242"
+msgid "The command will not be executed when a recording will be started within this timeout."
+msgstr "The command will not be executed when a recording will be started within this timeout."
+
+msgctxt "#36243"
+msgid "The command to execute."
+msgstr "The command to execute."
+
+msgctxt "#36244"
+msgid "Time to subtract from the start time of the next scheduled recording."
+msgstr "Time to subtract from the start time of the next scheduled recording."
+
 msgctxt "#36245"
 msgid "Execute the wakeup command every day at the given time."
 msgstr "Execute the wakeup command every day at the given time."
@@ -11862,12 +11997,21 @@ msgid "Ask for the pin code again when trying to access a parental locked channe
 msgstr "Ask for the pin code again when trying to access a parental locked channel and the code hasn't been asked for this duration."
 
 msgctxt "#36251"
+<<<<<<< HEAD
 msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 
 msgctxt "#36252"
 msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
 msgstr "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in Kodi."
+=======
+msgid "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "Category for any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+
+msgctxt "#36252"
+msgid "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+msgstr "This option will bring you to any specific settings for your PVR backend, if the PVR backend supports changing those settings in XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36253"
 msgid "Section that contains settings related to music files and how they are handled."
@@ -11916,6 +12060,10 @@ msgstr "Category containing settings for how music playback is handled."
 msgctxt "#36265"
 msgid "Kodi automatically plays the next item in the current folder. For example, in Files View: After a track has been played, Kodi would automatically play the next track in the same folder."
 msgstr "Kodi automatically plays the next item in the current folder. For example, in Files View: After a track has been played, Kodi would automatically play the next track in the same folder."
+
+msgctxt "#36266"
+msgid "When songs are selected they are queued instead of playback starting immediately."
+msgstr "When songs are selected they are queued instead of playback starting immediately."
 
 msgctxt "#36266"
 msgid "When songs are selected they are queued instead of playback starting immediately."
@@ -11985,6 +12133,10 @@ msgctxt "#36282"
 msgid "Category containing settings for how CDs are handled."
 msgstr "Category containing settings for how CDs are handled."
 
+msgctxt "#36282"
+msgid "Category containing settings for how CDs are handled."
+msgstr "Category containing settings for how CDs are handled."
+
 msgctxt "#36283"
 msgid "Autorun CDs when inserted in drive."
 msgstr "Autorun CDs when inserted in drive."
@@ -12028,6 +12180,34 @@ msgstr "Category containing the settings for how karaoke is handled."
 msgctxt "#36293"
 msgid "When playing any music file, Kodi will look for a matching .cdg file and display its graphics."
 msgstr "When playing any music file, Kodi will look for a matching .cdg file and display its graphics."
+
+msgctxt "#36294"
+msgid "Show song selection dialog once the last song in the queue has been played."
+msgstr "Show song selection dialog once the last song in the queue has been played."
+
+msgctxt "#36295"
+msgid "Select the font type used during karaoke."
+msgstr "Select the font type used during karaoke."
+
+msgctxt "#36296"
+msgid "Select the size of the font used during karaoke."
+msgstr "Select the size of the font used during karaoke."
+
+msgctxt "#36297"
+msgid "Select the font colour used during karaoke."
+msgstr "Select the font color used during karaoke."
+
+msgctxt "#36298"
+msgid "Select the character set used during karaoke."
+msgstr "Select the character set used during karaoke."
+
+msgctxt "#36299"
+msgid "Export the karaoke numbered songs to HTML or CSV files."
+msgstr "Export the karaoke numbered songs to HTML or CSV files."
+
+msgctxt "#36300"
+msgid "Import the karaoke numbered songs from HTML or CSV files."
+msgstr "Import the karaoke numbered songs from HTML or CSV files."
 
 msgctxt "#36294"
 msgid "Show song selection dialog once the last song in the queue has been played."
@@ -12149,6 +12329,14 @@ msgctxt "#36323"
 msgid "Enable the UPnP server. This allows you to stream media to a UPnP client."
 msgstr "Enable the UPnP server. This allows you to stream media to a UPnP client."
 
+msgctxt "#36322"
+msgid "Category containing settings for how the UPnP service is handled."
+msgstr "Category containing settings for how the UPnP service is handled."
+
+msgctxt "#36323"
+msgid "Enable the UPnP server. This allows you to stream media to a UPnP client."
+msgstr "Enable the UPnP server. This allows you to stream media to a UPnP client."
+
 msgctxt "#36324"
 msgid "When a manual or automatical library update occurs, notify UPnP clients."
 msgstr "When a manual or automatical library update occurs, notify UPnP clients."
@@ -12158,8 +12346,13 @@ msgid "Enable the UPnP client. This allows you to stream media from any UPnP ser
 msgstr "Enable the UPnP client. This allows you to stream media from any UPnP server with a control point and control playback from that server."
 
 msgctxt "#36326"
+<<<<<<< HEAD
 msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from Kodi."
 msgstr "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from Kodi."
+=======
+msgid "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from XBMC."
+msgstr "Enable the UPnP control point. This allows you to stream media to any UPnP client and control playback from XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36327"
 msgid "Category containing settings for how the webserver service is handled."
@@ -12181,6 +12374,10 @@ msgctxt "#36331"
 msgid "Define the webserver password. This only takes effect when both the username and the password are set."
 msgstr "Define the webserver password. This only takes effect when both the username and the password are set."
 
+msgctxt "#36331"
+msgid "Define the webserver password."
+msgstr "Define the webserver password."
+
 msgctxt "#36332"
 msgid "Select between web interfaces installed via the Add-on Manager."
 msgstr "Select between web interfaces installed via the Add-on Manager."
@@ -12192,6 +12389,18 @@ msgstr "Category containing settings for how the remote control service is handl
 msgctxt "#36334"
 msgid "Allow programs on this computer to control Kodi via the Web Interface or the JSON-RPC interface protocol."
 msgstr "Allow programs on this computer to control Kodi via the Web Interface or the JSON-RPC interface protocol."
+
+msgctxt "#36335"
+msgid "Define the remote control port."
+msgstr "Define the remote control port."
+
+msgctxt "#36336"
+msgid "Define the remote control port range."
+msgstr "Define the remote control port range."
+
+msgctxt "#36337"
+msgid "Define the maximum number of clients that can connect."
+msgstr "Define the maximum number of clients that can connect."
 
 msgctxt "#36335"
 msgid "Define the remote control port."
@@ -12253,13 +12462,62 @@ msgctxt "#36349"
 msgid "Section that contains the System related settings for the device Kodi is installed on."
 msgstr "Section that contains the System related settings for the device Kodi is installed on."
 
+msgctxt "#36339"
+msgid "Initial repeat delay (ms)."
+msgstr "Initial repeat delay (ms)."
+
+msgctxt "#36340"
+msgid "Continuous repeat delay (ms)."
+msgstr "Continuous repeat delay (ms)."
+
+msgctxt "#36341"
+msgid "Category containing settings for how the zeroconf network discovery service is handled, required for AirPlay."
+msgstr "Category containing settings for how the zeroconf network discovery service is handled, required for AirPlay."
+
+msgctxt "#36342"
+msgid "Allows applications on the network to discover XBMC's running services."
+msgstr "Allows applications on the network to discover XBMC's running services."
+
+msgctxt "#36343"
+msgid "Allows XBMC to receive content from other AirPlay devices or applications."
+msgstr "Allows XBMC to receive content from other AirPlay devices or applications."
+
+msgctxt "#36344"
+msgid "Enable AirPlay password protection."
+msgstr "Enable AirPlay password protection."
+
+msgctxt "#36345"
+msgid "Sets the AirPlay password."
+msgstr "Sets the AirPlay password."
+
+msgctxt "#36346"
+msgid "Category containing settings for how the SMB Client (samba) service is handled."
+msgstr "Category containing settings for how the SMB client (samba) service is handled."
+
+msgctxt "#36347"
+msgid "If a WINS server is running on the network, enter its IP address here. Otherwise, leave blank."
+msgstr "If a WINS server is running on the network, enter its IP address here. Otherwise, leave blank."
+
+msgctxt "#36348"
+msgid "If a WINS server is running on the network, enter its workgroup name here. Otherwise, leave blank."
+msgstr "If a WINS server is running on the network, enter its workgroup name here. Otherwise, leave blank."
+
+msgctxt "#36349"
+msgid "Section that contains the System related settings for the device XBMC is installed on."
+msgstr "Section that contains the System related settings for the device XBMC is installed on."
+
 msgctxt "#36350"
 msgid "Automatically send 'Wake-On-Lan' to server(s) right before trying to access shared files or services."
 msgstr "Automatically send 'Wake-On-Lan' to server(s) right before trying to access shared files or services."
 
 msgctxt "#36351"
+<<<<<<< HEAD
 msgid "Display Kodi in a window, or fullscreen on the selected screen."
 msgstr "Display Kodi in a window, or fullscreen on the selected screen."
+=======
+msgid "Display XBMC in a window, or fullscreen on the selected screen."
+msgstr "Display XBMC in a window, or fullscreen on the selected screen."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36352"
 msgid "Changes the resolution that the user interface is displayed in."
@@ -12270,8 +12528,13 @@ msgid "Changes the refresh rate that the user interface is displayed in."
 msgstr "Changes the refresh rate that the user interface is displayed in."
 
 msgctxt "#36354"
+<<<<<<< HEAD
 msgid "Display Kodi in a fullscreen window. The main benefit is for multi-screen configurations, so that Kodi can be used without minimising other applications. This uses more resources so playback may be less smooth."
 msgstr "Display Kodi in a fullscreen window. The main benefit is for multi-screen configurations, so that Kodi can be used without minimizing other applications. This uses more resources so playback may be less smooth."
+=======
+msgid "Display XBMC in a fullscreen window. The main benefit is for multi-screen configurations, so that XBMC can be used without minimising other applications. This uses more resources so playback may be less smooth."
+msgstr "Display XBMC in a fullscreen window. The main benefit is for multi-screen configurations, so that XBMC can be used without minimizing other applications. This uses more resources so playback may be less smooth."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36355"
 msgid "In a multi-screen configuration, the screens where Kodi is not displayed are blacked out."
@@ -12373,6 +12636,10 @@ msgctxt "#36379"
 msgid "Category containing settings for internet access."
 msgstr "Category containing settings for internet access."
 
+msgctxt "#36379"
+msgid "Category containing settings for internet access."
+msgstr "Category containing settings for internet access."
+
 msgctxt "#36380"
 msgid "If your internet connection uses a proxy, configure it here."
 msgstr "If your internet connection uses a proxy, configure it here."
@@ -12409,6 +12676,14 @@ msgctxt "#36388"
 msgid "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
 msgstr "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
 
+msgctxt "#36387"
+msgid "Category containing settings for power saving."
+msgstr "Category containing settings for power saving."
+
+msgctxt "#36388"
+msgid "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
+msgstr "Turn off display when idle. Useful for TVs that turn off when there is no display signal detected."
+
 msgctxt "#36389"
 msgid "Define how long Kodi should idle before shutting down."
 msgstr "Define how long Kodi should idle before shutting down."
@@ -12416,6 +12691,10 @@ msgstr "Define how long Kodi should idle before shutting down."
 msgctxt "#36390"
 msgid "Define what action Kodi should do when it has been idle for a long period of time."
 msgstr "Define what action Kodi should do when it has been idle for a long period of time."
+
+msgctxt "#36391"
+msgid "Category containing settings for debugging functions."
+msgstr "Category containing settings for debugging functions."
 
 msgctxt "#36391"
 msgid "Category containing settings for debugging functions."
@@ -12437,17 +12716,70 @@ msgctxt "#36395"
 msgid "Category containing settings for the master lock function."
 msgstr "Category containing settings for the master lock function."
 
+msgctxt "#36395"
+msgid "Category containing settings for the master lock function."
+msgstr "Category containing settings for the master lock function."
+
 msgctxt "#36396"
 msgid "Define the PIN code used for the master lock."
 msgstr "Define the PIN code used for the master lock."
 
 msgctxt "#36397"
+<<<<<<< HEAD
 msgid "If enabled, the master lock code is required to unlock Kodi on startup."
 msgstr "If enabled, the master lock code is required to unlock Kodi on startup."
+=======
+msgid "If enabled, the master lock code is required to unlock XBMC on startup."
+msgstr "If enabled, the master lock code is required to unlock XBMC on startup."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36398"
 msgid "Define the maximum number of retries before Kodi is closed down."
 msgstr "Define the maximum number of retries before Kodi is closed down."
+
+msgctxt "#36399"
+msgid "Category containing settings for the cache function."
+msgstr "Category containing settings for the cache function."
+
+msgctxt "#36400"
+msgid "Enable cache for playback of Video, Audio or DVDs from hard disk."
+msgstr "Enable cache for playback of Video, Audio or DVDs from hard disk."
+
+msgctxt "#36401"
+msgid "Enable cache for playback of Video from DVD-ROM."
+msgstr "Enable cache for playback of Video from DVD-ROM."
+
+msgctxt "#36402"
+msgid "Enable cache for Video playback from Local Network."
+msgstr "Enable cache for Video playback from Local Network."
+
+msgctxt "#36403"
+msgid "Enable cache for Video playback from Internet."
+msgstr "Enable cache for Video playback from Internet."
+
+msgctxt "#36404"
+msgid "Enable cache for playback of Audio from DVD-ROM."
+msgstr "Enable cache for playback of Audio from DVD-ROM."
+
+msgctxt "#36405"
+msgid "Enable cache for Audio playback from Local Network."
+msgstr "Enable cache for Audio playback from Local Network."
+
+msgctxt "#36406"
+msgid "Enable cache for Audio playback from Internet."
+msgstr "Enable cache for Audio playback from Internet."
+
+msgctxt "#36407"
+msgid "Enable cache for playback of DVD from DVD-ROM."
+msgstr "Enable cache for playback of DVD from DVD-ROM."
+
+msgctxt "#36408"
+msgid "Enable cache for DVD playback from Local Network."
+msgstr "Enable cache for DVD playback from Local Network."
+
+msgctxt "#36409"
+msgid "Enable cache of unknown types from Internet."
+msgstr "Enable cache of unknown types from Internet."
 
 msgctxt "#36399"
 msgid "Category containing settings for the cache function."
@@ -12522,8 +12854,13 @@ msgid "Specify the type of remote used."
 msgstr "Specify the type of remote used."
 
 msgctxt "#36417"
+<<<<<<< HEAD
 msgid "Always run an Kodi helper so that the remote can be used to start Kodi."
 msgstr "Always run an Kodi helper so that the remote can be used to start Kodi."
+=======
+msgid "Always run an XBMC helper so that the remote can be used to start XBMC."
+msgstr "Always run an XBMC helper so that the remote can be used to start XBMC."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36418"
 msgid "Specify the delay between button sequences on a universal remote."
@@ -12577,6 +12914,7 @@ msgctxt "#36431"
 msgid "Defines whether video decoding should be performed in software (requires more CPU) or with hardware acceleration where possible."
 msgstr "Defines whether video decoding should be performed in software (requires more CPU) or with hardware acceleration where possible."
 
+<<<<<<< HEAD
 msgctxt "#36432"
 msgid "Select virtual keyboard layouts."
 msgstr "Select virtual keyboard layouts."
@@ -12585,6 +12923,8 @@ msgctxt "#36433"
 msgid "If enabled VAAPI render method is prefered. This puts less load on the CPU but driver may hang!"
 msgstr "If enabled VAAPI render method is prefered. This puts less load on the CPU but driver may hang!"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36500"
 msgid "Stereoscopic 3D mode (current)"
 msgstr "Stereoscopic 3D mode (current)"
@@ -12629,9 +12969,17 @@ msgctxt "#36520"
 msgid "Playback mode of stereoscopic 3D videos"
 msgstr "Playback mode of stereoscopic 3D videos"
 
+msgctxt "#36520"
+msgid "Playback mode of stereoscopic videos."
+msgstr "Playback mode of stereoscopic videos."
+
 msgctxt "#36521"
 msgid "Ask me"
 msgstr "Ask me"
+
+msgctxt "#36523"
+msgid "Maximum sampling rate for spdif or sampling rate for fixed output configuration."
+msgstr "Maximum sampling rate for SPDIF or sampling rate for fixed output configuration."
 
 msgctxt "#36523"
 msgid "Maximum sampling rate for spdif or sampling rate for fixed output configuration."
@@ -12669,10 +13017,13 @@ msgctxt "#36533"
 msgid "Select how audio is downmixed, for example from 5.1 to 2.0: [Enabled] maintains the dynamic range of the original audio source when downmixed however volume will be lower [Disabled] maintains volume level of the original audio source however the dynamic range is compressed. Note - Dynamic range is the difference between the quietest and loudest sounds in a audio source."
 msgstr "Select how audio is downmixed, for example from 5.1 to 2.0: [Enabled] maintains the dynamic range of the original audio source when downmixed however volume will be lower [Disabled] maintains volume level of the original audio source however the dynamic range is compressed. Note - Dynamic range is the difference between the quietest and loudest sounds in a audio source."
 
+<<<<<<< HEAD
 msgctxt "#36534"
 msgid "Specify additional libraries whose log messages are to be included in the log."
 msgstr "Specify additional libraries whose log messages are to be included in the log."
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#36535"
 msgid "Stereoscopic 3D mode of video"
 msgstr "Stereoscopic 3D mode of video"
@@ -12693,6 +13044,22 @@ msgctxt "#36540"
 msgid "The preferred mode in which stereoscopic 3D media such as videos should be played."
 msgstr "The preferred mode in which stereoscopic 3D media such as videos should be played."
 
+msgctxt "#36537"
+msgid "Set playback mode of stereoscopic 3D videos."
+msgstr "Set playback mode of stereoscopic 3D videos."
+
+msgctxt "#36538"
+msgid "Prevents XBMC exiting out of stereoscopic 3D mode when playback is stopped as not all TVs will recognise the switch from 3D back to 2D without the viewing mode being toggled on the TV."
+msgstr "Prevents XBMC exiting out of stereoscopic 3D mode when playback is stopped as not all TVs will recognize the switch from 3D back to 2D without the viewing mode being toggled on the TV."
+
+msgctxt "#36539"
+msgid "Changes the stereoscopic 3D mode of the user interface."
+msgstr "Changes the stereoscopic 3D mode of the user interface."
+
+msgctxt "#36540"
+msgid "The preferred stereoscopic 3D mode."
+msgstr "The preferred stereoscopic 3D mode."
+
 msgctxt "#36541"
 msgid "Allows volume control from AirPlay clients."
 msgstr "Allows volume control from AirPlay clients."
@@ -12710,8 +13077,13 @@ msgid "Enable hardware decoding of video files."
 msgstr "Enable hardware decoding of video files."
 
 msgctxt "#36545"
+<<<<<<< HEAD
 msgid "Stereoscopic 3D depth of subtitles"
 msgstr "Stereoscopic 3D depth of subtitles"
+=======
+msgid "Subtitle stereoscopic depth"
+msgstr "Subtitle stereoscopic depth"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36546"
 msgid "Sets the visual depth of subtitles for stereoscopic 3D videos. The higher the value, the closer the subtitles will appear to the viewer."
@@ -12722,8 +13094,13 @@ msgid "Use higher quality textures for covers and fanart (uses more memory)"
 msgstr "Use higher quality textures for covers and fanart (uses more memory)"
 
 msgctxt "#36548"
+<<<<<<< HEAD
 msgid "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
 msgstr "Limits resolution of GUI to save memory. Does not affect video playback. Requires restart."
+=======
+msgid "Limits resolution of GUI to save memory. Does not affect video playback. Use 1080 for unlimited. Requires restart."
+msgstr "Limits resolution of GUI to save memory. Does not affect video playback. Use 1080 for unlimited. Requires restart."
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#36600"
 msgid "Category containing the settings for how the music library is handled."
@@ -12741,6 +13118,7 @@ msgctxt "#36603"
 msgid "Category containing settings for how video output is handled."
 msgstr "Category containing settings for how video output is handled."
 
+<<<<<<< HEAD
 msgctxt "#36900"
 msgid "movie"
 msgstr "movie"
@@ -12829,6 +13207,8 @@ msgctxt "#36921"
 msgid "songs"
 msgstr "songs"
 
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#37000"
 msgid "(Visually Impaired)"
 msgstr "(Visually Impaired)"
@@ -12873,6 +13253,13 @@ msgctxt "#37018"
 msgid "Boost centre channel when downmixing"
 msgstr "Boost center channel when downmixing"
 
+<<<<<<< HEAD
+=======
+msgctxt "#37019"
+msgid "Enables system keys like printscreen, alt-tab and volume keys when in fullscreen."
+msgstr "Enables system keys like printscreen, alt-tab and volume keys when in fullscreen."
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 msgctxt "#37020"
 msgid "Enable higher colour depth artwork"
 msgstr "Enable higher color depth artwork"
@@ -12892,6 +13279,7 @@ msgstr "Do you wish to stop playback on the remote device?"
 msgctxt "#37024"
 msgid "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1, this allows multichannel audio such as AAC5.1 or FLAC5.1 to be listened to in 5.1 surround sound. Note - Not recommended on Pi as this requires a lot of CPU."
 msgstr "Select this if the audio out connection only supports multichannel audio as Dolby Digital 5.1, this allows multichannel audio such as AAC5.1 or FLAC5.1 to be listened to in 5.1 surround sound. Note - Not recommended on Pi as this requires a lot of CPU."
+<<<<<<< HEAD
 
 msgctxt "#37025"
 msgid "Configure audio encoder settings such as quality and compression level"
@@ -12916,3 +13304,5 @@ msgstr "900"
 msgctxt "#37030"
 msgid "Unlimited"
 msgstr "Unlimited"
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64

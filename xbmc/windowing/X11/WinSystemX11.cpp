@@ -147,6 +147,23 @@ bool CWinSystemX11::CreateNewWindow(const CStdString& name, bool fullScreen, RES
   if(!SetFullScreen(fullScreen, res, false))
     return false;
 
+<<<<<<< HEAD
+=======
+  CBaseTexture* iconTexture = CTexture::LoadFromFile("special://xbmc/media/icon256x256.png");
+
+  if (iconTexture)
+    SDL_WM_SetIcon(SDL_CreateRGBSurfaceFrom(iconTexture->GetPixels(), iconTexture->GetWidth(), iconTexture->GetHeight(), 32, iconTexture->GetPitch(), 0xff0000, 0x00ff00, 0x0000ff, 0xff000000L), NULL);
+  SDL_WM_SetCaption("XBMC Media Center", NULL);
+  delete iconTexture;
+
+  // register XRandR Events
+#if defined(HAS_XRANDR)
+  int iReturn;
+  XRRQueryExtension(m_dpy, &m_RREventBase, &iReturn);
+  XRRSelectInput(m_dpy, m_wmWindow, RRScreenChangeNotifyMask);
+#endif
+
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
   m_bWindowCreated = true;
   return true;
 }

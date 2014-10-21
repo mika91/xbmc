@@ -70,6 +70,7 @@ private:
 
   bool m_bInited;
   bool m_bCanSeek;
+<<<<<<< HEAD
 
   ActiveAE::IAEResample *m_pResampler;
   uint8_t *m_audioPlanes[8];
@@ -77,6 +78,8 @@ private:
   bool m_needConvert;
   AEDataFormat m_srcFormat;
   int m_srcFrameSize;
+=======
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 };
 
 #endif

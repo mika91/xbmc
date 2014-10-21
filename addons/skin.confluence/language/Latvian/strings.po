@@ -489,8 +489,13 @@ msgid "Login"
 msgstr "Pieteikšanās"
 
 msgctxt "#31421"
+<<<<<<< HEAD
 msgid "Select your Kodi user Profile[CR]to login and continue"
 msgstr "Atlasiet savu Kodi lietotāja profilu,[CR]lai pieslēgtos un turpinātu"
+=======
+msgid "Select your XBMC user Profile[CR]to login and continue"
+msgstr "Atlasiet savu XBMC lietotāja profilu,[CR]lai pieslēgtos un turpinātu"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
@@ -577,8 +582,13 @@ msgid "PICTURES"
 msgstr "ATTĒLI"
 
 msgctxt "#31952"
+<<<<<<< HEAD
 msgid "TV"
 msgstr "TV"
+=======
+msgid "LIVE TV"
+msgstr "TIEŠRAIDES TV"
+>>>>>>> 867305b97e773186eec599d958bf2d0e2769da64
 
 msgctxt "#31953"
 msgid "VIDEOS"
