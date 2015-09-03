@@ -1140,6 +1140,19 @@ void CAdvancedSettings::ParseSettingsFile(const std::string &file)
     XMLUtils::GetInt(pElement, "nofliptimeout",             m_guiDirtyRegionNoFlipTimeout);
   }
 
+  // Hide unwanted media source
+  pElement = pRootElement->FirstChildElement("mediasource");
+  if (pElement)
+  {
+      TiXmlNode* filter = pElement->FirstChild("filter");
+	  while (filter)
+	  {
+		  if (filter->FirstChild())
+			m_mediaSourceFilters.push_back(filter->FirstChild()->ValueStr());
+		  hide = filter->NextSibling("filter");
+	  }
+  }
+
   std::string seekSteps;
   XMLUtils::GetString(pRootElement, "seeksteps", seekSteps);
   if (!seekSteps.empty())

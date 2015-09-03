@@ -402,6 +402,8 @@ class CAdvancedSettings : public ISettingCallback, public ISettingsHandler
 
     std::string m_userAgent;
 
+	std::vector<std::string> m_mediaSourceFilters;	// advanced media source filtering
+
   private:
     std::string m_musicExtensions;
     void setExtraLogLevel(const std::vector<CVariant> &components);

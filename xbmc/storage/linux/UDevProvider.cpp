@@ -173,6 +173,30 @@ void CUDevProvider::GetDisks(VECSOURCES& disks, bool removable)
     else
       label = URIUtils::GetFileName(mountpoint);
 
+	// filter according to advancedsettings.xml
+	bool isUserFiltered = false;
+	for (unsigned int i = 0; i < g_advancedSettings.m_mediaSourceFilters.size(); i++)
+    {
+		if (strcmp(label, g_advancedSettings.m_mediaSourceFilters[i]) == 0)
+		{
+			isUserFiltered = true;
+			break;
+		}
+	}
+	if (isUserFiltered)
+	{
+		udev_device_unref(device);
+		continue;
+	}
+
+      CLabelFormatter formatter(g_advancedSettings.m_musicTagsFromFileFilters[i], "");
+      if (formatter.FillMusicTag(fileName, GetMusicInfoTag()))
+      {
+        GetMusicInfoTag()->SetLoaded(true);
+        return true;
+      }
+    }
+
     CMediaSource share;
     share.strName  = label;
     share.strPath  = mountpoint;
