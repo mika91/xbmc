@@ -1149,7 +1149,7 @@ void CAdvancedSettings::ParseSettingsFile(const std::string &file)
 	  {
 		  if (filter->FirstChild())
 			m_mediaSourceFilters.push_back(filter->FirstChild()->ValueStr());
-		  hide = filter->NextSibling("filter");
+		  filter = filter->NextSibling("filter");
 	  }
   }
 
