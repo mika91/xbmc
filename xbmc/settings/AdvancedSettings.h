@@ -114,6 +114,13 @@ struct StagefrightConfig
   bool useInputDTS;
 };
 
+struct VolumePreset
+{
+  std::string label; // preset label
+  float volAmp;		 // volume amplification (drc)
+  float volOffset;	 // volume level offset
+};
+
 typedef std::vector<TVShowRegexp> SETTINGS_TVSHOWLIST;
 
 class CAdvancedSettings : public ISettingCallback, public ISettingsHandler
@@ -181,6 +188,7 @@ class CAdvancedSettings : public ISettingCallback, public ISettingsHandler
     int m_videoIgnoreSecondsAtStart;
     float m_videoIgnorePercentAtEnd;
     float m_audioApplyDrc;
+    std::vector<VolumePreset> m_volumePresets;
     bool m_useFfmpegVda;
 
     int   m_videoVDPAUScaling;

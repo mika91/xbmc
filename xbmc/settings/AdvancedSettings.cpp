@@ -571,6 +571,30 @@ void CAdvancedSettings::ParseSettingsFile(const std::string &file)
 
     XMLUtils::GetBoolean(pElement,"mediacodecforcesoftwarerendering",m_mediacodecForceSoftwareRendring);
 
+    // Volume presets
+    TiXmlElement* pVolumePresets  = pElement->FirstChildElement("volumepresets");
+    if (pVolumePresets)
+    {
+      TiXmlElement* pVolumePreset = pVolumePresets->FirstChildElement("volumepreset");
+      while (pVolumePreset)
+      {
+    	VolumePreset preset = {0};
+
+    	XMLUtils::GetString(pVolumePreset, "label" , preset.label);
+    	XMLUtils::GetFloat (pVolumePreset, "amp"   , preset.volAmp);
+    	XMLUtils::GetFloat (pVolumePreset, "offset", preset.volOffset);
+
+
+    	if (preset.volAmp > 0.0f && preset.volOffset < 0.0f && !preset.label.empty())
+          m_volumePresets.push_back(preset);
+        else
+          CLog::Log(LOGWARNING, "Ignoring malformed volume preset, label:%s volAmp:%f volOffset:%f",
+    		               preset.label.c_str(), preset.volAmp, preset.volOffset);
+
+    	pVolumePreset = pVolumePreset->NextSiblingElement("volumepreset");
+      }
+    }
+
     TiXmlElement* pAdjustRefreshrate = pElement->FirstChildElement("adjustrefreshrate");
     if (pAdjustRefreshrate)
     {
